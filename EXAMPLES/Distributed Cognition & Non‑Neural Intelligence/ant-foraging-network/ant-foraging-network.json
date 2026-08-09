@@ -1,0 +1,46 @@
+{
+  "id": "ant-foraging-network",
+  "name": "Ant Foraging Network",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Distributed foraging geometry formed through pheromone gradients, branching coherence, and drift-optimization cycles in ant colonies.",
+  "invariant_properties": [
+    "gradient-driven coherence",
+    "branching stability",
+    "optimization drift cycles",
+    "stigmergic reinforcement"
+  ],
+  "geometry_type": "gradient-based branching and optimization geometry",
+  "signal_type": "pheromone, environmental, and resource-density signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-1 gradient formation",
+      "MGO-3 branching",
+      "SGO-4 optimization"
+    ],
+    "signal_classes": [
+      "pheromone signals",
+      "environmental obstacle signals",
+      "resource-density signals"
+    ],
+    "invariants": [
+      "gradient-driven coherence",
+      "branching stability",
+      "optimization drift cycles"
+    ],
+    "manifolds": [
+      "trail manifold",
+      "branching manifold",
+      "gradient manifold"
+    ],
+    "dynamics": [
+      "exploration drift",
+      "pheromone-decay collapse",
+      "reinforcement restoration"
+    ]
+  },
+  "cross_domain_presence": "slime-mold networks, mycelial routing, pedestrian flow, ant-colony optimization algorithms",
+  "source": "DSLO Natural Geometry Registry"
+}
+

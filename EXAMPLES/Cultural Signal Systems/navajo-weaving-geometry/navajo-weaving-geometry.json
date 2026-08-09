@@ -1,0 +1,46 @@
+{
+  "id": "navajo-weaving-geometry",
+  "name": "Navajo Weaving Geometry",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Geometric weaving system defined by warp tension, weft insertion, recursive motifs, and color-sequence encoding within Navajo textile practice.",
+  "invariant_properties": [
+    "warp tension coherence",
+    "recursive motif stability",
+    "color-sequence proportionality",
+    "boundary-anchored geometry"
+  ],
+  "geometry_type": "warp/weft orthogonal and recursive motif geometry",
+  "signal_type": "tactile tension, visual color, and cultural pattern signals",
+  "dslo_interpretation": {
+    "operators": [
+      "BO-1 boundary formation",
+      "MGO-2 recursive growth",
+      "SGO-7 categorical encoding"
+    ],
+    "signal_classes": [
+      "tactile tension signals",
+      "visual color signals",
+      "cultural motif rules"
+    ],
+    "invariants": [
+      "warp tension coherence",
+      "recursive motif stability",
+      "color-sequence proportionality"
+    ],
+    "manifolds": [
+      "warp manifold",
+      "weft manifold",
+      "motif manifold"
+    ],
+    "dynamics": [
+      "regional stylistic drift",
+      "tension collapse",
+      "pattern restoration"
+    ]
+  },
+  "cross_domain_presence": "Andean weaving, kente cloth, geometric tiling, grid-based rendering",
+  "source": "DSLO Natural Geometry Registry"
+}
+

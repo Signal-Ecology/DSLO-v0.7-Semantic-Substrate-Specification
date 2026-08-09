@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:magnetic-field-lines a dlo:GeometryInstance ;
+    schema:name "Magnetic Field Lines" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Gradient-aligned and energy-minimizing geometry formed through flux-density gradients, dipole alignment, and constraint-bounded routing." ;
+    dlo:invariantProperties (
+        "gradient-aligned curvature invariants"
+        "non-intersection stability"
+        "energy-minimizing routing"
+        "flux-distribution coherence"
+    ) ;
+    dlo:geometryType "curvature-minimizing and gradient-driven field geometry" ;
+    dlo:signalType "flux-density, current-distribution, boundary-condition, and dipole-orientation signals" ;
+    dlo:dsloOperators (
+        "SGO-1 gradient"
+        "MGO-4 distributed alignment"
+        "MGO-6 optimization"
+    ) ;
+    dlo:dsloInvariants (
+        "gradient-aligned curvature invariants"
+        "non-intersection stability"
+        "energy-minimizing routing"
+    ) ;
+    dlo:dsloManifolds (
+        "curvature-minimizing manifold"
+        "gradient-flow manifold"
+        "dipole-alignment manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "current drift"
+        "field-collapse"
+        "flux-restoration"
+    ) ;
+    dlo:crossDomainPresence "electric fields, fluid streamlines, gravitational surfaces, vector-field optimization" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

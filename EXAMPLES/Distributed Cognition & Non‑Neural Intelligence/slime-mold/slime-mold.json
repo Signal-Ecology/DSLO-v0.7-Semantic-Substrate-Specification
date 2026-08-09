@@ -1,0 +1,47 @@
+{
+  "id": "slime-mold",
+  "name": "Slime Mold",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Distributed routing geometry formed through nutrient gradients, oscillatory contraction, branching, merging, and adaptive pruning.",
+  "invariant_properties": [
+    "gradient-bounded routing",
+    "oscillatory coherence",
+    "adaptive pruning stability",
+    "distributed optimization"
+  ],
+  "geometry_type": "gradient-driven oscillatory routing geometry",
+  "signal_type": "nutrient, inhibition, moisture, and oscillatory signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-1 gradient formation",
+      "SGO-5 oscillation",
+      "MGO-3 partitioning"
+    ],
+    "signal_classes": [
+      "nutrient-gradient signals",
+      "chemical inhibition signals",
+      "moisture signals",
+      "oscillatory contraction signals"
+    ],
+    "invariants": [
+      "gradient-bounded routing",
+      "oscillatory coherence",
+      "adaptive pruning stability"
+    ],
+    "manifolds": [
+      "routing manifold",
+      "gradient manifold",
+      "oscillation manifold"
+    ],
+    "dynamics": [
+      "environmental drift",
+      "desiccation collapse",
+      "oscillatory restoration"
+    ]
+  },
+  "cross_domain_presence": "mycelial networks, ant foraging, vascular branching, Physarum algorithms",
+  "source": "DSLO Natural Geometry Registry"
+}
+

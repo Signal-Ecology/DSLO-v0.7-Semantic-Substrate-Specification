@@ -1,0 +1,46 @@
+{
+  "id": "coral-growth-geometry",
+  "name": "Coral Growth Geometry",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Distributed colony geometry formed through nutrient gradients, water-flow curvature, light-driven growth, and polyp-level deposition.",
+  "invariant_properties": [
+    "gradient-bounded growth",
+    "branching coherence",
+    "flow-aligned curvature",
+    "distributed deposition decisions"
+  ],
+  "geometry_type": "branching and gradient-driven colony geometry",
+  "signal_type": "nutrient, flow, light, and polyp deposition signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-1 gradient formation",
+      "MGO-2 recursive growth",
+      "BO-2 orientation"
+    ],
+    "signal_classes": [
+      "nutrient-diffusion signals",
+      "water-flow signals",
+      "light-gradient signals"
+    ],
+    "invariants": [
+      "gradient-bounded growth",
+      "branching coherence",
+      "flow-aligned curvature"
+    ],
+    "manifolds": [
+      "branching manifold",
+      "gradient manifold",
+      "curvature manifold"
+    ],
+    "dynamics": [
+      "environmental drift",
+      "bleaching collapse",
+      "regrowth restoration"
+    ]
+  },
+  "cross_domain_presence": "crystal growth, slime-mold aggregation, river-delta branching, DLA algorithms",
+  "source": "DSLO Natural Geometry Registry"
+}
+

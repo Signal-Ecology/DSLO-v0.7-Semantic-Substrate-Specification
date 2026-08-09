@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:ant-foraging-network a dlo:GeometryInstance ;
+    schema:name "Ant Foraging Network" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Distributed foraging geometry formed through pheromone gradients, branching coherence, and drift-optimization cycles in ant colonies." ;
+    dlo:invariantProperties (
+        "gradient-driven coherence"
+        "branching stability"
+        "optimization drift cycles"
+        "stigmergic reinforcement"
+    ) ;
+    dlo:geometryType "gradient-based branching and optimization geometry" ;
+    dlo:signalType "pheromone, environmental, and resource-density signals" ;
+    dlo:dsloOperators (
+        "SGO-1 gradient formation"
+        "MGO-3 branching"
+        "SGO-4 optimization"
+    ) ;
+    dlo:dsloInvariants (
+        "gradient-driven coherence"
+        "branching stability"
+        "optimization drift cycles"
+    ) ;
+    dlo:dsloManifolds (
+        "trail manifold"
+        "branching manifold"
+        "gradient manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "exploration drift"
+        "pheromone-decay collapse"
+        "reinforcement restoration"
+    ) ;
+    dlo:crossDomainPresence "slime-mold networks, mycelial routing, pedestrian flow, ant-colony optimization algorithms" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

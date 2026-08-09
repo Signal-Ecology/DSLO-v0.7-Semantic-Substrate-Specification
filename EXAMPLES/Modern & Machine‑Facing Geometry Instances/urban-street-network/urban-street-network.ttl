@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:urban-street-network a dlo:GeometryInstance ;
+    schema:name "Urban Street Network" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Human-constructed routing geometry shaped by grids, radial hubs, arterial hierarchies, congestion gradients, and land-use constraints." ;
+    dlo:invariantProperties (
+        "grid or radial-hub coherence"
+        "hierarchical routing stability"
+        "congestion-gradient invariants"
+        "constraint-bounded street formation"
+    ) ;
+    dlo:geometryType "multi-scale intersection, block, and routing topology" ;
+    dlo:signalType "traffic-density, light-cycle, pedestrian-flow, and zoning signals" ;
+    dlo:dsloOperators (
+        "MGO-3 partitioning"
+        "SGO-3 propagation"
+        "BO-4 routing"
+    ) ;
+    dlo:dsloInvariants (
+        "grid or radial-hub coherence"
+        "hierarchical routing stability"
+        "congestion-gradient invariants"
+    ) ;
+    dlo:dsloManifolds (
+        "intersection manifold"
+        "block-geometry manifold"
+        "routing-hierarchy manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "population drift"
+        "congestion-collapse"
+        "signal-optimization restoration"
+    ) ;
+    dlo:crossDomainPresence "highway systems, internet routing, pedestrian networks, traffic-simulation engines" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

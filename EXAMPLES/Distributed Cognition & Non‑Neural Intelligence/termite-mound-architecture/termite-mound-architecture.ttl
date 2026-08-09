@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:termite-mound-architecture a dlo:GeometryInstance ;
+    schema:name "Termite Mound Architecture" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Distributed architectural geometry formed through CO₂ gradients, pressure regulation, humidity signals, and collective deposition." ;
+    dlo:invariantProperties (
+        "gradient-bounded ventilation"
+        "branching coherence"
+        "pressure-regulated openings"
+        "collective repair stability"
+    ) ;
+    dlo:geometryType "ventilation-driven branching and porous-wall architecture" ;
+    dlo:signalType "CO₂, humidity, pressure, and pheromone signals" ;
+    dlo:dsloOperators (
+        "SGO-1 gradient formation"
+        "BO-1 boundary formation"
+        "MGO-2 recursive growth"
+    ) ;
+    dlo:dsloInvariants (
+        "gradient-bounded ventilation"
+        "branching coherence"
+        "pressure-regulated openings"
+    ) ;
+    dlo:dsloManifolds (
+        "ventilation manifold"
+        "branching manifold"
+        "boundary-porosity manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "environmental drift"
+        "vent-blockage collapse"
+        "collective restoration"
+    ) ;
+    dlo:crossDomainPresence "ant nests, coral airflow, passive cooling architecture, HVAC optimization" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

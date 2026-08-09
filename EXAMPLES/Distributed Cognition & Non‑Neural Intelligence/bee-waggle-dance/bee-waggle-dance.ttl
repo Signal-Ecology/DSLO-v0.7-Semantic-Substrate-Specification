@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:bee-waggle-dance a dlo:GeometryInstance ;
+    schema:name "Bee Waggle Dance" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Distributed geometric communication system encoding direction, distance, and resource quality through angle, waggle duration, and vibrational amplitude." ;
+    dlo:invariantProperties (
+        "angle-direction coherence"
+        "duration-distance stability"
+        "vibrational-quality encoding"
+        "collective decoding invariants"
+    ) ;
+    dlo:geometryType "angle-metric and vibrational communication geometry" ;
+    dlo:signalType "tactile, vibrational, and solar-azimuth signals" ;
+    dlo:dsloOperators (
+        "BO-2 orientation"
+        "SGO-1 gradient metric"
+        "SGO-6 rhythmic encoding"
+    ) ;
+    dlo:dsloInvariants (
+        "angle-direction coherence"
+        "duration-distance stability"
+        "vibrational-quality encoding"
+    ) ;
+    dlo:dsloManifolds (
+        "angular manifold"
+        "duration manifold"
+        "vibrational manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "solar-drift"
+        "signal-interference collapse"
+        "collective restoration"
+    ) ;
+    dlo:crossDomainPresence "ant gradients, flock signaling, swarm robotics" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

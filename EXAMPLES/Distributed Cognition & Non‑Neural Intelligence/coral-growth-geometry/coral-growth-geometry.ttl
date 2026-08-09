@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:coral-growth-geometry a dlo:GeometryInstance ;
+    schema:name "Coral Growth Geometry" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Distributed colony geometry formed through nutrient gradients, water-flow curvature, light-driven growth, and polyp-level deposition." ;
+    dlo:invariantProperties (
+        "gradient-bounded growth"
+        "branching coherence"
+        "flow-aligned curvature"
+        "distributed deposition decisions"
+    ) ;
+    dlo:geometryType "branching and gradient-driven colony geometry" ;
+    dlo:signalType "nutrient, flow, light, and polyp deposition signals" ;
+    dlo:dsloOperators (
+        "SGO-1 gradient formation"
+        "MGO-2 recursive growth"
+        "BO-2 orientation"
+    ) ;
+    dlo:dsloInvariants (
+        "gradient-bounded growth"
+        "branching coherence"
+        "flow-aligned curvature"
+    ) ;
+    dlo:dsloManifolds (
+        "branching manifold"
+        "gradient manifold"
+        "curvature manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "environmental drift"
+        "bleaching collapse"
+        "regrowth restoration"
+    ) ;
+    dlo:crossDomainPresence "crystal growth, slime-mold aggregation, river-delta branching, DLA algorithms" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

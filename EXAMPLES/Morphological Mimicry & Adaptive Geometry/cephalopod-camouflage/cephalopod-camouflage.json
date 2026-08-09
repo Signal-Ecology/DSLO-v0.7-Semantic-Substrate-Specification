@@ -1,0 +1,46 @@
+{
+  "id": "cephalopod-camouflage",
+  "name": "Cephalopod Camouflage",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Real-time adaptive geometry formed through distributed chromatophore activation, gradient sensing, texture synthesis, and boundary alignment.",
+  "invariant_properties": [
+    "color-field coherence",
+    "texture-adaptive stability",
+    "boundary-aligned distortion",
+    "distributed pattern synthesis"
+  ],
+  "geometry_type": "dynamic gradient-driven and texture-adaptive morphological geometry",
+  "signal_type": "light-gradient, substrate-texture, boundary-shape, and chromatophore-cluster signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-1 gradient",
+      "SGO-4 reaction-diffusion",
+      "MGO-5 adaptive morphology"
+    ],
+    "signal_classes": [
+      "light-gradient signals",
+      "substrate-texture signals",
+      "boundary-shape signals"
+    ],
+    "invariants": [
+      "color-field coherence",
+      "texture-adaptive stability",
+      "boundary-aligned distortion"
+    ],
+    "manifolds": [
+      "color-gradient manifold",
+      "texture-synthesis manifold",
+      "boundary-alignment manifold"
+    ],
+    "dynamics": [
+      "environmental drift",
+      "signal-collapse",
+      "adaptive restoration"
+    ]
+  },
+  "cross_domain_presence": "cuttlefish patterning, orchid mantis mimicry, adaptive machine textures, procedural graphics",
+  "source": "DSLO Natural Geometry Registry"
+}
+

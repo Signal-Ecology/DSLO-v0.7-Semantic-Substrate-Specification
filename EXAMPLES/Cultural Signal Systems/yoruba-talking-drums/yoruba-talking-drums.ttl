@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:yoruba-talking-drums a dlo:GeometryInstance ;
+    schema:name "Yoruba Talking Drums" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Acoustic geometry system where membrane tension, curvature, and rhythmic sequencing encode tonal language and semantic structure." ;
+    dlo:invariantProperties (
+        "tension-pitch coherence"
+        "tone-language mapping stability"
+        "rhythmic sequencing invariants"
+        "continuous curvature-based acoustic geometry"
+    ) ;
+    dlo:geometryType "tension-modulated acoustic curvature geometry" ;
+    dlo:signalType "acoustic tone, tension-cord, and cultural rhythm signals" ;
+    dlo:dsloOperators (
+        "BO-2 orientation"
+        "SGO-6 rhythmic encoding"
+        "MGO-4 distributed cognition"
+    ) ;
+    dlo:dsloInvariants (
+        "tension-pitch coherence"
+        "tone-language mapping stability"
+        "rhythmic sequencing invariants"
+    ) ;
+    dlo:dsloManifolds (
+        "curvature manifold"
+        "tension manifold"
+        "acoustic-tone manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "regional stylistic drift"
+        "tension collapse"
+        "acoustic restoration"
+    ) ;
+    dlo:crossDomainPresence "slit drums, tabla modulation, pahu rhythms, acoustic signaling systems" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

@@ -1,0 +1,19 @@
+@prefix dlo: <https://www.tnopsi.com> .
+@prefix ex: <https://www.tnopsi.com> .
+@prefix schema: <http://schema.org/> .
+
+ex:{{ID}} a dlo:GeometryInstance ;
+    schema:name "{{NAME}}" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant" ;
+    dlo:description "{{ONE_SENTENCE_SUBSTRATE_DESCRIPTION}}" ;
+    dlo:invariantProperties (
+        "{{PROPERTY_1}}"
+        "{{PROPERTY_2}}"
+        "{{PROPERTY_3}}"
+    ) ;
+    dlo:geometryType "{{GEOMETRY_CLASS}}" ;
+    dlo:signalType "{{SIGNAL_CLASS}}" ;
+    dlo:crossCulturalPresence "{{YES_OR_NO}}" ;
+    dlo:source "DSLO Natural Geometry Registry" .

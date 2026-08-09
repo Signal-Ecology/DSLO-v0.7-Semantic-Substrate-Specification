@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:fish-schooling-patterns a dlo:GeometryInstance ;
+    schema:name "Fish Schooling Patterns" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Distributed collective geometry formed through alignment, attraction, repulsion, and flow-field sensing among fish." ;
+    dlo:invariantProperties (
+        "alignment coherence"
+        "attraction-repulsion stability"
+        "flow-field curvature"
+        "collective velocity invariants"
+    ) ;
+    dlo:geometryType "alignment-based collective motion geometry" ;
+    dlo:signalType "hydrodynamic, visual, and lateral-line pressure signals" ;
+    dlo:dsloOperators (
+        "BO-2 orientation"
+        "SGO-3 propagation"
+        "SGO-1 gradient"
+    ) ;
+    dlo:dsloInvariants (
+        "alignment coherence"
+        "attraction-repulsion stability"
+        "flow-field curvature"
+    ) ;
+    dlo:dsloManifolds (
+        "alignment manifold"
+        "wave-front manifold"
+        "attraction-repulsion manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "environmental drift"
+        "turbulence collapse"
+        "re-alignment restoration"
+    ) ;
+    dlo:crossDomainPresence "bird flocking, insect swarming, crowd flow, Boids algorithms" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

@@ -1,0 +1,46 @@
+{
+  "id": "mycelium-network",
+  "name": "Mycelium Network",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Distributed routing geometry formed through nutrient gradients, branching, merging, pruning, and hyphal-level decision-making.",
+  "invariant_properties": [
+    "gradient-bounded growth",
+    "branching coherence",
+    "adaptive route reinforcement",
+    "distributed nutrient routing"
+  ],
+  "geometry_type": "gradient-driven branching and routing geometry",
+  "signal_type": "nutrient, chemical inhibition, moisture, and substrate signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-1 gradient formation",
+      "MGO-2 recursive growth",
+      "MGO-3 partitioning"
+    ],
+    "signal_classes": [
+      "nutrient-gradient signals",
+      "chemical inhibition signals",
+      "moisture signals"
+    ],
+    "invariants": [
+      "gradient-bounded growth",
+      "branching coherence",
+      "adaptive route reinforcement"
+    ],
+    "manifolds": [
+      "branching manifold",
+      "gradient manifold",
+      "routing manifold"
+    ],
+    "dynamics": [
+      "environmental drift",
+      "substrate-collapse",
+      "regrowth restoration"
+    ]
+  },
+  "cross_domain_presence": "slime-mold networks, ant foraging, vascular branching, routing algorithms",
+  "source": "DSLO Natural Geometry Registry"
+}
+

@@ -1,0 +1,78 @@
+# Instance: Stick Insect Mimicry  
+Version: DSLO v0.7  
+Layer: Geometry / Morphological Mimicry & Adaptive Geometry  
+Type: Example Instance (Non‑Glossary)
+
+## Overview
+Stick insects (Phasmatodea) exhibit structural mimicry that aligns with twigs,
+branches, and stems. Their geometry is defined by elongated linear segments,
+joint curvature suppression, bark‑like surface texture, and substrate‑matched
+coloration. This is not dynamic camouflage; it is developmental architecture.
+
+The mimicry emerges from distributed growth processes and environmental
+selection, producing a multi‑scale geometry that erases the insect’s outline
+against vegetation.
+
+## Key Properties
+
+### Invariant Behavior
+- Linear‑segment body geometry  
+- Joint curvature suppression  
+- Bark‑texture mimicry  
+- Substrate‑aligned coloration  
+
+### Geometry
+- Linear‑segment manifolds  
+- Curvature‑suppression surfaces  
+- Texture‑mimicry fields  
+- Multi‑scale limb topology  
+
+### Signal Ecology
+- Light‑gradient signals  
+- Substrate‑texture signals  
+- Boundary‑shape signals  
+- Environmental selection signals  
+
+### Substrate Alignment
+Stick‑insect mimicry belongs in DSLO’s geometry layer because it expresses
+natural invariants—linear‑segment geometry, curvature suppression, and
+texture‑aligned mimicry—arising from distributed developmental processes. It is
+not a glossary term; it is a geometry instance illustrating DSLO invariants such
+as drift, collapse, restoration, and adaptive manifold formation.
+
+## DSLO Interpretation
+
+### Geometry Operators
+- **SGO‑1 (Gradient Operator):** color and light gradients  
+- **MGO‑2 (Recursive Growth Operator):** linear‑segment formation  
+- **MGO‑5 (Adaptive Morphology Operator):** texture and substrate alignment  
+
+### Signal Classes
+- Light‑gradient signals  
+- Substrate‑texture signals  
+- Boundary‑shape signals  
+
+### Invariants
+- Linear‑segment coherence  
+- Curvature‑suppression stability  
+- Texture‑alignment invariants  
+
+### Manifolds
+- Linear‑segment manifold  
+- Curvature‑suppression manifold  
+- Texture‑mimicry manifold  
+
+### Dynamics
+- Drift: substrate variation, lighting change  
+- Collapse: outline exposure, broken segments  
+- Restoration: positional alignment, stillness‑based deception  
+
+## Cross‑Cultural / Cross‑Domain Notes
+Stick‑insect‑like geometry appears in:
+- orchid mantis mimicry  
+- leaf‑tailed gecko morphology  
+- cephalopod texture mimicry  
+- machine systems (structural camouflage engines, outline‑suppression shaders)
+
+## References
+- Studies in stick insect morphological mimicry (summaries only)

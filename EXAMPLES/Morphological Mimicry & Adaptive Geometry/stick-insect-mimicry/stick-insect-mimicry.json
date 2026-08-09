@@ -1,0 +1,46 @@
+{
+  "id": "stick-insect-mimicry",
+  "name": "Stick Insect Mimicry",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Structural mimicry geometry formed through linear-segment bodies, curvature suppression, bark-like texture, and substrate-aligned coloration.",
+  "invariant_properties": [
+    "linear-segment coherence",
+    "curvature-suppression stability",
+    "texture-alignment invariants",
+    "substrate-driven morphological inference"
+  ],
+  "geometry_type": "linear-segment and texture-aligned morphological geometry",
+  "signal_type": "light-gradient, substrate-texture, boundary-shape, and environmental signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-1 gradient",
+      "MGO-2 recursive growth",
+      "MGO-5 adaptive morphology"
+    ],
+    "signal_classes": [
+      "light-gradient signals",
+      "substrate-texture signals",
+      "boundary-shape signals"
+    ],
+    "invariants": [
+      "linear-segment coherence",
+      "curvature-suppression stability",
+      "texture-alignment invariants"
+    ],
+    "manifolds": [
+      "linear-segment manifold",
+      "curvature-suppression manifold",
+      "texture-mimicry manifold"
+    ],
+    "dynamics": [
+      "environmental drift",
+      "outline-collapse",
+      "stillness-based restoration"
+    ]
+  },
+  "cross_domain_presence": "orchid mantis, leaf-tailed gecko, cephalopod mimicry, structural camouflage engines",
+  "source": "DSLO Natural Geometry Registry"
+}
+

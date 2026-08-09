@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:minimal-surface-geometry a dlo:GeometryInstance ;
+    schema:name "Minimal Surface Geometry" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Energy-minimizing geometric forms with zero mean curvature, arising from tension and boundary constraints in physical systems." ;
+    dlo:invariantProperties (
+        "zero mean curvature"
+        "area minimization"
+        "stable equilibrium geometry"
+        "curvature-bounded manifolds"
+    ) ;
+    dlo:geometryType "energy-minimizing curvature geometry" ;
+    dlo:signalType "physical tension and boundary constraint signals" ;
+    dlo:dsloOperators (
+        "SGO-4 optimization"
+        "BO-1 boundary curvature"
+        "MGO-1 equilibrium"
+    ) ;
+    dlo:dsloInvariants (
+        "zero mean curvature"
+        "energy-optimal geometry"
+        "stable equilibrium manifolds"
+    ) ;
+    dlo:dsloManifolds (
+        "minimal surface manifold"
+        "boundary constraint manifold"
+        "curvature-bounded manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "relaxation drift"
+        "boundary-driven collapse"
+        "tension-based restoration"
+    ) ;
+    dlo:crossDomainPresence "soap films, biological membranes, tensile architecture, mathematical optimization" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

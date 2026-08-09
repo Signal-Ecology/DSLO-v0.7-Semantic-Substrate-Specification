@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:orchid-mantis a dlo:GeometryInstance ;
+    schema:name "Orchid Mantis" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Structural floral mimicry geometry formed through petal-like curvature, gradient-driven coloration, and boundary-aligned deception." ;
+    dlo:invariantProperties (
+        "petal-curvature coherence"
+        "gradient-aligned color stability"
+        "boundary-deception invariants"
+        "multi-lobe morphological symmetry"
+    ) ;
+    dlo:geometryType "petal-curvature and gradient-driven morphological geometry" ;
+    dlo:signalType "light-gradient, floral-color, boundary-shape, and environmental signals" ;
+    dlo:dsloOperators (
+        "SGO-1 gradient"
+        "MGO-2 recursive growth"
+        "MGO-5 adaptive morphology"
+    ) ;
+    dlo:dsloInvariants (
+        "petal-curvature coherence"
+        "gradient-aligned color stability"
+        "boundary-deception invariants"
+    ) ;
+    dlo:dsloManifolds (
+        "petal-curvature manifold"
+        "color-gradient manifold"
+        "boundary-deception manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "environmental drift"
+        "outline-collapse"
+        "stillness-based restoration"
+    ) ;
+    dlo:crossDomainPresence "leaf-tailed gecko, stick insects, cephalopod mimicry, deceptive geometry engines" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

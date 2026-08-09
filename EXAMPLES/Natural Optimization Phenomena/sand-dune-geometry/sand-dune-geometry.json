@@ -1,0 +1,46 @@
+{
+  "id": "sand-dune-geometry",
+  "name": "Sand Dune Geometry",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Gradient-aligned and curvature-minimizing geometry formed through wind-flow gradients, grain transport, and slip-face dynamics.",
+  "invariant_properties": [
+    "gradient-aligned curvature invariants",
+    "slip-face stability",
+    "grain-transport coherence",
+    "shear-stress optimization"
+  ],
+  "geometry_type": "curvature-minimizing and gradient-driven aeolian geometry",
+  "signal_type": "wind-velocity, grain-distribution, shear-stress, and boundary-condition signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-1 gradient",
+      "MGO-4 distributed load",
+      "MGO-6 optimization"
+    ],
+    "signal_classes": [
+      "wind-velocity signals",
+      "grain-distribution signals",
+      "shear-stress signals"
+    ],
+    "invariants": [
+      "gradient-aligned curvature invariants",
+      "slip-face stability",
+      "grain-transport coherence"
+    ],
+    "manifolds": [
+      "curvature-minimizing manifold",
+      "wind-gradient manifold",
+      "slip-face manifold"
+    ],
+    "dynamics": [
+      "wind drift",
+      "slip-face collapse",
+      "crest-restoration"
+    ]
+  },
+  "cross_domain_presence": "snowdrifts, underwater sand waves, aeolian ripples, wave-surface optimization",
+  "source": "DSLO Natural Geometry Registry"
+}
+

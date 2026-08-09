@@ -1,0 +1,92 @@
+{
+  "name": "DSLO v0.7 — Semantic Substrate Specification",
+  "version": "0.7",
+  "canonical_artifact": "DSLO_v0.7_Semantic_Substrate_Specification.pdf",
+
+  "description": "Manifest describing all surfaces included in the DSLO v0.7 repository. This manifest documents human-authored specification surfaces, compiled semantic surfaces, glossary, ontology, taxonomy, registry, schema, and supporting materials. Folder structure is preserved exactly as present in the GitHub repository.",
+
+  "surfaces": {
+    "specification": {
+      "description": "Human-authored DSLO v0.7 conceptual surfaces, including geometry, manifold definitions, operator descriptions, runtime geometry, and thermodynamic extensions.",
+      "folders": [
+        "Multi-Manifold Geometry/",
+        "Operations_Manual/"
+      ]
+    },
+
+    "glossary": {
+      "description": "DSLO v0.7 glossary, including machine-readable JSON, human-readable Markdown, and graph representations.",
+      "path": "glossary_v0.7/",
+      "files": [
+        "glossary_v0.7.json",
+        "glossary_v0.7.md",
+        "glossary_v0.7_graph.dot",
+        "glossary_v0.7_graph.json",
+        "glossary_v0.7_nodes.dot",
+        "d3_glossary_v0.7_graph.html"
+      ]
+    },
+
+    "ontology": {
+      "description": "Compiled DSLO v0.7 ontology surfaces generated from the substrate.",
+      "path": "ontology/",
+      "formats": [
+        "dslo_v0.7.jsonld",
+        "dslo_v0.7.ttl",
+        "dslo_v0.7.rdf",
+        "dslo_v0.7.owl"
+      ]
+    },
+
+    "taxonomy": {
+      "description": "Compiled DSLO v0.7 taxonomy surfaces.",
+      "path": "taxonomy/",
+      "files": [
+        "dslo_taxonomy_v0.7.json",
+        "dslo_taxonomy_v0.7.ttl"
+      ]
+    },
+
+    "registry": {
+      "description": "Compiled DSLO v0.7 registry surfaces.",
+      "path": "registry/",
+      "files": [
+        "dslo_registry_v0.7.json",
+        "dslo_registry_v0.7.yaml"
+      ]
+    },
+
+    "schema": {
+      "description": "DSLO v0.7 schema surfaces defining structural rules for ontology, taxonomy, registry, and glossary.",
+      "path": "schema/",
+      "files": [
+        "ontology_v0.7_schema.json" 
+      ]
+    },
+
+    "examples": {
+      "description": "Optional human-authored examples demonstrating DSLO concepts. Included for completeness.",
+      "path": "EXAMPLES/"
+    },
+
+    "metadata": {
+      "description": "Metadata surfaces for scientific indexing, citation, and cross-surface alignment.",
+      "path": "metadata/",
+      "files": [
+        "citation.cff",
+        "manifest.json",
+        "metadata.json",
+        "LICENSE",
+        "v0.7_principles.md",
+        "v0.7_spec.md"
+      ]
+    },
+
+    "root": {
+      "description": "Top-level repository files.",
+      "files": [
+        "README.md"
+      ]
+    }
+  }
+}

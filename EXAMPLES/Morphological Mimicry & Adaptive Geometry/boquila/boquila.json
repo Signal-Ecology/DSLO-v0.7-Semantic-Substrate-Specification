@@ -1,0 +1,46 @@
+{
+  "id": "boquila",
+  "name": "Boquila",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Adaptive morphological geometry formed through leaf-shape mimicry, gradient sensing, and distributed growth-tip decision-making.",
+  "invariant_properties": [
+    "shape-mimicry coherence",
+    "gradient-bounded adaptation",
+    "venation-pattern stability",
+    "distributed morphological inference"
+  ],
+  "geometry_type": "shape-adaptive and gradient-driven morphological geometry",
+  "signal_type": "light, chemical, mechanical, and substrate-proximity signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-1 gradient",
+      "MGO-2 recursive growth",
+      "MGO-5 adaptive morphology"
+    ],
+    "signal_classes": [
+      "light-gradient signals",
+      "chemical/volatile signals",
+      "mechanical contact signals"
+    ],
+    "invariants": [
+      "shape-mimicry coherence",
+      "gradient-bounded adaptation",
+      "venation-pattern stability"
+    ],
+    "manifolds": [
+      "shape-adaptive manifold",
+      "color-gradient manifold",
+      "venation manifold"
+    ],
+    "dynamics": [
+      "environmental drift",
+      "cue-loss collapse",
+      "adaptive restoration"
+    ]
+  },
+  "cross_domain_presence": "cephalopod camouflage, leaf-tailed gecko, orchid mantis, adaptive morphogenesis",
+  "source": "DSLO Natural Geometry Registry"
+}
+

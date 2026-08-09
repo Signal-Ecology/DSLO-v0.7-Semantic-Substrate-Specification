@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:cephalopod-camouflage a dlo:GeometryInstance ;
+    schema:name "Cephalopod Camouflage" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Real-time adaptive geometry formed through distributed chromatophore activation, gradient sensing, texture synthesis, and boundary alignment." ;
+    dlo:invariantProperties (
+        "color-field coherence"
+        "texture-adaptive stability"
+        "boundary-aligned distortion"
+        "distributed pattern synthesis"
+    ) ;
+    dlo:geometryType "dynamic gradient-driven and texture-adaptive morphological geometry" ;
+    dlo:signalType "light-gradient, substrate-texture, boundary-shape, and chromatophore-cluster signals" ;
+    dlo:dsloOperators (
+        "SGO-1 gradient"
+        "SGO-4 reaction-diffusion"
+        "MGO-5 adaptive morphology"
+    ) ;
+    dlo:dsloInvariants (
+        "color-field coherence"
+        "texture-adaptive stability"
+        "boundary-aligned distortion"
+    ) ;
+    dlo:dsloManifolds (
+        "color-gradient manifold"
+        "texture-synthesis manifold"
+        "boundary-alignment manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "environmental drift"
+        "signal-collapse"
+        "adaptive restoration"
+    ) ;
+    dlo:crossDomainPresence "cuttlefish patterning, orchid mantis mimicry, adaptive machine textures, procedural graphics" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

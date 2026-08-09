@@ -1,0 +1,46 @@
+{
+  "id": "blockchain-consensus-topology",
+  "name": "Blockchain Consensus Topology",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Distributed agreement geometry formed through block propagation, fork resolution, validator weighting, and network topology constraints.",
+  "invariant_properties": [
+    "propagation coherence",
+    "fork-curvature stability",
+    "validator-weighted agreement",
+    "network-topology invariants"
+  ],
+  "geometry_type": "distributed propagation and agreement topology",
+  "signal_type": "block-propagation, validator-vote, and network-latency signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-3 propagation",
+      "MGO-4 distributed cognition",
+      "BO-4 routing"
+    ],
+    "signal_classes": [
+      "block-propagation signals",
+      "validator-vote signals",
+      "network-latency signals"
+    ],
+    "invariants": [
+      "propagation coherence",
+      "fork-curvature stability",
+      "validator-weighted agreement"
+    ],
+    "manifolds": [
+      "connectivity manifold",
+      "propagation manifold",
+      "consensus manifold"
+    ],
+    "dynamics": [
+      "latency drift",
+      "partition collapse",
+      "fork-resolution restoration"
+    ]
+  },
+  "cross_domain_presence": "distributed databases, internet routing, multi-agent agreement, BFT protocols",
+  "source": "DSLO Natural Geometry Registry"
+}
+

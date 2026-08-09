@@ -1,0 +1,46 @@
+{
+  "id": "turing-patterns",
+  "name": "Turing Patterns",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Reaction–diffusion driven spatial patterns such as stripes, spots, and spirals formed through activation–inhibition dynamics.",
+  "invariant_properties": [
+    "symmetry-breaking geometry",
+    "reaction–diffusion coherence",
+    "spontaneous pattern formation",
+    "stable spatial manifolds"
+  ],
+  "geometry_type": "reaction–diffusion spatial geometry",
+  "signal_type": "chemical reaction and diffusion signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-2 diffusion",
+      "SGO-5 activation–inhibition",
+      "MGO-1 equilibrium"
+    ],
+    "signal_classes": [
+      "chemical reaction signals",
+      "diffusion gradients",
+      "activation/inhibition signals"
+    ],
+    "invariants": [
+      "symmetry-breaking geometry",
+      "reaction–diffusion coherence",
+      "stable spatial manifolds"
+    ],
+    "manifolds": [
+      "reaction–diffusion manifold",
+      "symmetry-breaking manifold",
+      "spatial coherence manifold"
+    ],
+    "dynamics": [
+      "pattern stabilization drift",
+      "diffusion-driven collapse",
+      "reaction-driven restoration"
+    ]
+  },
+  "cross_domain_presence": "animal coat patterns, coral pigmentation, chemical oscillation systems, GPU simulations",
+  "source": "DSLO Natural Geometry Registry"
+}
+

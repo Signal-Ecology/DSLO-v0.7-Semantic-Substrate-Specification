@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:sand-dune-geometry a dlo:GeometryInstance ;
+    schema:name "Sand Dune Geometry" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Gradient-aligned and curvature-minimizing geometry formed through wind-flow gradients, grain transport, and slip-face dynamics." ;
+    dlo:invariantProperties (
+        "gradient-aligned curvature invariants"
+        "slip-face stability"
+        "grain-transport coherence"
+        "shear-stress optimization"
+    ) ;
+    dlo:geometryType "curvature-minimizing and gradient-driven aeolian geometry" ;
+    dlo:signalType "wind-velocity, grain-distribution, shear-stress, and boundary-condition signals" ;
+    dlo:dsloOperators (
+        "SGO-1 gradient"
+        "MGO-4 distributed load"
+        "MGO-6 optimization"
+    ) ;
+    dlo:dsloInvariants (
+        "gradient-aligned curvature invariants"
+        "slip-face stability"
+        "grain-transport coherence"
+    ) ;
+    dlo:dsloManifolds (
+        "curvature-minimizing manifold"
+        "wind-gradient manifold"
+        "slip-face manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "wind drift"
+        "slip-face collapse"
+        "crest-restoration"
+    ) ;
+    dlo:crossDomainPresence "snowdrifts, underwater sand waves, aeolian ripples, wave-surface optimization" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

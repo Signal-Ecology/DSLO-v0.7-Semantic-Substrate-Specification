@@ -1,0 +1,46 @@
+{
+  "id": "termite-mound-architecture",
+  "name": "Termite Mound Architecture",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Distributed architectural geometry formed through CO₂ gradients, pressure regulation, humidity signals, and collective deposition.",
+  "invariant_properties": [
+    "gradient-bounded ventilation",
+    "branching coherence",
+    "pressure-regulated openings",
+    "collective repair stability"
+  ],
+  "geometry_type": "ventilation-driven branching and porous-wall architecture",
+  "signal_type": "CO₂, humidity, pressure, and pheromone signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-1 gradient formation",
+      "BO-1 boundary formation",
+      "MGO-2 recursive growth"
+    ],
+    "signal_classes": [
+      "CO₂-gradient signals",
+      "temperature/humidity signals",
+      "pressure-differential signals"
+    ],
+    "invariants": [
+      "gradient-bounded ventilation",
+      "branching coherence",
+      "pressure-regulated openings"
+    ],
+    "manifolds": [
+      "ventilation manifold",
+      "branching manifold",
+      "boundary-porosity manifold"
+    ],
+    "dynamics": [
+      "environmental drift",
+      "vent-blockage collapse",
+      "collective restoration"
+    ]
+  },
+  "cross_domain_presence": "ant nests, coral airflow, passive cooling architecture, HVAC optimization",
+  "source": "DSLO Natural Geometry Registry"
+}
+

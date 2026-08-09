@@ -1,0 +1,76 @@
+id: DSLO-REGISTRY-0.7
+version: "0.7"
+description: "Canonical DSLO v0.7 registry surface enumerating all substrate, derived, operator, runtime, legality, relational, and interface surfaces."
+namespace: "https://tnopsi.com/dslo/v0.7/"
+prefix: "dlo"
+
+surfaces:
+  manifolds:
+    - agency_manifold.json
+    - teleology_manifold.json
+    - deployment_manifold.json
+    - execution_manifold.json
+    - federation_manifold.json
+    - omega_manifold.json
+
+  derived_manifolds:
+    - agency_manifold.json
+    - teleology_manifold.json
+    - deployment_manifold.json
+    - execution_manifold.json
+    - federation_manifold.json
+    - omega_manifold.json
+    - omega_drift_channels.json
+    - omega_stability_modes.json
+    - omega_closure_geometry.json
+
+  operators:
+    - bind_operator.json
+    - collapse_trajectory_operator.json
+    - curvature_redirect_operator.json
+    - fold_operator.json
+    - identity_boundary_operator.json
+    - invert_operator.json
+    - legality_preservation_operator.json
+    - lift_operator.json
+    - operator_of_reality.json
+    - recovery_window_operator.json
+
+  runtime:
+    - clcp_plane.json
+    - context_contraction_operators.json
+    - context_legality_masks.json
+    - context_window_geometry.json
+    - dsup_halt_conditions.json
+    - dsup_meaning_condition_coupling.json
+    - dsup_recovery_geometry.json
+    - dsup_state_machine.json
+    - dsup_update_cycle.json
+    - four_plane_legality_check.json
+    - invariant_validation_plane.json
+    - signal_engine_SE01.json
+    - signal_engine_activation.json
+    - signal_engine_constraints.json
+    - simulation_geometry.json
+
+  interfaces:
+    - manifold_interfaces.json
+    - operator_interfaces.json
+    - relational_interfaces.json
+    - runtime_interfaces.json
+
+  legality:
+    - legality_root.json
+    - legality_masks.json
+    - legality_channels.json
+
+  relational_geometry:
+    - relational_closure.json
+    - relational_drift.json
+    - relational_stability.json
+    - relational_legality.json
+
+metadata:
+  author: "DSLO v0.7 substrate"
+  notes: "Registry enumerates all surfaces consumed by the DSLO v0.7 generator."
+

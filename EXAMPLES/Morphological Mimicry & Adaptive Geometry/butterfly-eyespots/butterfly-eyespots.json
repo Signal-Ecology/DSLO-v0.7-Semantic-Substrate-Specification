@@ -1,0 +1,46 @@
+{
+  "id": "butterfly-eyespots",
+  "name": "Butterfly Eyespots",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Morphogen-driven pattern geometry formed through reaction–diffusion dynamics, gradient-bounded color transitions, and adaptive placement.",
+  "invariant_properties": [
+    "concentric-ring coherence",
+    "gradient-bounded color transitions",
+    "reaction-diffusion stability",
+    "adaptive placement invariants"
+  ],
+  "geometry_type": "concentric-ring and gradient-driven pattern geometry",
+  "signal_type": "morphogen, reaction–diffusion, boundary, and developmental signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-1 gradient",
+      "SGO-4 reaction-diffusion",
+      "MGO-5 adaptive morphology"
+    ],
+    "signal_classes": [
+      "morphogen-diffusion signals",
+      "reaction-diffusion signals",
+      "developmental boundary signals"
+    ],
+    "invariants": [
+      "concentric-ring coherence",
+      "gradient-bounded color transitions",
+      "reaction-diffusion stability"
+    ],
+    "manifolds": [
+      "concentric-ring manifold",
+      "color-gradient manifold",
+      "boundary-curvature manifold"
+    ],
+    "dynamics": [
+      "developmental drift",
+      "morphogen-collapse",
+      "adaptive restoration"
+    ]
+  },
+  "cross_domain_presence": "fish fin patterns, cephalopod displays, mammalian coat patterns, reaction–diffusion graphics",
+  "source": "DSLO Natural Geometry Registry"
+}
+

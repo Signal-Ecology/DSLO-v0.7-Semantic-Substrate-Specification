@@ -1,0 +1,17 @@
+{
+  "id": "{{ID}}",
+  "name": "{{NAME}}",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant",
+  "description": "{{ONE_SENTENCE_SUBSTRATE_DESCRIPTION}}",
+  "invariant_properties": [
+    "{{PROPERTY_1}}",
+    "{{PROPERTY_2}}",
+    "{{PROPERTY_3}}"
+  ],
+  "geometry_type": "{{GEOMETRY_CLASS}}",
+  "signal_type": "{{SIGNAL_CLASS}}",
+  "cross_cultural_presence": "{{YES_OR_NO}}",
+  "source": "DSLO Natural Geometry Registry"
+}

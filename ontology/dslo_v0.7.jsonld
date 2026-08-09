@@ -1,0 +1,5022 @@
+{
+  "nodes": [
+    {
+      "id": "semantic_curvature",
+      "type": "glossary",
+      "name": "Semantic Curvature",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "semantic_curvature",
+        "label": "Semantic Curvature",
+        "definition": "Curvature describing deformation within the semantic substrate.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "boundary",
+      "type": "glossary",
+      "name": "Boundary",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "boundary",
+        "label": "Boundary",
+        "definition": "A structural limit defining lawful separation between manifold regions.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "boundary_integrity",
+      "type": "glossary",
+      "name": "Boundary Integrity",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "boundary_integrity",
+        "label": "Boundary Integrity",
+        "definition": "Stability of a boundary under load, drift, or curvature deformation.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "boundary_threshold",
+      "type": "glossary",
+      "name": "Boundary Threshold",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "boundary_threshold",
+        "label": "Boundary Threshold",
+        "definition": "The limit beyond which boundary deformation becomes unlawful.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "boundary_strain",
+      "type": "glossary",
+      "name": "Boundary Strain",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "boundary_strain",
+        "label": "Boundary Strain",
+        "definition": "Stress applied to a boundary due to drift or pressure fields.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "constraint_envelope",
+      "type": "glossary",
+      "name": "Constraint Envelope",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "constraint_envelope",
+        "label": "Constraint Envelope",
+        "definition": "The lawful region within which curvature and drift remain stable.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "continuity",
+      "type": "glossary",
+      "name": "Continuity",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "continuity",
+        "label": "Continuity",
+        "definition": "The requirement that manifold transitions preserve geometric invariants.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "field_geometry",
+      "type": "glossary",
+      "name": "Field Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "field_geometry",
+        "label": "Field Geometry",
+        "definition": "The geometric structure governing field interactions within the substrate.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "geometry_invariant",
+      "type": "glossary",
+      "name": "Geometry Invariant",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "geometry_invariant",
+        "label": "Geometry Invariant",
+        "definition": "A structural property that must remain unchanged across transitions.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "gradient_constraint",
+      "type": "glossary",
+      "name": "Gradient Constraint",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "gradient_constraint",
+        "label": "Gradient Constraint",
+        "definition": "A limit on how quickly curvature or meaning gradients may change.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "layered_substrate",
+      "type": "glossary",
+      "name": "Layered Substrate",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "layered_substrate",
+        "label": "Layered Substrate",
+        "definition": "A multi-layer substrate structure supporting manifold projection.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "meaning_invariant",
+      "type": "glossary",
+      "name": "Meaning Invariant",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "meaning_invariant",
+        "label": "Meaning Invariant",
+        "definition": "A semantic property that must remain stable across manifold transitions.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "semantic_manifold",
+      "type": "glossary",
+      "name": "Semantic Manifold",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "semantic_manifold",
+        "label": "Semantic Manifold",
+        "definition": "A manifold describing meaning geometry within the substrate.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "semantic_distance",
+      "type": "glossary",
+      "name": "Semantic Distance",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "semantic_distance",
+        "label": "Semantic Distance",
+        "definition": "A geometric measure of separation between semantic states.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "semantic_gradient",
+      "type": "glossary",
+      "name": "Semantic Gradient",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "semantic_gradient",
+        "label": "Semantic Gradient",
+        "definition": "Directional change in semantic curvature across the substrate.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "semantic_state",
+      "type": "glossary",
+      "name": "Semantic State",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "semantic_state",
+        "label": "Semantic State",
+        "definition": "The current geometric configuration of meaning within the substrate.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "signal_integrity",
+      "type": "glossary",
+      "name": "Signal Integrity",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "signal_integrity",
+        "label": "Signal Integrity",
+        "definition": "Stability and coherence of signals traversing the substrate.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "stress_geometry",
+      "type": "glossary",
+      "name": "Stress Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "stress_geometry",
+        "label": "Stress Geometry",
+        "definition": "Geometric representation of stress applied to substrate regions.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "substrate_invariant_set",
+      "type": "glossary",
+      "name": "Substrate Invariant Set",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "substrate_invariant_set",
+        "label": "Substrate Invariant Set",
+        "definition": "The complete set of invariants governing substrate stability.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "zero_ambiguity_tolerance",
+      "type": "glossary",
+      "name": "Zero-Ambiguity Tolerance",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "zero_ambiguity_tolerance",
+        "label": "Zero-Ambiguity Tolerance",
+        "definition": "The requirement that certain substrate regions admit no ambiguity.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "abstraction_gradient",
+      "type": "glossary",
+      "name": "Abstraction Gradient",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "abstraction_gradient",
+        "label": "Abstraction Gradient",
+        "definition": "Gradient describing abstraction-level transitions across substrate layers.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "axiom_continuity",
+      "type": "glossary",
+      "name": "Axiom Continuity",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "axiom_continuity",
+        "label": "Axiom Continuity",
+        "definition": "Continuity requirement for axioms across manifold transitions.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "boundary_reconstitution",
+      "type": "glossary",
+      "name": "Boundary Reconstitution",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "boundary_reconstitution",
+        "label": "Boundary Reconstitution",
+        "definition": "Reconstruction of boundary integrity after deformation.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "curvature_load_interaction",
+      "type": "glossary",
+      "name": "Curvature-Load Interaction",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "curvature_load_interaction",
+        "label": "Curvature-Load Interaction",
+        "definition": "Interaction between curvature deformation and load pressure.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "cycle_invariant_stability",
+      "type": "glossary",
+      "name": "Cycle-Invariant Stability",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "cycle_invariant_stability",
+        "label": "Cycle-Invariant Stability",
+        "definition": "Stability of invariants across update cycles.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "drift_load_coupling",
+      "type": "glossary",
+      "name": "Drift-Load Coupling",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "drift_load_coupling",
+        "label": "Drift-Load Coupling",
+        "definition": "Coupling between drift displacement and load pressure.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "dynamic_region_shift",
+      "type": "glossary",
+      "name": "Dynamic Region Shift",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "dynamic_region_shift",
+        "label": "Dynamic Region Shift",
+        "definition": "Movement of substrate regions under drift or load.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "embedding_stability",
+      "type": "glossary",
+      "name": "Embedding Stability",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "embedding_stability",
+        "label": "Embedding Stability",
+        "definition": "Stability of embedded structures within the substrate.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "field_runtime_coupling",
+      "type": "glossary",
+      "name": "Field-Runtime Coupling",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "field_runtime_coupling",
+        "label": "Field-Runtime Coupling",
+        "definition": "Coupling between field geometry and runtime processes.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "fallback_recovery_envelope",
+      "type": "glossary",
+      "name": "Fallback-Recovery Envelope",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "fallback_recovery_envelope",
+        "label": "Fallback-Recovery Envelope",
+        "definition": "Envelope defining lawful fallback and recovery transitions.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "geometry_preserving_transition",
+      "type": "glossary",
+      "name": "Geometry-Preserving Transition",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "geometry_preserving_transition",
+        "label": "Geometry-Preserving Transition",
+        "definition": "A transition that preserves substrate geometry invariants.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "gradient_bound_operator",
+      "type": "glossary",
+      "name": "Gradient-Bound Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "gradient_bound_operator",
+        "label": "Gradient-Bound Operator",
+        "definition": "Operator enforcing gradient constraints across substrate layers.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "high_pressure_equilibrium",
+      "type": "glossary",
+      "name": "High-Pressure Equilibrium",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "high_pressure_equilibrium",
+        "label": "High-Pressure Equilibrium",
+        "definition": "Equilibrium state under high load or pressure fields.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "horizon_of_collapse",
+      "type": "glossary",
+      "name": "Horizon of Collapse",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "horizon_of_collapse",
+        "label": "Horizon of Collapse",
+        "definition": "Threshold beyond which collapse becomes inevitable.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "identity_gradient_interaction",
+      "type": "glossary",
+      "name": "Identity-Gradient Interaction",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "identity_gradient_interaction",
+        "label": "Identity-Gradient Interaction",
+        "definition": "Interaction between identity curvature and gradient fields.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "legality_curvature_coupling",
+      "type": "glossary",
+      "name": "Legality-Curvature Coupling",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "legality_curvature_coupling",
+        "label": "Legality-Curvature Coupling",
+        "definition": "Coupling between legality constraints and curvature geometry.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "load_curvature_threshold",
+      "type": "glossary",
+      "name": "Load-Curvature Threshold",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "load_curvature_threshold",
+        "label": "Load-Curvature Threshold",
+        "definition": "Threshold where load pressure induces curvature deformation.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "manifold_runtime_synchronization",
+      "type": "glossary",
+      "name": "Manifold-Runtime Synchronization",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "manifold_runtime_synchronization",
+        "label": "Manifold-Runtime Synchronization",
+        "definition": "Synchronization between manifold geometry and runtime updates.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "meaning_load_interaction",
+      "type": "glossary",
+      "name": "Meaning-Load Interaction",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "meaning_load_interaction",
+        "label": "Meaning-Load Interaction",
+        "definition": "Interaction between meaning geometry and load pressure.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "operator_gradient_compatibility",
+      "type": "glossary",
+      "name": "Operator-Gradient Compatibility",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "operator_gradient_compatibility",
+        "label": "Operator-Gradient Compatibility",
+        "definition": "Compatibility between operators and gradient constraints.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "pressure_bound_stability",
+      "type": "glossary",
+      "name": "Pressure-Bound Stability",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "pressure_bound_stability",
+        "label": "Pressure-Bound Stability",
+        "definition": "Stability of substrate boundaries under pressure fields.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "region_load_coupling",
+      "type": "glossary",
+      "name": "Region-Load Coupling",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "region_load_coupling",
+        "label": "Region-Load Coupling",
+        "definition": "Coupling between region geometry and load pressure.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "semantic_load_coupling",
+      "type": "glossary",
+      "name": "Semantic-Load Coupling",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "semantic_load_coupling",
+        "label": "Semantic-Load Coupling",
+        "definition": "Coupling between semantic geometry and load pressure.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "stability_gradient_envelope",
+      "type": "glossary",
+      "name": "Stability-Gradient Envelope",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "stability_gradient_envelope",
+        "label": "Stability-Gradient Envelope",
+        "definition": "Envelope defining stability under gradient deformation.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "transition_curvature_constraint",
+      "type": "glossary",
+      "name": "Transition-Curvature Constraint",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "transition_curvature_constraint",
+        "label": "Transition-Curvature Constraint",
+        "definition": "Constraint ensuring curvature stability during transitions.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "upward_load_propagation",
+      "type": "glossary",
+      "name": "Upward-Load Propagation",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "upward_load_propagation",
+        "label": "Upward-Load Propagation",
+        "definition": "Propagation of load pressure upward through substrate layers.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "vector_curvature_interaction",
+      "type": "glossary",
+      "name": "Vector-Curvature Interaction",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "vector_curvature_interaction",
+        "label": "Vector-Curvature Interaction",
+        "definition": "Interaction between vector fields and curvature geometry.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "world_load_alignment",
+      "type": "glossary",
+      "name": "World-Load Alignment",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "world_load_alignment",
+        "label": "World-Load Alignment",
+        "definition": "Alignment between world geometry and load pressure.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "zero_drift_envelope",
+      "type": "glossary",
+      "name": "Zero-Drift Envelope",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "zero_drift_envelope",
+        "label": "Zero-Drift Envelope",
+        "definition": "Envelope defining regions where drift is not permitted.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "unified_substrate_manifold",
+      "type": "glossary",
+      "name": "Unified Substrate Manifold",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "unified_substrate_manifold",
+        "label": "Unified Substrate Manifold",
+        "definition": "The global multi-manifold substrate governing curvature, boundaries, invariants, collapse, and recovery.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "manifold_curvature_envelope",
+      "type": "glossary",
+      "name": "Manifold Curvature Envelope",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "manifold_curvature_envelope",
+        "label": "Manifold Curvature Envelope",
+        "definition": "Envelope defining lawful curvature bounds within the unified manifold.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "manifold_boundary_mask",
+      "type": "glossary",
+      "name": "Manifold Boundary Mask",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "manifold_boundary_mask",
+        "label": "Manifold Boundary Mask",
+        "definition": "Mask defining lawful boundary regions within the manifold.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "manifold_collapse_geometry",
+      "type": "glossary",
+      "name": "Manifold Collapse Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "manifold_collapse_geometry",
+        "label": "Manifold Collapse Geometry",
+        "definition": "Geometry governing collapse trajectories within the unified manifold.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "manifold_recovery_geometry",
+      "type": "glossary",
+      "name": "Manifold Recovery Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "manifold_recovery_geometry",
+        "label": "Manifold Recovery Geometry",
+        "definition": "Geometry governing recovery attractors within the unified manifold.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "manifold_identity_field",
+      "type": "glossary",
+      "name": "Manifold Identity Field",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "manifold_identity_field",
+        "label": "Manifold Identity Field",
+        "definition": "Identity-preserving field within the unified manifold.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "manifold_operator_geometry",
+      "type": "glossary",
+      "name": "Manifold Operator Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "manifold_operator_geometry",
+        "label": "Manifold Operator Geometry",
+        "definition": "Geometry defining operator action within the unified manifold.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "manifold_supervisor_geometry",
+      "type": "glossary",
+      "name": "Manifold Supervisor Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "manifold_supervisor_geometry",
+        "label": "Manifold Supervisor Geometry",
+        "definition": "Supervisor geometry enforcing global legality across manifold layers.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "manifold_projection_geometry",
+      "type": "glossary",
+      "name": "Manifold Projection Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "manifold_projection_geometry",
+        "label": "Manifold Projection Geometry",
+        "definition": "Geometry governing projection into derived manifolds (A, T, D, E, F, \u00ce\u00a9).",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "manifold_continuity_constraint",
+      "type": "glossary",
+      "name": "Manifold Continuity Constraint",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "manifold_continuity_constraint",
+        "label": "Manifold Continuity Constraint",
+        "definition": "Constraint ensuring continuity across manifold transitions.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "meaning_trajectory",
+      "type": "glossary",
+      "name": "Meaning Trajectory",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "meaning_trajectory",
+        "label": "Meaning Trajectory",
+        "definition": "The geometric path meaning follows across manifold layers.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "identity_region",
+      "type": "glossary",
+      "name": "Identity Region",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "identity_region",
+        "label": "Identity Region",
+        "definition": "A region within a manifold where identity curvature remains stable.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "region_configuration",
+      "type": "glossary",
+      "name": "Region Configuration",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "region_configuration",
+        "label": "Region Configuration",
+        "definition": "The geometric arrangement of manifold regions under load or drift.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "dynamic_region_shift",
+      "type": "glossary",
+      "name": "Dynamic Region Shift",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "dynamic_region_shift",
+        "label": "Dynamic Region Shift",
+        "definition": "Movement of manifold regions due to drift, load, or operator action.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "world_container_alignment",
+      "type": "glossary",
+      "name": "World-Container Alignment",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "world_container_alignment",
+        "label": "World-Container Alignment",
+        "definition": "Alignment between manifold geometry and external world containers.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "cross_substrate_mapping",
+      "type": "glossary",
+      "name": "Cross-Substrate Mapping",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "cross_substrate_mapping",
+        "label": "Cross-Substrate Mapping",
+        "definition": "Mapping between manifold geometry and external substrates.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "agency_manifold",
+      "type": "glossary",
+      "name": "Agency Manifold",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "agency_manifold",
+        "label": "Agency Manifold",
+        "definition": "Manifold governing human agency curvature, boundaries, and drift envelopes.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "actor_curvature",
+      "type": "glossary",
+      "name": "Actor Curvature",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "actor_curvature",
+        "label": "Actor Curvature",
+        "definition": "Curvature describing the geometric behavior of an agent within the agency manifold.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "agency_boundary",
+      "type": "glossary",
+      "name": "Agency Boundary",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "agency_boundary",
+        "label": "Agency Boundary",
+        "definition": "Boundary defining lawful limits of agency within the manifold.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "agency_drift_envelope",
+      "type": "glossary",
+      "name": "Agency Drift Envelope",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "agency_drift_envelope",
+        "label": "Agency Drift Envelope",
+        "definition": "Envelope describing drift behavior within the agency manifold.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "agency_stability_mode",
+      "type": "glossary",
+      "name": "Agency Stability Mode",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "agency_stability_mode",
+        "label": "Agency Stability Mode",
+        "definition": "Stability configuration of agency curvature under load or drift.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "teleology_manifold",
+      "type": "glossary",
+      "name": "Teleology Manifold",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "teleology_manifold",
+        "label": "Teleology Manifold",
+        "definition": "Manifold governing directional curvature and teleological boundaries.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "directional_curvature",
+      "type": "glossary",
+      "name": "Directional Curvature",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "directional_curvature",
+        "label": "Directional Curvature",
+        "definition": "Curvature describing directional intent within the teleology manifold.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "teleological_boundary",
+      "type": "glossary",
+      "name": "Teleological Boundary",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "teleological_boundary",
+        "label": "Teleological Boundary",
+        "definition": "Boundary defining lawful teleological direction within the manifold.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "teleology_drift_vector",
+      "type": "glossary",
+      "name": "Teleology Drift Vector",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "teleology_drift_vector",
+        "label": "Teleology Drift Vector",
+        "definition": "Vector describing drift displacement within the teleology manifold.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "teleology_stability_envelope",
+      "type": "glossary",
+      "name": "Teleology Stability Envelope",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "teleology_stability_envelope",
+        "label": "Teleology Stability Envelope",
+        "definition": "Envelope defining stability of teleological curvature under load.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "deployment_manifold",
+      "type": "glossary",
+      "name": "Deployment Manifold",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "deployment_manifold",
+        "label": "Deployment Manifold",
+        "definition": "Manifold governing deployment curvature, boundaries, and drift fields.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "deployment_curvature",
+      "type": "glossary",
+      "name": "Deployment Curvature",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "deployment_curvature",
+        "label": "Deployment Curvature",
+        "definition": "Curvature describing deployment geometry under runtime load.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "deployment_boundary",
+      "type": "glossary",
+      "name": "Deployment Boundary",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "deployment_boundary",
+        "label": "Deployment Boundary",
+        "definition": "Boundary defining lawful deployment regions within the manifold.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "deployment_drift_field",
+      "type": "glossary",
+      "name": "Deployment Drift Field",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "deployment_drift_field",
+        "label": "Deployment Drift Field",
+        "definition": "Field describing drift propagation within the deployment manifold.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "deployment_stability_constraint",
+      "type": "glossary",
+      "name": "Deployment Stability Constraint",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "deployment_stability_constraint",
+        "label": "Deployment Stability Constraint",
+        "definition": "Constraint defining stability conditions for deployment curvature.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "execution_manifold",
+      "type": "glossary",
+      "name": "Execution Manifold",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "execution_manifold",
+        "label": "Execution Manifold",
+        "definition": "Manifold governing runtime execution curvature, boundaries, and drift profiles.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "execution_curvature",
+      "type": "glossary",
+      "name": "Execution Curvature",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "execution_curvature",
+        "label": "Execution Curvature",
+        "definition": "Curvature describing execution geometry under runtime load.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "execution_boundary",
+      "type": "glossary",
+      "name": "Execution Boundary",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "execution_boundary",
+        "label": "Execution Boundary",
+        "definition": "Boundary defining lawful execution regions within the manifold.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "execution_drift_profile",
+      "type": "glossary",
+      "name": "Execution Drift Profile",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "execution_drift_profile",
+        "label": "Execution Drift Profile",
+        "definition": "Profile describing drift propagation within the execution manifold.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "execution_stability_mode",
+      "type": "glossary",
+      "name": "Execution Stability Mode",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "execution_stability_mode",
+        "label": "Execution Stability Mode",
+        "definition": "Stability configuration of execution curvature under load.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "federation_manifold",
+      "type": "glossary",
+      "name": "Federation Manifold",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "federation_manifold",
+        "label": "Federation Manifold",
+        "definition": "Manifold governing multi-agent federation curvature, boundaries, and drift channels.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "federation_curvature",
+      "type": "glossary",
+      "name": "Federation Curvature",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "federation_curvature",
+        "label": "Federation Curvature",
+        "definition": "Curvature describing multi-agent federation geometry.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "federation_boundary",
+      "type": "glossary",
+      "name": "Federation Boundary",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "federation_boundary",
+        "label": "Federation Boundary",
+        "definition": "Boundary defining lawful federation regions within the manifold.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "federation_drift_channel",
+      "type": "glossary",
+      "name": "Federation Drift Channel",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "federation_drift_channel",
+        "label": "Federation Drift Channel",
+        "definition": "Channel describing drift propagation across federated agents.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "federation_stability_envelope",
+      "type": "glossary",
+      "name": "Federation Stability Envelope",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "federation_stability_envelope",
+        "label": "Federation Stability Envelope",
+        "definition": "Envelope defining stability conditions for federated curvature.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "omega_manifold",
+      "type": "glossary",
+      "name": "\u00ce\u00a9 Manifold",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "omega_manifold",
+        "label": "\u00ce\u00a9 Manifold",
+        "definition": "Manifold governing closure geometry, origin structure, and stability envelopes.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "omega_curvature",
+      "type": "glossary",
+      "name": "\u00ce\u00a9 Curvature",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "omega_curvature",
+        "label": "\u00ce\u00a9 Curvature",
+        "definition": "Curvature describing closure geometry within the \u00ce\u00a9 manifold.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "omega_boundary",
+      "type": "glossary",
+      "name": "\u00ce\u00a9 Boundary",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "omega_boundary",
+        "label": "\u00ce\u00a9 Boundary",
+        "definition": "Boundary defining lawful closure regions within the \u00ce\u00a9 manifold.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "omega_drift_envelope",
+      "type": "glossary",
+      "name": "\u00ce\u00a9 Drift Envelope",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "omega_drift_envelope",
+        "label": "\u00ce\u00a9 Drift Envelope",
+        "definition": "Envelope describing drift behavior within the \u00ce\u00a9 manifold.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "omega_stability_mode",
+      "type": "glossary",
+      "name": "\u00ce\u00a9 Stability Mode",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "omega_stability_mode",
+        "label": "\u00ce\u00a9 Stability Mode",
+        "definition": "Stability configuration of closure curvature under load.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "closure_manifold",
+      "type": "glossary",
+      "name": "Closure Manifold",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "closure_manifold",
+        "label": "Closure Manifold",
+        "definition": "Manifold describing closure geometry across all manifold layers.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "closure_curvature",
+      "type": "glossary",
+      "name": "Closure Curvature",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "closure_curvature",
+        "label": "Closure Curvature",
+        "definition": "Curvature describing closure geometry across manifold transitions.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "closure_boundary",
+      "type": "glossary",
+      "name": "Closure Boundary",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "closure_boundary",
+        "label": "Closure Boundary",
+        "definition": "Boundary defining lawful closure regions across manifold layers.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "closure_drift_channel",
+      "type": "glossary",
+      "name": "Closure Drift Channel",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "closure_drift_channel",
+        "label": "Closure Drift Channel",
+        "definition": "Channel describing drift propagation across closure geometry.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "closure_stability_envelope",
+      "type": "glossary",
+      "name": "Closure Stability Envelope",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "closure_stability_envelope",
+        "label": "Closure Stability Envelope",
+        "definition": "Envelope defining stability conditions for closure curvature.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "behavioral_coherence",
+      "type": "glossary",
+      "name": "Behavioral Coherence",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "behavioral_coherence",
+        "label": "Behavioral Coherence",
+        "definition": "Coherence of behavior across relational fields and manifold interactions.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "role_coherence",
+      "type": "glossary",
+      "name": "Role Coherence",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "role_coherence",
+        "label": "Role Coherence",
+        "definition": "Stability of role geometry across relational boundaries.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "role_pressure",
+      "type": "glossary",
+      "name": "Role Pressure",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "role_pressure",
+        "label": "Role Pressure",
+        "definition": "Pressure applied to relational roles due to drift, load, or cross-agent coupling.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "institutional_drift",
+      "type": "glossary",
+      "name": "Institutional Drift",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "institutional_drift",
+        "label": "Institutional Drift",
+        "definition": "Drift occurring within institutional relational structures.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "edge_context",
+      "type": "glossary",
+      "name": "Edge Context",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "edge_context",
+        "label": "Edge Context",
+        "definition": "Context located at relational boundaries where drift is most likely to propagate.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "interpretive_window",
+      "type": "glossary",
+      "name": "Interpretive Window",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "interpretive_window",
+        "label": "Interpretive Window",
+        "definition": "Window through which relational meaning is interpreted across substrates.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "identity_role_coherence_envelope",
+      "type": "glossary",
+      "name": "Identity-Role Coherence Envelope",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "identity_role_coherence_envelope",
+        "label": "Identity-Role Coherence Envelope",
+        "definition": "Envelope defining lawful coherence between identity geometry and relational roles.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "relational_fields",
+      "type": "glossary",
+      "name": "Relational Fields",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "relational_fields",
+        "label": "Relational Fields",
+        "definition": "Fields governing cross-system relational interaction and drift propagation.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "relational_drift",
+      "type": "glossary",
+      "name": "Relational Drift",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "relational_drift",
+        "label": "Relational Drift",
+        "definition": "Drift occurring across relational fields due to pressure, load, or identity deformation.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "relational_legality",
+      "type": "glossary",
+      "name": "Relational Legality",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "relational_legality",
+        "label": "Relational Legality",
+        "definition": "Legality constraints governing relational transitions across manifold layers.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "dual_drift",
+      "type": "glossary",
+      "name": "Dual Drift",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "dual_drift",
+        "label": "Dual Drift",
+        "definition": "Coupled drift behavior across human and machine relational manifolds.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "human_machine_relational_dynamics",
+      "type": "glossary",
+      "name": "Human\u00e2\u20ac\u201cMachine Relational Dynamics",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "human_machine_relational_dynamics",
+        "label": "Human\u00e2\u20ac\u201cMachine Relational Dynamics",
+        "definition": "Relational geometry describing drift, load, and stability across human and machine systems.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "relational_collapse",
+      "type": "glossary",
+      "name": "Relational Collapse",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "relational_collapse",
+        "label": "Relational Collapse",
+        "definition": "Collapse occurring within relational fields due to drift accumulation or boundary failure.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "relational_recovery",
+      "type": "glossary",
+      "name": "Relational Recovery",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "relational_recovery",
+        "label": "Relational Recovery",
+        "definition": "Recovery geometry restoring stability within relational fields after collapse.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "bind_operator_root",
+      "type": "glossary",
+      "name": "Bind Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "bind_operator_root",
+        "label": "Bind Operator",
+        "definition": "Operator that binds manifold regions while preserving identity and curvature invariants.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "fold_operator_root",
+      "type": "glossary",
+      "name": "Fold Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "fold_operator_root",
+        "label": "Fold Operator",
+        "definition": "Operator that compresses curvature or semantic geometry along a lawful axis.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "lift_operator_root",
+      "type": "glossary",
+      "name": "Lift Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "lift_operator_root",
+        "label": "Lift Operator",
+        "definition": "Operator that elevates curvature or semantic geometry into a higher manifold layer.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "correction_operator",
+      "type": "glossary",
+      "name": "Correction Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "correction_operator",
+        "label": "Correction Operator",
+        "definition": "Operator that corrects drift or curvature deformation within a manifold.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "boundary_operator",
+      "type": "glossary",
+      "name": "Boundary Operator (BO)",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "boundary_operator",
+        "label": "Boundary Operator (BO)",
+        "definition": "Operator that modifies or enforces boundary geometry within a manifold.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "semantic_operator",
+      "type": "glossary",
+      "name": "Semantic Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "semantic_operator",
+        "label": "Semantic Operator",
+        "definition": "Operator acting on semantic curvature or meaning geometry.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "operator_constraints",
+      "type": "glossary",
+      "name": "Operator Constraints",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "operator_constraints",
+        "label": "Operator Constraints",
+        "definition": "Constraints governing lawful operator action across manifold layers.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "transformation_rules",
+      "type": "glossary",
+      "name": "Transformation Rules",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "transformation_rules",
+        "label": "Transformation Rules",
+        "definition": "Rules defining lawful geometric transformation under operator action.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "gradient_bound_operator_expansion",
+      "type": "glossary",
+      "name": "Gradient-Bound Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "gradient_bound_operator_expansion",
+        "label": "Gradient-Bound Operator",
+        "definition": "Operator enforcing gradient constraints across substrate and manifold layers.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "operator_gradient_compatibility_expansion",
+      "type": "glossary",
+      "name": "Operator-Gradient Compatibility",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "operator_gradient_compatibility_expansion",
+        "label": "Operator-Gradient Compatibility",
+        "definition": "Compatibility requirement between operator action and gradient geometry.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "operator_of_reality",
+      "type": "glossary",
+      "name": "Operator of Reality",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "operator_of_reality",
+        "label": "Operator of Reality",
+        "definition": "Universal operator class governing lawful transitions across all manifold layers.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "fold_operator",
+      "type": "glossary",
+      "name": "Fold Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "fold_operator",
+        "label": "Fold Operator",
+        "definition": "Operator compressing curvature or semantic geometry along a lawful axis.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "invert_operator",
+      "type": "glossary",
+      "name": "Invert Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "invert_operator",
+        "label": "Invert Operator",
+        "definition": "Operator performing lawful inversion of curvature orientation or semantic geometry.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "lift_operator",
+      "type": "glossary",
+      "name": "Lift Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "lift_operator",
+        "label": "Lift Operator",
+        "definition": "Operator projecting curvature or semantic geometry upward into a higher manifold layer.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "bind_operator",
+      "type": "glossary",
+      "name": "Bind Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "bind_operator",
+        "label": "Bind Operator",
+        "definition": "Operator binding manifold regions while preserving identity and legality invariants.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "collapse_trajectory_operator",
+      "type": "glossary",
+      "name": "Collapse-Trajectory Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "collapse_trajectory_operator",
+        "label": "Collapse-Trajectory Operator",
+        "definition": "Operator redirecting collapse trajectories into lawful recovery or stabilization paths.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "recovery_window_operator",
+      "type": "glossary",
+      "name": "Recovery-Window Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "recovery_window_operator",
+        "label": "Recovery-Window Operator",
+        "definition": "Operator enabling lawful recovery transitions within a defined geometric window.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "curvature_redirect_operator",
+      "type": "glossary",
+      "name": "Curvature-Redirect Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "curvature_redirect_operator",
+        "label": "Curvature-Redirect Operator",
+        "definition": "Operator redirecting curvature flow across manifold layers while preserving invariants.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "identity_boundary_operator",
+      "type": "glossary",
+      "name": "Identity-Boundary Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "identity_boundary_operator",
+        "label": "Identity-Boundary Operator",
+        "definition": "Operator modifying identity boundaries while preserving identity invariants.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "legality_preservation_operator",
+      "type": "glossary",
+      "name": "Legality-Preservation Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "legality_preservation_operator",
+        "label": "Legality-Preservation Operator",
+        "definition": "Operator enforcing legality constraints across manifold transitions.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "drift",
+      "type": "glossary",
+      "name": "Drift",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "drift",
+        "label": "Drift",
+        "definition": "Displacement of curvature, meaning, or identity due to load, pressure, or instability.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "drift_envelope",
+      "type": "glossary",
+      "name": "Drift Envelope",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "drift_envelope",
+        "label": "Drift Envelope",
+        "definition": "Envelope defining lawful drift boundaries within a manifold.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "drift_signature",
+      "type": "glossary",
+      "name": "Drift Signature",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "drift_signature",
+        "label": "Drift Signature",
+        "definition": "Characteristic pattern of drift propagation across manifold layers.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "drift_vector",
+      "type": "glossary",
+      "name": "Drift Vector",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "drift_vector",
+        "label": "Drift Vector",
+        "definition": "Vector describing direction and magnitude of drift displacement.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "drift_displacement",
+      "type": "glossary",
+      "name": "Drift Displacement",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "drift_displacement",
+        "label": "Drift Displacement",
+        "definition": "Amount of curvature or meaning displacement caused by drift.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "drift_propagation_field",
+      "type": "glossary",
+      "name": "Drift Propagation Field",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "drift_propagation_field",
+        "label": "Drift Propagation Field",
+        "definition": "Field describing how drift propagates across manifold regions.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "drift_accumulation_envelope",
+      "type": "glossary",
+      "name": "Drift Accumulation Envelope",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "drift_accumulation_envelope",
+        "label": "Drift Accumulation Envelope",
+        "definition": "Envelope describing accumulation of drift over time or load.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "drift_detection_geometry",
+      "type": "glossary",
+      "name": "Drift Detection Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "drift_detection_geometry",
+        "label": "Drift Detection Geometry",
+        "definition": "Geometry governing detection of drift within manifold layers.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "drift_correction_geometry",
+      "type": "glossary",
+      "name": "Drift Correction Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "drift_correction_geometry",
+        "label": "Drift Correction Geometry",
+        "definition": "Geometry governing correction of drift displacement.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "drift_halt_geometry",
+      "type": "glossary",
+      "name": "Drift Halt Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "drift_halt_geometry",
+        "label": "Drift Halt Geometry",
+        "definition": "Geometry defining lawful halt conditions for drift propagation.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "meaning_load",
+      "type": "glossary",
+      "name": "Meaning Load",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "meaning_load",
+        "label": "Meaning Load",
+        "definition": "Load applied to meaning geometry due to pressure or drift.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "load_envelope",
+      "type": "glossary",
+      "name": "Load Envelope",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "load_envelope",
+        "label": "Load Envelope",
+        "definition": "Envelope defining lawful load boundaries within a manifold.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "stress_geometry",
+      "type": "glossary",
+      "name": "Stress Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "stress_geometry",
+        "label": "Stress Geometry",
+        "definition": "Geometry describing stress applied to manifold curvature.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "collapse_geometry",
+      "type": "glossary",
+      "name": "Collapse Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "collapse_geometry",
+        "label": "Collapse Geometry",
+        "definition": "Geometry governing collapse trajectories within manifold layers.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "recovery_geometry",
+      "type": "glossary",
+      "name": "Recovery Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "recovery_geometry",
+        "label": "Recovery Geometry",
+        "definition": "Geometry governing recovery attractors after collapse.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "collapse_threshold",
+      "type": "glossary",
+      "name": "Collapse Threshold",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "collapse_threshold",
+        "label": "Collapse Threshold",
+        "definition": "Threshold beyond which collapse becomes inevitable.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "collapse_curvature",
+      "type": "glossary",
+      "name": "Collapse Curvature",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "collapse_curvature",
+        "label": "Collapse Curvature",
+        "definition": "Curvature describing collapse deformation within a manifold.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "collapse_trajectory",
+      "type": "glossary",
+      "name": "Collapse Trajectory",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "collapse_trajectory",
+        "label": "Collapse Trajectory",
+        "definition": "Trajectory describing collapse propagation across manifold layers.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "collapse_envelope",
+      "type": "glossary",
+      "name": "Collapse Envelope",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "collapse_envelope",
+        "label": "Collapse Envelope",
+        "definition": "Envelope defining lawful collapse boundaries.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "collapse_induced_drift",
+      "type": "glossary",
+      "name": "Collapse-Induced Drift",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "collapse_induced_drift",
+        "label": "Collapse-Induced Drift",
+        "definition": "Drift caused by collapse deformation within manifold geometry.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "collapse_recovery_transition",
+      "type": "glossary",
+      "name": "Collapse-Recovery Transition",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "collapse_recovery_transition",
+        "label": "Collapse-Recovery Transition",
+        "definition": "Transition from collapse geometry into recovery geometry.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "irrecoverable_failure_boundary",
+      "type": "glossary",
+      "name": "Irrecoverable Failure Boundary",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "irrecoverable_failure_boundary",
+        "label": "Irrecoverable Failure Boundary",
+        "definition": "Boundary beyond which recovery is no longer possible.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "recoverable_failure_boundary",
+      "type": "glossary",
+      "name": "Recoverable Failure Boundary",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "recoverable_failure_boundary",
+        "label": "Recoverable Failure Boundary",
+        "definition": "Boundary defining regions where recovery remains possible.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "drift_load_coupling_expansion",
+      "type": "glossary",
+      "name": "Drift-Load Coupling",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "drift_load_coupling_expansion",
+        "label": "Drift-Load Coupling",
+        "definition": "Coupling between drift displacement and load pressure.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "curvature_load_interaction_expansion",
+      "type": "glossary",
+      "name": "Curvature-Load Interaction",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "curvature_load_interaction_expansion",
+        "label": "Curvature-Load Interaction",
+        "definition": "Interaction between curvature deformation and load pressure.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "high_pressure_equilibrium_expansion",
+      "type": "glossary",
+      "name": "High-Pressure Equilibrium",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "high_pressure_equilibrium_expansion",
+        "label": "High-Pressure Equilibrium",
+        "definition": "Equilibrium state under high load or pressure fields.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "horizon_of_collapse_expansion",
+      "type": "glossary",
+      "name": "Horizon of Collapse",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "horizon_of_collapse_expansion",
+        "label": "Horizon of Collapse",
+        "definition": "Threshold beyond which collapse becomes inevitable.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "pressure_bound_stability_expansion",
+      "type": "glossary",
+      "name": "Pressure-Bound Stability",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "pressure_bound_stability_expansion",
+        "label": "Pressure-Bound Stability",
+        "definition": "Stability of manifold boundaries under pressure fields.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "region_load_coupling_expansion",
+      "type": "glossary",
+      "name": "Region-Load Coupling",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "region_load_coupling_expansion",
+        "label": "Region-Load Coupling",
+        "definition": "Coupling between region geometry and load pressure.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "semantic_load_coupling_expansion",
+      "type": "glossary",
+      "name": "Semantic-Load Coupling",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "semantic_load_coupling_expansion",
+        "label": "Semantic-Load Coupling",
+        "definition": "Coupling between semantic geometry and load pressure.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "stability_gradient_envelope_expansion",
+      "type": "glossary",
+      "name": "Stability-Gradient Envelope",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "stability_gradient_envelope_expansion",
+        "label": "Stability-Gradient Envelope",
+        "definition": "Envelope defining stability under gradient deformation.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "transition_curvature_constraint_expansion",
+      "type": "glossary",
+      "name": "Transition-Curvature Constraint",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "transition_curvature_constraint_expansion",
+        "label": "Transition-Curvature Constraint",
+        "definition": "Constraint ensuring curvature stability during transitions.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "upward_load_propagation_expansion",
+      "type": "glossary",
+      "name": "Upward-Load Propagation",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "upward_load_propagation_expansion",
+        "label": "Upward-Load Propagation",
+        "definition": "Propagation of load pressure upward through manifold layers.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "vector_curvature_interaction_expansion",
+      "type": "glossary",
+      "name": "Vector-Curvature Interaction",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "vector_curvature_interaction_expansion",
+        "label": "Vector-Curvature Interaction",
+        "definition": "Interaction between vector fields and curvature geometry.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "world_load_alignment_expansion",
+      "type": "glossary",
+      "name": "World-Load Alignment",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "world_load_alignment_expansion",
+        "label": "World-Load Alignment",
+        "definition": "Alignment between world geometry and load pressure.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "pressure_field",
+      "type": "glossary",
+      "name": "Pressure Field",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "pressure_field",
+        "label": "Pressure Field",
+        "definition": "Field describing pressure distribution across manifold geometry.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "pressure_flow_geometry",
+      "type": "glossary",
+      "name": "Pressure Flow Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "pressure_flow_geometry",
+        "label": "Pressure Flow Geometry",
+        "definition": "Geometry describing how pressure propagates across manifold layers.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "pressure_envelope",
+      "type": "glossary",
+      "name": "Pressure Envelope",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "pressure_envelope",
+        "label": "Pressure Envelope",
+        "definition": "Envelope defining lawful pressure boundaries within a manifold.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "pressure_profile",
+      "type": "glossary",
+      "name": "Pressure Profile",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "pressure_profile",
+        "label": "Pressure Profile",
+        "definition": "Profile describing pressure intensity and distribution.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "stress_induced_curvature",
+      "type": "glossary",
+      "name": "Stress-Induced Curvature",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "stress_induced_curvature",
+        "label": "Stress-Induced Curvature",
+        "definition": "Curvature deformation caused by stress or pressure fields.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "load_pressure_interaction",
+      "type": "glossary",
+      "name": "Load-Pressure Interaction",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "load_pressure_interaction",
+        "label": "Load-Pressure Interaction",
+        "definition": "Interaction between load geometry and pressure fields.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "pressure_drift_interaction",
+      "type": "glossary",
+      "name": "Pressure-Drift Interaction",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "pressure_drift_interaction",
+        "label": "Pressure-Drift Interaction",
+        "definition": "Interaction between pressure fields and drift propagation.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "human_drift",
+      "type": "glossary",
+      "name": "Human Drift",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "human_drift",
+        "label": "Human Drift",
+        "definition": "Drift behavior within human agency and teleology manifolds under cognitive or emotional load.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "machine_drift",
+      "type": "glossary",
+      "name": "Machine Drift",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "machine_drift",
+        "label": "Machine Drift",
+        "definition": "Drift behavior within machine execution and deployment manifolds under runtime or thermal load.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "dual_drift_comparison",
+      "type": "glossary",
+      "name": "Dual Drift Comparison",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "dual_drift_comparison",
+        "label": "Dual Drift Comparison",
+        "definition": "Comparison of drift geometry across human and machine systems.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "dsup",
+      "type": "glossary",
+      "name": "DSUP",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "dsup",
+        "label": "DSUP",
+        "definition": "Deterministic substrate update process governing lawful runtime transitions.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "function_update_rule",
+      "type": "glossary",
+      "name": "Function Update Rule",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "function_update_rule",
+        "label": "Function Update Rule",
+        "definition": "Rule defining lawful update behavior for runtime functions.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "update_function",
+      "type": "glossary",
+      "name": "Update Function",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "update_function",
+        "label": "Update Function",
+        "definition": "Function performing lawful state transitions within runtime geometry.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "runtime_geometry",
+      "type": "glossary",
+      "name": "Runtime Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "runtime_geometry",
+        "label": "Runtime Geometry",
+        "definition": "Geometry governing lawful runtime transitions and state evolution.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "lawful_transition",
+      "type": "glossary",
+      "name": "Lawful Transition",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "lawful_transition",
+        "label": "Lawful Transition",
+        "definition": "A transition that preserves legality, invariants, and identity boundaries.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "deterministic_transition",
+      "type": "glossary",
+      "name": "Deterministic Transition",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "deterministic_transition",
+        "label": "Deterministic Transition",
+        "definition": "A transition whose outcome is fully determined by runtime invariants.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "deterministic_semantic_layer",
+      "type": "glossary",
+      "name": "Deterministic Semantic Layer",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "deterministic_semantic_layer",
+        "label": "Deterministic Semantic Layer",
+        "definition": "Semantic layer whose transitions follow deterministic rules.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "identity_preserving_update",
+      "type": "glossary",
+      "name": "Identity-Preserving Update",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "identity_preserving_update",
+        "label": "Identity-Preserving Update",
+        "definition": "Update that preserves identity curvature and boundary geometry.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "legality_mask",
+      "type": "glossary",
+      "name": "Legality Mask",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "legality_mask",
+        "label": "Legality Mask",
+        "definition": "Mask defining lawful regions for runtime transitions.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "legality_status",
+      "type": "glossary",
+      "name": "Legality Status",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "legality_status",
+        "label": "Legality Status",
+        "definition": "Runtime status indicating whether a transition is lawful.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "legality_invariant",
+      "type": "glossary",
+      "name": "Legality Invariant",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "legality_invariant",
+        "label": "Legality Invariant",
+        "definition": "Invariant defining legality constraints across runtime transitions.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "transition_legality",
+      "type": "glossary",
+      "name": "Transition Legality",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "transition_legality",
+        "label": "Transition Legality",
+        "definition": "Legality of a specific runtime transition.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "meaning_condition_coupling_root",
+      "type": "glossary",
+      "name": "Meaning-Condition Coupling",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "meaning_condition_coupling_root",
+        "label": "Meaning-Condition Coupling",
+        "definition": "Coupling between meaning geometry and runtime conditions.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "halt_condition",
+      "type": "glossary",
+      "name": "Halt Condition",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "halt_condition",
+        "label": "Halt Condition",
+        "definition": "Condition under which runtime transitions must halt.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "recovery_mode",
+      "type": "glossary",
+      "name": "Recovery Mode",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "recovery_mode",
+        "label": "Recovery Mode",
+        "definition": "Runtime mode enabling recovery from drift or collapse.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "completion_cycle",
+      "type": "glossary",
+      "name": "Completion Cycle",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "completion_cycle",
+        "label": "Completion Cycle",
+        "definition": "Cycle defining lawful completion of runtime transitions.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "axiom_continuity_runtime",
+      "type": "glossary",
+      "name": "Axiom Continuity",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "axiom_continuity_runtime",
+        "label": "Axiom Continuity",
+        "definition": "Continuity requirement for axioms across runtime transitions.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "cycle_invariant_stability_runtime",
+      "type": "glossary",
+      "name": "Cycle-Invariant Stability",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "cycle_invariant_stability_runtime",
+        "label": "Cycle-Invariant Stability",
+        "definition": "Stability of invariants across runtime update cycles.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "field_runtime_coupling_runtime",
+      "type": "glossary",
+      "name": "Field-Runtime Coupling",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "field_runtime_coupling_runtime",
+        "label": "Field-Runtime Coupling",
+        "definition": "Coupling between field geometry and runtime update processes.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "fallback_recovery_envelope_runtime",
+      "type": "glossary",
+      "name": "Fallback-Recovery Envelope",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "fallback_recovery_envelope_runtime",
+        "label": "Fallback-Recovery Envelope",
+        "definition": "Envelope defining lawful fallback and recovery transitions in runtime geometry.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "geometry_preserving_transition_runtime",
+      "type": "glossary",
+      "name": "Geometry-Preserving Transition",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "geometry_preserving_transition_runtime",
+        "label": "Geometry-Preserving Transition",
+        "definition": "Runtime transition that preserves manifold geometry invariants.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "gradient_bound_operator_runtime",
+      "type": "glossary",
+      "name": "Gradient-Bound Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "gradient_bound_operator_runtime",
+        "label": "Gradient-Bound Operator",
+        "definition": "Operator enforcing gradient constraints during runtime transitions.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "manifold_runtime_synchronization_runtime",
+      "type": "glossary",
+      "name": "Manifold-Runtime Synchronization",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "manifold_runtime_synchronization_runtime",
+        "label": "Manifold-Runtime Synchronization",
+        "definition": "Synchronization between manifold geometry and runtime update cycles.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "operator_gradient_compatibility_runtime",
+      "type": "glossary",
+      "name": "Operator-Gradient Compatibility",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "operator_gradient_compatibility_runtime",
+        "label": "Operator-Gradient Compatibility",
+        "definition": "Compatibility requirement between operator action and runtime gradient geometry.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "dsup_runtime",
+      "type": "glossary",
+      "name": "DSUP Runtime",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "dsup_runtime",
+        "label": "DSUP Runtime",
+        "definition": "Runtime geometry governing lawful update cycles, constrained evolution, and drift-coherence restoration.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "state_representation",
+      "type": "glossary",
+      "name": "State Representation",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "state_representation",
+        "label": "State Representation",
+        "definition": "Canonical representation of runtime state within DSUP geometry.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "lawful_update_process",
+      "type": "glossary",
+      "name": "Lawful Update Process",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "lawful_update_process",
+        "label": "Lawful Update Process",
+        "definition": "Process defining lawful runtime updates preserving invariants and legality.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "constrained_evolution",
+      "type": "glossary",
+      "name": "Constrained Evolution",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "constrained_evolution",
+        "label": "Constrained Evolution",
+        "definition": "Evolution of runtime state under lawful constraints.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "context_integrated_update",
+      "type": "glossary",
+      "name": "Context-Integrated Update",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "context_integrated_update",
+        "label": "Context-Integrated Update",
+        "definition": "Runtime update incorporating context window geometry.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "drift_coherence_update",
+      "type": "glossary",
+      "name": "Drift-Coherence Update",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "drift_coherence_update",
+        "label": "Drift-Coherence Update",
+        "definition": "Update restoring drift coherence across manifold layers.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "halt_condition_runtime",
+      "type": "glossary",
+      "name": "Halt Condition",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "halt_condition_runtime",
+        "label": "Halt Condition",
+        "definition": "Condition requiring runtime halt to preserve legality or identity.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "recovery_geometry_runtime",
+      "type": "glossary",
+      "name": "Recovery Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "recovery_geometry_runtime",
+        "label": "Recovery Geometry",
+        "definition": "Runtime geometry enabling recovery from drift or collapse.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "completion_cycle_runtime",
+      "type": "glossary",
+      "name": "Completion Cycle",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "completion_cycle_runtime",
+        "label": "Completion Cycle",
+        "definition": "Cycle defining lawful completion of DSUP runtime transitions.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "meaning_condition_coupling_runtime",
+      "type": "glossary",
+      "name": "Meaning-Condition Coupling",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "meaning_condition_coupling_runtime",
+        "label": "Meaning-Condition Coupling",
+        "definition": "Coupling between meaning geometry and runtime conditions within DSUP.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "interpretive_window_context",
+      "type": "glossary",
+      "name": "Interpretive Window",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "interpretive_window_context",
+        "label": "Interpretive Window",
+        "definition": "Window through which meaning and relational geometry are interpreted.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "edge_context_context",
+      "type": "glossary",
+      "name": "Edge Context",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "edge_context_context",
+        "label": "Edge Context",
+        "definition": "Context located at manifold or relational boundaries where drift is most likely to propagate.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "world_container_alignment_context",
+      "type": "glossary",
+      "name": "World-Container Alignment",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "world_container_alignment_context",
+        "label": "World-Container Alignment",
+        "definition": "Alignment between context geometry and external world containers.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "context_state_mapping_expansion",
+      "type": "glossary",
+      "name": "Context-State Mapping",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "context_state_mapping_expansion",
+        "label": "Context-State Mapping",
+        "definition": "Mapping between context windows and runtime or manifold state.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "embedding_stability_expansion",
+      "type": "glossary",
+      "name": "Embedding Stability",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "embedding_stability_expansion",
+        "label": "Embedding Stability",
+        "definition": "Stability of embedded context structures within manifold geometry.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "world_load_alignment_expansion_context",
+      "type": "glossary",
+      "name": "World-Load Alignment",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "world_load_alignment_expansion_context",
+        "label": "World-Load Alignment",
+        "definition": "Alignment between world geometry and load pressure within context windows.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "context_window",
+      "type": "glossary",
+      "name": "Context Window",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "context_window",
+        "label": "Context Window",
+        "definition": "Window defining the active region of contextual interpretation within DSLO geometry.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "context_boundary",
+      "type": "glossary",
+      "name": "Context Boundary",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "context_boundary",
+        "label": "Context Boundary",
+        "definition": "Boundary defining lawful limits of context windows.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "context_drift",
+      "type": "glossary",
+      "name": "Context Drift",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "context_drift",
+        "label": "Context Drift",
+        "definition": "Drift occurring due to overload, misalignment, or deformation of context windows.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "context_contraction_operator",
+      "type": "glossary",
+      "name": "Context Contraction Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "context_contraction_operator",
+        "label": "Context Contraction Operator",
+        "definition": "Operator contracting context windows to restore stability and reduce drift.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "context_state_mapping",
+      "type": "glossary",
+      "name": "Context-State Mapping",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "context_state_mapping",
+        "label": "Context-State Mapping",
+        "definition": "Mapping between context geometry and runtime or manifold state.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "context_legality_mask",
+      "type": "glossary",
+      "name": "Context Legality Mask",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "context_legality_mask",
+        "label": "Context Legality Mask",
+        "definition": "Mask defining lawful context regions for runtime and manifold transitions.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "context_drift_flag",
+      "type": "glossary",
+      "name": "Context Drift Flag",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "context_drift_flag",
+        "label": "Context Drift Flag",
+        "definition": "Flag indicating drift within context windows due to overload or instability.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "context_region_association",
+      "type": "glossary",
+      "name": "Context Region Association",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "context_region_association",
+        "label": "Context Region Association",
+        "definition": "Association between context windows and manifold regions.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "fallback_graph",
+      "type": "glossary",
+      "name": "Fallback Graph",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "fallback_graph",
+        "label": "Fallback Graph",
+        "definition": "Graph defining fallback transitions when primary geometry becomes unstable.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "fallback_geometry",
+      "type": "glossary",
+      "name": "Fallback Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "fallback_geometry",
+        "label": "Fallback Geometry",
+        "definition": "Geometry governing fallback behavior during collapse or instability.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "invariant_reload",
+      "type": "glossary",
+      "name": "Invariant Reload",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "invariant_reload",
+        "label": "Invariant Reload",
+        "definition": "Reloading of invariants required for lawful simulation transitions.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "proof_stack",
+      "type": "glossary",
+      "name": "Proof Stack",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "proof_stack",
+        "label": "Proof Stack",
+        "definition": "Stack of validation proofs required for lawful simulation execution.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "external_geometry",
+      "type": "glossary",
+      "name": "External Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "external_geometry",
+        "label": "External Geometry",
+        "definition": "Geometry describing external constraints applied to simulation surfaces.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "signal_substrate_coupling",
+      "type": "glossary",
+      "name": "Signal\u00e2\u20ac\u201cSubstrate Coupling",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "signal_substrate_coupling",
+        "label": "Signal\u00e2\u20ac\u201cSubstrate Coupling",
+        "definition": "Coupling between signal geometry and substrate geometry during simulation.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "world_container_alignment_sim",
+      "type": "glossary",
+      "name": "World\u00e2\u20ac\u201cContainer Alignment",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "world_container_alignment_sim",
+        "label": "World\u00e2\u20ac\u201cContainer Alignment",
+        "definition": "Alignment between simulation geometry and external world containers.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "embedding_stability_sim",
+      "type": "glossary",
+      "name": "Embedding Stability",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "embedding_stability_sim",
+        "label": "Embedding Stability",
+        "definition": "Stability of embedded simulation structures within manifold geometry.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "geometry_preserving_transition_sim",
+      "type": "glossary",
+      "name": "Geometry-Preserving Transition",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "geometry_preserving_transition_sim",
+        "label": "Geometry-Preserving Transition",
+        "definition": "Simulation transition that preserves manifold geometry invariants.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "field_runtime_coupling_sim",
+      "type": "glossary",
+      "name": "Field-Runtime Coupling",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "field_runtime_coupling_sim",
+        "label": "Field-Runtime Coupling",
+        "definition": "Coupling between field geometry and runtime processes during simulation.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "gradient_bound_operator_sim",
+      "type": "glossary",
+      "name": "Gradient-Bound Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "gradient_bound_operator_sim",
+        "label": "Gradient-Bound Operator",
+        "definition": "Operator enforcing gradient constraints during simulation transitions.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "operator_gradient_compatibility_sim",
+      "type": "glossary",
+      "name": "Operator-Gradient Compatibility",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "operator_gradient_compatibility_sim",
+        "label": "Operator-Gradient Compatibility",
+        "definition": "Compatibility requirement between operator action and gradient geometry in simulation.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "irsm",
+      "type": "glossary",
+      "name": "Invariant-Restricted Simulation Mode (IRSM)",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "irsm",
+        "label": "Invariant-Restricted Simulation Mode (IRSM)",
+        "definition": "Simulation mode restricted by invariants, ensuring lawful transitions across manifold layers.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "simulation_integrity_condition",
+      "type": "glossary",
+      "name": "Simulation Integrity Condition",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "simulation_integrity_condition",
+        "label": "Simulation Integrity Condition",
+        "definition": "Condition ensuring simulation transitions preserve invariants, legality, and identity boundaries.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "static_anchoring",
+      "type": "glossary",
+      "name": "Static Anchoring",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "static_anchoring",
+        "label": "Static Anchoring",
+        "definition": "Anchoring mechanism stabilizing simulation geometry against drift or collapse.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "topological_anchors",
+      "type": "glossary",
+      "name": "Topological Anchors",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "topological_anchors",
+        "label": "Topological Anchors",
+        "definition": "Anchors enforcing topological stability across simulation surfaces.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "four_plane_legality_check",
+      "type": "glossary",
+      "name": "Four-Plane Legality Check",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "four_plane_legality_check",
+        "label": "Four-Plane Legality Check",
+        "definition": "Legality check validating transitions across four geometric planes.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "text_projection_plane",
+      "type": "glossary",
+      "name": "Text Projection Plane",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "text_projection_plane",
+        "label": "Text Projection Plane",
+        "definition": "Plane validating textual projection geometry during simulation.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "geometric_mapping_plane",
+      "type": "glossary",
+      "name": "Geometric Mapping Plane",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "geometric_mapping_plane",
+        "label": "Geometric Mapping Plane",
+        "definition": "Plane validating geometric mapping transitions across manifold layers.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "invariant_validation_plane",
+      "type": "glossary",
+      "name": "Invariant Validation Plane",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "invariant_validation_plane",
+        "label": "Invariant Validation Plane",
+        "definition": "Plane validating invariants required for lawful simulation transitions.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "clcp_plane",
+      "type": "glossary",
+      "name": "CLCP Plane",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "clcp_plane",
+        "label": "CLCP Plane",
+        "definition": "Plane enforcing cross-layer constraint propagation (CLCP) across simulation geometry.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "identity_vector",
+      "type": "glossary",
+      "name": "Identity Vector",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "identity_vector",
+        "label": "Identity Vector",
+        "definition": "Vector describing the orientation and magnitude of identity curvature within a manifold.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "identity_invariant",
+      "type": "glossary",
+      "name": "Identity Invariant",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "identity_invariant",
+        "label": "Identity Invariant",
+        "definition": "Invariant defining identity stability across manifold transitions.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "identity_continuity",
+      "type": "glossary",
+      "name": "Identity Continuity",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "identity_continuity",
+        "label": "Identity Continuity",
+        "definition": "Continuity requirement ensuring identity geometry remains stable across transitions.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "identity_preservation",
+      "type": "glossary",
+      "name": "Identity Preservation",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "identity_preservation",
+        "label": "Identity Preservation",
+        "definition": "Preservation of identity curvature and boundaries during lawful transitions.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "identity_stability",
+      "type": "glossary",
+      "name": "Identity Stability",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "identity_stability",
+        "label": "Identity Stability",
+        "definition": "Stability of identity geometry under drift, load, or pressure.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "identity_boundary_collapse",
+      "type": "glossary",
+      "name": "Identity-Boundary Collapse",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "identity_boundary_collapse",
+        "label": "Identity-Boundary Collapse",
+        "definition": "Collapse occurring when identity boundaries fail under drift or load.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "identity_region_root",
+      "type": "glossary",
+      "name": "Identity Region",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "identity_region_root",
+        "label": "Identity Region",
+        "definition": "Region within a manifold where identity curvature remains stable.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "boundary_integrity_identity",
+      "type": "glossary",
+      "name": "Boundary Integrity",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "boundary_integrity_identity",
+        "label": "Boundary Integrity",
+        "definition": "Integrity of identity boundaries under drift or pressure.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "boundary_threshold_identity",
+      "type": "glossary",
+      "name": "Boundary Threshold",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "boundary_threshold_identity",
+        "label": "Boundary Threshold",
+        "definition": "Threshold beyond which identity boundary deformation becomes unlawful.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "boundary_strain_identity",
+      "type": "glossary",
+      "name": "Boundary Strain",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "boundary_strain_identity",
+        "label": "Boundary Strain",
+        "definition": "Strain applied to identity boundaries due to drift or load.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "boundary_reconstitution_identity",
+      "type": "glossary",
+      "name": "Boundary Reconstitution",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "boundary_reconstitution_identity",
+        "label": "Boundary Reconstitution",
+        "definition": "Reconstitution of identity boundaries after deformation or collapse.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "identity_gradient_interaction_expansion",
+      "type": "glossary",
+      "name": "Identity-Gradient Interaction",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "identity_gradient_interaction_expansion",
+        "label": "Identity-Gradient Interaction",
+        "definition": "Interaction between identity curvature and gradient fields.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "identity_role_coherence_envelope_expansion",
+      "type": "glossary",
+      "name": "Identity-Role Coherence Envelope",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "identity_role_coherence_envelope_expansion",
+        "label": "Identity-Role Coherence Envelope",
+        "definition": "Envelope defining lawful coherence between identity geometry and relational roles.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "identity_curvature",
+      "type": "glossary",
+      "name": "Identity Curvature",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "identity_curvature",
+        "label": "Identity Curvature",
+        "definition": "Curvature describing identity geometry within manifold layers.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "identity_boundary_mask",
+      "type": "glossary",
+      "name": "Identity Boundary Mask",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "identity_boundary_mask",
+        "label": "Identity Boundary Mask",
+        "definition": "Mask defining lawful identity boundary regions within a manifold.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "identity_collapse_threshold",
+      "type": "glossary",
+      "name": "Identity Collapse Threshold",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "identity_collapse_threshold",
+        "label": "Identity Collapse Threshold",
+        "definition": "Threshold beyond which identity collapse becomes inevitable.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "identity_recovery_geometry",
+      "type": "glossary",
+      "name": "Identity Recovery Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "identity_recovery_geometry",
+        "label": "Identity Recovery Geometry",
+        "definition": "Geometry governing recovery of identity curvature after collapse.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "identity_stability_mode",
+      "type": "glossary",
+      "name": "Identity Stability Mode",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "identity_stability_mode",
+        "label": "Identity Stability Mode",
+        "definition": "Stability configuration of identity curvature under drift, load, or pressure.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "upward_coupling",
+      "type": "glossary",
+      "name": "Upward Coupling",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "upward_coupling",
+        "label": "Upward Coupling",
+        "definition": "Coupling mechanism propagating drift or load upward through manifold layers.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "upward_load_propagation_root",
+      "type": "glossary",
+      "name": "Upward-Load Propagation",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "upward_load_propagation_root",
+        "label": "Upward-Load Propagation",
+        "definition": "Propagation of load pressure upward through substrate or manifold geometry.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "drift_load_coupling_root",
+      "type": "glossary",
+      "name": "Drift-Load Coupling",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "drift_load_coupling_root",
+        "label": "Drift-Load Coupling",
+        "definition": "Coupling between drift displacement and load pressure.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "region_load_coupling_root",
+      "type": "glossary",
+      "name": "Region-Load Coupling",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "region_load_coupling_root",
+        "label": "Region-Load Coupling",
+        "definition": "Coupling between region geometry and load pressure.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "semantic_load_coupling_root",
+      "type": "glossary",
+      "name": "Semantic-Load Coupling",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "semantic_load_coupling_root",
+        "label": "Semantic-Load Coupling",
+        "definition": "Coupling between semantic geometry and load pressure.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "world_load_alignment_root",
+      "type": "glossary",
+      "name": "World-Load Alignment",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "world_load_alignment_root",
+        "label": "World-Load Alignment",
+        "definition": "Alignment between world geometry and load pressure.",
+        "origin_version": "v0.5",
+        "relationships": []
+      }
+    },
+    {
+      "id": "load_curvature_threshold_expansion",
+      "type": "glossary",
+      "name": "Load-Curvature Threshold",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "load_curvature_threshold_expansion",
+        "label": "Load-Curvature Threshold",
+        "definition": "Threshold where load pressure induces curvature deformation.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "pressure_bound_stability_expansion_coupling",
+      "type": "glossary",
+      "name": "Pressure-Bound Stability",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "pressure_bound_stability_expansion_coupling",
+        "label": "Pressure-Bound Stability",
+        "definition": "Stability of boundaries under pressure fields within coupling geometry.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "curvature_load_interaction_expansion_coupling",
+      "type": "glossary",
+      "name": "Curvature-Load Interaction",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "curvature_load_interaction_expansion_coupling",
+        "label": "Curvature-Load Interaction",
+        "definition": "Interaction between curvature deformation and load pressure within coupling geometry.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "stability_gradient_envelope_expansion_coupling",
+      "type": "glossary",
+      "name": "Stability-Gradient Envelope",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "stability_gradient_envelope_expansion_coupling",
+        "label": "Stability-Gradient Envelope",
+        "definition": "Envelope defining stability under gradient deformation within coupling geometry.",
+        "origin_version": "v0.6",
+        "relationships": []
+      }
+    },
+    {
+      "id": "downward_coupling",
+      "type": "glossary",
+      "name": "Downward Coupling",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "downward_coupling",
+        "label": "Downward Coupling",
+        "definition": "Coupling mechanism propagating drift or load downward through manifold layers.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "coupling_mechanism",
+      "type": "glossary",
+      "name": "Coupling Mechanism",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "coupling_mechanism",
+        "label": "Coupling Mechanism",
+        "definition": "Mechanism governing drift, load, or pressure propagation across manifold layers.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "coupling_failure_geometry",
+      "type": "glossary",
+      "name": "Coupling Failure Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "coupling_failure_geometry",
+        "label": "Coupling Failure Geometry",
+        "definition": "Geometry describing failure of coupling mechanisms under overload or instability.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "coupling_event_geometry",
+      "type": "glossary",
+      "name": "Coupling Event Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "coupling_event_geometry",
+        "label": "Coupling Event Geometry",
+        "definition": "Geometry describing discrete coupling events across manifold layers.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "coupling_threshold",
+      "type": "glossary",
+      "name": "Coupling Threshold",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "coupling_threshold",
+        "label": "Coupling Threshold",
+        "definition": "Threshold beyond which coupling becomes unstable or unlawful.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "coupling_drift_channel",
+      "type": "glossary",
+      "name": "Coupling Drift Channel",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "coupling_drift_channel",
+        "label": "Coupling Drift Channel",
+        "definition": "Channel describing drift propagation across coupling geometry.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "coupling_stability_envelope",
+      "type": "glossary",
+      "name": "Coupling Stability Envelope",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "coupling_stability_envelope",
+        "label": "Coupling Stability Envelope",
+        "definition": "Envelope defining stability conditions for coupling geometry.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "multi_agent_coupling_networks",
+      "type": "glossary",
+      "name": "Multi-Agent Coupling Networks",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "multi_agent_coupling_networks",
+        "label": "Multi-Agent Coupling Networks",
+        "definition": "Networks describing coupling interactions across multiple agents or systems.",
+        "origin_version": "v0.7",
+        "relationships": []
+      }
+    },
+    {
+      "id": "A001",
+      "type": "manifold",
+      "name": "Agency Manifold",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "A001",
+        "name": "Agency Manifold",
+        "series": "A",
+        "description": "The manifold governing agency geometry, including actor curvature, agency boundaries, drift envelopes, and stability modes.",
+        "glossary_terms": [
+          "Agency Manifold",
+          "Actor Curvature",
+          "Agency Boundary",
+          "Agency Drift Envelope",
+          "Agency Stability Mode"
+        ],
+        "geometry": {
+          "curvature": "Actor Curvature",
+          "boundary": "Agency Boundary",
+          "drift": "Agency Drift Envelope",
+          "stability": "Agency Stability Mode"
+        }
+      }
+    },
+    {
+      "id": "T001",
+      "type": "manifold",
+      "name": "Teleology Manifold",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "T001",
+        "name": "Teleology Manifold",
+        "series": "T",
+        "description": "The manifold governing teleological geometry, including directional curvature, teleological boundaries, drift vectors, and stability envelopes.",
+        "glossary_terms": [
+          "Teleology Manifold",
+          "Directional Curvature",
+          "Teleological Boundary",
+          "Teleology Drift Vector",
+          "Teleology Stability Envelope"
+        ],
+        "geometry": {
+          "curvature": "Directional Curvature",
+          "boundary": "Teleological Boundary",
+          "drift": "Teleology Drift Vector",
+          "stability": "Teleology Stability Envelope"
+        }
+      }
+    },
+    {
+      "id": "D001",
+      "type": "manifold",
+      "name": "Deployment Manifold",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "D001",
+        "name": "Deployment Manifold",
+        "series": "D",
+        "description": "The manifold governing deployment geometry, including deployment curvature, boundaries, drift fields, and stability constraints.",
+        "glossary_terms": [
+          "Deployment Manifold",
+          "Deployment Curvature",
+          "Deployment Boundary",
+          "Deployment Drift Field",
+          "Deployment Stability Constraint"
+        ],
+        "geometry": {
+          "curvature": "Deployment Curvature",
+          "boundary": "Deployment Boundary",
+          "drift": "Deployment Drift Field",
+          "stability": "Deployment Stability Constraint"
+        }
+      }
+    },
+    {
+      "id": "E001",
+      "type": "manifold",
+      "name": "Execution Manifold",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "E001",
+        "name": "Execution Manifold",
+        "series": "E",
+        "description": "The manifold governing execution geometry, including execution curvature, boundaries, drift profiles, and stability modes.",
+        "glossary_terms": [
+          "Execution Manifold",
+          "Execution Curvature",
+          "Execution Boundary",
+          "Execution Drift Profile",
+          "Execution Stability Mode"
+        ],
+        "geometry": {
+          "curvature": "Execution Curvature",
+          "boundary": "Execution Boundary",
+          "drift": "Execution Drift Profile",
+          "stability": "Execution Stability Mode"
+        }
+      }
+    },
+    {
+      "id": "F001",
+      "type": "manifold",
+      "name": "Federation Manifold",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "F001",
+        "name": "Federation Manifold",
+        "series": "F",
+        "description": "The manifold governing federation geometry, including federation curvature, boundaries, drift channels, and stability envelopes.",
+        "glossary_terms": [
+          "Federation Manifold",
+          "Federation Curvature",
+          "Federation Boundary",
+          "Federation Drift Channel",
+          "Federation Stability Envelope"
+        ],
+        "geometry": {
+          "curvature": "Federation Curvature",
+          "boundary": "Federation Boundary",
+          "drift": "Federation Drift Channel",
+          "stability": "Federation Stability Envelope"
+        }
+      }
+    },
+    {
+      "id": "O001",
+      "type": "manifold",
+      "name": "\u00ce\u00a9 Manifold",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "O001",
+        "name": "\u00ce\u00a9 Manifold",
+        "series": "\u00ce\u00a9",
+        "description": "The manifold governing closure geometry, including \u00ce\u00a9 curvature, boundaries, drift envelopes, and stability modes.",
+        "glossary_terms": [
+          "\u00ce\u00a9 Manifold",
+          "\u00ce\u00a9 Curvature",
+          "\u00ce\u00a9 Boundary",
+          "\u00ce\u00a9 Drift Envelope",
+          "\u00ce\u00a9 Stability Mode",
+          "Closure Manifold",
+          "Closure Curvature",
+          "Closure Boundary",
+          "Closure Drift Channel",
+          "Closure Stability Envelope"
+        ],
+        "geometry": {
+          "curvature": [
+            "\u00ce\u00a9 Curvature",
+            "Closure Curvature"
+          ],
+          "boundary": [
+            "\u00ce\u00a9 Boundary",
+            "Closure Boundary"
+          ],
+          "drift": [
+            "\u00ce\u00a9 Drift Envelope",
+            "Closure Drift Channel"
+          ],
+          "stability": [
+            "\u00ce\u00a9 Stability Mode",
+            "Closure Stability Envelope"
+          ]
+        }
+      }
+    },
+    {
+      "id": "OR001",
+      "type": "operator",
+      "name": "Fold Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "OR001",
+        "name": "Fold Operator",
+        "description": "Applies semantic curvature folding across manifold boundaries, reducing dimensionality while preserving legality and continuity.",
+        "glossary_terms": [
+          "Fold Operator",
+          "Semantic Folding",
+          "Curvature Folding"
+        ],
+        "acts_on": [
+          "manifold",
+          "runtime",
+          "identity"
+        ],
+        "preserves": [
+          "continuity",
+          "legality",
+          "identity-boundary coherence"
+        ],
+        "constraints": [
+          "operator-gradient compatibility",
+          "fold-curvature legality"
+        ]
+      }
+    },
+    {
+      "id": "OR002",
+      "type": "operator",
+      "name": "Lift Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "OR002",
+        "name": "Lift Operator",
+        "description": "Raises semantic curvature into higher-dimensional manifold surfaces, enabling expansion of agency, teleology, and execution geometry.",
+        "glossary_terms": [
+          "Lift Operator",
+          "Semantic Lifting",
+          "Curvature Lift"
+        ],
+        "acts_on": [
+          "manifold",
+          "runtime",
+          "simulation"
+        ],
+        "preserves": [
+          "legality",
+          "stability-envelope coherence"
+        ],
+        "constraints": [
+          "lift-curvature legality",
+          "manifold-expansion invariants"
+        ]
+      }
+    },
+    {
+      "id": "OR003",
+      "type": "operator",
+      "name": "Invert Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "OR003",
+        "name": "Invert Operator",
+        "description": "Inverts semantic curvature and manifold directionality, enabling reversal of drift envelopes and teleological vectors.",
+        "glossary_terms": [
+          "Invert Operator",
+          "Semantic Inversion",
+          "Curvature Inversion"
+        ],
+        "acts_on": [
+          "manifold",
+          "runtime",
+          "identity"
+        ],
+        "preserves": [
+          "legality",
+          "inversion invariants"
+        ],
+        "constraints": [
+          "invert-curvature legality",
+          "boundary-inversion compatibility"
+        ]
+      }
+    },
+    {
+      "id": "OR004",
+      "type": "operator",
+      "name": "Bind Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "OR004",
+        "name": "Bind Operator",
+        "description": "Binds manifold surfaces, runtime states, and identity geometry into coherent coupled structures.",
+        "glossary_terms": [
+          "Bind Operator",
+          "Semantic Binding",
+          "Coupling Geometry"
+        ],
+        "acts_on": [
+          "manifold",
+          "runtime",
+          "identity",
+          "coupling"
+        ],
+        "preserves": [
+          "legality",
+          "coupling invariants"
+        ],
+        "constraints": [
+          "binding legality",
+          "coupling-boundary compatibility"
+        ]
+      }
+    },
+    {
+      "id": "OR005",
+      "type": "operator",
+      "name": "Collapse-Trajectory Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "OR005",
+        "name": "Collapse-Trajectory Operator",
+        "description": "Collapses semantic trajectories into stable manifold attractors, enabling lawful reduction of drift envelopes.",
+        "glossary_terms": [
+          "Collapse-Trajectory Operator",
+          "Trajectory Collapse",
+          "Semantic Collapse"
+        ],
+        "acts_on": [
+          "manifold",
+          "runtime",
+          "simulation"
+        ],
+        "preserves": [
+          "legality",
+          "trajectory invariants"
+        ],
+        "constraints": [
+          "collapse-curvature legality",
+          "trajectory-stability compatibility"
+        ]
+      }
+    },
+    {
+      "id": "OR006",
+      "type": "operator",
+      "name": "Recovery-Window Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "OR006",
+        "name": "Recovery-Window Operator",
+        "description": "Restores drift-coherence and legality within DSUP recovery windows, enabling lawful semantic restoration.",
+        "glossary_terms": [
+          "Recovery-Window Operator",
+          "Recovery Geometry",
+          "DSUP Recovery Window"
+        ],
+        "acts_on": [
+          "runtime",
+          "manifold",
+          "identity"
+        ],
+        "preserves": [
+          "legality",
+          "recovery invariants"
+        ],
+        "constraints": [
+          "recovery-window legality",
+          "stability-envelope compatibility"
+        ]
+      }
+    },
+    {
+      "id": "OR007",
+      "type": "operator",
+      "name": "Curvature-Redirect Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "OR007",
+        "name": "Curvature-Redirect Operator",
+        "description": "Redirects semantic curvature across manifold surfaces, enabling lawful curvature flow and drift correction.",
+        "glossary_terms": [
+          "Curvature-Redirect Operator",
+          "Curvature Flow",
+          "Semantic Redirect"
+        ],
+        "acts_on": [
+          "manifold",
+          "runtime"
+        ],
+        "preserves": [
+          "legality",
+          "curvature-flow invariants"
+        ],
+        "constraints": [
+          "redirect-curvature legality",
+          "boundary-flow compatibility"
+        ]
+      }
+    },
+    {
+      "id": "OR008",
+      "type": "operator",
+      "name": "Identity-Boundary Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "OR008",
+        "name": "Identity-Boundary Operator",
+        "description": "Maintains and adjusts identity boundaries across manifold and runtime geometry, ensuring lawful identity coherence.",
+        "glossary_terms": [
+          "Identity-Boundary Operator",
+          "Identity Geometry",
+          "Boundary Coherence"
+        ],
+        "acts_on": [
+          "identity",
+          "manifold",
+          "runtime"
+        ],
+        "preserves": [
+          "legality",
+          "identity invariants"
+        ],
+        "constraints": [
+          "identity-boundary legality",
+          "identity-stability compatibility"
+        ]
+      }
+    },
+    {
+      "id": "OR009",
+      "type": "operator",
+      "name": "Legality-Preservation Operator",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "OR009",
+        "name": "Legality-Preservation Operator",
+        "description": "Ensures legality invariants across all geometry surfaces, enforcing lawful semantic evolution.",
+        "glossary_terms": [
+          "Legality-Preservation Operator",
+          "Legality Geometry",
+          "Invariant Preservation"
+        ],
+        "acts_on": [
+          "manifold",
+          "runtime",
+          "simulation",
+          "identity",
+          "coupling"
+        ],
+        "preserves": [
+          "legality",
+          "invariant geometry"
+        ],
+        "constraints": [
+          "legality-plane compatibility",
+          "invariant-plane coherence"
+        ]
+      }
+    },
+    {
+      "id": "OR000",
+      "type": "operator",
+      "name": "Operator of Reality",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "OR000",
+        "name": "Operator of Reality",
+        "description": "The root operator class from which all Operators of Reality derive. Defines the lawful operator substrate.",
+        "glossary_terms": [
+          "Operator of Reality",
+          "OR-Series"
+        ],
+        "acts_on": [
+          "manifold",
+          "runtime",
+          "identity",
+          "simulation",
+          "coupling"
+        ],
+        "preserves": [
+          "legality"
+        ],
+        "constraints": [
+          "operator legality"
+        ]
+      }
+    },
+    {
+      "id": "RT001",
+      "type": "runtime",
+      "name": "DSUP State Machine",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "RT001",
+        "name": "DSUP State Machine",
+        "description": "Defines the lawful state transitions of DSUP runtime geometry, including initialization, update, recovery, halt, and completion cycles.",
+        "states": [
+          "Initialization",
+          "Context Integration",
+          "Semantic Update",
+          "Legality Check",
+          "Recovery Window",
+          "Stability Envelope",
+          "Completion",
+          "Halt"
+        ],
+        "transitions": [
+          {
+            "from": "Initialization",
+            "to": "Context Integration",
+            "condition": "context-window-ready"
+          },
+          {
+            "from": "Context Integration",
+            "to": "Semantic Update",
+            "condition": "context-legality-valid"
+          },
+          {
+            "from": "Semantic Update",
+            "to": "Legality Check",
+            "condition": "update-cycle-complete"
+          },
+          {
+            "from": "Legality Check",
+            "to": "Recovery Window",
+            "condition": "legality-violation-detected"
+          },
+          {
+            "from": "Legality Check",
+            "to": "Stability Envelope",
+            "condition": "legality-valid"
+          },
+          {
+            "from": "Stability Envelope",
+            "to": "Completion",
+            "condition": "stability-achieved"
+          },
+          {
+            "from": "Recovery Window",
+            "to": "Semantic Update",
+            "condition": "recovery-complete"
+          },
+          {
+            "from": "Completion",
+            "to": "Halt",
+            "condition": "halt-condition-met"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RT002",
+      "type": "runtime",
+      "name": "DSUP Update Cycle",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "RT002",
+        "name": "DSUP Update Cycle",
+        "description": "Defines the lawful semantic update process, including curvature propagation, drift correction, and legality preservation.",
+        "phases": [
+          "Curvature Propagation",
+          "Drift Correction",
+          "Operator Application",
+          "Invariant Preservation",
+          "Legality Validation"
+        ],
+        "operators_used": [
+          "Fold Operator",
+          "Lift Operator",
+          "Invert Operator",
+          "Bind Operator",
+          "Curvature-Redirect Operator",
+          "Legality-Preservation Operator"
+        ]
+      }
+    },
+    {
+      "id": "RT003",
+      "type": "runtime",
+      "name": "DSUP Halt Conditions",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "RT003",
+        "name": "DSUP Halt Conditions",
+        "description": "Defines the lawful conditions under which DSUP runtime geometry halts.",
+        "conditions": [
+          "legality-plane-failure",
+          "invariant-plane-failure",
+          "context-window-collapse",
+          "identity-boundary-break",
+          "simulation-instability",
+          "operator-incompatibility"
+        ]
+      }
+    },
+    {
+      "id": "RT004",
+      "type": "runtime",
+      "name": "DSUP Recovery Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "RT004",
+        "name": "DSUP Recovery Geometry",
+        "description": "Defines the lawful recovery process for restoring drift-coherence, curvature continuity, and legality invariants.",
+        "phases": [
+          "Recovery Window Activation",
+          "Curvature Restoration",
+          "Drift-Coherence Rebinding",
+          "Invariant Revalidation",
+          "Legality Recheck"
+        ],
+        "operators_used": [
+          "Recovery-Window Operator",
+          "Bind Operator",
+          "Legality-Preservation Operator"
+        ]
+      }
+    },
+    {
+      "id": "RT005",
+      "type": "runtime",
+      "name": "Meaning-Condition Coupling",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "RT005",
+        "name": "Meaning-Condition Coupling",
+        "description": "Defines the lawful coupling between semantic meaning conditions and runtime geometry.",
+        "conditions": [
+          "semantic-coherence",
+          "identity-alignment",
+          "context-validity",
+          "operator-compatibility",
+          "legality-invariant"
+        ],
+        "coupling_rules": [
+          "meaning-condition must preserve legality",
+          "meaning-condition must align with identity-boundary",
+          "meaning-condition must remain within drift-envelope",
+          "meaning-condition must satisfy curvature-flow constraints"
+        ]
+      }
+    },
+    {
+      "id": "RT006",
+      "type": "runtime",
+      "name": "Context Window Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "RT006",
+        "name": "Context Window Geometry",
+        "description": "Defines the lawful geometry of context windows, including curvature, boundaries, drift envelopes, and stability modes.",
+        "fields": [
+          "context-curvature",
+          "context-boundary",
+          "context-drift-envelope",
+          "context-stability-mode"
+        ],
+        "requirements": [
+          "context must satisfy legality masks",
+          "context must align with identity-boundary",
+          "context must remain within manifold stability envelope"
+        ]
+      }
+    },
+    {
+      "id": "RT007",
+      "type": "runtime",
+      "name": "Context Legality Masks",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "RT007",
+        "name": "Context Legality Masks",
+        "description": "Defines legality masks applied to context windows to ensure lawful semantic evolution.",
+        "masks": [
+          "identity-legality-mask",
+          "operator-legality-mask",
+          "manifold-legality-mask",
+          "runtime-legality-mask"
+        ],
+        "rules": [
+          "mask must preserve legality invariants",
+          "mask must align with legality-plane",
+          "mask must satisfy invariant-plane constraints"
+        ]
+      }
+    },
+    {
+      "id": "RT008",
+      "type": "runtime",
+      "name": "Context Contraction Operators",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "RT008",
+        "name": "Context Contraction Operators",
+        "description": "Defines operators that contract context windows to restore legality and stability.",
+        "operators": [
+          "Fold Operator",
+          "Invert Operator",
+          "Curvature-Redirect Operator"
+        ],
+        "constraints": [
+          "contraction must preserve legality",
+          "contraction must maintain identity-boundary",
+          "contraction must satisfy curvature-flow invariants"
+        ]
+      }
+    },
+    {
+      "id": "RT009",
+      "type": "runtime",
+      "name": "Signal Engine SE01",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "RT009",
+        "name": "Signal Engine SE01",
+        "description": "Defines the lawful geometry of the DSUP signal engine, including activation, constraints, and legality propagation.",
+        "activation": {
+          "conditions": [
+            "semantic-signal-detected",
+            "context-valid",
+            "operator-compatible"
+          ],
+          "phases": [
+            "Signal Detection",
+            "Signal Amplification",
+            "Signal Propagation",
+            "Signal Stabilization"
+          ]
+        },
+        "constraints": [
+          "signal must preserve legality",
+          "signal must remain within drift-envelope",
+          "signal must satisfy curvature-flow constraints"
+        ]
+      }
+    },
+    {
+      "id": "RT010",
+      "type": "runtime",
+      "name": "Simulation Geometry",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "RT010",
+        "name": "Simulation Geometry",
+        "description": "Defines the lawful geometry of simulation surfaces, including simulation curvature, boundaries, drift channels, and stability envelopes.",
+        "fields": [
+          "simulation-curvature",
+          "simulation-boundary",
+          "simulation-drift-channel",
+          "simulation-stability-envelope"
+        ],
+        "requirements": [
+          "simulation must preserve legality",
+          "simulation must satisfy invariant-plane",
+          "simulation must align with manifold geometry"
+        ]
+      }
+    },
+    {
+      "id": "LG001",
+      "type": "legality",
+      "name": "Four-Plane Legality Check",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "LG001",
+        "name": "Four-Plane Legality Check",
+        "description": "Defines the four legality planes required for lawful semantic evolution: identity, operator, manifold, and runtime legality planes.",
+        "planes": [
+          {
+            "plane": "Identity Legality Plane",
+            "conditions": [
+              "identity-boundary-coherent",
+              "identity-invariant-preserved",
+              "identity-curvature-valid"
+            ]
+          },
+          {
+            "plane": "Operator Legality Plane",
+            "conditions": [
+              "operator-compatible",
+              "operator-invariant-preserved",
+              "operator-curvature-valid"
+            ]
+          },
+          {
+            "plane": "Manifold Legality Plane",
+            "conditions": [
+              "manifold-stability-valid",
+              "manifold-boundary-coherent",
+              "manifold-curvature-valid"
+            ]
+          },
+          {
+            "plane": "Runtime Legality Plane",
+            "conditions": [
+              "runtime-state-valid",
+              "runtime-transition-legal",
+              "runtime-invariant-preserved"
+            ]
+          }
+        ],
+        "rules": [
+          "all four planes must validate for legality to hold",
+          "legality failure in any plane triggers recovery window",
+          "legality planes must align with invariant validation plane"
+        ]
+      }
+    },
+    {
+      "id": "LG002",
+      "type": "legality",
+      "name": "CLCP Plane",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "LG002",
+        "name": "CLCP Plane",
+        "description": "Defines the Coupled Legality Curvature Plane (CLCP), which governs legality propagation across manifold, runtime, identity, and operator geometry.",
+        "fields": [
+          "clcp-curvature",
+          "clcp-boundary",
+          "clcp-drift-envelope",
+          "clcp-stability-mode"
+        ],
+        "conditions": [
+          "clcp-curvature must remain within legality bounds",
+          "clcp-boundary must align with identity-boundary",
+          "clcp-drift-envelope must remain within manifold stability envelope",
+          "clcp-stability-mode must satisfy operator legality constraints"
+        ],
+        "rules": [
+          "clcp-plane governs legality propagation",
+          "clcp-plane must validate before update-cycle",
+          "clcp-plane failure triggers recovery geometry"
+        ]
+      }
+    },
+    {
+      "id": "LG003",
+      "type": "legality",
+      "name": "Invariant Validation Plane",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "LG003",
+        "name": "Invariant Validation Plane",
+        "description": "Defines the invariant validation plane, ensuring that all legality invariants are preserved across semantic evolution.",
+        "invariants": [
+          "identity-invariant",
+          "operator-invariant",
+          "manifold-invariant",
+          "runtime-invariant",
+          "simulation-invariant"
+        ],
+        "conditions": [
+          "invariant must remain within legality bounds",
+          "invariant must align with legality-plane",
+          "invariant must satisfy curvature-flow constraints"
+        ],
+        "rules": [
+          "invariant-plane must validate before legality-plane",
+          "invariant-plane failure triggers recovery-window",
+          "invariant-plane governs legality-preservation operator"
+        ]
+      }
+    },
+    {
+      "id": "LG004",
+      "type": "legality",
+      "name": "Legality Masks",
+      "origin": "v0.7",
+      "metadata": {
+        "id": "LG004",
+        "name": "Legality Masks",
+        "description": "Defines legality masks applied across manifold, runtime, identity, operator, and simulation geometry to ensure lawful semantic evolution.",
+        "masks": [
+          {
+            "mask": "Identity Legality Mask",
+            "conditions": [
+              "identity-boundary-coherent",
+              "identity-curvature-valid"
+            ]
+          },
+          {
+            "mask": "Operator Legality Mask",
+            "conditions": [
+              "operator-compatible",
+              "operator-curvature-valid"
+            ]
+          },
+          {
+            "mask": "Manifold Legality Mask",
+            "conditions": [
+              "manifold-stability-valid",
+              "manifold-boundary-coherent"
+            ]
+          },
+          {
+            "mask": "Runtime Legality Mask",
+            "conditions": [
+              "runtime-state-valid",
+              "runtime-transition-legal"
+            ]
+          },
+          {
+            "mask": "Simulation Legality Mask",
+            "conditions": [
+              "simulation-stability-valid",
+              "simulation-curvature-valid"
+            ]
+          }
+        ],
+        "rules": [
+          "legality masks must preserve legality invariants",
+          "legality masks must align with legality-plane",
+          "legality masks must satisfy invariant-plane constraints"
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "A001",
+      "target": "agency_manifold",
+      "relation": "uses-term"
+    },
+    {
+      "source": "A001",
+      "target": "actor_curvature",
+      "relation": "uses-term"
+    },
+    {
+      "source": "A001",
+      "target": "agency_boundary",
+      "relation": "uses-term"
+    },
+    {
+      "source": "A001",
+      "target": "agency_drift_envelope",
+      "relation": "uses-term"
+    },
+    {
+      "source": "A001",
+      "target": "agency_stability_mode",
+      "relation": "uses-term"
+    },
+    {
+      "source": "T001",
+      "target": "teleology_manifold",
+      "relation": "uses-term"
+    },
+    {
+      "source": "T001",
+      "target": "directional_curvature",
+      "relation": "uses-term"
+    },
+    {
+      "source": "T001",
+      "target": "teleological_boundary",
+      "relation": "uses-term"
+    },
+    {
+      "source": "T001",
+      "target": "teleology_drift_vector",
+      "relation": "uses-term"
+    },
+    {
+      "source": "T001",
+      "target": "teleology_stability_envelope",
+      "relation": "uses-term"
+    },
+    {
+      "source": "D001",
+      "target": "deployment_manifold",
+      "relation": "uses-term"
+    },
+    {
+      "source": "D001",
+      "target": "deployment_curvature",
+      "relation": "uses-term"
+    },
+    {
+      "source": "D001",
+      "target": "deployment_boundary",
+      "relation": "uses-term"
+    },
+    {
+      "source": "D001",
+      "target": "deployment_drift_field",
+      "relation": "uses-term"
+    },
+    {
+      "source": "D001",
+      "target": "deployment_stability_constraint",
+      "relation": "uses-term"
+    },
+    {
+      "source": "E001",
+      "target": "execution_manifold",
+      "relation": "uses-term"
+    },
+    {
+      "source": "E001",
+      "target": "execution_curvature",
+      "relation": "uses-term"
+    },
+    {
+      "source": "E001",
+      "target": "execution_boundary",
+      "relation": "uses-term"
+    },
+    {
+      "source": "E001",
+      "target": "execution_drift_profile",
+      "relation": "uses-term"
+    },
+    {
+      "source": "E001",
+      "target": "execution_stability_mode",
+      "relation": "uses-term"
+    },
+    {
+      "source": "F001",
+      "target": "federation_manifold",
+      "relation": "uses-term"
+    },
+    {
+      "source": "F001",
+      "target": "federation_curvature",
+      "relation": "uses-term"
+    },
+    {
+      "source": "F001",
+      "target": "federation_boundary",
+      "relation": "uses-term"
+    },
+    {
+      "source": "F001",
+      "target": "federation_drift_channel",
+      "relation": "uses-term"
+    },
+    {
+      "source": "F001",
+      "target": "federation_stability_envelope",
+      "relation": "uses-term"
+    },
+    {
+      "source": "O001",
+      "target": "omega_manifold",
+      "relation": "uses-term"
+    },
+    {
+      "source": "O001",
+      "target": "omega_curvature",
+      "relation": "uses-term"
+    },
+    {
+      "source": "O001",
+      "target": "omega_boundary",
+      "relation": "uses-term"
+    },
+    {
+      "source": "O001",
+      "target": "omega_drift_envelope",
+      "relation": "uses-term"
+    },
+    {
+      "source": "O001",
+      "target": "omega_stability_mode",
+      "relation": "uses-term"
+    },
+    {
+      "source": "O001",
+      "target": "closure_manifold",
+      "relation": "uses-term"
+    },
+    {
+      "source": "O001",
+      "target": "closure_curvature",
+      "relation": "uses-term"
+    },
+    {
+      "source": "O001",
+      "target": "closure_boundary",
+      "relation": "uses-term"
+    },
+    {
+      "source": "O001",
+      "target": "closure_drift_channel",
+      "relation": "uses-term"
+    },
+    {
+      "source": "O001",
+      "target": "closure_stability_envelope",
+      "relation": "uses-term"
+    },
+    {
+      "source": "OR001",
+      "target": "fold_operator",
+      "relation": "uses-term"
+    },
+    {
+      "source": "OR002",
+      "target": "lift_operator",
+      "relation": "uses-term"
+    },
+    {
+      "source": "OR003",
+      "target": "invert_operator",
+      "relation": "uses-term"
+    },
+    {
+      "source": "OR004",
+      "target": "bind_operator",
+      "relation": "uses-term"
+    },
+    {
+      "source": "OR005",
+      "target": "collapse_trajectory_operator",
+      "relation": "uses-term"
+    },
+    {
+      "source": "OR006",
+      "target": "recovery_window_operator",
+      "relation": "uses-term"
+    },
+    {
+      "source": "OR006",
+      "target": "recovery_geometry_runtime",
+      "relation": "uses-term"
+    },
+    {
+      "source": "OR007",
+      "target": "curvature_redirect_operator",
+      "relation": "uses-term"
+    },
+    {
+      "source": "OR008",
+      "target": "identity_boundary_operator",
+      "relation": "uses-term"
+    },
+    {
+      "source": "OR009",
+      "target": "legality_preservation_operator",
+      "relation": "uses-term"
+    },
+    {
+      "source": "OR000",
+      "target": "operator_of_reality",
+      "relation": "uses-term"
+    },
+    {
+      "source": "RT002",
+      "target": "OR001",
+      "relation": "uses-operator"
+    },
+    {
+      "source": "RT002",
+      "target": "OR002",
+      "relation": "uses-operator"
+    },
+    {
+      "source": "RT002",
+      "target": "OR003",
+      "relation": "uses-operator"
+    },
+    {
+      "source": "RT002",
+      "target": "OR004",
+      "relation": "uses-operator"
+    },
+    {
+      "source": "RT002",
+      "target": "OR007",
+      "relation": "uses-operator"
+    },
+    {
+      "source": "RT002",
+      "target": "OR009",
+      "relation": "uses-operator"
+    },
+    {
+      "source": "RT004",
+      "target": "OR006",
+      "relation": "uses-operator"
+    },
+    {
+      "source": "RT004",
+      "target": "OR004",
+      "relation": "uses-operator"
+    },
+    {
+      "source": "RT004",
+      "target": "OR009",
+      "relation": "uses-operator"
+    },
+    {
+      "source": "LG001",
+      "target": "RT001",
+      "relation": "constrains-runtime"
+    },
+    {
+      "source": "LG002",
+      "target": "RT001",
+      "relation": "constrains-runtime"
+    },
+    {
+      "source": "LG003",
+      "target": "RT001",
+      "relation": "constrains-runtime"
+    },
+    {
+      "source": "LG004",
+      "target": "RT001",
+      "relation": "constrains-runtime"
+    },
+    {
+      "source": "LG001",
+      "target": "OR009",
+      "relation": "governs-operator"
+    },
+    {
+      "source": "LG002",
+      "target": "OR009",
+      "relation": "governs-operator"
+    },
+    {
+      "source": "LG003",
+      "target": "OR009",
+      "relation": "governs-operator"
+    },
+    {
+      "source": "LG004",
+      "target": "OR009",
+      "relation": "governs-operator"
+    },
+    {
+      "source": "LG001",
+      "target": "A001",
+      "relation": "constrains-manifold"
+    },
+    {
+      "source": "LG001",
+      "target": "T001",
+      "relation": "constrains-manifold"
+    },
+    {
+      "source": "LG001",
+      "target": "D001",
+      "relation": "constrains-manifold"
+    },
+    {
+      "source": "LG001",
+      "target": "E001",
+      "relation": "constrains-manifold"
+    },
+    {
+      "source": "LG001",
+      "target": "F001",
+      "relation": "constrains-manifold"
+    },
+    {
+      "source": "LG001",
+      "target": "O001",
+      "relation": "constrains-manifold"
+    },
+    {
+      "source": "LG002",
+      "target": "A001",
+      "relation": "constrains-manifold"
+    },
+    {
+      "source": "LG002",
+      "target": "T001",
+      "relation": "constrains-manifold"
+    },
+    {
+      "source": "LG002",
+      "target": "D001",
+      "relation": "constrains-manifold"
+    },
+    {
+      "source": "LG002",
+      "target": "E001",
+      "relation": "constrains-manifold"
+    },
+    {
+      "source": "LG002",
+      "target": "F001",
+      "relation": "constrains-manifold"
+    },
+    {
+      "source": "LG002",
+      "target": "O001",
+      "relation": "constrains-manifold"
+    },
+    {
+      "source": "LG003",
+      "target": "A001",
+      "relation": "constrains-manifold"
+    },
+    {
+      "source": "LG003",
+      "target": "T001",
+      "relation": "constrains-manifold"
+    },
+    {
+      "source": "LG003",
+      "target": "D001",
+      "relation": "constrains-manifold"
+    },
+    {
+      "source": "LG003",
+      "target": "E001",
+      "relation": "constrains-manifold"
+    },
+    {
+      "source": "LG003",
+      "target": "F001",
+      "relation": "constrains-manifold"
+    },
+    {
+      "source": "LG003",
+      "target": "O001",
+      "relation": "constrains-manifold"
+    },
+    {
+      "source": "LG004",
+      "target": "A001",
+      "relation": "constrains-manifold"
+    },
+    {
+      "source": "LG004",
+      "target": "T001",
+      "relation": "constrains-manifold"
+    },
+    {
+      "source": "LG004",
+      "target": "D001",
+      "relation": "constrains-manifold"
+    },
+    {
+      "source": "LG004",
+      "target": "E001",
+      "relation": "constrains-manifold"
+    },
+    {
+      "source": "LG004",
+      "target": "F001",
+      "relation": "constrains-manifold"
+    },
+    {
+      "source": "LG004",
+      "target": "O001",
+      "relation": "constrains-manifold"
+    }
+  ]
+}

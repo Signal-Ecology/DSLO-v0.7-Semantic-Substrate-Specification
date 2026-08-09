@@ -1,0 +1,46 @@
+{
+  "id": "arabic-calligraphy-flow",
+  "name": "Arabic Calligraphy Flow",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Geometric flow system based on stroke curvature, proportional dot units, pen angle, and rhythmic sequencing within Arabic calligraphic practice.",
+  "invariant_properties": [
+    "dot-unit proportionality",
+    "curvature coherence",
+    "rhythmic stroke sequencing",
+    "multi-scale flow geometry"
+  ],
+  "geometry_type": "continuous curvature and proportional stroke geometry",
+  "signal_type": "motor-control, acoustic rhythm, and cultural proportional signals",
+  "dslo_interpretation": {
+    "operators": [
+      "BO-2 orientation",
+      "SGO-6 rhythmic encoding",
+      "MGO-4 distributed cognition"
+    ],
+    "signal_classes": [
+      "motor-control signals",
+      "acoustic rhythm signals",
+      "cultural proportional signals"
+    ],
+    "invariants": [
+      "dot-unit proportionality",
+      "curvature coherence",
+      "rhythmic stroke sequencing"
+    ],
+    "manifolds": [
+      "curvature manifold",
+      "stroke-flow manifold",
+      "proportional geometry manifold"
+    ],
+    "dynamics": [
+      "stylistic drift",
+      "proportional collapse",
+      "canonical restoration"
+    ]
+  },
+  "cross_domain_presence": "Chinese brush calligraphy, Japanese shodō, illuminated manuscripts, handwriting synthesis",
+  "source": "DSLO Natural Geometry Registry"
+}
+

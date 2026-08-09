@@ -1,0 +1,46 @@
+
+{
+  "id": "honeycomb-tiling",
+  "name": "Honeycomb Tiling",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Surface-area-minimizing geometry formed through wax flow, pressure equalization, and symmetry-driven tessellation.",
+  "invariant_properties": [
+    "hexagonal-tiling coherence",
+    "surface-area minimization",
+    "pressure-equalization stability",
+    "symmetry-driven optimization"
+  ],
+  "geometry_type": "hexagonal tiling and pressure-equalized optimization geometry",
+  "signal_type": "temperature, viscosity, pressure, and boundary signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-1 gradient",
+      "MGO-4 distributed equalization",
+      "MGO-6 optimization"
+    ],
+    "signal_classes": [
+      "temperature-gradient signals",
+      "wax-viscosity signals",
+      "pressure-distribution signals"
+    ],
+    "invariants": [
+      "hexagonal-tiling coherence",
+      "surface-area minimization",
+      "pressure-equalization stability"
+    ],
+    "manifolds": [
+      "hexagonal-tiling manifold",
+      "surface-tension manifold",
+      "pressure-distribution manifold"
+    ],
+    "dynamics": [
+      "temperature drift",
+      "cell-collapse",
+      "curvature-restoration"
+    ]
+  },
+  "cross_domain_presence": "basalt columns, bubble packing, graphene lattice, optimal tiling solvers",
+  "source": "DSLO Natural Geometry Registry"
+}

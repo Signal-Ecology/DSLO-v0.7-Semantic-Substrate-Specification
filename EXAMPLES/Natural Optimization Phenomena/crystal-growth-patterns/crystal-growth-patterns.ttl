@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:crystal-growth-patterns a dlo:GeometryInstance ;
+    schema:name "Crystal Growth Patterns" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Energy-minimizing geometry formed through lattice alignment, gradient-driven growth fronts, and symmetry-driven faceting." ;
+    dlo:invariantProperties (
+        "lattice-coherence invariants"
+        "facet-stability invariants"
+        "gradient-bounded growth invariants"
+        "energy-minimizing optimization"
+    ) ;
+    dlo:geometryType "lattice-forming and gradient-driven optimization geometry" ;
+    dlo:signalType "diffusion, temperature, boundary, and molecular-binding signals" ;
+    dlo:dsloOperators (
+        "SGO-1 gradient"
+        "MGO-4 distributed alignment"
+        "MGO-6 optimization"
+    ) ;
+    dlo:dsloInvariants (
+        "lattice-coherence invariants"
+        "facet-stability invariants"
+        "gradient-bounded growth invariants"
+    ) ;
+    dlo:dsloManifolds (
+        "lattice manifold"
+        "facet-curvature manifold"
+        "diffusion-gradient manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "temperature drift"
+        "lattice-collapse"
+        "re-crystallization restoration"
+    ) ;
+    dlo:crossDomainPresence "snowflake symmetry, mineral dendrites, DLA, optimization solvers" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

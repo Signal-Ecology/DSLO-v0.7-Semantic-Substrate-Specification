@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:voronoi-patterns a dlo:GeometryInstance ;
+    schema:name "Voronoi Patterns" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Spatial partitions formed by proximity to seed points, producing convex regions and stable boundaries across biological and machine systems." ;
+    dlo:invariantProperties (
+        "proximity-bounded geometry"
+        "stable partition coherence"
+        "distance-defined boundaries"
+        "distributed spatial structure"
+    ) ;
+    dlo:geometryType "proximity-based spatial tessellation" ;
+    dlo:signalType "spatial competition and growth-front signals" ;
+    dlo:dsloOperators (
+        "BO-1 boundary formation"
+        "SGO-3 propagation"
+        "MGO-3 partitioning"
+    ) ;
+    dlo:dsloInvariants (
+        "proximity-bounded geometry"
+        "stable partition coherence"
+        "distance-defined boundaries"
+    ) ;
+    dlo:dsloManifolds (
+        "partition manifold"
+        "boundary curvature manifold"
+        "spatial coherence manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "boundary stabilization drift"
+        "seed-driven collapse"
+        "re-partition restoration"
+    ) ;
+    dlo:crossDomainPresence "biological tissues, crystal growth, urban planning, wireless networks, machine clustering" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

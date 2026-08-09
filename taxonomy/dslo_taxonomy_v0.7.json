@@ -1,0 +1,2247 @@
+{
+  "classes": [
+    {
+      "id": "semantic_curvature",
+      "type": "glossary",
+      "name": "Semantic Curvature",
+      "origin": "v0.7"
+    },
+    {
+      "id": "boundary",
+      "type": "glossary",
+      "name": "Boundary",
+      "origin": "v0.7"
+    },
+    {
+      "id": "boundary_integrity",
+      "type": "glossary",
+      "name": "Boundary Integrity",
+      "origin": "v0.7"
+    },
+    {
+      "id": "boundary_threshold",
+      "type": "glossary",
+      "name": "Boundary Threshold",
+      "origin": "v0.7"
+    },
+    {
+      "id": "boundary_strain",
+      "type": "glossary",
+      "name": "Boundary Strain",
+      "origin": "v0.7"
+    },
+    {
+      "id": "constraint_envelope",
+      "type": "glossary",
+      "name": "Constraint Envelope",
+      "origin": "v0.7"
+    },
+    {
+      "id": "continuity",
+      "type": "glossary",
+      "name": "Continuity",
+      "origin": "v0.7"
+    },
+    {
+      "id": "field_geometry",
+      "type": "glossary",
+      "name": "Field Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "geometry_invariant",
+      "type": "glossary",
+      "name": "Geometry Invariant",
+      "origin": "v0.7"
+    },
+    {
+      "id": "gradient_constraint",
+      "type": "glossary",
+      "name": "Gradient Constraint",
+      "origin": "v0.7"
+    },
+    {
+      "id": "layered_substrate",
+      "type": "glossary",
+      "name": "Layered Substrate",
+      "origin": "v0.7"
+    },
+    {
+      "id": "meaning_invariant",
+      "type": "glossary",
+      "name": "Meaning Invariant",
+      "origin": "v0.7"
+    },
+    {
+      "id": "semantic_manifold",
+      "type": "glossary",
+      "name": "Semantic Manifold",
+      "origin": "v0.7"
+    },
+    {
+      "id": "semantic_distance",
+      "type": "glossary",
+      "name": "Semantic Distance",
+      "origin": "v0.7"
+    },
+    {
+      "id": "semantic_gradient",
+      "type": "glossary",
+      "name": "Semantic Gradient",
+      "origin": "v0.7"
+    },
+    {
+      "id": "semantic_state",
+      "type": "glossary",
+      "name": "Semantic State",
+      "origin": "v0.7"
+    },
+    {
+      "id": "signal_integrity",
+      "type": "glossary",
+      "name": "Signal Integrity",
+      "origin": "v0.7"
+    },
+    {
+      "id": "stress_geometry",
+      "type": "glossary",
+      "name": "Stress Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "substrate_invariant_set",
+      "type": "glossary",
+      "name": "Substrate Invariant Set",
+      "origin": "v0.7"
+    },
+    {
+      "id": "zero_ambiguity_tolerance",
+      "type": "glossary",
+      "name": "Zero-Ambiguity Tolerance",
+      "origin": "v0.7"
+    },
+    {
+      "id": "abstraction_gradient",
+      "type": "glossary",
+      "name": "Abstraction Gradient",
+      "origin": "v0.7"
+    },
+    {
+      "id": "axiom_continuity",
+      "type": "glossary",
+      "name": "Axiom Continuity",
+      "origin": "v0.7"
+    },
+    {
+      "id": "boundary_reconstitution",
+      "type": "glossary",
+      "name": "Boundary Reconstitution",
+      "origin": "v0.7"
+    },
+    {
+      "id": "curvature_load_interaction",
+      "type": "glossary",
+      "name": "Curvature-Load Interaction",
+      "origin": "v0.7"
+    },
+    {
+      "id": "cycle_invariant_stability",
+      "type": "glossary",
+      "name": "Cycle-Invariant Stability",
+      "origin": "v0.7"
+    },
+    {
+      "id": "drift_load_coupling",
+      "type": "glossary",
+      "name": "Drift-Load Coupling",
+      "origin": "v0.7"
+    },
+    {
+      "id": "dynamic_region_shift",
+      "type": "glossary",
+      "name": "Dynamic Region Shift",
+      "origin": "v0.7"
+    },
+    {
+      "id": "embedding_stability",
+      "type": "glossary",
+      "name": "Embedding Stability",
+      "origin": "v0.7"
+    },
+    {
+      "id": "field_runtime_coupling",
+      "type": "glossary",
+      "name": "Field-Runtime Coupling",
+      "origin": "v0.7"
+    },
+    {
+      "id": "fallback_recovery_envelope",
+      "type": "glossary",
+      "name": "Fallback-Recovery Envelope",
+      "origin": "v0.7"
+    },
+    {
+      "id": "geometry_preserving_transition",
+      "type": "glossary",
+      "name": "Geometry-Preserving Transition",
+      "origin": "v0.7"
+    },
+    {
+      "id": "gradient_bound_operator",
+      "type": "glossary",
+      "name": "Gradient-Bound Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "high_pressure_equilibrium",
+      "type": "glossary",
+      "name": "High-Pressure Equilibrium",
+      "origin": "v0.7"
+    },
+    {
+      "id": "horizon_of_collapse",
+      "type": "glossary",
+      "name": "Horizon of Collapse",
+      "origin": "v0.7"
+    },
+    {
+      "id": "identity_gradient_interaction",
+      "type": "glossary",
+      "name": "Identity-Gradient Interaction",
+      "origin": "v0.7"
+    },
+    {
+      "id": "legality_curvature_coupling",
+      "type": "glossary",
+      "name": "Legality-Curvature Coupling",
+      "origin": "v0.7"
+    },
+    {
+      "id": "load_curvature_threshold",
+      "type": "glossary",
+      "name": "Load-Curvature Threshold",
+      "origin": "v0.7"
+    },
+    {
+      "id": "manifold_runtime_synchronization",
+      "type": "glossary",
+      "name": "Manifold-Runtime Synchronization",
+      "origin": "v0.7"
+    },
+    {
+      "id": "meaning_load_interaction",
+      "type": "glossary",
+      "name": "Meaning-Load Interaction",
+      "origin": "v0.7"
+    },
+    {
+      "id": "operator_gradient_compatibility",
+      "type": "glossary",
+      "name": "Operator-Gradient Compatibility",
+      "origin": "v0.7"
+    },
+    {
+      "id": "pressure_bound_stability",
+      "type": "glossary",
+      "name": "Pressure-Bound Stability",
+      "origin": "v0.7"
+    },
+    {
+      "id": "region_load_coupling",
+      "type": "glossary",
+      "name": "Region-Load Coupling",
+      "origin": "v0.7"
+    },
+    {
+      "id": "semantic_load_coupling",
+      "type": "glossary",
+      "name": "Semantic-Load Coupling",
+      "origin": "v0.7"
+    },
+    {
+      "id": "stability_gradient_envelope",
+      "type": "glossary",
+      "name": "Stability-Gradient Envelope",
+      "origin": "v0.7"
+    },
+    {
+      "id": "transition_curvature_constraint",
+      "type": "glossary",
+      "name": "Transition-Curvature Constraint",
+      "origin": "v0.7"
+    },
+    {
+      "id": "upward_load_propagation",
+      "type": "glossary",
+      "name": "Upward-Load Propagation",
+      "origin": "v0.7"
+    },
+    {
+      "id": "vector_curvature_interaction",
+      "type": "glossary",
+      "name": "Vector-Curvature Interaction",
+      "origin": "v0.7"
+    },
+    {
+      "id": "world_load_alignment",
+      "type": "glossary",
+      "name": "World-Load Alignment",
+      "origin": "v0.7"
+    },
+    {
+      "id": "zero_drift_envelope",
+      "type": "glossary",
+      "name": "Zero-Drift Envelope",
+      "origin": "v0.7"
+    },
+    {
+      "id": "unified_substrate_manifold",
+      "type": "glossary",
+      "name": "Unified Substrate Manifold",
+      "origin": "v0.7"
+    },
+    {
+      "id": "manifold_curvature_envelope",
+      "type": "glossary",
+      "name": "Manifold Curvature Envelope",
+      "origin": "v0.7"
+    },
+    {
+      "id": "manifold_boundary_mask",
+      "type": "glossary",
+      "name": "Manifold Boundary Mask",
+      "origin": "v0.7"
+    },
+    {
+      "id": "manifold_collapse_geometry",
+      "type": "glossary",
+      "name": "Manifold Collapse Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "manifold_recovery_geometry",
+      "type": "glossary",
+      "name": "Manifold Recovery Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "manifold_identity_field",
+      "type": "glossary",
+      "name": "Manifold Identity Field",
+      "origin": "v0.7"
+    },
+    {
+      "id": "manifold_operator_geometry",
+      "type": "glossary",
+      "name": "Manifold Operator Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "manifold_supervisor_geometry",
+      "type": "glossary",
+      "name": "Manifold Supervisor Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "manifold_projection_geometry",
+      "type": "glossary",
+      "name": "Manifold Projection Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "manifold_continuity_constraint",
+      "type": "glossary",
+      "name": "Manifold Continuity Constraint",
+      "origin": "v0.7"
+    },
+    {
+      "id": "meaning_trajectory",
+      "type": "glossary",
+      "name": "Meaning Trajectory",
+      "origin": "v0.7"
+    },
+    {
+      "id": "identity_region",
+      "type": "glossary",
+      "name": "Identity Region",
+      "origin": "v0.7"
+    },
+    {
+      "id": "region_configuration",
+      "type": "glossary",
+      "name": "Region Configuration",
+      "origin": "v0.7"
+    },
+    {
+      "id": "dynamic_region_shift",
+      "type": "glossary",
+      "name": "Dynamic Region Shift",
+      "origin": "v0.7"
+    },
+    {
+      "id": "world_container_alignment",
+      "type": "glossary",
+      "name": "World-Container Alignment",
+      "origin": "v0.7"
+    },
+    {
+      "id": "cross_substrate_mapping",
+      "type": "glossary",
+      "name": "Cross-Substrate Mapping",
+      "origin": "v0.7"
+    },
+    {
+      "id": "agency_manifold",
+      "type": "glossary",
+      "name": "Agency Manifold",
+      "origin": "v0.7"
+    },
+    {
+      "id": "actor_curvature",
+      "type": "glossary",
+      "name": "Actor Curvature",
+      "origin": "v0.7"
+    },
+    {
+      "id": "agency_boundary",
+      "type": "glossary",
+      "name": "Agency Boundary",
+      "origin": "v0.7"
+    },
+    {
+      "id": "agency_drift_envelope",
+      "type": "glossary",
+      "name": "Agency Drift Envelope",
+      "origin": "v0.7"
+    },
+    {
+      "id": "agency_stability_mode",
+      "type": "glossary",
+      "name": "Agency Stability Mode",
+      "origin": "v0.7"
+    },
+    {
+      "id": "teleology_manifold",
+      "type": "glossary",
+      "name": "Teleology Manifold",
+      "origin": "v0.7"
+    },
+    {
+      "id": "directional_curvature",
+      "type": "glossary",
+      "name": "Directional Curvature",
+      "origin": "v0.7"
+    },
+    {
+      "id": "teleological_boundary",
+      "type": "glossary",
+      "name": "Teleological Boundary",
+      "origin": "v0.7"
+    },
+    {
+      "id": "teleology_drift_vector",
+      "type": "glossary",
+      "name": "Teleology Drift Vector",
+      "origin": "v0.7"
+    },
+    {
+      "id": "teleology_stability_envelope",
+      "type": "glossary",
+      "name": "Teleology Stability Envelope",
+      "origin": "v0.7"
+    },
+    {
+      "id": "deployment_manifold",
+      "type": "glossary",
+      "name": "Deployment Manifold",
+      "origin": "v0.7"
+    },
+    {
+      "id": "deployment_curvature",
+      "type": "glossary",
+      "name": "Deployment Curvature",
+      "origin": "v0.7"
+    },
+    {
+      "id": "deployment_boundary",
+      "type": "glossary",
+      "name": "Deployment Boundary",
+      "origin": "v0.7"
+    },
+    {
+      "id": "deployment_drift_field",
+      "type": "glossary",
+      "name": "Deployment Drift Field",
+      "origin": "v0.7"
+    },
+    {
+      "id": "deployment_stability_constraint",
+      "type": "glossary",
+      "name": "Deployment Stability Constraint",
+      "origin": "v0.7"
+    },
+    {
+      "id": "execution_manifold",
+      "type": "glossary",
+      "name": "Execution Manifold",
+      "origin": "v0.7"
+    },
+    {
+      "id": "execution_curvature",
+      "type": "glossary",
+      "name": "Execution Curvature",
+      "origin": "v0.7"
+    },
+    {
+      "id": "execution_boundary",
+      "type": "glossary",
+      "name": "Execution Boundary",
+      "origin": "v0.7"
+    },
+    {
+      "id": "execution_drift_profile",
+      "type": "glossary",
+      "name": "Execution Drift Profile",
+      "origin": "v0.7"
+    },
+    {
+      "id": "execution_stability_mode",
+      "type": "glossary",
+      "name": "Execution Stability Mode",
+      "origin": "v0.7"
+    },
+    {
+      "id": "federation_manifold",
+      "type": "glossary",
+      "name": "Federation Manifold",
+      "origin": "v0.7"
+    },
+    {
+      "id": "federation_curvature",
+      "type": "glossary",
+      "name": "Federation Curvature",
+      "origin": "v0.7"
+    },
+    {
+      "id": "federation_boundary",
+      "type": "glossary",
+      "name": "Federation Boundary",
+      "origin": "v0.7"
+    },
+    {
+      "id": "federation_drift_channel",
+      "type": "glossary",
+      "name": "Federation Drift Channel",
+      "origin": "v0.7"
+    },
+    {
+      "id": "federation_stability_envelope",
+      "type": "glossary",
+      "name": "Federation Stability Envelope",
+      "origin": "v0.7"
+    },
+    {
+      "id": "omega_manifold",
+      "type": "glossary",
+      "name": "\u00ce\u00a9 Manifold",
+      "origin": "v0.7"
+    },
+    {
+      "id": "omega_curvature",
+      "type": "glossary",
+      "name": "\u00ce\u00a9 Curvature",
+      "origin": "v0.7"
+    },
+    {
+      "id": "omega_boundary",
+      "type": "glossary",
+      "name": "\u00ce\u00a9 Boundary",
+      "origin": "v0.7"
+    },
+    {
+      "id": "omega_drift_envelope",
+      "type": "glossary",
+      "name": "\u00ce\u00a9 Drift Envelope",
+      "origin": "v0.7"
+    },
+    {
+      "id": "omega_stability_mode",
+      "type": "glossary",
+      "name": "\u00ce\u00a9 Stability Mode",
+      "origin": "v0.7"
+    },
+    {
+      "id": "closure_manifold",
+      "type": "glossary",
+      "name": "Closure Manifold",
+      "origin": "v0.7"
+    },
+    {
+      "id": "closure_curvature",
+      "type": "glossary",
+      "name": "Closure Curvature",
+      "origin": "v0.7"
+    },
+    {
+      "id": "closure_boundary",
+      "type": "glossary",
+      "name": "Closure Boundary",
+      "origin": "v0.7"
+    },
+    {
+      "id": "closure_drift_channel",
+      "type": "glossary",
+      "name": "Closure Drift Channel",
+      "origin": "v0.7"
+    },
+    {
+      "id": "closure_stability_envelope",
+      "type": "glossary",
+      "name": "Closure Stability Envelope",
+      "origin": "v0.7"
+    },
+    {
+      "id": "behavioral_coherence",
+      "type": "glossary",
+      "name": "Behavioral Coherence",
+      "origin": "v0.7"
+    },
+    {
+      "id": "role_coherence",
+      "type": "glossary",
+      "name": "Role Coherence",
+      "origin": "v0.7"
+    },
+    {
+      "id": "role_pressure",
+      "type": "glossary",
+      "name": "Role Pressure",
+      "origin": "v0.7"
+    },
+    {
+      "id": "institutional_drift",
+      "type": "glossary",
+      "name": "Institutional Drift",
+      "origin": "v0.7"
+    },
+    {
+      "id": "edge_context",
+      "type": "glossary",
+      "name": "Edge Context",
+      "origin": "v0.7"
+    },
+    {
+      "id": "interpretive_window",
+      "type": "glossary",
+      "name": "Interpretive Window",
+      "origin": "v0.7"
+    },
+    {
+      "id": "identity_role_coherence_envelope",
+      "type": "glossary",
+      "name": "Identity-Role Coherence Envelope",
+      "origin": "v0.7"
+    },
+    {
+      "id": "relational_fields",
+      "type": "glossary",
+      "name": "Relational Fields",
+      "origin": "v0.7"
+    },
+    {
+      "id": "relational_drift",
+      "type": "glossary",
+      "name": "Relational Drift",
+      "origin": "v0.7"
+    },
+    {
+      "id": "relational_legality",
+      "type": "glossary",
+      "name": "Relational Legality",
+      "origin": "v0.7"
+    },
+    {
+      "id": "dual_drift",
+      "type": "glossary",
+      "name": "Dual Drift",
+      "origin": "v0.7"
+    },
+    {
+      "id": "human_machine_relational_dynamics",
+      "type": "glossary",
+      "name": "Human\u00e2\u20ac\u201cMachine Relational Dynamics",
+      "origin": "v0.7"
+    },
+    {
+      "id": "relational_collapse",
+      "type": "glossary",
+      "name": "Relational Collapse",
+      "origin": "v0.7"
+    },
+    {
+      "id": "relational_recovery",
+      "type": "glossary",
+      "name": "Relational Recovery",
+      "origin": "v0.7"
+    },
+    {
+      "id": "bind_operator_root",
+      "type": "glossary",
+      "name": "Bind Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "fold_operator_root",
+      "type": "glossary",
+      "name": "Fold Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "lift_operator_root",
+      "type": "glossary",
+      "name": "Lift Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "correction_operator",
+      "type": "glossary",
+      "name": "Correction Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "boundary_operator",
+      "type": "glossary",
+      "name": "Boundary Operator (BO)",
+      "origin": "v0.7"
+    },
+    {
+      "id": "semantic_operator",
+      "type": "glossary",
+      "name": "Semantic Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "operator_constraints",
+      "type": "glossary",
+      "name": "Operator Constraints",
+      "origin": "v0.7"
+    },
+    {
+      "id": "transformation_rules",
+      "type": "glossary",
+      "name": "Transformation Rules",
+      "origin": "v0.7"
+    },
+    {
+      "id": "gradient_bound_operator_expansion",
+      "type": "glossary",
+      "name": "Gradient-Bound Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "operator_gradient_compatibility_expansion",
+      "type": "glossary",
+      "name": "Operator-Gradient Compatibility",
+      "origin": "v0.7"
+    },
+    {
+      "id": "operator_of_reality",
+      "type": "glossary",
+      "name": "Operator of Reality",
+      "origin": "v0.7"
+    },
+    {
+      "id": "fold_operator",
+      "type": "glossary",
+      "name": "Fold Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "invert_operator",
+      "type": "glossary",
+      "name": "Invert Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "lift_operator",
+      "type": "glossary",
+      "name": "Lift Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "bind_operator",
+      "type": "glossary",
+      "name": "Bind Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "collapse_trajectory_operator",
+      "type": "glossary",
+      "name": "Collapse-Trajectory Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "recovery_window_operator",
+      "type": "glossary",
+      "name": "Recovery-Window Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "curvature_redirect_operator",
+      "type": "glossary",
+      "name": "Curvature-Redirect Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "identity_boundary_operator",
+      "type": "glossary",
+      "name": "Identity-Boundary Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "legality_preservation_operator",
+      "type": "glossary",
+      "name": "Legality-Preservation Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "drift",
+      "type": "glossary",
+      "name": "Drift",
+      "origin": "v0.7"
+    },
+    {
+      "id": "drift_envelope",
+      "type": "glossary",
+      "name": "Drift Envelope",
+      "origin": "v0.7"
+    },
+    {
+      "id": "drift_signature",
+      "type": "glossary",
+      "name": "Drift Signature",
+      "origin": "v0.7"
+    },
+    {
+      "id": "drift_vector",
+      "type": "glossary",
+      "name": "Drift Vector",
+      "origin": "v0.7"
+    },
+    {
+      "id": "drift_displacement",
+      "type": "glossary",
+      "name": "Drift Displacement",
+      "origin": "v0.7"
+    },
+    {
+      "id": "drift_propagation_field",
+      "type": "glossary",
+      "name": "Drift Propagation Field",
+      "origin": "v0.7"
+    },
+    {
+      "id": "drift_accumulation_envelope",
+      "type": "glossary",
+      "name": "Drift Accumulation Envelope",
+      "origin": "v0.7"
+    },
+    {
+      "id": "drift_detection_geometry",
+      "type": "glossary",
+      "name": "Drift Detection Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "drift_correction_geometry",
+      "type": "glossary",
+      "name": "Drift Correction Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "drift_halt_geometry",
+      "type": "glossary",
+      "name": "Drift Halt Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "meaning_load",
+      "type": "glossary",
+      "name": "Meaning Load",
+      "origin": "v0.7"
+    },
+    {
+      "id": "load_envelope",
+      "type": "glossary",
+      "name": "Load Envelope",
+      "origin": "v0.7"
+    },
+    {
+      "id": "stress_geometry",
+      "type": "glossary",
+      "name": "Stress Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "collapse_geometry",
+      "type": "glossary",
+      "name": "Collapse Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "recovery_geometry",
+      "type": "glossary",
+      "name": "Recovery Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "collapse_threshold",
+      "type": "glossary",
+      "name": "Collapse Threshold",
+      "origin": "v0.7"
+    },
+    {
+      "id": "collapse_curvature",
+      "type": "glossary",
+      "name": "Collapse Curvature",
+      "origin": "v0.7"
+    },
+    {
+      "id": "collapse_trajectory",
+      "type": "glossary",
+      "name": "Collapse Trajectory",
+      "origin": "v0.7"
+    },
+    {
+      "id": "collapse_envelope",
+      "type": "glossary",
+      "name": "Collapse Envelope",
+      "origin": "v0.7"
+    },
+    {
+      "id": "collapse_induced_drift",
+      "type": "glossary",
+      "name": "Collapse-Induced Drift",
+      "origin": "v0.7"
+    },
+    {
+      "id": "collapse_recovery_transition",
+      "type": "glossary",
+      "name": "Collapse-Recovery Transition",
+      "origin": "v0.7"
+    },
+    {
+      "id": "irrecoverable_failure_boundary",
+      "type": "glossary",
+      "name": "Irrecoverable Failure Boundary",
+      "origin": "v0.7"
+    },
+    {
+      "id": "recoverable_failure_boundary",
+      "type": "glossary",
+      "name": "Recoverable Failure Boundary",
+      "origin": "v0.7"
+    },
+    {
+      "id": "drift_load_coupling_expansion",
+      "type": "glossary",
+      "name": "Drift-Load Coupling",
+      "origin": "v0.7"
+    },
+    {
+      "id": "curvature_load_interaction_expansion",
+      "type": "glossary",
+      "name": "Curvature-Load Interaction",
+      "origin": "v0.7"
+    },
+    {
+      "id": "high_pressure_equilibrium_expansion",
+      "type": "glossary",
+      "name": "High-Pressure Equilibrium",
+      "origin": "v0.7"
+    },
+    {
+      "id": "horizon_of_collapse_expansion",
+      "type": "glossary",
+      "name": "Horizon of Collapse",
+      "origin": "v0.7"
+    },
+    {
+      "id": "pressure_bound_stability_expansion",
+      "type": "glossary",
+      "name": "Pressure-Bound Stability",
+      "origin": "v0.7"
+    },
+    {
+      "id": "region_load_coupling_expansion",
+      "type": "glossary",
+      "name": "Region-Load Coupling",
+      "origin": "v0.7"
+    },
+    {
+      "id": "semantic_load_coupling_expansion",
+      "type": "glossary",
+      "name": "Semantic-Load Coupling",
+      "origin": "v0.7"
+    },
+    {
+      "id": "stability_gradient_envelope_expansion",
+      "type": "glossary",
+      "name": "Stability-Gradient Envelope",
+      "origin": "v0.7"
+    },
+    {
+      "id": "transition_curvature_constraint_expansion",
+      "type": "glossary",
+      "name": "Transition-Curvature Constraint",
+      "origin": "v0.7"
+    },
+    {
+      "id": "upward_load_propagation_expansion",
+      "type": "glossary",
+      "name": "Upward-Load Propagation",
+      "origin": "v0.7"
+    },
+    {
+      "id": "vector_curvature_interaction_expansion",
+      "type": "glossary",
+      "name": "Vector-Curvature Interaction",
+      "origin": "v0.7"
+    },
+    {
+      "id": "world_load_alignment_expansion",
+      "type": "glossary",
+      "name": "World-Load Alignment",
+      "origin": "v0.7"
+    },
+    {
+      "id": "pressure_field",
+      "type": "glossary",
+      "name": "Pressure Field",
+      "origin": "v0.7"
+    },
+    {
+      "id": "pressure_flow_geometry",
+      "type": "glossary",
+      "name": "Pressure Flow Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "pressure_envelope",
+      "type": "glossary",
+      "name": "Pressure Envelope",
+      "origin": "v0.7"
+    },
+    {
+      "id": "pressure_profile",
+      "type": "glossary",
+      "name": "Pressure Profile",
+      "origin": "v0.7"
+    },
+    {
+      "id": "stress_induced_curvature",
+      "type": "glossary",
+      "name": "Stress-Induced Curvature",
+      "origin": "v0.7"
+    },
+    {
+      "id": "load_pressure_interaction",
+      "type": "glossary",
+      "name": "Load-Pressure Interaction",
+      "origin": "v0.7"
+    },
+    {
+      "id": "pressure_drift_interaction",
+      "type": "glossary",
+      "name": "Pressure-Drift Interaction",
+      "origin": "v0.7"
+    },
+    {
+      "id": "human_drift",
+      "type": "glossary",
+      "name": "Human Drift",
+      "origin": "v0.7"
+    },
+    {
+      "id": "machine_drift",
+      "type": "glossary",
+      "name": "Machine Drift",
+      "origin": "v0.7"
+    },
+    {
+      "id": "dual_drift_comparison",
+      "type": "glossary",
+      "name": "Dual Drift Comparison",
+      "origin": "v0.7"
+    },
+    {
+      "id": "dsup",
+      "type": "glossary",
+      "name": "DSUP",
+      "origin": "v0.7"
+    },
+    {
+      "id": "function_update_rule",
+      "type": "glossary",
+      "name": "Function Update Rule",
+      "origin": "v0.7"
+    },
+    {
+      "id": "update_function",
+      "type": "glossary",
+      "name": "Update Function",
+      "origin": "v0.7"
+    },
+    {
+      "id": "runtime_geometry",
+      "type": "glossary",
+      "name": "Runtime Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "lawful_transition",
+      "type": "glossary",
+      "name": "Lawful Transition",
+      "origin": "v0.7"
+    },
+    {
+      "id": "deterministic_transition",
+      "type": "glossary",
+      "name": "Deterministic Transition",
+      "origin": "v0.7"
+    },
+    {
+      "id": "deterministic_semantic_layer",
+      "type": "glossary",
+      "name": "Deterministic Semantic Layer",
+      "origin": "v0.7"
+    },
+    {
+      "id": "identity_preserving_update",
+      "type": "glossary",
+      "name": "Identity-Preserving Update",
+      "origin": "v0.7"
+    },
+    {
+      "id": "legality_mask",
+      "type": "glossary",
+      "name": "Legality Mask",
+      "origin": "v0.7"
+    },
+    {
+      "id": "legality_status",
+      "type": "glossary",
+      "name": "Legality Status",
+      "origin": "v0.7"
+    },
+    {
+      "id": "legality_invariant",
+      "type": "glossary",
+      "name": "Legality Invariant",
+      "origin": "v0.7"
+    },
+    {
+      "id": "transition_legality",
+      "type": "glossary",
+      "name": "Transition Legality",
+      "origin": "v0.7"
+    },
+    {
+      "id": "meaning_condition_coupling_root",
+      "type": "glossary",
+      "name": "Meaning-Condition Coupling",
+      "origin": "v0.7"
+    },
+    {
+      "id": "halt_condition",
+      "type": "glossary",
+      "name": "Halt Condition",
+      "origin": "v0.7"
+    },
+    {
+      "id": "recovery_mode",
+      "type": "glossary",
+      "name": "Recovery Mode",
+      "origin": "v0.7"
+    },
+    {
+      "id": "completion_cycle",
+      "type": "glossary",
+      "name": "Completion Cycle",
+      "origin": "v0.7"
+    },
+    {
+      "id": "axiom_continuity_runtime",
+      "type": "glossary",
+      "name": "Axiom Continuity",
+      "origin": "v0.7"
+    },
+    {
+      "id": "cycle_invariant_stability_runtime",
+      "type": "glossary",
+      "name": "Cycle-Invariant Stability",
+      "origin": "v0.7"
+    },
+    {
+      "id": "field_runtime_coupling_runtime",
+      "type": "glossary",
+      "name": "Field-Runtime Coupling",
+      "origin": "v0.7"
+    },
+    {
+      "id": "fallback_recovery_envelope_runtime",
+      "type": "glossary",
+      "name": "Fallback-Recovery Envelope",
+      "origin": "v0.7"
+    },
+    {
+      "id": "geometry_preserving_transition_runtime",
+      "type": "glossary",
+      "name": "Geometry-Preserving Transition",
+      "origin": "v0.7"
+    },
+    {
+      "id": "gradient_bound_operator_runtime",
+      "type": "glossary",
+      "name": "Gradient-Bound Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "manifold_runtime_synchronization_runtime",
+      "type": "glossary",
+      "name": "Manifold-Runtime Synchronization",
+      "origin": "v0.7"
+    },
+    {
+      "id": "operator_gradient_compatibility_runtime",
+      "type": "glossary",
+      "name": "Operator-Gradient Compatibility",
+      "origin": "v0.7"
+    },
+    {
+      "id": "dsup_runtime",
+      "type": "glossary",
+      "name": "DSUP Runtime",
+      "origin": "v0.7"
+    },
+    {
+      "id": "state_representation",
+      "type": "glossary",
+      "name": "State Representation",
+      "origin": "v0.7"
+    },
+    {
+      "id": "lawful_update_process",
+      "type": "glossary",
+      "name": "Lawful Update Process",
+      "origin": "v0.7"
+    },
+    {
+      "id": "constrained_evolution",
+      "type": "glossary",
+      "name": "Constrained Evolution",
+      "origin": "v0.7"
+    },
+    {
+      "id": "context_integrated_update",
+      "type": "glossary",
+      "name": "Context-Integrated Update",
+      "origin": "v0.7"
+    },
+    {
+      "id": "drift_coherence_update",
+      "type": "glossary",
+      "name": "Drift-Coherence Update",
+      "origin": "v0.7"
+    },
+    {
+      "id": "halt_condition_runtime",
+      "type": "glossary",
+      "name": "Halt Condition",
+      "origin": "v0.7"
+    },
+    {
+      "id": "recovery_geometry_runtime",
+      "type": "glossary",
+      "name": "Recovery Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "completion_cycle_runtime",
+      "type": "glossary",
+      "name": "Completion Cycle",
+      "origin": "v0.7"
+    },
+    {
+      "id": "meaning_condition_coupling_runtime",
+      "type": "glossary",
+      "name": "Meaning-Condition Coupling",
+      "origin": "v0.7"
+    },
+    {
+      "id": "interpretive_window_context",
+      "type": "glossary",
+      "name": "Interpretive Window",
+      "origin": "v0.7"
+    },
+    {
+      "id": "edge_context_context",
+      "type": "glossary",
+      "name": "Edge Context",
+      "origin": "v0.7"
+    },
+    {
+      "id": "world_container_alignment_context",
+      "type": "glossary",
+      "name": "World-Container Alignment",
+      "origin": "v0.7"
+    },
+    {
+      "id": "context_state_mapping_expansion",
+      "type": "glossary",
+      "name": "Context-State Mapping",
+      "origin": "v0.7"
+    },
+    {
+      "id": "embedding_stability_expansion",
+      "type": "glossary",
+      "name": "Embedding Stability",
+      "origin": "v0.7"
+    },
+    {
+      "id": "world_load_alignment_expansion_context",
+      "type": "glossary",
+      "name": "World-Load Alignment",
+      "origin": "v0.7"
+    },
+    {
+      "id": "context_window",
+      "type": "glossary",
+      "name": "Context Window",
+      "origin": "v0.7"
+    },
+    {
+      "id": "context_boundary",
+      "type": "glossary",
+      "name": "Context Boundary",
+      "origin": "v0.7"
+    },
+    {
+      "id": "context_drift",
+      "type": "glossary",
+      "name": "Context Drift",
+      "origin": "v0.7"
+    },
+    {
+      "id": "context_contraction_operator",
+      "type": "glossary",
+      "name": "Context Contraction Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "context_state_mapping",
+      "type": "glossary",
+      "name": "Context-State Mapping",
+      "origin": "v0.7"
+    },
+    {
+      "id": "context_legality_mask",
+      "type": "glossary",
+      "name": "Context Legality Mask",
+      "origin": "v0.7"
+    },
+    {
+      "id": "context_drift_flag",
+      "type": "glossary",
+      "name": "Context Drift Flag",
+      "origin": "v0.7"
+    },
+    {
+      "id": "context_region_association",
+      "type": "glossary",
+      "name": "Context Region Association",
+      "origin": "v0.7"
+    },
+    {
+      "id": "fallback_graph",
+      "type": "glossary",
+      "name": "Fallback Graph",
+      "origin": "v0.7"
+    },
+    {
+      "id": "fallback_geometry",
+      "type": "glossary",
+      "name": "Fallback Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "invariant_reload",
+      "type": "glossary",
+      "name": "Invariant Reload",
+      "origin": "v0.7"
+    },
+    {
+      "id": "proof_stack",
+      "type": "glossary",
+      "name": "Proof Stack",
+      "origin": "v0.7"
+    },
+    {
+      "id": "external_geometry",
+      "type": "glossary",
+      "name": "External Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "signal_substrate_coupling",
+      "type": "glossary",
+      "name": "Signal\u00e2\u20ac\u201cSubstrate Coupling",
+      "origin": "v0.7"
+    },
+    {
+      "id": "world_container_alignment_sim",
+      "type": "glossary",
+      "name": "World\u00e2\u20ac\u201cContainer Alignment",
+      "origin": "v0.7"
+    },
+    {
+      "id": "embedding_stability_sim",
+      "type": "glossary",
+      "name": "Embedding Stability",
+      "origin": "v0.7"
+    },
+    {
+      "id": "geometry_preserving_transition_sim",
+      "type": "glossary",
+      "name": "Geometry-Preserving Transition",
+      "origin": "v0.7"
+    },
+    {
+      "id": "field_runtime_coupling_sim",
+      "type": "glossary",
+      "name": "Field-Runtime Coupling",
+      "origin": "v0.7"
+    },
+    {
+      "id": "gradient_bound_operator_sim",
+      "type": "glossary",
+      "name": "Gradient-Bound Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "operator_gradient_compatibility_sim",
+      "type": "glossary",
+      "name": "Operator-Gradient Compatibility",
+      "origin": "v0.7"
+    },
+    {
+      "id": "irsm",
+      "type": "glossary",
+      "name": "Invariant-Restricted Simulation Mode (IRSM)",
+      "origin": "v0.7"
+    },
+    {
+      "id": "simulation_integrity_condition",
+      "type": "glossary",
+      "name": "Simulation Integrity Condition",
+      "origin": "v0.7"
+    },
+    {
+      "id": "static_anchoring",
+      "type": "glossary",
+      "name": "Static Anchoring",
+      "origin": "v0.7"
+    },
+    {
+      "id": "topological_anchors",
+      "type": "glossary",
+      "name": "Topological Anchors",
+      "origin": "v0.7"
+    },
+    {
+      "id": "four_plane_legality_check",
+      "type": "glossary",
+      "name": "Four-Plane Legality Check",
+      "origin": "v0.7"
+    },
+    {
+      "id": "text_projection_plane",
+      "type": "glossary",
+      "name": "Text Projection Plane",
+      "origin": "v0.7"
+    },
+    {
+      "id": "geometric_mapping_plane",
+      "type": "glossary",
+      "name": "Geometric Mapping Plane",
+      "origin": "v0.7"
+    },
+    {
+      "id": "invariant_validation_plane",
+      "type": "glossary",
+      "name": "Invariant Validation Plane",
+      "origin": "v0.7"
+    },
+    {
+      "id": "clcp_plane",
+      "type": "glossary",
+      "name": "CLCP Plane",
+      "origin": "v0.7"
+    },
+    {
+      "id": "identity_vector",
+      "type": "glossary",
+      "name": "Identity Vector",
+      "origin": "v0.7"
+    },
+    {
+      "id": "identity_invariant",
+      "type": "glossary",
+      "name": "Identity Invariant",
+      "origin": "v0.7"
+    },
+    {
+      "id": "identity_continuity",
+      "type": "glossary",
+      "name": "Identity Continuity",
+      "origin": "v0.7"
+    },
+    {
+      "id": "identity_preservation",
+      "type": "glossary",
+      "name": "Identity Preservation",
+      "origin": "v0.7"
+    },
+    {
+      "id": "identity_stability",
+      "type": "glossary",
+      "name": "Identity Stability",
+      "origin": "v0.7"
+    },
+    {
+      "id": "identity_boundary_collapse",
+      "type": "glossary",
+      "name": "Identity-Boundary Collapse",
+      "origin": "v0.7"
+    },
+    {
+      "id": "identity_region_root",
+      "type": "glossary",
+      "name": "Identity Region",
+      "origin": "v0.7"
+    },
+    {
+      "id": "boundary_integrity_identity",
+      "type": "glossary",
+      "name": "Boundary Integrity",
+      "origin": "v0.7"
+    },
+    {
+      "id": "boundary_threshold_identity",
+      "type": "glossary",
+      "name": "Boundary Threshold",
+      "origin": "v0.7"
+    },
+    {
+      "id": "boundary_strain_identity",
+      "type": "glossary",
+      "name": "Boundary Strain",
+      "origin": "v0.7"
+    },
+    {
+      "id": "boundary_reconstitution_identity",
+      "type": "glossary",
+      "name": "Boundary Reconstitution",
+      "origin": "v0.7"
+    },
+    {
+      "id": "identity_gradient_interaction_expansion",
+      "type": "glossary",
+      "name": "Identity-Gradient Interaction",
+      "origin": "v0.7"
+    },
+    {
+      "id": "identity_role_coherence_envelope_expansion",
+      "type": "glossary",
+      "name": "Identity-Role Coherence Envelope",
+      "origin": "v0.7"
+    },
+    {
+      "id": "identity_curvature",
+      "type": "glossary",
+      "name": "Identity Curvature",
+      "origin": "v0.7"
+    },
+    {
+      "id": "identity_boundary_mask",
+      "type": "glossary",
+      "name": "Identity Boundary Mask",
+      "origin": "v0.7"
+    },
+    {
+      "id": "identity_collapse_threshold",
+      "type": "glossary",
+      "name": "Identity Collapse Threshold",
+      "origin": "v0.7"
+    },
+    {
+      "id": "identity_recovery_geometry",
+      "type": "glossary",
+      "name": "Identity Recovery Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "identity_stability_mode",
+      "type": "glossary",
+      "name": "Identity Stability Mode",
+      "origin": "v0.7"
+    },
+    {
+      "id": "upward_coupling",
+      "type": "glossary",
+      "name": "Upward Coupling",
+      "origin": "v0.7"
+    },
+    {
+      "id": "upward_load_propagation_root",
+      "type": "glossary",
+      "name": "Upward-Load Propagation",
+      "origin": "v0.7"
+    },
+    {
+      "id": "drift_load_coupling_root",
+      "type": "glossary",
+      "name": "Drift-Load Coupling",
+      "origin": "v0.7"
+    },
+    {
+      "id": "region_load_coupling_root",
+      "type": "glossary",
+      "name": "Region-Load Coupling",
+      "origin": "v0.7"
+    },
+    {
+      "id": "semantic_load_coupling_root",
+      "type": "glossary",
+      "name": "Semantic-Load Coupling",
+      "origin": "v0.7"
+    },
+    {
+      "id": "world_load_alignment_root",
+      "type": "glossary",
+      "name": "World-Load Alignment",
+      "origin": "v0.7"
+    },
+    {
+      "id": "load_curvature_threshold_expansion",
+      "type": "glossary",
+      "name": "Load-Curvature Threshold",
+      "origin": "v0.7"
+    },
+    {
+      "id": "pressure_bound_stability_expansion_coupling",
+      "type": "glossary",
+      "name": "Pressure-Bound Stability",
+      "origin": "v0.7"
+    },
+    {
+      "id": "curvature_load_interaction_expansion_coupling",
+      "type": "glossary",
+      "name": "Curvature-Load Interaction",
+      "origin": "v0.7"
+    },
+    {
+      "id": "stability_gradient_envelope_expansion_coupling",
+      "type": "glossary",
+      "name": "Stability-Gradient Envelope",
+      "origin": "v0.7"
+    },
+    {
+      "id": "downward_coupling",
+      "type": "glossary",
+      "name": "Downward Coupling",
+      "origin": "v0.7"
+    },
+    {
+      "id": "coupling_mechanism",
+      "type": "glossary",
+      "name": "Coupling Mechanism",
+      "origin": "v0.7"
+    },
+    {
+      "id": "coupling_failure_geometry",
+      "type": "glossary",
+      "name": "Coupling Failure Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "coupling_event_geometry",
+      "type": "glossary",
+      "name": "Coupling Event Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "coupling_threshold",
+      "type": "glossary",
+      "name": "Coupling Threshold",
+      "origin": "v0.7"
+    },
+    {
+      "id": "coupling_drift_channel",
+      "type": "glossary",
+      "name": "Coupling Drift Channel",
+      "origin": "v0.7"
+    },
+    {
+      "id": "coupling_stability_envelope",
+      "type": "glossary",
+      "name": "Coupling Stability Envelope",
+      "origin": "v0.7"
+    },
+    {
+      "id": "multi_agent_coupling_networks",
+      "type": "glossary",
+      "name": "Multi-Agent Coupling Networks",
+      "origin": "v0.7"
+    },
+    {
+      "id": "A001",
+      "type": "manifold",
+      "name": "Agency Manifold",
+      "origin": "v0.7"
+    },
+    {
+      "id": "T001",
+      "type": "manifold",
+      "name": "Teleology Manifold",
+      "origin": "v0.7"
+    },
+    {
+      "id": "D001",
+      "type": "manifold",
+      "name": "Deployment Manifold",
+      "origin": "v0.7"
+    },
+    {
+      "id": "E001",
+      "type": "manifold",
+      "name": "Execution Manifold",
+      "origin": "v0.7"
+    },
+    {
+      "id": "F001",
+      "type": "manifold",
+      "name": "Federation Manifold",
+      "origin": "v0.7"
+    },
+    {
+      "id": "O001",
+      "type": "manifold",
+      "name": "\u00ce\u00a9 Manifold",
+      "origin": "v0.7"
+    },
+    {
+      "id": "OR001",
+      "type": "operator",
+      "name": "Fold Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "OR002",
+      "type": "operator",
+      "name": "Lift Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "OR003",
+      "type": "operator",
+      "name": "Invert Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "OR004",
+      "type": "operator",
+      "name": "Bind Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "OR005",
+      "type": "operator",
+      "name": "Collapse-Trajectory Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "OR006",
+      "type": "operator",
+      "name": "Recovery-Window Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "OR007",
+      "type": "operator",
+      "name": "Curvature-Redirect Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "OR008",
+      "type": "operator",
+      "name": "Identity-Boundary Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "OR009",
+      "type": "operator",
+      "name": "Legality-Preservation Operator",
+      "origin": "v0.7"
+    },
+    {
+      "id": "OR000",
+      "type": "operator",
+      "name": "Operator of Reality",
+      "origin": "v0.7"
+    },
+    {
+      "id": "RT001",
+      "type": "runtime",
+      "name": "DSUP State Machine",
+      "origin": "v0.7"
+    },
+    {
+      "id": "RT002",
+      "type": "runtime",
+      "name": "DSUP Update Cycle",
+      "origin": "v0.7"
+    },
+    {
+      "id": "RT003",
+      "type": "runtime",
+      "name": "DSUP Halt Conditions",
+      "origin": "v0.7"
+    },
+    {
+      "id": "RT004",
+      "type": "runtime",
+      "name": "DSUP Recovery Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "RT005",
+      "type": "runtime",
+      "name": "Meaning-Condition Coupling",
+      "origin": "v0.7"
+    },
+    {
+      "id": "RT006",
+      "type": "runtime",
+      "name": "Context Window Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "RT007",
+      "type": "runtime",
+      "name": "Context Legality Masks",
+      "origin": "v0.7"
+    },
+    {
+      "id": "RT008",
+      "type": "runtime",
+      "name": "Context Contraction Operators",
+      "origin": "v0.7"
+    },
+    {
+      "id": "RT009",
+      "type": "runtime",
+      "name": "Signal Engine SE01",
+      "origin": "v0.7"
+    },
+    {
+      "id": "RT010",
+      "type": "runtime",
+      "name": "Simulation Geometry",
+      "origin": "v0.7"
+    },
+    {
+      "id": "LG001",
+      "type": "legality",
+      "name": "Four-Plane Legality Check",
+      "origin": "v0.7"
+    },
+    {
+      "id": "LG002",
+      "type": "legality",
+      "name": "CLCP Plane",
+      "origin": "v0.7"
+    },
+    {
+      "id": "LG003",
+      "type": "legality",
+      "name": "Invariant Validation Plane",
+      "origin": "v0.7"
+    },
+    {
+      "id": "LG004",
+      "type": "legality",
+      "name": "Legality Masks",
+      "origin": "v0.7"
+    }
+  ],
+  "hierarchy": [
+    {
+      "parent": "glossary",
+      "child": "manifold"
+    },
+    {
+      "parent": "manifold",
+      "child": "operator"
+    },
+    {
+      "parent": "operator",
+      "child": "runtime"
+    },
+    {
+      "parent": "runtime",
+      "child": "legality"
+    }
+  ],
+  "compartments": [
+    {
+      "name": "Glossary Substrate",
+      "contains": [
+        "semantic_curvature",
+        "boundary",
+        "boundary_integrity",
+        "boundary_threshold",
+        "boundary_strain",
+        "constraint_envelope",
+        "continuity",
+        "field_geometry",
+        "geometry_invariant",
+        "gradient_constraint",
+        "layered_substrate",
+        "meaning_invariant",
+        "semantic_manifold",
+        "semantic_distance",
+        "semantic_gradient",
+        "semantic_state",
+        "signal_integrity",
+        "stress_geometry",
+        "substrate_invariant_set",
+        "zero_ambiguity_tolerance",
+        "abstraction_gradient",
+        "axiom_continuity",
+        "boundary_reconstitution",
+        "curvature_load_interaction",
+        "cycle_invariant_stability",
+        "drift_load_coupling",
+        "dynamic_region_shift",
+        "embedding_stability",
+        "field_runtime_coupling",
+        "fallback_recovery_envelope",
+        "geometry_preserving_transition",
+        "gradient_bound_operator",
+        "high_pressure_equilibrium",
+        "horizon_of_collapse",
+        "identity_gradient_interaction",
+        "legality_curvature_coupling",
+        "load_curvature_threshold",
+        "manifold_runtime_synchronization",
+        "meaning_load_interaction",
+        "operator_gradient_compatibility",
+        "pressure_bound_stability",
+        "region_load_coupling",
+        "semantic_load_coupling",
+        "stability_gradient_envelope",
+        "transition_curvature_constraint",
+        "upward_load_propagation",
+        "vector_curvature_interaction",
+        "world_load_alignment",
+        "zero_drift_envelope",
+        "unified_substrate_manifold",
+        "manifold_curvature_envelope",
+        "manifold_boundary_mask",
+        "manifold_collapse_geometry",
+        "manifold_recovery_geometry",
+        "manifold_identity_field",
+        "manifold_operator_geometry",
+        "manifold_supervisor_geometry",
+        "manifold_projection_geometry",
+        "manifold_continuity_constraint",
+        "meaning_trajectory",
+        "identity_region",
+        "region_configuration",
+        "dynamic_region_shift",
+        "world_container_alignment",
+        "cross_substrate_mapping",
+        "agency_manifold",
+        "actor_curvature",
+        "agency_boundary",
+        "agency_drift_envelope",
+        "agency_stability_mode",
+        "teleology_manifold",
+        "directional_curvature",
+        "teleological_boundary",
+        "teleology_drift_vector",
+        "teleology_stability_envelope",
+        "deployment_manifold",
+        "deployment_curvature",
+        "deployment_boundary",
+        "deployment_drift_field",
+        "deployment_stability_constraint",
+        "execution_manifold",
+        "execution_curvature",
+        "execution_boundary",
+        "execution_drift_profile",
+        "execution_stability_mode",
+        "federation_manifold",
+        "federation_curvature",
+        "federation_boundary",
+        "federation_drift_channel",
+        "federation_stability_envelope",
+        "omega_manifold",
+        "omega_curvature",
+        "omega_boundary",
+        "omega_drift_envelope",
+        "omega_stability_mode",
+        "closure_manifold",
+        "closure_curvature",
+        "closure_boundary",
+        "closure_drift_channel",
+        "closure_stability_envelope",
+        "behavioral_coherence",
+        "role_coherence",
+        "role_pressure",
+        "institutional_drift",
+        "edge_context",
+        "interpretive_window",
+        "identity_role_coherence_envelope",
+        "relational_fields",
+        "relational_drift",
+        "relational_legality",
+        "dual_drift",
+        "human_machine_relational_dynamics",
+        "relational_collapse",
+        "relational_recovery",
+        "bind_operator_root",
+        "fold_operator_root",
+        "lift_operator_root",
+        "correction_operator",
+        "boundary_operator",
+        "semantic_operator",
+        "operator_constraints",
+        "transformation_rules",
+        "gradient_bound_operator_expansion",
+        "operator_gradient_compatibility_expansion",
+        "operator_of_reality",
+        "fold_operator",
+        "invert_operator",
+        "lift_operator",
+        "bind_operator",
+        "collapse_trajectory_operator",
+        "recovery_window_operator",
+        "curvature_redirect_operator",
+        "identity_boundary_operator",
+        "legality_preservation_operator",
+        "drift",
+        "drift_envelope",
+        "drift_signature",
+        "drift_vector",
+        "drift_displacement",
+        "drift_propagation_field",
+        "drift_accumulation_envelope",
+        "drift_detection_geometry",
+        "drift_correction_geometry",
+        "drift_halt_geometry",
+        "meaning_load",
+        "load_envelope",
+        "stress_geometry",
+        "collapse_geometry",
+        "recovery_geometry",
+        "collapse_threshold",
+        "collapse_curvature",
+        "collapse_trajectory",
+        "collapse_envelope",
+        "collapse_induced_drift",
+        "collapse_recovery_transition",
+        "irrecoverable_failure_boundary",
+        "recoverable_failure_boundary",
+        "drift_load_coupling_expansion",
+        "curvature_load_interaction_expansion",
+        "high_pressure_equilibrium_expansion",
+        "horizon_of_collapse_expansion",
+        "pressure_bound_stability_expansion",
+        "region_load_coupling_expansion",
+        "semantic_load_coupling_expansion",
+        "stability_gradient_envelope_expansion",
+        "transition_curvature_constraint_expansion",
+        "upward_load_propagation_expansion",
+        "vector_curvature_interaction_expansion",
+        "world_load_alignment_expansion",
+        "pressure_field",
+        "pressure_flow_geometry",
+        "pressure_envelope",
+        "pressure_profile",
+        "stress_induced_curvature",
+        "load_pressure_interaction",
+        "pressure_drift_interaction",
+        "human_drift",
+        "machine_drift",
+        "dual_drift_comparison",
+        "dsup",
+        "function_update_rule",
+        "update_function",
+        "runtime_geometry",
+        "lawful_transition",
+        "deterministic_transition",
+        "deterministic_semantic_layer",
+        "identity_preserving_update",
+        "legality_mask",
+        "legality_status",
+        "legality_invariant",
+        "transition_legality",
+        "meaning_condition_coupling_root",
+        "halt_condition",
+        "recovery_mode",
+        "completion_cycle",
+        "axiom_continuity_runtime",
+        "cycle_invariant_stability_runtime",
+        "field_runtime_coupling_runtime",
+        "fallback_recovery_envelope_runtime",
+        "geometry_preserving_transition_runtime",
+        "gradient_bound_operator_runtime",
+        "manifold_runtime_synchronization_runtime",
+        "operator_gradient_compatibility_runtime",
+        "dsup_runtime",
+        "state_representation",
+        "lawful_update_process",
+        "constrained_evolution",
+        "context_integrated_update",
+        "drift_coherence_update",
+        "halt_condition_runtime",
+        "recovery_geometry_runtime",
+        "completion_cycle_runtime",
+        "meaning_condition_coupling_runtime",
+        "interpretive_window_context",
+        "edge_context_context",
+        "world_container_alignment_context",
+        "context_state_mapping_expansion",
+        "embedding_stability_expansion",
+        "world_load_alignment_expansion_context",
+        "context_window",
+        "context_boundary",
+        "context_drift",
+        "context_contraction_operator",
+        "context_state_mapping",
+        "context_legality_mask",
+        "context_drift_flag",
+        "context_region_association",
+        "fallback_graph",
+        "fallback_geometry",
+        "invariant_reload",
+        "proof_stack",
+        "external_geometry",
+        "signal_substrate_coupling",
+        "world_container_alignment_sim",
+        "embedding_stability_sim",
+        "geometry_preserving_transition_sim",
+        "field_runtime_coupling_sim",
+        "gradient_bound_operator_sim",
+        "operator_gradient_compatibility_sim",
+        "irsm",
+        "simulation_integrity_condition",
+        "static_anchoring",
+        "topological_anchors",
+        "four_plane_legality_check",
+        "text_projection_plane",
+        "geometric_mapping_plane",
+        "invariant_validation_plane",
+        "clcp_plane",
+        "identity_vector",
+        "identity_invariant",
+        "identity_continuity",
+        "identity_preservation",
+        "identity_stability",
+        "identity_boundary_collapse",
+        "identity_region_root",
+        "boundary_integrity_identity",
+        "boundary_threshold_identity",
+        "boundary_strain_identity",
+        "boundary_reconstitution_identity",
+        "identity_gradient_interaction_expansion",
+        "identity_role_coherence_envelope_expansion",
+        "identity_curvature",
+        "identity_boundary_mask",
+        "identity_collapse_threshold",
+        "identity_recovery_geometry",
+        "identity_stability_mode",
+        "upward_coupling",
+        "upward_load_propagation_root",
+        "drift_load_coupling_root",
+        "region_load_coupling_root",
+        "semantic_load_coupling_root",
+        "world_load_alignment_root",
+        "load_curvature_threshold_expansion",
+        "pressure_bound_stability_expansion_coupling",
+        "curvature_load_interaction_expansion_coupling",
+        "stability_gradient_envelope_expansion_coupling",
+        "downward_coupling",
+        "coupling_mechanism",
+        "coupling_failure_geometry",
+        "coupling_event_geometry",
+        "coupling_threshold",
+        "coupling_drift_channel",
+        "coupling_stability_envelope",
+        "multi_agent_coupling_networks"
+      ]
+    },
+    {
+      "name": "Manifold Geometry",
+      "contains": [
+        "A001",
+        "T001",
+        "D001",
+        "E001",
+        "F001",
+        "O001"
+      ]
+    },
+    {
+      "name": "Operator Geometry",
+      "contains": [
+        "OR001",
+        "OR002",
+        "OR003",
+        "OR004",
+        "OR005",
+        "OR006",
+        "OR007",
+        "OR008",
+        "OR009",
+        "OR000"
+      ]
+    },
+    {
+      "name": "Runtime Geometry",
+      "contains": [
+        "RT001",
+        "RT002",
+        "RT003",
+        "RT004",
+        "RT005",
+        "RT006",
+        "RT007",
+        "RT008",
+        "RT009",
+        "RT010"
+      ]
+    },
+    {
+      "name": "Legality Geometry",
+      "contains": [
+        "LG001",
+        "LG002",
+        "LG003",
+        "LG004"
+      ]
+    }
+  ]
+}

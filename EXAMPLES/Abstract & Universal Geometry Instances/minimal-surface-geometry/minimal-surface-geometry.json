@@ -1,0 +1,46 @@
+{
+  "id": "minimal-surface-geometry",
+  "name": "Minimal Surface Geometry",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Energy-minimizing geometric forms with zero mean curvature, arising from tension and boundary constraints in physical systems.",
+  "invariant_properties": [
+    "zero mean curvature",
+    "area minimization",
+    "stable equilibrium geometry",
+    "curvature-bounded manifolds"
+  ],
+  "geometry_type": "energy-minimizing curvature geometry",
+  "signal_type": "physical tension and boundary constraint signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-4 optimization",
+      "BO-1 boundary curvature",
+      "MGO-1 equilibrium"
+    ],
+    "signal_classes": [
+      "physical tension signals",
+      "energy minimization signals",
+      "boundary constraint signals"
+    ],
+    "invariants": [
+      "zero mean curvature",
+      "energy-optimal geometry",
+      "stable equilibrium manifolds"
+    ],
+    "manifolds": [
+      "minimal surface manifold",
+      "boundary constraint manifold",
+      "curvature-bounded manifold"
+    ],
+    "dynamics": [
+      "relaxation drift",
+      "boundary-driven collapse",
+      "tension-based restoration"
+    ]
+  },
+  "cross_domain_presence": "soap films, biological membranes, tensile architecture, mathematical optimization",
+  "source": "DSLO Natural Geometry Registry"
+}
+

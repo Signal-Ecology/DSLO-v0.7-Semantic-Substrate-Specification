@@ -1,0 +1,46 @@
+{
+  "id": "polynesian-stick-charts",
+  "name": "Polynesian Stick Charts",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Navigational geometries encoding ocean swells, wave interactions, and island positions using curved rods, intersections, and shell markers.",
+  "invariant_properties": [
+    "curvature-family coherence",
+    "intersection-pattern stability",
+    "node-anchored spatial encoding",
+    "distributed environmental structure"
+  ],
+  "geometry_type": "curvature-based ocean-signal geometry",
+  "signal_type": "ocean swell, wave-interaction, and wind-direction signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-2 diffusion",
+      "BO-3 landmark encoding",
+      "MGO-4 distributed cognition"
+    ],
+    "signal_classes": [
+      "ocean swell signals",
+      "wave-interaction signals",
+      "wind-direction signals"
+    ],
+    "invariants": [
+      "curvature-family coherence",
+      "intersection-pattern stability",
+      "node-anchored spatial encoding"
+    ],
+    "manifolds": [
+      "swell-curvature manifold",
+      "intersection manifold",
+      "island-node manifold"
+    ],
+    "dynamics": [
+      "seasonal drift",
+      "material collapse",
+      "cultural restoration"
+    ]
+  },
+  "cross_domain_presence": "Inuit drift-ice navigation, Marshallese wave-piloting, portolan charts, wave-field modeling",
+  "source": "DSLO Natural Geometry Registry"
+}
+

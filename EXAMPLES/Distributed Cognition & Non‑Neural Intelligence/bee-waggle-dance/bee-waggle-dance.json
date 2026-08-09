@@ -1,0 +1,46 @@
+{
+  "id": "bee-waggle-dance",
+  "name": "Bee Waggle Dance",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Distributed geometric communication system encoding direction, distance, and resource quality through angle, waggle duration, and vibrational amplitude.",
+  "invariant_properties": [
+    "angle-direction coherence",
+    "duration-distance stability",
+    "vibrational-quality encoding",
+    "collective decoding invariants"
+  ],
+  "geometry_type": "angle-metric and vibrational communication geometry",
+  "signal_type": "tactile, vibrational, and solar-azimuth signals",
+  "dslo_interpretation": {
+    "operators": [
+      "BO-2 orientation",
+      "SGO-1 gradient metric",
+      "SGO-6 rhythmic encoding"
+    ],
+    "signal_classes": [
+      "tactile signals",
+      "vibrational signals",
+      "solar-azimuth signals"
+    ],
+    "invariants": [
+      "angle-direction coherence",
+      "duration-distance stability",
+      "vibrational-quality encoding"
+    ],
+    "manifolds": [
+      "angular manifold",
+      "duration manifold",
+      "vibrational manifold"
+    ],
+    "dynamics": [
+      "solar-drift",
+      "signal-interference collapse",
+      "collective restoration"
+    ]
+  },
+  "cross_domain_presence": "ant gradients, flock signaling, swarm robotics",
+  "source": "DSLO Natural Geometry Registry"
+}
+

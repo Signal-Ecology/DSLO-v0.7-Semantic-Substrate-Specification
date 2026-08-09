@@ -1,0 +1,41 @@
+
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:honeycomb-tiling a dlo:GeometryInstance ;
+    schema:name "Honeycomb Tiling" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Surface-area-minimizing geometry formed through wax flow, pressure equalization, and symmetry-driven tessellation." ;
+    dlo:invariantProperties (
+        "hexagonal-tiling coherence"
+        "surface-area minimization"
+        "pressure-equalization stability"
+        "symmetry-driven optimization"
+    ) ;
+    dlo:geometryType "hexagonal tiling and pressure-equalized optimization geometry" ;
+    dlo:signalType "temperature, viscosity, pressure, and boundary signals" ;
+    dlo:dsloOperators (
+        "SGO-1 gradient"
+        "MGO-4 distributed equalization"
+        "MGO-6 optimization"
+    ) ;
+    dlo:dsloInvariants (
+        "hexagonal-tiling coherence"
+        "surface-area minimization"
+        "pressure-equalization stability"
+    ) ;
+    dlo:dsloManifolds (
+        "hexagonal-tiling manifold"
+        "surface-tension manifold"
+        "pressure-distribution manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "temperature drift"
+        "cell-collapse"
+        "curvature-restoration"
+    ) ;
+    dlo:crossDomainPresence "basalt columns, bubble packing, graphene lattice, optimal tiling solvers" ;
+    dlo:source "DSLO Natural Geometry Registry" .

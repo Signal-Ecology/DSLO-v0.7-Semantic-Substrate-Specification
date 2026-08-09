@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:gps-trilateration a dlo:GeometryInstance ;
+    schema:name "GPS Trilateration" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Global positioning geometry formed through timing-signal gradients, spherical distance manifolds, and multi-satellite intersection." ;
+    dlo:invariantProperties (
+        "spherical-distance coherence"
+        "multi-satellite intersection stability"
+        "timing-gradient invariants"
+        "relativistic correction stability"
+    ) ;
+    dlo:geometryType "spherical multilateration geometry" ;
+    dlo:signalType "timestamp, ephemeris, atmospheric delay, and clock-bias signals" ;
+    dlo:dsloOperators (
+        "SGO-1 gradient"
+        "MGO-1 intersection"
+        "BO-4 routing"
+    ) ;
+    dlo:dsloInvariants (
+        "spherical-distance coherence"
+        "multi-satellite intersection stability"
+        "timing-gradient invariants"
+    ) ;
+    dlo:dsloManifolds (
+        "distance-sphere manifold"
+        "intersection manifold"
+        "ephemeris manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "clock drift"
+        "signal-collapse"
+        "re-sync restoration"
+    ) ;
+    dlo:crossDomainPresence "radio trilateration, acoustic positioning, Wi-Fi RTT, multilateration algorithms" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

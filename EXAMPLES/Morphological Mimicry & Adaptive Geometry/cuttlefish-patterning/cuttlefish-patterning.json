@@ -1,0 +1,46 @@
+{
+  "id": "cuttlefish-patterning",
+  "name": "Cuttlefish Patterning",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Modular adaptive geometry formed through reaction–diffusion pattern modes, gradient sensing, and texture-aligned curvature.",
+  "invariant_properties": [
+    "modular-pattern coherence",
+    "reaction-diffusion stability",
+    "texture-aligned curvature",
+    "distributed pattern synthesis"
+  ],
+  "geometry_type": "modular reaction–diffusion and texture-adaptive morphological geometry",
+  "signal_type": "light-gradient, substrate-texture, boundary-shape, and chromatophore-cluster signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-1 gradient",
+      "SGO-4 reaction-diffusion",
+      "MGO-5 adaptive morphology"
+    ],
+    "signal_classes": [
+      "light-gradient signals",
+      "substrate-texture signals",
+      "boundary-shape signals"
+    ],
+    "invariants": [
+      "modular-pattern coherence",
+      "reaction-diffusion stability",
+      "texture-aligned curvature"
+    ],
+    "manifolds": [
+      "pattern-bank manifold",
+      "reaction-diffusion manifold",
+      "texture-alignment manifold"
+    ],
+    "dynamics": [
+      "environmental drift",
+      "signal-collapse",
+      "pattern-switch restoration"
+    ]
+  },
+  "cross_domain_presence": "cephalopod camouflage, orchid mantis mimicry, adaptive machine textures, procedural pattern libraries",
+  "source": "DSLO Natural Geometry Registry"
+}
+

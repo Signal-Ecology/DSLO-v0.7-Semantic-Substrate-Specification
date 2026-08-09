@@ -1,0 +1,46 @@
+{
+  "id": "l-systems",
+  "name": "L-Systems",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Recursive symbolic rewriting systems that generate branching and fractal geometry through deterministic production rules.",
+  "invariant_properties": [
+    "recursive rewriting",
+    "self-similar geometry",
+    "branching coherence",
+    "deterministic growth"
+  ],
+  "geometry_type": "recursive fractal and branching geometry",
+  "signal_type": "synthetic symbolic rewriting signals",
+  "dslo_interpretation": {
+    "operators": [
+      "MGO-2 recursive growth",
+      "SGO-3 propagation",
+      "BO-2 orientation"
+    ],
+    "signal_classes": [
+      "synthetic symbolic signals",
+      "biological branching signals",
+      "environmental modulation signals"
+    ],
+    "invariants": [
+      "recursive growth invariants",
+      "branching coherence",
+      "self-similar geometry"
+    ],
+    "manifolds": [
+      "recursive rewriting manifold",
+      "branching manifold",
+      "orientation manifold"
+    ],
+    "dynamics": [
+      "iterative drift",
+      "rule-collapse",
+      "restoration via stable production rules"
+    ]
+  },
+  "cross_domain_presence": "plant morphogenesis, coral growth, generative architecture, procedural graphics",
+  "source": "DSLO Natural Geometry Registry"
+}
+

@@ -1,0 +1,46 @@
+{
+  "id": "lightning-path-formation",
+  "name": "Lightning Path Formation",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Gradient-driven optimization geometry formed through branching leaders, ionization fields, and least-resistance path selection.",
+  "invariant_properties": [
+    "least-resistance coherence",
+    "branching-fractal stability",
+    "gradient-driven propagation",
+    "charge-distribution optimization"
+  ],
+  "geometry_type": "fractal-branching and gradient-driven optimization geometry",
+  "signal_type": "electrical-potential, ionization-density, atmospheric-boundary, and charge-distribution signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-1 gradient",
+      "MGO-4 distributed exploration",
+      "MGO-6 optimization"
+    ],
+    "signal_classes": [
+      "electrical-potential signals",
+      "ionization-density signals",
+      "atmospheric-boundary signals"
+    ],
+    "invariants": [
+      "least-resistance coherence",
+      "branching-fractal stability",
+      "gradient-driven propagation"
+    ],
+    "manifolds": [
+      "fractal-branching manifold",
+      "ionization-gradient manifold",
+      "potential-curvature manifold"
+    ],
+    "dynamics": [
+      "atmospheric drift",
+      "leader-collapse",
+      "branch-restoration"
+    ]
+  },
+  "cross_domain_presence": "river deltas, dendritic growth, DLA, path optimization algorithms",
+  "source": "DSLO Natural Geometry Registry"
+}
+

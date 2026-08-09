@@ -1,0 +1,46 @@
+{
+  "id": "wireless-spectrum-geometry",
+  "name": "Wireless Spectrum Geometry",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Electromagnetic routing geometry formed through frequency partitioning, interference gradients, propagation loss, and modulation constraints.",
+  "invariant_properties": [
+    "frequency-partition coherence",
+    "interference-gradient stability",
+    "constraint-bounded channel access",
+    "multi-layer modulation invariants"
+  ],
+  "geometry_type": "frequency-partition and interference-gradient geometry",
+  "signal_type": "power, modulation, interference, noise, and regulatory signals",
+  "dslo_interpretation": {
+    "operators": [
+      "MGO-3 partitioning",
+      "SGO-3 propagation",
+      "BO-4 routing"
+    ],
+    "signal_classes": [
+      "power-level signals",
+      "modulation signals",
+      "interference/noise signals"
+    ],
+    "invariants": [
+      "frequency-partition coherence",
+      "interference-gradient stability",
+      "constraint-bounded channel access"
+    ],
+    "manifolds": [
+      "frequency-partition manifold",
+      "interference manifold",
+      "propagation-loss manifold"
+    ],
+    "dynamics": [
+      "environmental drift",
+      "interference-collapse",
+      "channel-hopping restoration"
+    ]
+  },
+  "cross_domain_presence": "optical wavelength routing, acoustic-band allocation, multi-channel radio, OFDM systems",
+  "source": "DSLO Natural Geometry Registry"
+}
+

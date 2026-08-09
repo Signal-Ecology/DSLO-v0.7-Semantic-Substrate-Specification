@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:leaf-tailed-gecko a dlo:GeometryInstance ;
+    schema:name "Leaf-Tailed Gecko" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Structural mimicry geometry formed through serrated edges, leaf-like curvature, texture alignment, and substrate-driven coloration." ;
+    dlo:invariantProperties (
+        "edge-disruption coherence"
+        "curvature-mimicry stability"
+        "texture-alignment invariants"
+        "substrate-driven morphological inference"
+    ) ;
+    dlo:geometryType "edge-disruptive and curvature-aligned morphological geometry" ;
+    dlo:signalType "light-gradient, substrate-texture, boundary-shape, and environmental signals" ;
+    dlo:dsloOperators (
+        "SGO-1 gradient"
+        "MGO-2 recursive growth"
+        "MGO-5 adaptive morphology"
+    ) ;
+    dlo:dsloInvariants (
+        "edge-disruption coherence"
+        "curvature-mimicry stability"
+        "texture-alignment invariants"
+    ) ;
+    dlo:dsloManifolds (
+        "serrated-edge manifold"
+        "leaf-curvature manifold"
+        "texture-mimicry manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "environmental drift"
+        "outline-collapse"
+        "behavioral-restoration"
+    ) ;
+    dlo:crossDomainPresence "orchid mantis, stick insects, cephalopod texture mimicry, camouflage shaders" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

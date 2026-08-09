@@ -1,0 +1,72 @@
+% =========================================================
+% T7 — CONTEXT WINDOW GEOMETRY (Hyper‑Condensed)
+% =========================================================
+
+\section{T7 Context Window Geometry}
+
+\paragraph{Overview.}
+Context Window Geometry defines the lawful structure of context windows,
+including their boundaries, drift behavior, contraction operators, legality
+masks, state-mapping rules, and drift-detection mechanisms. It provides the
+runtime geometry required for stable interpretation, lawful update, and
+drift-coherent evolution across DSLO v0.7.
+
+% ---------------------------------------------------------
+% T7.1 Context Windows
+% ---------------------------------------------------------
+\subsection{T7.1 Context Windows}
+Context windows define the active region of interpretation. They include signal
+sets, identity references, temporal metadata, and region associations. Context
+windows determine what information is visible, actionable, and lawful during
+runtime traversal.
+
+% ---------------------------------------------------------
+% T7.2 Context Boundaries
+% ---------------------------------------------------------
+\subsection{T7.2 Context Boundaries}
+Context boundaries define lawful limits for context windows. Boundary geometry
+prevents overload, drift propagation, and illegal expansion. Boundaries ensure
+that context remains stable, interpretable, and aligned with identity and
+legality constraints.
+
+% ---------------------------------------------------------
+% T7.3 Context Drift
+% ---------------------------------------------------------
+\subsection{T7.3 Context Drift}
+Context drift defines deformation induced by overload, misalignment, or
+boundary violation. Drift envelopes, drift vectors, and drift propagation rules
+describe how context becomes unstable and how drift spreads across manifold
+regions.
+
+% ---------------------------------------------------------
+% T7.4 Context Contraction Operators
+% ---------------------------------------------------------
+\subsection{T7.4 Context Contraction Operators}
+Context contraction operators restore stability by reducing context size,
+removing overload, and re-aligning boundaries. Contraction operators ensure
+lawful context restoration and prevent collapse under excessive drift.
+
+% ---------------------------------------------------------
+% T7.5 Context Legality Masks
+% ---------------------------------------------------------
+\subsection{T7.5 Context Legality Masks}
+Context legality masks define legality constraints for context windows. Masks
+validate operator action, boundary alignment, identity preservation, and
+curvature continuity. Violating legality masks produces drift or collapse.
+
+% ---------------------------------------------------------
+% T7.6 Context-State Mapping
+% ---------------------------------------------------------
+\subsection{T7.6 Context-State Mapping}
+Context-state mapping defines lawful conditions under which context may update
+runtime state. Mapping rules ensure that state updates preserve curvature,
+identity, legality, and drift coherence. Illegal mapping produces unstable
+runtime evolution.
+
+% ---------------------------------------------------------
+% T7.7 Context Drift Flags
+% ---------------------------------------------------------
+\subsection{T7.7 Context Drift Flags}
+Context drift flags detect drift within context windows. Flags identify overload,
+boundary violation, instability, and illegal deformation. Drift flags trigger
+contraction operators, legality masks, or halt conditions to restore stability.

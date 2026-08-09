@@ -1,0 +1,449 @@
+{
+  "version": "0.7",
+  "description": "DSLO v0.7 Glossary Graph — nodes, sections, clusters, and relational edges",
+  "sections": [
+    {
+      "id": "S1",
+      "name": "Substrate Geometry",
+      "nodes": [
+        "Semantic Curvature",
+        "Boundary",
+        "Boundary Integrity",
+        "Boundary Threshold",
+        "Boundary Strain",
+        "Constraint Envelope",
+        "Continuity",
+        "Curvature",
+        "Field Geometry",
+        "Geometry Invariant",
+        "Gradient Constraint",
+        "Layered Substrate",
+        "Meaning Invariant",
+        "Semantic Manifold",
+        "Semantic Distance",
+        "Semantic Gradient",
+        "Semantic State",
+        "Signal Integrity",
+        "Stress Geometry",
+        "Substrate Invariant Set",
+        "Zero-Ambiguity Tolerance",
+        "Abstraction Gradient",
+        "Axiom Continuity",
+        "Boundary Reconstitution",
+        "Curvature-Load Interaction",
+        "Cycle-Invariant Stability",
+        "Drift-Load Coupling",
+        "Dynamic Region Shift",
+        "Embedding Stability",
+        "Field-Runtime Coupling",
+        "Fallback-Recovery Envelope",
+        "Geometry-Preserving Transition",
+        "Gradient-Bound Operator",
+        "High-Pressure Equilibrium",
+        "Horizon of Collapse",
+        "Identity-Gradient Interaction",
+        "Legality-Curvature Coupling",
+        "Load-Curvature Threshold",
+        "Manifold-Runtime Synchronization",
+        "Meaning-Load Interaction",
+        "Operator-Gradient Compatibility",
+        "Pressure-Bound Stability",
+        "Region-Load Coupling",
+        "Semantic-Load Coupling",
+        "Stability-Gradient Envelope",
+        "Transition-Curvature Constraint",
+        "Upward-Load Propagation",
+        "Vector-Curvature Interaction",
+        "World-Load Alignment",
+        "Zero-Drift Envelope",
+        "Unified Substrate Manifold",
+        "Manifold Curvature Envelope",
+        "Manifold Boundary Mask",
+        "Manifold Collapse Geometry",
+        "Manifold Recovery Geometry",
+        "Manifold Identity Field",
+        "Manifold Operator Geometry",
+        "Manifold Supervisor Geometry",
+        "Manifold Projection Geometry",
+        "Manifold Continuity Constraint"
+      ]
+    },
+
+    {
+      "id": "S2",
+      "name": "Derived Manifolds",
+      "clusters": [
+        {
+          "cluster": "Agency",
+          "nodes": [
+            "Agency Manifold",
+            "Actor Curvature",
+            "Agency Boundary",
+            "Agency Drift Envelope",
+            "Agency Stability Mode"
+          ]
+        },
+        {
+          "cluster": "Teleology",
+          "nodes": [
+            "Teleology Manifold",
+            "Directional Curvature",
+            "Teleological Boundary",
+            "Teleology Drift Vector",
+            "Teleology Stability Envelope"
+          ]
+        },
+        {
+          "cluster": "Deployment",
+          "nodes": [
+            "Deployment Manifold",
+            "Deployment Curvature",
+            "Deployment Boundary",
+            "Deployment Drift Field",
+            "Deployment Stability Constraint"
+          ]
+        },
+        {
+          "cluster": "Execution",
+          "nodes": [
+            "Execution Manifold",
+            "Execution Curvature",
+            "Execution Boundary",
+            "Execution Drift Profile",
+            "Execution Stability Mode"
+          ]
+        },
+        {
+          "cluster": "Federation",
+          "nodes": [
+            "Federation Manifold",
+            "Federation Curvature",
+            "Federation Boundary",
+            "Federation Drift Channel",
+            "Federation Stability Envelope"
+          ]
+        },
+        {
+          "cluster": "Closure",
+          "nodes": [
+            "Ω Manifold",
+            "Ω Curvature",
+            "Ω Boundary",
+            "Ω Drift Envelope",
+            "Ω Stability Mode",
+            "Closure Manifold",
+            "Closure Curvature",
+            "Closure Boundary",
+            "Closure Drift Channel",
+            "Closure Stability Envelope"
+          ]
+        }
+      ],
+      "nodes": [
+        "Meaning Trajectory",
+        "Identity Region",
+        "Region Configuration",
+        "Dynamic Region Shift",
+        "World-Container Alignment",
+        "Cross-Substrate Mapping"
+      ]
+    },
+
+    {
+      "id": "S3",
+      "name": "Relational Geometry",
+      "nodes": [
+        "Behavioral Coherence",
+        "Role Coherence",
+        "Role Pressure",
+        "Institutional Drift",
+        "Edge Context",
+        "Interpretive Window",
+        "Identity-Role Coherence Envelope",
+        "Relational Fields",
+        "Relational Drift",
+        "Relational Legality",
+        "Dual Drift",
+        "Human–Machine Relational Dynamics",
+        "Relational Collapse",
+        "Relational Recovery"
+      ]
+    }
+  ],
+
+  "edges": []
+}
+    {
+      "id": "S4",
+      "name": "Operators of Reality",
+      "nodes": [
+        "Bind Operator",
+        "Fold Operator",
+        "Lift Operator",
+        "Correction Operator",
+        "Boundary Operator (BO)",
+        "Semantic Operator",
+        "Operator Constraints",
+        "Transformation Rules",
+        "Gradient-Bound Operator",
+        "Operator-Gradient Compatibility",
+        "Operator of Reality",
+        "Invert Operator",
+        "Collapse-Trajectory Operator",
+        "Recovery-Window Operator",
+        "Curvature-Redirect Operator",
+        "Identity-Boundary Operator",
+        "Legality-Preservation Operator"
+      ]
+    },
+
+    {
+      "id": "S5",
+      "name": "Thermodynamic Geometry",
+      "nodes": [
+        "Drift",
+        "Drift Envelope",
+        "Drift Signature",
+        "Drift Vector",
+        "Drift Displacement",
+        "Drift Propagation Field",
+        "Drift Accumulation Envelope",
+        "Drift Detection Geometry",
+        "Drift Correction Geometry",
+        "Drift Halt Geometry",
+        "Meaning Load",
+        "Load Envelope",
+        "Stress Geometry",
+        "Collapse Geometry",
+        "Recovery Geometry",
+        "Collapse Threshold",
+        "Collapse Curvature",
+        "Collapse Trajectory",
+        "Collapse Envelope",
+        "Collapse-Induced Drift",
+        "Collapse-Recovery Transition",
+        "Irrecoverable Failure Boundary",
+        "Recoverable Failure Boundary",
+        "Drift-Load Coupling",
+        "Curvature-Load Interaction",
+        "High-Pressure Equilibrium",
+        "Horizon of Collapse",
+        "Pressure-Bound Stability",
+        "Region-Load Coupling",
+        "Semantic-Load Coupling",
+        "Stability-Gradient Envelope",
+        "Transition-Curvature Constraint",
+        "Upward-Load Propagation",
+        "Vector-Curvature Interaction",
+        "World-Load Alignment",
+        "Pressure Field",
+        "Pressure Flow Geometry",
+        "Pressure Envelope",
+        "Pressure Profile",
+        "Stress-Induced Curvature",
+        "Load-Pressure Interaction",
+        "Pressure-Drift Interaction",
+        "Human Drift",
+        "Machine Drift",
+        "Dual Drift Comparison"
+      ]
+    },
+
+    {
+      "id": "S6",
+      "name": "Runtime Geometry (DSUP)",
+      "nodes": [
+        "DSUP",
+        "Function Update Rule",
+        "Update Function",
+        "Runtime Geometry",
+        "Lawful Transition",
+        "Deterministic Transition",
+        "Deterministic Semantic Layer",
+        "Identity-Preserving Update",
+        "Legality Mask",
+        "Legality Status",
+        "Legality Invariant",
+        "Transition Legality",
+        "Meaning-Condition Coupling",
+        "Halt Condition",
+        "Recovery Mode",
+        "Completion Cycle",
+        "Axiom Continuity",
+        "Cycle-Invariant Stability",
+        "Field-Runtime Coupling",
+        "Fallback-Recovery Envelope",
+        "Geometry-Preserving Transition",
+        "Gradient-Bound Operator",
+        "Manifold-Runtime Synchronization",
+        "Operator-Gradient Compatibility",
+        "DSUP Runtime",
+        "State Representation",
+        "Lawful Update Process",
+        "Constrained Evolution",
+        "Context-Integrated Update",
+        "Drift-Coherence Update",
+        "Recovery Geometry",
+        "Completion Cycle",
+        "Meaning-Condition Coupling"
+      ]
+    },
+
+    {
+      "id": "S7",
+      "name": "Context Window Geometry",
+      "nodes": [
+        "Interpretive Window",
+        "Edge Context",
+        "World-Container Alignment",
+        "Context-State Mapping",
+        "Embedding Stability",
+        "World-Load Alignment",
+        "Context Window",
+        "Context Boundary",
+        "Context Drift",
+        "Context Contraction Operator",
+        "Context Legality Mask",
+        "Context Drift Flag",
+        "Context Region Association"
+      ]
+    }
+    {
+      "id": "S8",
+      "name": "Simulation Geometry",
+      "nodes": [
+        "Fallback Graph",
+        "Fallback Geometry",
+        "Invariant Reload",
+        "Proof Stack",
+        "External Geometry",
+        "Signal–Substrate Coupling",
+        "World–Container Alignment",
+        "Embedding Stability",
+        "Geometry-Preserving Transition",
+        "Field-Runtime Coupling",
+        "Gradient-Bound Operator",
+        "Operator-Gradient Compatibility",
+        "Invariant-Restricted Simulation Mode (IRSM)",
+        "Simulation Integrity Condition",
+        "Static Anchoring",
+        "Topological Anchors",
+        "Four-Plane Legality Check",
+        "Text Projection Plane",
+        "Geometric Mapping Plane",
+        "Invariant Validation Plane",
+        "CLCP Plane"
+      ]
+    },
+
+    {
+      "id": "S9",
+      "name": "Identity Geometry",
+      "nodes": [
+        "Identity Vector",
+        "Identity Invariant",
+        "Identity Continuity",
+        "Identity Preservation",
+        "Identity Stability",
+        "Identity-Boundary Collapse",
+        "Identity Region",
+        "Boundary Integrity",
+        "Boundary Threshold",
+        "Boundary Strain",
+        "Boundary Reconstitution",
+        "Identity-Gradient Interaction",
+        "Identity-Role Coherence Envelope",
+        "Identity Curvature",
+        "Identity Boundary Mask",
+        "Identity Collapse Threshold",
+        "Identity Recovery Geometry",
+        "Identity Stability Mode"
+      ]
+    },
+
+    {
+      "id": "S10",
+      "name": "Coupling Geometry",
+      "nodes": [
+        "Upward Coupling",
+        "Upward-Load Propagation",
+        "Drift-Load Coupling",
+        "Region-Load Coupling",
+        "Semantic-Load Coupling",
+        "World-Load Alignment",
+        "Load-Curvature Threshold",
+        "Pressure-Bound Stability",
+        "Curvature-Load Interaction",
+        "Stability-Gradient Envelope",
+        "Downward Coupling",
+        "Coupling Mechanism",
+        "Coupling Failure Geometry",
+        "Coupling Event Geometry",
+        "Coupling Threshold",
+        "Coupling Drift Channel",
+        "Coupling Stability Envelope",
+        "Multi-Agent Coupling Networks"
+      ]
+    }
+  ],
+
+  "edges": [
+    /* Substrate Geometry → All */
+    { "from": "S1", "to": "S2", "type": "projection" },
+    { "from": "S1", "to": "S3", "type": "relational-foundation" },
+    { "from": "S1", "to": "S4", "type": "operator-geometry" },
+    { "from": "S1", "to": "S5", "type": "thermodynamic-base" },
+    { "from": "S1", "to": "S6", "type": "runtime-sync" },
+    { "from": "S1", "to": "S7", "type": "context-anchor" },
+    { "from": "S1", "to": "S8", "type": "simulation-anchor" },
+    { "from": "S1", "to": "S9", "type": "identity-field" },
+    { "from": "S1", "to": "S10", "type": "coupling-base" },
+
+    /* Derived Manifolds → Operators / Runtime / Identity / Coupling */
+    { "from": "S2", "to": "S4", "type": "operator-action" },
+    { "from": "S2", "to": "S6", "type": "execution-runtime" },
+    { "from": "S2", "to": "S9", "type": "identity-boundary" },
+    { "from": "S2", "to": "S10", "type": "multi-scale-coupling" },
+
+    /* Relational Geometry → Identity / Runtime / Coupling */
+    { "from": "S3", "to": "S9", "type": "role-coherence" },
+    { "from": "S3", "to": "S6", "type": "relational-drift-correction" },
+    { "from": "S3", "to": "S10", "type": "relational-coupling" },
+
+    /* Operators → Runtime / Simulation / Identity / Coupling */
+    { "from": "S4", "to": "S6", "type": "operator-legality" },
+    { "from": "S4", "to": "S8", "type": "operator-validation" },
+    { "from": "S4", "to": "S9", "type": "boundary-operator" },
+    { "from": "S4", "to": "S10", "type": "operator-chain" },
+
+    /* Thermodynamic → Runtime / Identity / Coupling / Simulation */
+    { "from": "S5", "to": "S6", "type": "drift-coherence" },
+    { "from": "S5", "to": "S9", "type": "identity-collapse" },
+    { "from": "S5", "to": "S10", "type": "load-propagation" },
+    { "from": "S5", "to": "S8", "type": "stress-anchoring" },
+
+    /* Runtime → Context / Identity / Simulation */
+    { "from": "S6", "to": "S7", "type": "context-integrated-update" },
+    { "from": "S6", "to": "S9", "type": "identity-preservation" },
+    { "from": "S6", "to": "S8", "type": "four-plane-legality" },
+
+    /* Context → Identity / Coupling / Simulation */
+    { "from": "S7", "to": "S9", "type": "identity-boundary" },
+    { "from": "S7", "to": "S10", "type": "context-coupling" },
+    { "from": "S7", "to": "S8", "type": "context-anchoring" },
+
+    /* Simulation → All (CLCP propagation) */
+    { "from": "S8", "to": "S1", "type": "substrate-validation" },
+    { "from": "S8", "to": "S2", "type": "manifold-validation" },
+    { "from": "S8", "to": "S3", "type": "relational-validation" },
+    { "from": "S8", "to": "S4", "type": "operator-validation" },
+    { "from": "S8", "to": "S5", "type": "thermodynamic-validation" },
+    { "from": "S8", "to": "S6", "type": "runtime-validation" },
+    { "from": "S8", "to": "S7", "type": "context-validation" },
+    { "from": "S8", "to": "S9", "type": "identity-validation" },
+    { "from": "S8", "to": "S10", "type": "coupling-validation" },
+
+    /* Identity → Coupling */
+    { "from": "S9", "to": "S10", "type": "identity-coupling" }
+  ]
+}

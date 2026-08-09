@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:snowflake-symmetry a dlo:GeometryInstance ;
+    schema:name "Snowflake Symmetry" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Hexagonal and diffusion-limited geometry formed through lattice-driven branching, temperature gradients, and humidity fields." ;
+    dlo:invariantProperties (
+        "hexagonal-symmetry invariants"
+        "branching-coherence stability"
+        "diffusion-limited growth invariants"
+        "lattice-driven optimization"
+    ) ;
+    dlo:geometryType "hexagonal and diffusion-limited crystalline geometry" ;
+    dlo:signalType "temperature-gradient, humidity-gradient, diffusion-limited, and boundary-condition signals" ;
+    dlo:dsloOperators (
+        "SGO-1 gradient"
+        "MGO-4 distributed alignment"
+        "MGO-6 optimization"
+    ) ;
+    dlo:dsloInvariants (
+        "hexagonal-symmetry invariants"
+        "branching-coherence stability"
+        "diffusion-limited growth invariants"
+    ) ;
+    dlo:dsloManifolds (
+        "hexagonal-symmetry manifold"
+        "diffusion-gradient manifold"
+        "branching-curvature manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "temperature drift"
+        "branch-collapse"
+        "symmetry-restoration"
+    ) ;
+    dlo:crossDomainPresence "crystal growth, mineral dendrites, DLA, fractal optimization" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

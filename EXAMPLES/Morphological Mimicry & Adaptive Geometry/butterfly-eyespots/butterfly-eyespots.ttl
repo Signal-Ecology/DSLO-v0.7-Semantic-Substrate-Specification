@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:butterfly-eyespots a dlo:GeometryInstance ;
+    schema:name "Butterfly Eyespots" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Morphogen-driven pattern geometry formed through reaction–diffusion dynamics, gradient-bounded color transitions, and adaptive placement." ;
+    dlo:invariantProperties (
+        "concentric-ring coherence"
+        "gradient-bounded color transitions"
+        "reaction-diffusion stability"
+        "adaptive placement invariants"
+    ) ;
+    dlo:geometryType "concentric-ring and gradient-driven pattern geometry" ;
+    dlo:signalType "morphogen, reaction–diffusion, boundary, and developmental signals" ;
+    dlo:dsloOperators (
+        "SGO-1 gradient"
+        "SGO-4 reaction-diffusion"
+        "MGO-5 adaptive morphology"
+    ) ;
+    dlo:dsloInvariants (
+        "concentric-ring coherence"
+        "gradient-bounded color transitions"
+        "reaction-diffusion stability"
+    ) ;
+    dlo:dsloManifolds (
+        "concentric-ring manifold"
+        "color-gradient manifold"
+        "boundary-curvature manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "developmental drift"
+        "morphogen-collapse"
+        "adaptive restoration"
+    ) ;
+    dlo:crossDomainPresence "fish fin patterns, cephalopod displays, mammalian coat patterns, reaction–diffusion graphics" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+
+title: "DSLO v0.7 — Semantic Substrate Specification"
+
+message: "If you use this work, please cite it using the metadata below."
+
+type: dataset
+
+authors:
+  - family-names: Slowicki
+    given-names: Donald
+    affiliation: "Inda Moment Incorporated"
+
+abstract: >
+  DSLO v0.7 is the canonical public-layer release of the Semantic Substrate
+  Specification. It expands the unified geometry governing meaning invariants,
+  operator legality, drift dynamics, synthetic-pressure fields, institutional
+  deformation, restorative-deficit dynamics, legality invariants, context-window
+  geometry, simulation geometry, and the DSUP runtime manifold. This citation
+  file provides structured metadata for scientific indexing and cross-surface
+  archival stability.
+
+version: "0.7"
+
+doi: "TO_BE_MINTED"
+
+url: "https://www.tnopsi.com"
+
+date-released: "2026-08-08"
+
+license: "Other"

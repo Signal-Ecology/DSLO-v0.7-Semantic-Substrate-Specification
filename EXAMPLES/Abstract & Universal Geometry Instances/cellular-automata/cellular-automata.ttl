@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:cellular-automata a dlo:GeometryInstance ;
+    schema:name "Cellular Automata" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Rule-based grid systems where local update rules generate complex global patterns." ;
+    dlo:invariantProperties (
+        "deterministic rule evolution"
+        "emergent geometric coherence"
+        "stable attractor regimes"
+        "collapse/restoration cycles"
+    ) ;
+    dlo:geometryType "discrete recursive geometry with propagating structures" ;
+    dlo:signalType "synthetic adjacency and transition signals" ;
+    dlo:dsloOperators (
+        "SGO-1 local update"
+        "SGO-3 propagation"
+        "MGO-2 recursive growth"
+    ) ;
+    dlo:dsloInvariants (
+        "deterministic drift"
+        "stable attractors"
+        "collapse/restoration cycles"
+    ) ;
+    dlo:dsloManifolds (
+        "grid manifold"
+        "neighborhood manifold"
+        "transition manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "wavefront propagation"
+        "glider motion"
+        "self-repair patterns"
+    ) ;
+    dlo:crossDomainPresence "biological analogs, cultural tiling systems, distributed machine computation" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

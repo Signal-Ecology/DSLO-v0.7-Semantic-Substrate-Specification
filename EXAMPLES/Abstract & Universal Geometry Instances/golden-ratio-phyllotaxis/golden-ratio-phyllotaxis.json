@@ -1,0 +1,46 @@
+{
+  "id": "golden-ratio-phyllotaxis",
+  "name": "Golden Ratio Phyllotaxis",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Spiral biological growth pattern using the golden angle (~137.5°) to optimize packing density and exposure through recursive radial geometry.",
+  "invariant_properties": [
+    "golden-angle divergence",
+    "Fibonacci packing coherence",
+    "recursive spiral geometry",
+    "optimal packing density"
+  ],
+  "geometry_type": "logarithmic spiral and Fibonacci packing geometry",
+  "signal_type": "biological growth and optimization signals",
+  "dslo_interpretation": {
+    "operators": [
+      "MGO-2 recursive growth",
+      "SGO-4 optimization",
+      "BO-1 boundary curvature"
+    ],
+    "signal_classes": [
+      "biological growth signals",
+      "hormonal distribution signals",
+      "environmental optimization signals"
+    ],
+    "invariants": [
+      "golden-angle divergence",
+      "Fibonacci packing coherence",
+      "recursive spiral geometry"
+    ],
+    "manifolds": [
+      "radial growth manifold",
+      "spiral packing manifold",
+      "optimization manifold"
+    ],
+    "dynamics": [
+      "divergence drift",
+      "growth collapse",
+      "spiral restoration"
+    ]
+  },
+  "cross_domain_presence": "sunflowers, pinecones, aloe, cultural geometry, machine optimization",
+  "source": "DSLO Natural Geometry Registry"
+}
+

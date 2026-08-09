@@ -1,0 +1,46 @@
+{
+  "id": "fish-schooling-patterns",
+  "name": "Fish Schooling Patterns",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Distributed collective geometry formed through alignment, attraction, repulsion, and flow-field sensing among fish.",
+  "invariant_properties": [
+    "alignment coherence",
+    "attraction-repulsion stability",
+    "flow-field curvature",
+    "collective velocity invariants"
+  ],
+  "geometry_type": "alignment-based collective motion geometry",
+  "signal_type": "hydrodynamic, visual, and lateral-line pressure signals",
+  "dslo_interpretation": {
+    "operators": [
+      "BO-2 orientation",
+      "SGO-3 propagation",
+      "SGO-1 gradient"
+    ],
+    "signal_classes": [
+      "hydrodynamic flow signals",
+      "visual neighbor signals",
+      "lateral-line pressure signals"
+    ],
+    "invariants": [
+      "alignment coherence",
+      "attraction-repulsion stability",
+      "flow-field curvature"
+    ],
+    "manifolds": [
+      "alignment manifold",
+      "wave-front manifold",
+      "attraction-repulsion manifold"
+    ],
+    "dynamics": [
+      "environmental drift",
+      "turbulence collapse",
+      "re-alignment restoration"
+    ]
+  },
+  "cross_domain_presence": "bird flocking, insect swarming, crowd flow, Boids algorithms",
+  "source": "DSLO Natural Geometry Registry"
+}
+

@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:stick-insect-mimicry a dlo:GeometryInstance ;
+    schema:name "Stick Insect Mimicry" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Structural mimicry geometry formed through linear-segment bodies, curvature suppression, bark-like texture, and substrate-aligned coloration." ;
+    dlo:invariantProperties (
+        "linear-segment coherence"
+        "curvature-suppression stability"
+        "texture-alignment invariants"
+        "substrate-driven morphological inference"
+    ) ;
+    dlo:geometryType "linear-segment and texture-aligned morphological geometry" ;
+    dlo:signalType "light-gradient, substrate-texture, boundary-shape, and environmental signals" ;
+    dlo:dsloOperators (
+        "SGO-1 gradient"
+        "MGO-2 recursive growth"
+        "MGO-5 adaptive morphology"
+    ) ;
+    dlo:dsloInvariants (
+        "linear-segment coherence"
+        "curvature-suppression stability"
+        "texture-alignment invariants"
+    ) ;
+    dlo:dsloManifolds (
+        "linear-segment manifold"
+        "curvature-suppression manifold"
+        "texture-mimicry manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "environmental drift"
+        "outline-collapse"
+        "stillness-based restoration"
+    ) ;
+    dlo:crossDomainPresence "orchid mantis, leaf-tailed gecko, cephalopod mimicry, structural camouflage engines" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

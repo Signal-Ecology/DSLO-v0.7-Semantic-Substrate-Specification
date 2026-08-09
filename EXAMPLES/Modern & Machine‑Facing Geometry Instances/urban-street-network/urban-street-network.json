@@ -1,0 +1,46 @@
+{
+  "id": "urban-street-network",
+  "name": "Urban Street Network",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Human-constructed routing geometry shaped by grids, radial hubs, arterial hierarchies, congestion gradients, and land-use constraints.",
+  "invariant_properties": [
+    "grid or radial-hub coherence",
+    "hierarchical routing stability",
+    "congestion-gradient invariants",
+    "constraint-bounded street formation"
+  ],
+  "geometry_type": "multi-scale intersection, block, and routing topology",
+  "signal_type": "traffic-density, light-cycle, pedestrian-flow, and zoning signals",
+  "dslo_interpretation": {
+    "operators": [
+      "MGO-3 partitioning",
+      "SGO-3 propagation",
+      "BO-4 routing"
+    ],
+    "signal_classes": [
+      "traffic-density signals",
+      "light-cycle signals",
+      "pedestrian-flow signals"
+    ],
+    "invariants": [
+      "grid or radial-hub coherence",
+      "hierarchical routing stability",
+      "congestion-gradient invariants"
+    ],
+    "manifolds": [
+      "intersection manifold",
+      "block-geometry manifold",
+      "routing-hierarchy manifold"
+    ],
+    "dynamics": [
+      "population drift",
+      "congestion-collapse",
+      "signal-optimization restoration"
+    ]
+  },
+  "cross_domain_presence": "highway systems, internet routing, pedestrian networks, traffic-simulation engines",
+  "source": "DSLO Natural Geometry Registry"
+}
+

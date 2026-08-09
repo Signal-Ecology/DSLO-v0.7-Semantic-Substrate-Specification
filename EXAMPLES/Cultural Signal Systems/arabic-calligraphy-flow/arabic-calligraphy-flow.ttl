@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:arabic-calligraphy-flow a dlo:GeometryInstance ;
+    schema:name "Arabic Calligraphy Flow" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Geometric flow system based on stroke curvature, proportional dot units, pen angle, and rhythmic sequencing within Arabic calligraphic practice." ;
+    dlo:invariantProperties (
+        "dot-unit proportionality"
+        "curvature coherence"
+        "rhythmic stroke sequencing"
+        "multi-scale flow geometry"
+    ) ;
+    dlo:geometryType "continuous curvature and proportional stroke geometry" ;
+    dlo:signalType "motor-control, acoustic rhythm, and cultural proportional signals" ;
+    dlo:dsloOperators (
+        "BO-2 orientation"
+        "SGO-6 rhythmic encoding"
+        "MGO-4 distributed cognition"
+    ) ;
+    dlo:dsloInvariants (
+        "dot-unit proportionality"
+        "curvature coherence"
+        "rhythmic stroke sequencing"
+    ) ;
+    dlo:dsloManifolds (
+        "curvature manifold"
+        "stroke-flow manifold"
+        "proportional geometry manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "stylistic drift"
+        "proportional collapse"
+        "canonical restoration"
+    ) ;
+    dlo:crossDomainPresence "Chinese brush calligraphy, Japanese shodō, illuminated manuscripts, handwriting synthesis" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

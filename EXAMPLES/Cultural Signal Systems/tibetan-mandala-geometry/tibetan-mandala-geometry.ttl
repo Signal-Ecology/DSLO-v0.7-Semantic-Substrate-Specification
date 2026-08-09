@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:tibetan-mandala-geometry a dlo:GeometryInstance ;
+    schema:name "Tibetan Mandala Geometry" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Recursive radial geometries with proportional grids, layered symmetry, and color-encoded categorical meaning used in Tibetan ritual and cognition." ;
+    dlo:invariantProperties (
+        "radial symmetry coherence"
+        "recursive layer stability"
+        "proportional grid invariants"
+        "color-categorical encoding"
+    ) ;
+    dlo:geometryType "recursive radial and proportional geometry" ;
+    dlo:signalType "visual symmetry, color-categorical, and ritual traversal signals" ;
+    dlo:dsloOperators (
+        "MGO-2 recursive growth"
+        "BO-1 boundary formation"
+        "SGO-7 categorical encoding"
+    ) ;
+    dlo:dsloInvariants (
+        "radial symmetry coherence"
+        "recursive layer stability"
+        "proportional grid invariants"
+    ) ;
+    dlo:dsloManifolds (
+        "radial symmetry manifold"
+        "layered recursion manifold"
+        "boundary-gate manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "regional stylistic drift"
+        "proportional collapse"
+        "ritual restoration"
+    ) ;
+    dlo:crossDomainPresence "yantras, geometric tiling, rose windows, symmetry engines" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

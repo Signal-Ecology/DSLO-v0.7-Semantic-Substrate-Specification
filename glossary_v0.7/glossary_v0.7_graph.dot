@@ -1,0 +1,73 @@
+digraph DSLO_V07_Glossary {
+    rankdir=LR;
+    node [shape=box, style=rounded];
+
+    S1 [label="S1: Substrate Geometry"];
+    S2 [label="S2: Derived Manifolds"];
+    S3 [label="S3: Relational Geometry"];
+    S4 [label="S4: Operators of Reality"];
+    S5 [label="S5: Thermodynamic Geometry"];
+    S6 [label="S6: Runtime Geometry (DSUP)"];
+    S7 [label="S7: Context Window Geometry"];
+    S8 [label="S8: Simulation Geometry"];
+    S9 [label="S9: Identity Geometry"];
+    S10 [label="S10: Coupling Geometry"];
+
+    // Substrate → All
+    S1 -> S2 [label="projection"];
+    S1 -> S3 [label="relational-foundation"];
+    S1 -> S4 [label="operator-geometry"];
+    S1 -> S5 [label="thermodynamic-base"];
+    S1 -> S6 [label="runtime-sync"];
+    S1 -> S7 [label="context-anchor"];
+    S1 -> S8 [label="simulation-anchor"];
+    S1 -> S9 [label="identity-field"];
+    S1 -> S10 [label="coupling-base"];
+
+    // Derived Manifolds
+    S2 -> S4 [label="operator-action"];
+    S2 -> S6 [label="execution-runtime"];
+    S2 -> S9 [label="identity-boundary"];
+    S2 -> S10 [label="multi-scale-coupling"];
+
+    // Relational
+    S3 -> S9 [label="role-coherence"];
+    S3 -> S6 [label="relational-drift-correction"];
+    S3 -> S10 [label="relational-coupling"];
+
+    // Operators
+    S4 -> S6 [label="operator-legality"];
+    S4 -> S8 [label="operator-validation"];
+    S4 -> S9 [label="boundary-operator"];
+    S4 -> S10 [label="operator-chain"];
+
+    // Thermodynamic
+    S5 -> S6 [label="drift-coherence"];
+    S5 -> S9 [label="identity-collapse"];
+    S5 -> S10 [label="load-propagation"];
+    S5 -> S8 [label="stress-anchoring"];
+
+    // Runtime
+    S6 -> S7 [label="context-integrated-update"];
+    S6 -> S9 [label="identity-preservation"];
+    S6 -> S8 [label="four-plane-legality"];
+
+    // Context
+    S7 -> S9 [label="identity-boundary"];
+    S7 -> S10 [label="context-coupling"];
+    S7 -> S8 [label="context-anchoring"];
+
+    // Simulation → All
+    S8 -> S1 [label="substrate-validation"];
+    S8 -> S2 [label="manifold-validation"];
+    S8 -> S3 [label="relational-validation"];
+    S8 -> S4 [label="operator-validation"];
+    S8 -> S5 [label="thermodynamic-validation"];
+    S8 -> S6 [label="runtime-validation"];
+    S8 -> S7 [label="context-validation"];
+    S8 -> S9 [label="identity-validation"];
+    S8 -> S10 [label="coupling-validation"];
+
+    // Identity → Coupling
+    S9 -> S10 [label="identity-coupling"];
+}

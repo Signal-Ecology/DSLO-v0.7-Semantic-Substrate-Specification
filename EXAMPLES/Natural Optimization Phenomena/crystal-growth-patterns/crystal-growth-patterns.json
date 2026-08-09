@@ -1,0 +1,46 @@
+{
+  "id": "crystal-growth-patterns",
+  "name": "Crystal Growth Patterns",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Energy-minimizing geometry formed through lattice alignment, gradient-driven growth fronts, and symmetry-driven faceting.",
+  "invariant_properties": [
+    "lattice-coherence invariants",
+    "facet-stability invariants",
+    "gradient-bounded growth invariants",
+    "energy-minimizing optimization"
+  ],
+  "geometry_type": "lattice-forming and gradient-driven optimization geometry",
+  "signal_type": "diffusion, temperature, boundary, and molecular-binding signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-1 gradient",
+      "MGO-4 distributed alignment",
+      "MGO-6 optimization"
+    ],
+    "signal_classes": [
+      "diffusion-gradient signals",
+      "temperature-gradient signals",
+      "boundary-constraint signals"
+    ],
+    "invariants": [
+      "lattice-coherence invariants",
+      "facet-stability invariants",
+      "gradient-bounded growth invariants"
+    ],
+    "manifolds": [
+      "lattice manifold",
+      "facet-curvature manifold",
+      "diffusion-gradient manifold"
+    ],
+    "dynamics": [
+      "temperature drift",
+      "lattice-collapse",
+      "re-crystallization restoration"
+    ]
+  },
+  "cross_domain_presence": "snowflake symmetry, mineral dendrites, DLA, optimization solvers",
+  "source": "DSLO Natural Geometry Registry"
+}
+

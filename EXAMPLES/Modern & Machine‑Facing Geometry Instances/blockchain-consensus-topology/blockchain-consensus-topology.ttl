@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:blockchain-consensus-topology a dlo:GeometryInstance ;
+    schema:name "Blockchain Consensus Topology" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Distributed agreement geometry formed through block propagation, fork resolution, validator weighting, and network topology constraints." ;
+    dlo:invariantProperties (
+        "propagation coherence"
+        "fork-curvature stability"
+        "validator-weighted agreement"
+        "network-topology invariants"
+    ) ;
+    dlo:geometryType "distributed propagation and agreement topology" ;
+    dlo:signalType "block-propagation, validator-vote, and network-latency signals" ;
+    dlo:dsloOperators (
+        "SGO-3 propagation"
+        "MGO-4 distributed cognition"
+        "BO-4 routing"
+    ) ;
+    dlo:dsloInvariants (
+        "propagation coherence"
+        "fork-curvature stability"
+        "validator-weighted agreement"
+    ) ;
+    dlo:dsloManifolds (
+        "connectivity manifold"
+        "propagation manifold"
+        "consensus manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "latency drift"
+        "partition collapse"
+        "fork-resolution restoration"
+    ) ;
+    dlo:crossDomainPresence "distributed databases, internet routing, multi-agent agreement, BFT protocols" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

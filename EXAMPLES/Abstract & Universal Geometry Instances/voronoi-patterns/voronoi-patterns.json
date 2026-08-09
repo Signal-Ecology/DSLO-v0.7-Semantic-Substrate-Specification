@@ -1,0 +1,46 @@
+{
+  "id": "voronoi-patterns",
+  "name": "Voronoi Patterns",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Spatial partitions formed by proximity to seed points, producing convex regions and stable boundaries across biological and machine systems.",
+  "invariant_properties": [
+    "proximity-bounded geometry",
+    "stable partition coherence",
+    "distance-defined boundaries",
+    "distributed spatial structure"
+  ],
+  "geometry_type": "proximity-based spatial tessellation",
+  "signal_type": "spatial competition and growth-front signals",
+  "dslo_interpretation": {
+    "operators": [
+      "BO-1 boundary formation",
+      "SGO-3 propagation",
+      "MGO-3 partitioning"
+    ],
+    "signal_classes": [
+      "spatial competition signals",
+      "growth front signals",
+      "resource distribution signals"
+    ],
+    "invariants": [
+      "proximity-bounded geometry",
+      "stable partition coherence",
+      "distance-defined boundaries"
+    ],
+    "manifolds": [
+      "partition manifold",
+      "boundary curvature manifold",
+      "spatial coherence manifold"
+    ],
+    "dynamics": [
+      "boundary stabilization drift",
+      "seed-driven collapse",
+      "re-partition restoration"
+    ]
+  },
+  "cross_domain_presence": "biological tissues, crystal growth, urban planning, wireless networks, machine clustering",
+  "source": "DSLO Natural Geometry Registry"
+}
+

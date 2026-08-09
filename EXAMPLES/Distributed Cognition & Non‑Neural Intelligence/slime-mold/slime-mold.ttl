@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:slime-mold a dlo:GeometryInstance ;
+    schema:name "Slime Mold" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Distributed routing geometry formed through nutrient gradients, oscillatory contraction, branching, merging, and adaptive pruning." ;
+    dlo:invariantProperties (
+        "gradient-bounded routing"
+        "oscillatory coherence"
+        "adaptive pruning stability"
+        "distributed optimization"
+    ) ;
+    dlo:geometryType "gradient-driven oscillatory routing geometry" ;
+    dlo:signalType "nutrient, inhibition, moisture, and oscillatory signals" ;
+    dlo:dsloOperators (
+        "SGO-1 gradient formation"
+        "SGO-5 oscillation"
+        "MGO-3 partitioning"
+    ) ;
+    dlo:dsloInvariants (
+        "gradient-bounded routing"
+        "oscillatory coherence"
+        "adaptive pruning stability"
+    ) ;
+    dlo:dsloManifolds (
+        "routing manifold"
+        "gradient manifold"
+        "oscillation manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "environmental drift"
+        "desiccation collapse"
+        "oscillatory restoration"
+    ) ;
+    dlo:crossDomainPresence "mycelial networks, ant foraging, vascular branching, Physarum algorithms" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:polynesian-stick-charts a dlo:GeometryInstance ;
+    schema:name "Polynesian Stick Charts" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Navigational geometries encoding ocean swells, wave interactions, and island positions using curved rods, intersections, and shell markers." ;
+    dlo:invariantProperties (
+        "curvature-family coherence"
+        "intersection-pattern stability"
+        "node-anchored spatial encoding"
+        "distributed environmental structure"
+    ) ;
+    dlo:geometryType "curvature-based ocean-signal geometry" ;
+    dlo:signalType "ocean swell, wave-interaction, and wind-direction signals" ;
+    dlo:dsloOperators (
+        "SGO-2 diffusion"
+        "BO-3 landmark encoding"
+        "MGO-4 distributed cognition"
+    ) ;
+    dlo:dsloInvariants (
+        "curvature-family coherence"
+        "intersection-pattern stability"
+        "node-anchored spatial encoding"
+    ) ;
+    dlo:dsloManifolds (
+        "swell-curvature manifold"
+        "intersection manifold"
+        "island-node manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "seasonal drift"
+        "material collapse"
+        "cultural restoration"
+    ) ;
+    dlo:crossDomainPresence "Inuit drift-ice navigation, Marshallese wave-piloting, portolan charts, wave-field modeling" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

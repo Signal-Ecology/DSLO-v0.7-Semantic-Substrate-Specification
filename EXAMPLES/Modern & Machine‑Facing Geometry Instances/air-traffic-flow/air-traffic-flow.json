@@ -1,0 +1,46 @@
+{
+  "id": "air-traffic-flow",
+  "name": "Air Traffic Flow",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Global routing geometry defined by altitude layers, flow fields, waypoint networks, and constraint-bounded optimization.",
+  "invariant_properties": [
+    "flow-field coherence",
+    "altitude-layer stability",
+    "constraint-bounded routing",
+    "dynamic spacing invariants"
+  ],
+  "geometry_type": "multi-layer flow-field and routing geometry",
+  "signal_type": "wind, pressure, turbulence, ATC routing, and transponder signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-3 propagation",
+      "MGO-3 partitioning",
+      "BO-4 routing"
+    ],
+    "signal_classes": [
+      "wind-vector signals",
+      "pressure/turbulence signals",
+      "ATC routing signals"
+    ],
+    "invariants": [
+      "flow-field coherence",
+      "altitude-layer stability",
+      "constraint-bounded routing"
+    ],
+    "manifolds": [
+      "altitude manifold",
+      "flow-field manifold",
+      "routing-graph manifold"
+    ],
+    "dynamics": [
+      "weather drift",
+      "congestion collapse",
+      "rerouting restoration"
+    ]
+  },
+  "cross_domain_presence": "shipping lanes, internet routing, highway flow, flow-field optimization",
+  "source": "DSLO Natural Geometry Registry"
+}
+

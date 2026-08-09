@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:lightning-path-formation a dlo:GeometryInstance ;
+    schema:name "Lightning Path Formation" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Gradient-driven optimization geometry formed through branching leaders, ionization fields, and least-resistance path selection." ;
+    dlo:invariantProperties (
+        "least-resistance coherence"
+        "branching-fractal stability"
+        "gradient-driven propagation"
+        "charge-distribution optimization"
+    ) ;
+    dlo:geometryType "fractal-branching and gradient-driven optimization geometry" ;
+    dlo:signalType "electrical-potential, ionization-density, atmospheric-boundary, and charge-distribution signals" ;
+    dlo:dsloOperators (
+        "SGO-1 gradient"
+        "MGO-4 distributed exploration"
+        "MGO-6 optimization"
+    ) ;
+    dlo:dsloInvariants (
+        "least-resistance coherence"
+        "branching-fractal stability"
+        "gradient-driven propagation"
+    ) ;
+    dlo:dsloManifolds (
+        "fractal-branching manifold"
+        "ionization-gradient manifold"
+        "potential-curvature manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "atmospheric drift"
+        "leader-collapse"
+        "branch-restoration"
+    ) ;
+    dlo:crossDomainPresence "river deltas, dendritic growth, DLA, path optimization algorithms" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

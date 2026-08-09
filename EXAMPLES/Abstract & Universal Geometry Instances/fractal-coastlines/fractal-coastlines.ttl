@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:fractal-coastlines a dlo:GeometryInstance ;
+    schema:name "Fractal Coastlines" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Scale-invariant coastline geometry where measured length increases with resolution due to recursive roughness driven by erosion and wave dynamics." ;
+    dlo:invariantProperties (
+        "scale-invariant roughness"
+        "self-similar geometry"
+        "non-convergent length"
+        "stable fractal dimension"
+    ) ;
+    dlo:geometryType "recursive fractal boundary geometry" ;
+    dlo:signalType "geophysical erosion and wave-impact signals" ;
+    dlo:dsloOperators (
+        "MGO-2 recursive growth"
+        "SGO-3 propagation"
+        "BO-1 boundary curvature"
+    ) ;
+    dlo:dsloInvariants (
+        "scale-invariant roughness"
+        "stable fractal dimension"
+        "recursive boundary geometry"
+    ) ;
+    dlo:dsloManifolds (
+        "coastal boundary manifold"
+        "indentation manifold"
+        "erosion-drift manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "erosion drift"
+        "storm-driven collapse"
+        "sediment restoration"
+    ) ;
+    dlo:crossDomainPresence "river networks, mountain ridges, glacial boundaries, cultural mapping systems" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

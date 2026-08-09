@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:l-systems a dlo:GeometryInstance ;
+    schema:name "L-Systems" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Recursive symbolic rewriting systems that generate branching and fractal geometry through deterministic production rules." ;
+    dlo:invariantProperties (
+        "recursive rewriting"
+        "self-similar geometry"
+        "branching coherence"
+        "deterministic growth"
+    ) ;
+    dlo:geometryType "recursive fractal and branching geometry" ;
+    dlo:signalType "synthetic symbolic rewriting signals" ;
+    dlo:dsloOperators (
+        "MGO-2 recursive growth"
+        "SGO-3 propagation"
+        "BO-2 orientation"
+    ) ;
+    dlo:dsloInvariants (
+        "recursive growth invariants"
+        "branching coherence"
+        "self-similar geometry"
+    ) ;
+    dlo:dsloManifolds (
+        "recursive rewriting manifold"
+        "branching manifold"
+        "orientation manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "iterative drift"
+        "rule-collapse"
+        "restoration via stable production rules"
+    ) ;
+    dlo:crossDomainPresence "plant morphogenesis, coral growth, generative architecture, procedural graphics" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

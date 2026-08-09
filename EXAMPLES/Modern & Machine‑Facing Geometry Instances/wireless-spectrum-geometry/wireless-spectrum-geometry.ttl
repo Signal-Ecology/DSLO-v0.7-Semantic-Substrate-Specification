@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:wireless-spectrum-geometry a dlo:GeometryInstance ;
+    schema:name "Wireless Spectrum Geometry" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Electromagnetic routing geometry formed through frequency partitioning, interference gradients, propagation loss, and modulation constraints." ;
+    dlo:invariantProperties (
+        "frequency-partition coherence"
+        "interference-gradient stability"
+        "constraint-bounded channel access"
+        "multi-layer modulation invariants"
+    ) ;
+    dlo:geometryType "frequency-partition and interference-gradient geometry" ;
+    dlo:signalType "power, modulation, interference, noise, and regulatory signals" ;
+    dlo:dsloOperators (
+        "MGO-3 partitioning"
+        "SGO-3 propagation"
+        "BO-4 routing"
+    ) ;
+    dlo:dsloInvariants (
+        "frequency-partition coherence"
+        "interference-gradient stability"
+        "constraint-bounded channel access"
+    ) ;
+    dlo:dsloManifolds (
+        "frequency-partition manifold"
+        "interference manifold"
+        "propagation-loss manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "environmental drift"
+        "interference-collapse"
+        "channel-hopping restoration"
+    ) ;
+    dlo:crossDomainPresence "optical wavelength routing, acoustic-band allocation, multi-channel radio, OFDM systems" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

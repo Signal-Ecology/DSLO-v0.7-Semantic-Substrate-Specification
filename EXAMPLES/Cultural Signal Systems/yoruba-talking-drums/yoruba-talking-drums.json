@@ -1,0 +1,46 @@
+{
+  "id": "yoruba-talking-drums",
+  "name": "Yoruba Talking Drums",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Acoustic geometry system where membrane tension, curvature, and rhythmic sequencing encode tonal language and semantic structure.",
+  "invariant_properties": [
+    "tension-pitch coherence",
+    "tone-language mapping stability",
+    "rhythmic sequencing invariants",
+    "continuous curvature-based acoustic geometry"
+  ],
+  "geometry_type": "tension-modulated acoustic curvature geometry",
+  "signal_type": "acoustic tone, tension-cord, and cultural rhythm signals",
+  "dslo_interpretation": {
+    "operators": [
+      "BO-2 orientation",
+      "SGO-6 rhythmic encoding",
+      "MGO-4 distributed cognition"
+    ],
+    "signal_classes": [
+      "acoustic tone signals",
+      "tension-cord signals",
+      "cultural rhythm signals"
+    ],
+    "invariants": [
+      "tension-pitch coherence",
+      "tone-language mapping stability",
+      "rhythmic sequencing invariants"
+    ],
+    "manifolds": [
+      "curvature manifold",
+      "tension manifold",
+      "acoustic-tone manifold"
+    ],
+    "dynamics": [
+      "regional stylistic drift",
+      "tension collapse",
+      "acoustic restoration"
+    ]
+  },
+  "cross_domain_presence": "slit drums, tabla modulation, pahu rhythms, acoustic signaling systems",
+  "source": "DSLO Natural Geometry Registry"
+}
+

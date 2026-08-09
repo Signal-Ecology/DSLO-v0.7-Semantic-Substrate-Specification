@@ -1,0 +1,46 @@
+{
+  "id": "gps-trilateration",
+  "name": "GPS Trilateration",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Global positioning geometry formed through timing-signal gradients, spherical distance manifolds, and multi-satellite intersection.",
+  "invariant_properties": [
+    "spherical-distance coherence",
+    "multi-satellite intersection stability",
+    "timing-gradient invariants",
+    "relativistic correction stability"
+  ],
+  "geometry_type": "spherical multilateration geometry",
+  "signal_type": "timestamp, ephemeris, atmospheric delay, and clock-bias signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-1 gradient",
+      "MGO-1 intersection",
+      "BO-4 routing"
+    ],
+    "signal_classes": [
+      "timestamp signals",
+      "ephemeris signals",
+      "atmospheric delay signals"
+    ],
+    "invariants": [
+      "spherical-distance coherence",
+      "multi-satellite intersection stability",
+      "timing-gradient invariants"
+    ],
+    "manifolds": [
+      "distance-sphere manifold",
+      "intersection manifold",
+      "ephemeris manifold"
+    ],
+    "dynamics": [
+      "clock drift",
+      "signal-collapse",
+      "re-sync restoration"
+    ]
+  },
+  "cross_domain_presence": "radio trilateration, acoustic positioning, Wi-Fi RTT, multilateration algorithms",
+  "source": "DSLO Natural Geometry Registry"
+}
+

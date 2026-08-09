@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:turing-patterns a dlo:GeometryInstance ;
+    schema:name "Turing Patterns" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Reaction–diffusion driven spatial patterns such as stripes, spots, and spirals formed through activation–inhibition dynamics." ;
+    dlo:invariantProperties (
+        "symmetry-breaking geometry"
+        "reaction–diffusion coherence"
+        "spontaneous pattern formation"
+        "stable spatial manifolds"
+    ) ;
+    dlo:geometryType "reaction–diffusion spatial geometry" ;
+    dlo:signalType "chemical reaction and diffusion signals" ;
+    dlo:dsloOperators (
+        "SGO-2 diffusion"
+        "SGO-5 activation–inhibition"
+        "MGO-1 equilibrium"
+    ) ;
+    dlo:dsloInvariants (
+        "symmetry-breaking geometry"
+        "reaction–diffusion coherence"
+        "stable spatial manifolds"
+    ) ;
+    dlo:dsloManifolds (
+        "reaction–diffusion manifold"
+        "symmetry-breaking manifold"
+        "spatial coherence manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "pattern stabilization drift"
+        "diffusion-driven collapse"
+        "reaction-driven restoration"
+    ) ;
+    dlo:crossDomainPresence "animal coat patterns, coral pigmentation, chemical oscillation systems, GPU simulations" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

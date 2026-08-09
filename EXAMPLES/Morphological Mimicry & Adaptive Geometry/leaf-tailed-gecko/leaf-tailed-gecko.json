@@ -1,0 +1,46 @@
+{
+  "id": "leaf-tailed-gecko",
+  "name": "Leaf-Tailed Gecko",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Structural mimicry geometry formed through serrated edges, leaf-like curvature, texture alignment, and substrate-driven coloration.",
+  "invariant_properties": [
+    "edge-disruption coherence",
+    "curvature-mimicry stability",
+    "texture-alignment invariants",
+    "substrate-driven morphological inference"
+  ],
+  "geometry_type": "edge-disruptive and curvature-aligned morphological geometry",
+  "signal_type": "light-gradient, substrate-texture, boundary-shape, and environmental signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-1 gradient",
+      "MGO-2 recursive growth",
+      "MGO-5 adaptive morphology"
+    ],
+    "signal_classes": [
+      "light-gradient signals",
+      "substrate-texture signals",
+      "boundary-shape signals"
+    ],
+    "invariants": [
+      "edge-disruption coherence",
+      "curvature-mimicry stability",
+      "texture-alignment invariants"
+    ],
+    "manifolds": [
+      "serrated-edge manifold",
+      "leaf-curvature manifold",
+      "texture-mimicry manifold"
+    ],
+    "dynamics": [
+      "environmental drift",
+      "outline-collapse",
+      "behavioral-restoration"
+    ]
+  },
+  "cross_domain_presence": "orchid mantis, stick insects, cephalopod texture mimicry, camouflage shaders",
+  "source": "DSLO Natural Geometry Registry"
+}
+

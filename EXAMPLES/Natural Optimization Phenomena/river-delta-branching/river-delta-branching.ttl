@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:river-delta-branching a dlo:GeometryInstance ;
+    schema:name "River Delta Branching" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Flow-optimization geometry formed through hydraulic gradients, sediment-bounded routing, and branching flow distribution." ;
+    dlo:invariantProperties (
+        "gradient-driven branching invariants"
+        "flow-distribution stability"
+        "sediment-bounded routing"
+        "energy-minimizing optimization"
+    ) ;
+    dlo:geometryType "branching-network and gradient-driven optimization geometry" ;
+    dlo:signalType "hydraulic-gradient, sediment-load, boundary-condition, and flow-velocity signals" ;
+    dlo:dsloOperators (
+        "SGO-1 gradient"
+        "MGO-4 distributed alignment"
+        "MGO-6 optimization"
+    ) ;
+    dlo:dsloInvariants (
+        "gradient-driven branching invariants"
+        "flow-distribution stability"
+        "sediment-bounded routing"
+    ) ;
+    dlo:dsloManifolds (
+        "branching-network manifold"
+        "hydraulic-gradient manifold"
+        "sediment-deposition manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "flow drift"
+        "channel-collapse"
+        "branch-restoration"
+    ) ;
+    dlo:crossDomainPresence "lightning fractals, dendritic growth, fungal networks, flow-optimization algorithms" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

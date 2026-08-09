@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:incan-quipu a dlo:GeometryInstance ;
+    schema:name "Incan Quipu" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Hierarchical cord-and-knot data structures encoding numeric and categorical information through branching, spacing, knot families, and color." ;
+    dlo:invariantProperties (
+        "knot-family coherence"
+        "positional numeric encoding"
+        "branching hierarchy stability"
+        "color-coded categorical signals"
+    ) ;
+    dlo:geometryType "hierarchical cord-and-knot geometry" ;
+    dlo:signalType "tactile, visual, and spatial cultural signals" ;
+    dlo:dsloOperators (
+        "MGO-3 partitioning"
+        "BO-4 knot formation"
+        "SGO-7 categorical encoding"
+    ) ;
+    dlo:dsloInvariants (
+        "knot-family coherence"
+        "positional numeric encoding"
+        "branching hierarchy stability"
+    ) ;
+    dlo:dsloManifolds (
+        "cord manifold"
+        "knot manifold"
+        "branching manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "regional drift"
+        "transmission collapse"
+        "cultural restoration"
+    ) ;
+    dlo:crossDomainPresence "counting rods, memory cords, tally sticks, hierarchical machine data structures" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

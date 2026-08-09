@@ -1,0 +1,46 @@
+{
+  "id": "snowflake-symmetry",
+  "name": "Snowflake Symmetry",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Hexagonal and diffusion-limited geometry formed through lattice-driven branching, temperature gradients, and humidity fields.",
+  "invariant_properties": [
+    "hexagonal-symmetry invariants",
+    "branching-coherence stability",
+    "diffusion-limited growth invariants",
+    "lattice-driven optimization"
+  ],
+  "geometry_type": "hexagonal and diffusion-limited crystalline geometry",
+  "signal_type": "temperature-gradient, humidity-gradient, diffusion-limited, and boundary-condition signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-1 gradient",
+      "MGO-4 distributed alignment",
+      "MGO-6 optimization"
+    ],
+    "signal_classes": [
+      "temperature-gradient signals",
+      "humidity-gradient signals",
+      "diffusion-limited signals"
+    ],
+    "invariants": [
+      "hexagonal-symmetry invariants",
+      "branching-coherence stability",
+      "diffusion-limited growth invariants"
+    ],
+    "manifolds": [
+      "hexagonal-symmetry manifold",
+      "diffusion-gradient manifold",
+      "branching-curvature manifold"
+    ],
+    "dynamics": [
+      "temperature drift",
+      "branch-collapse",
+      "symmetry-restoration"
+    ]
+  },
+  "cross_domain_presence": "crystal growth, mineral dendrites, DLA, fractal optimization",
+  "source": "DSLO Natural Geometry Registry"
+}
+

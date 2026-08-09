@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex:  <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:aboriginal-songlines a dlo:GeometryInstance ;
+    schema:name "Aboriginal Songlines" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Distributed cultural navigation systems where geography is encoded through rhythm, melody, landmarks, and communal memory." ;
+    dlo:invariantProperties (
+        "landmark-anchored coherence"
+        "rhythmic spatial encoding"
+        "distributed cultural memory"
+        "stable path geometry"
+    ) ;
+    dlo:geometryType "landmark-based cultural path geometry" ;
+    dlo:signalType "acoustic, cultural, and environmental signals" ;
+    dlo:dsloOperators (
+        "SGO-6 rhythmic encoding"
+        "MGO-4 distributed cognition"
+        "BO-3 landmark geometry"
+    ) ;
+    dlo:dsloInvariants (
+        "landmark-anchored coherence"
+        "rhythmic spatial encoding"
+        "distributed memory stability"
+    ) ;
+    dlo:dsloManifolds (
+        "path manifold"
+        "landmark manifold"
+        "cultural cognition manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "traversal drift"
+        "cultural transmission collapse"
+        "communal restoration"
+    ) ;
+    dlo:crossDomainPresence "Polynesian wayfinding, Navajo chantway, pilgrimage routes, acoustic SLAM" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

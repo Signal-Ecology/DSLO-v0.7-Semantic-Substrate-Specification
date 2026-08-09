@@ -1,0 +1,46 @@
+{
+  "id": "river-delta-branching",
+  "name": "River Delta Branching",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Flow-optimization geometry formed through hydraulic gradients, sediment-bounded routing, and branching flow distribution.",
+  "invariant_properties": [
+    "gradient-driven branching invariants",
+    "flow-distribution stability",
+    "sediment-bounded routing",
+    "energy-minimizing optimization"
+  ],
+  "geometry_type": "branching-network and gradient-driven optimization geometry",
+  "signal_type": "hydraulic-gradient, sediment-load, boundary-condition, and flow-velocity signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-1 gradient",
+      "MGO-4 distributed alignment",
+      "MGO-6 optimization"
+    ],
+    "signal_classes": [
+      "hydraulic-gradient signals",
+      "sediment-load signals",
+      "boundary-condition signals"
+    ],
+    "invariants": [
+      "gradient-driven branching invariants",
+      "flow-distribution stability",
+      "sediment-bounded routing"
+    ],
+    "manifolds": [
+      "branching-network manifold",
+      "hydraulic-gradient manifold",
+      "sediment-deposition manifold"
+    ],
+    "dynamics": [
+      "flow drift",
+      "channel-collapse",
+      "branch-restoration"
+    ]
+  },
+  "cross_domain_presence": "lightning fractals, dendritic growth, fungal networks, flow-optimization algorithms",
+  "source": "DSLO Natural Geometry Registry"
+}
+

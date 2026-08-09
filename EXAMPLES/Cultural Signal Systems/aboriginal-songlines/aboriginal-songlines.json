@@ -1,0 +1,46 @@
+{
+  "id": "aboriginal-songlines",
+  "name": "Aboriginal Songlines",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Distributed cultural navigation systems where geography is encoded through rhythm, melody, landmarks, and communal memory.",
+  "invariant_properties": [
+    "landmark-anchored coherence",
+    "rhythmic spatial encoding",
+    "distributed cultural memory",
+    "stable path geometry"
+  ],
+  "geometry_type": "landmark-based cultural path geometry",
+  "signal_type": "acoustic, cultural, and environmental signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-6 rhythmic encoding",
+      "MGO-4 distributed cognition",
+      "BO-3 landmark geometry"
+    ],
+    "signal_classes": [
+      "acoustic rhythm signals",
+      "cultural memory signals",
+      "environmental landmark signals"
+    ],
+    "invariants": [
+      "landmark-anchored coherence",
+      "rhythmic spatial encoding",
+      "distributed memory stability"
+    ],
+    "manifolds": [
+      "path manifold",
+      "landmark manifold",
+      "cultural cognition manifold"
+    ],
+    "dynamics": [
+      "traversal drift",
+      "cultural transmission collapse",
+      "communal restoration"
+    ]
+  },
+  "cross_domain_presence": "Polynesian wayfinding, Navajo chantway, pilgrimage routes, acoustic SLAM",
+  "source": "DSLO Natural Geometry Registry"
+}
+

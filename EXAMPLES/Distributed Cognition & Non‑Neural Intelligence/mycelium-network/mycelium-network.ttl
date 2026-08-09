@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:mycelium-network a dlo:GeometryInstance ;
+    schema:name "Mycelium Network" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Distributed routing geometry formed through nutrient gradients, branching, merging, pruning, and hyphal-level decision-making." ;
+    dlo:invariantProperties (
+        "gradient-bounded growth"
+        "branching coherence"
+        "adaptive route reinforcement"
+        "distributed nutrient routing"
+    ) ;
+    dlo:geometryType "gradient-driven branching and routing geometry" ;
+    dlo:signalType "nutrient, chemical inhibition, moisture, and substrate signals" ;
+    dlo:dsloOperators (
+        "SGO-1 gradient formation"
+        "MGO-2 recursive growth"
+        "MGO-3 partitioning"
+    ) ;
+    dlo:dsloInvariants (
+        "gradient-bounded growth"
+        "branching coherence"
+        "adaptive route reinforcement"
+    ) ;
+    dlo:dsloManifolds (
+        "branching manifold"
+        "gradient manifold"
+        "routing manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "environmental drift"
+        "substrate-collapse"
+        "regrowth restoration"
+    ) ;
+    dlo:crossDomainPresence "slime-mold networks, ant foraging, vascular branching, routing algorithms" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:boquila a dlo:GeometryInstance ;
+    schema:name "Boquila" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Adaptive morphological geometry formed through leaf-shape mimicry, gradient sensing, and distributed growth-tip decision-making." ;
+    dlo:invariantProperties (
+        "shape-mimicry coherence"
+        "gradient-bounded adaptation"
+        "venation-pattern stability"
+        "distributed morphological inference"
+    ) ;
+    dlo:geometryType "shape-adaptive and gradient-driven morphological geometry" ;
+    dlo:signalType "light, chemical, mechanical, and substrate-proximity signals" ;
+    dlo:dsloOperators (
+        "SGO-1 gradient"
+        "MGO-2 recursive growth"
+        "MGO-5 adaptive morphology"
+    ) ;
+    dlo:dsloInvariants (
+        "shape-mimicry coherence"
+        "gradient-bounded adaptation"
+        "venation-pattern stability"
+    ) ;
+    dlo:dsloManifolds (
+        "shape-adaptive manifold"
+        "color-gradient manifold"
+        "venation manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "environmental drift"
+        "cue-loss collapse"
+        "adaptive restoration"
+    ) ;
+    dlo:crossDomainPresence "cephalopod camouflage, leaf-tailed gecko, orchid mantis, adaptive morphogenesis" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

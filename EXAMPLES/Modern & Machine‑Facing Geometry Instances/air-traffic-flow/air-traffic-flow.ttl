@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:air-traffic-flow a dlo:GeometryInstance ;
+    schema:name "Air Traffic Flow" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Global routing geometry defined by altitude layers, flow fields, waypoint networks, and constraint-bounded optimization." ;
+    dlo:invariantProperties (
+        "flow-field coherence"
+        "altitude-layer stability"
+        "constraint-bounded routing"
+        "dynamic spacing invariants"
+    ) ;
+    dlo:geometryType "multi-layer flow-field and routing geometry" ;
+    dlo:signalType "wind, pressure, turbulence, ATC routing, and transponder signals" ;
+    dlo:dsloOperators (
+        "SGO-3 propagation"
+        "MGO-3 partitioning"
+        "BO-4 routing"
+    ) ;
+    dlo:dsloInvariants (
+        "flow-field coherence"
+        "altitude-layer stability"
+        "constraint-bounded routing"
+    ) ;
+    dlo:dsloManifolds (
+        "altitude manifold"
+        "flow-field manifold"
+        "routing-graph manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "weather drift"
+        "congestion collapse"
+        "rerouting restoration"
+    ) ;
+    dlo:crossDomainPresence "shipping lanes, internet routing, highway flow, flow-field optimization" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

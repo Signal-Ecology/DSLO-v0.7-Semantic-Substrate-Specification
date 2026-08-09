@@ -1,0 +1,757 @@
+{
+  "owl": {
+    "classes": [
+      "semantic_curvature",
+      "boundary",
+      "boundary_integrity",
+      "boundary_threshold",
+      "boundary_strain",
+      "constraint_envelope",
+      "continuity",
+      "field_geometry",
+      "geometry_invariant",
+      "gradient_constraint",
+      "layered_substrate",
+      "meaning_invariant",
+      "semantic_manifold",
+      "semantic_distance",
+      "semantic_gradient",
+      "semantic_state",
+      "signal_integrity",
+      "stress_geometry",
+      "substrate_invariant_set",
+      "zero_ambiguity_tolerance",
+      "abstraction_gradient",
+      "axiom_continuity",
+      "boundary_reconstitution",
+      "curvature_load_interaction",
+      "cycle_invariant_stability",
+      "drift_load_coupling",
+      "dynamic_region_shift",
+      "embedding_stability",
+      "field_runtime_coupling",
+      "fallback_recovery_envelope",
+      "geometry_preserving_transition",
+      "gradient_bound_operator",
+      "high_pressure_equilibrium",
+      "horizon_of_collapse",
+      "identity_gradient_interaction",
+      "legality_curvature_coupling",
+      "load_curvature_threshold",
+      "manifold_runtime_synchronization",
+      "meaning_load_interaction",
+      "operator_gradient_compatibility",
+      "pressure_bound_stability",
+      "region_load_coupling",
+      "semantic_load_coupling",
+      "stability_gradient_envelope",
+      "transition_curvature_constraint",
+      "upward_load_propagation",
+      "vector_curvature_interaction",
+      "world_load_alignment",
+      "zero_drift_envelope",
+      "unified_substrate_manifold",
+      "manifold_curvature_envelope",
+      "manifold_boundary_mask",
+      "manifold_collapse_geometry",
+      "manifold_recovery_geometry",
+      "manifold_identity_field",
+      "manifold_operator_geometry",
+      "manifold_supervisor_geometry",
+      "manifold_projection_geometry",
+      "manifold_continuity_constraint",
+      "meaning_trajectory",
+      "identity_region",
+      "region_configuration",
+      "dynamic_region_shift",
+      "world_container_alignment",
+      "cross_substrate_mapping",
+      "agency_manifold",
+      "actor_curvature",
+      "agency_boundary",
+      "agency_drift_envelope",
+      "agency_stability_mode",
+      "teleology_manifold",
+      "directional_curvature",
+      "teleological_boundary",
+      "teleology_drift_vector",
+      "teleology_stability_envelope",
+      "deployment_manifold",
+      "deployment_curvature",
+      "deployment_boundary",
+      "deployment_drift_field",
+      "deployment_stability_constraint",
+      "execution_manifold",
+      "execution_curvature",
+      "execution_boundary",
+      "execution_drift_profile",
+      "execution_stability_mode",
+      "federation_manifold",
+      "federation_curvature",
+      "federation_boundary",
+      "federation_drift_channel",
+      "federation_stability_envelope",
+      "omega_manifold",
+      "omega_curvature",
+      "omega_boundary",
+      "omega_drift_envelope",
+      "omega_stability_mode",
+      "closure_manifold",
+      "closure_curvature",
+      "closure_boundary",
+      "closure_drift_channel",
+      "closure_stability_envelope",
+      "behavioral_coherence",
+      "role_coherence",
+      "role_pressure",
+      "institutional_drift",
+      "edge_context",
+      "interpretive_window",
+      "identity_role_coherence_envelope",
+      "relational_fields",
+      "relational_drift",
+      "relational_legality",
+      "dual_drift",
+      "human_machine_relational_dynamics",
+      "relational_collapse",
+      "relational_recovery",
+      "bind_operator_root",
+      "fold_operator_root",
+      "lift_operator_root",
+      "correction_operator",
+      "boundary_operator",
+      "semantic_operator",
+      "operator_constraints",
+      "transformation_rules",
+      "gradient_bound_operator_expansion",
+      "operator_gradient_compatibility_expansion",
+      "operator_of_reality",
+      "fold_operator",
+      "invert_operator",
+      "lift_operator",
+      "bind_operator",
+      "collapse_trajectory_operator",
+      "recovery_window_operator",
+      "curvature_redirect_operator",
+      "identity_boundary_operator",
+      "legality_preservation_operator",
+      "drift",
+      "drift_envelope",
+      "drift_signature",
+      "drift_vector",
+      "drift_displacement",
+      "drift_propagation_field",
+      "drift_accumulation_envelope",
+      "drift_detection_geometry",
+      "drift_correction_geometry",
+      "drift_halt_geometry",
+      "meaning_load",
+      "load_envelope",
+      "stress_geometry",
+      "collapse_geometry",
+      "recovery_geometry",
+      "collapse_threshold",
+      "collapse_curvature",
+      "collapse_trajectory",
+      "collapse_envelope",
+      "collapse_induced_drift",
+      "collapse_recovery_transition",
+      "irrecoverable_failure_boundary",
+      "recoverable_failure_boundary",
+      "drift_load_coupling_expansion",
+      "curvature_load_interaction_expansion",
+      "high_pressure_equilibrium_expansion",
+      "horizon_of_collapse_expansion",
+      "pressure_bound_stability_expansion",
+      "region_load_coupling_expansion",
+      "semantic_load_coupling_expansion",
+      "stability_gradient_envelope_expansion",
+      "transition_curvature_constraint_expansion",
+      "upward_load_propagation_expansion",
+      "vector_curvature_interaction_expansion",
+      "world_load_alignment_expansion",
+      "pressure_field",
+      "pressure_flow_geometry",
+      "pressure_envelope",
+      "pressure_profile",
+      "stress_induced_curvature",
+      "load_pressure_interaction",
+      "pressure_drift_interaction",
+      "human_drift",
+      "machine_drift",
+      "dual_drift_comparison",
+      "dsup",
+      "function_update_rule",
+      "update_function",
+      "runtime_geometry",
+      "lawful_transition",
+      "deterministic_transition",
+      "deterministic_semantic_layer",
+      "identity_preserving_update",
+      "legality_mask",
+      "legality_status",
+      "legality_invariant",
+      "transition_legality",
+      "meaning_condition_coupling_root",
+      "halt_condition",
+      "recovery_mode",
+      "completion_cycle",
+      "axiom_continuity_runtime",
+      "cycle_invariant_stability_runtime",
+      "field_runtime_coupling_runtime",
+      "fallback_recovery_envelope_runtime",
+      "geometry_preserving_transition_runtime",
+      "gradient_bound_operator_runtime",
+      "manifold_runtime_synchronization_runtime",
+      "operator_gradient_compatibility_runtime",
+      "dsup_runtime",
+      "state_representation",
+      "lawful_update_process",
+      "constrained_evolution",
+      "context_integrated_update",
+      "drift_coherence_update",
+      "halt_condition_runtime",
+      "recovery_geometry_runtime",
+      "completion_cycle_runtime",
+      "meaning_condition_coupling_runtime",
+      "interpretive_window_context",
+      "edge_context_context",
+      "world_container_alignment_context",
+      "context_state_mapping_expansion",
+      "embedding_stability_expansion",
+      "world_load_alignment_expansion_context",
+      "context_window",
+      "context_boundary",
+      "context_drift",
+      "context_contraction_operator",
+      "context_state_mapping",
+      "context_legality_mask",
+      "context_drift_flag",
+      "context_region_association",
+      "fallback_graph",
+      "fallback_geometry",
+      "invariant_reload",
+      "proof_stack",
+      "external_geometry",
+      "signal_substrate_coupling",
+      "world_container_alignment_sim",
+      "embedding_stability_sim",
+      "geometry_preserving_transition_sim",
+      "field_runtime_coupling_sim",
+      "gradient_bound_operator_sim",
+      "operator_gradient_compatibility_sim",
+      "irsm",
+      "simulation_integrity_condition",
+      "static_anchoring",
+      "topological_anchors",
+      "four_plane_legality_check",
+      "text_projection_plane",
+      "geometric_mapping_plane",
+      "invariant_validation_plane",
+      "clcp_plane",
+      "identity_vector",
+      "identity_invariant",
+      "identity_continuity",
+      "identity_preservation",
+      "identity_stability",
+      "identity_boundary_collapse",
+      "identity_region_root",
+      "boundary_integrity_identity",
+      "boundary_threshold_identity",
+      "boundary_strain_identity",
+      "boundary_reconstitution_identity",
+      "identity_gradient_interaction_expansion",
+      "identity_role_coherence_envelope_expansion",
+      "identity_curvature",
+      "identity_boundary_mask",
+      "identity_collapse_threshold",
+      "identity_recovery_geometry",
+      "identity_stability_mode",
+      "upward_coupling",
+      "upward_load_propagation_root",
+      "drift_load_coupling_root",
+      "region_load_coupling_root",
+      "semantic_load_coupling_root",
+      "world_load_alignment_root",
+      "load_curvature_threshold_expansion",
+      "pressure_bound_stability_expansion_coupling",
+      "curvature_load_interaction_expansion_coupling",
+      "stability_gradient_envelope_expansion_coupling",
+      "downward_coupling",
+      "coupling_mechanism",
+      "coupling_failure_geometry",
+      "coupling_event_geometry",
+      "coupling_threshold",
+      "coupling_drift_channel",
+      "coupling_stability_envelope",
+      "multi_agent_coupling_networks",
+      "A001",
+      "T001",
+      "D001",
+      "E001",
+      "F001",
+      "O001",
+      "OR001",
+      "OR002",
+      "OR003",
+      "OR004",
+      "OR005",
+      "OR006",
+      "OR007",
+      "OR008",
+      "OR009",
+      "OR000",
+      "RT001",
+      "RT002",
+      "RT003",
+      "RT004",
+      "RT005",
+      "RT006",
+      "RT007",
+      "RT008",
+      "RT009",
+      "RT010",
+      "LG001",
+      "LG002",
+      "LG003",
+      "LG004"
+    ],
+    "relations": [
+      {
+        "source": "A001",
+        "target": "agency_manifold",
+        "relation": "uses-term"
+      },
+      {
+        "source": "A001",
+        "target": "actor_curvature",
+        "relation": "uses-term"
+      },
+      {
+        "source": "A001",
+        "target": "agency_boundary",
+        "relation": "uses-term"
+      },
+      {
+        "source": "A001",
+        "target": "agency_drift_envelope",
+        "relation": "uses-term"
+      },
+      {
+        "source": "A001",
+        "target": "agency_stability_mode",
+        "relation": "uses-term"
+      },
+      {
+        "source": "T001",
+        "target": "teleology_manifold",
+        "relation": "uses-term"
+      },
+      {
+        "source": "T001",
+        "target": "directional_curvature",
+        "relation": "uses-term"
+      },
+      {
+        "source": "T001",
+        "target": "teleological_boundary",
+        "relation": "uses-term"
+      },
+      {
+        "source": "T001",
+        "target": "teleology_drift_vector",
+        "relation": "uses-term"
+      },
+      {
+        "source": "T001",
+        "target": "teleology_stability_envelope",
+        "relation": "uses-term"
+      },
+      {
+        "source": "D001",
+        "target": "deployment_manifold",
+        "relation": "uses-term"
+      },
+      {
+        "source": "D001",
+        "target": "deployment_curvature",
+        "relation": "uses-term"
+      },
+      {
+        "source": "D001",
+        "target": "deployment_boundary",
+        "relation": "uses-term"
+      },
+      {
+        "source": "D001",
+        "target": "deployment_drift_field",
+        "relation": "uses-term"
+      },
+      {
+        "source": "D001",
+        "target": "deployment_stability_constraint",
+        "relation": "uses-term"
+      },
+      {
+        "source": "E001",
+        "target": "execution_manifold",
+        "relation": "uses-term"
+      },
+      {
+        "source": "E001",
+        "target": "execution_curvature",
+        "relation": "uses-term"
+      },
+      {
+        "source": "E001",
+        "target": "execution_boundary",
+        "relation": "uses-term"
+      },
+      {
+        "source": "E001",
+        "target": "execution_drift_profile",
+        "relation": "uses-term"
+      },
+      {
+        "source": "E001",
+        "target": "execution_stability_mode",
+        "relation": "uses-term"
+      },
+      {
+        "source": "F001",
+        "target": "federation_manifold",
+        "relation": "uses-term"
+      },
+      {
+        "source": "F001",
+        "target": "federation_curvature",
+        "relation": "uses-term"
+      },
+      {
+        "source": "F001",
+        "target": "federation_boundary",
+        "relation": "uses-term"
+      },
+      {
+        "source": "F001",
+        "target": "federation_drift_channel",
+        "relation": "uses-term"
+      },
+      {
+        "source": "F001",
+        "target": "federation_stability_envelope",
+        "relation": "uses-term"
+      },
+      {
+        "source": "O001",
+        "target": "omega_manifold",
+        "relation": "uses-term"
+      },
+      {
+        "source": "O001",
+        "target": "omega_curvature",
+        "relation": "uses-term"
+      },
+      {
+        "source": "O001",
+        "target": "omega_boundary",
+        "relation": "uses-term"
+      },
+      {
+        "source": "O001",
+        "target": "omega_drift_envelope",
+        "relation": "uses-term"
+      },
+      {
+        "source": "O001",
+        "target": "omega_stability_mode",
+        "relation": "uses-term"
+      },
+      {
+        "source": "O001",
+        "target": "closure_manifold",
+        "relation": "uses-term"
+      },
+      {
+        "source": "O001",
+        "target": "closure_curvature",
+        "relation": "uses-term"
+      },
+      {
+        "source": "O001",
+        "target": "closure_boundary",
+        "relation": "uses-term"
+      },
+      {
+        "source": "O001",
+        "target": "closure_drift_channel",
+        "relation": "uses-term"
+      },
+      {
+        "source": "O001",
+        "target": "closure_stability_envelope",
+        "relation": "uses-term"
+      },
+      {
+        "source": "OR001",
+        "target": "fold_operator",
+        "relation": "uses-term"
+      },
+      {
+        "source": "OR002",
+        "target": "lift_operator",
+        "relation": "uses-term"
+      },
+      {
+        "source": "OR003",
+        "target": "invert_operator",
+        "relation": "uses-term"
+      },
+      {
+        "source": "OR004",
+        "target": "bind_operator",
+        "relation": "uses-term"
+      },
+      {
+        "source": "OR005",
+        "target": "collapse_trajectory_operator",
+        "relation": "uses-term"
+      },
+      {
+        "source": "OR006",
+        "target": "recovery_window_operator",
+        "relation": "uses-term"
+      },
+      {
+        "source": "OR006",
+        "target": "recovery_geometry_runtime",
+        "relation": "uses-term"
+      },
+      {
+        "source": "OR007",
+        "target": "curvature_redirect_operator",
+        "relation": "uses-term"
+      },
+      {
+        "source": "OR008",
+        "target": "identity_boundary_operator",
+        "relation": "uses-term"
+      },
+      {
+        "source": "OR009",
+        "target": "legality_preservation_operator",
+        "relation": "uses-term"
+      },
+      {
+        "source": "OR000",
+        "target": "operator_of_reality",
+        "relation": "uses-term"
+      },
+      {
+        "source": "RT002",
+        "target": "OR001",
+        "relation": "uses-operator"
+      },
+      {
+        "source": "RT002",
+        "target": "OR002",
+        "relation": "uses-operator"
+      },
+      {
+        "source": "RT002",
+        "target": "OR003",
+        "relation": "uses-operator"
+      },
+      {
+        "source": "RT002",
+        "target": "OR004",
+        "relation": "uses-operator"
+      },
+      {
+        "source": "RT002",
+        "target": "OR007",
+        "relation": "uses-operator"
+      },
+      {
+        "source": "RT002",
+        "target": "OR009",
+        "relation": "uses-operator"
+      },
+      {
+        "source": "RT004",
+        "target": "OR006",
+        "relation": "uses-operator"
+      },
+      {
+        "source": "RT004",
+        "target": "OR004",
+        "relation": "uses-operator"
+      },
+      {
+        "source": "RT004",
+        "target": "OR009",
+        "relation": "uses-operator"
+      },
+      {
+        "source": "LG001",
+        "target": "RT001",
+        "relation": "constrains-runtime"
+      },
+      {
+        "source": "LG002",
+        "target": "RT001",
+        "relation": "constrains-runtime"
+      },
+      {
+        "source": "LG003",
+        "target": "RT001",
+        "relation": "constrains-runtime"
+      },
+      {
+        "source": "LG004",
+        "target": "RT001",
+        "relation": "constrains-runtime"
+      },
+      {
+        "source": "LG001",
+        "target": "OR009",
+        "relation": "governs-operator"
+      },
+      {
+        "source": "LG002",
+        "target": "OR009",
+        "relation": "governs-operator"
+      },
+      {
+        "source": "LG003",
+        "target": "OR009",
+        "relation": "governs-operator"
+      },
+      {
+        "source": "LG004",
+        "target": "OR009",
+        "relation": "governs-operator"
+      },
+      {
+        "source": "LG001",
+        "target": "A001",
+        "relation": "constrains-manifold"
+      },
+      {
+        "source": "LG001",
+        "target": "T001",
+        "relation": "constrains-manifold"
+      },
+      {
+        "source": "LG001",
+        "target": "D001",
+        "relation": "constrains-manifold"
+      },
+      {
+        "source": "LG001",
+        "target": "E001",
+        "relation": "constrains-manifold"
+      },
+      {
+        "source": "LG001",
+        "target": "F001",
+        "relation": "constrains-manifold"
+      },
+      {
+        "source": "LG001",
+        "target": "O001",
+        "relation": "constrains-manifold"
+      },
+      {
+        "source": "LG002",
+        "target": "A001",
+        "relation": "constrains-manifold"
+      },
+      {
+        "source": "LG002",
+        "target": "T001",
+        "relation": "constrains-manifold"
+      },
+      {
+        "source": "LG002",
+        "target": "D001",
+        "relation": "constrains-manifold"
+      },
+      {
+        "source": "LG002",
+        "target": "E001",
+        "relation": "constrains-manifold"
+      },
+      {
+        "source": "LG002",
+        "target": "F001",
+        "relation": "constrains-manifold"
+      },
+      {
+        "source": "LG002",
+        "target": "O001",
+        "relation": "constrains-manifold"
+      },
+      {
+        "source": "LG003",
+        "target": "A001",
+        "relation": "constrains-manifold"
+      },
+      {
+        "source": "LG003",
+        "target": "T001",
+        "relation": "constrains-manifold"
+      },
+      {
+        "source": "LG003",
+        "target": "D001",
+        "relation": "constrains-manifold"
+      },
+      {
+        "source": "LG003",
+        "target": "E001",
+        "relation": "constrains-manifold"
+      },
+      {
+        "source": "LG003",
+        "target": "F001",
+        "relation": "constrains-manifold"
+      },
+      {
+        "source": "LG003",
+        "target": "O001",
+        "relation": "constrains-manifold"
+      },
+      {
+        "source": "LG004",
+        "target": "A001",
+        "relation": "constrains-manifold"
+      },
+      {
+        "source": "LG004",
+        "target": "T001",
+        "relation": "constrains-manifold"
+      },
+      {
+        "source": "LG004",
+        "target": "D001",
+        "relation": "constrains-manifold"
+      },
+      {
+        "source": "LG004",
+        "target": "E001",
+        "relation": "constrains-manifold"
+      },
+      {
+        "source": "LG004",
+        "target": "F001",
+        "relation": "constrains-manifold"
+      },
+      {
+        "source": "LG004",
+        "target": "O001",
+        "relation": "constrains-manifold"
+      }
+    ]
+  }
+}

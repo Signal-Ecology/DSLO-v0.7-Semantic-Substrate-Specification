@@ -1,0 +1,46 @@
+{
+  "id": "tibetan-mandala-geometry",
+  "name": "Tibetan Mandala Geometry",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Recursive radial geometries with proportional grids, layered symmetry, and color-encoded categorical meaning used in Tibetan ritual and cognition.",
+  "invariant_properties": [
+    "radial symmetry coherence",
+    "recursive layer stability",
+    "proportional grid invariants",
+    "color-categorical encoding"
+  ],
+  "geometry_type": "recursive radial and proportional geometry",
+  "signal_type": "visual symmetry, color-categorical, and ritual traversal signals",
+  "dslo_interpretation": {
+    "operators": [
+      "MGO-2 recursive growth",
+      "BO-1 boundary formation",
+      "SGO-7 categorical encoding"
+    ],
+    "signal_classes": [
+      "visual symmetry signals",
+      "color-categorical signals",
+      "ritual traversal signals"
+    ],
+    "invariants": [
+      "radial symmetry coherence",
+      "recursive layer stability",
+      "proportional grid invariants"
+    ],
+    "manifolds": [
+      "radial symmetry manifold",
+      "layered recursion manifold",
+      "boundary-gate manifold"
+    ],
+    "dynamics": [
+      "regional stylistic drift",
+      "proportional collapse",
+      "ritual restoration"
+    ]
+  },
+  "cross_domain_presence": "yantras, geometric tiling, rose windows, symmetry engines",
+  "source": "DSLO Natural Geometry Registry"
+}
+

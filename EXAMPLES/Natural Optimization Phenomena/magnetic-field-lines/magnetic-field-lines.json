@@ -1,0 +1,46 @@
+{
+  "id": "magnetic-field-lines",
+  "name": "Magnetic Field Lines",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Gradient-aligned and energy-minimizing geometry formed through flux-density gradients, dipole alignment, and constraint-bounded routing.",
+  "invariant_properties": [
+    "gradient-aligned curvature invariants",
+    "non-intersection stability",
+    "energy-minimizing routing",
+    "flux-distribution coherence"
+  ],
+  "geometry_type": "curvature-minimizing and gradient-driven field geometry",
+  "signal_type": "flux-density, current-distribution, boundary-condition, and dipole-orientation signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-1 gradient",
+      "MGO-4 distributed alignment",
+      "MGO-6 optimization"
+    ],
+    "signal_classes": [
+      "magnetic-flux signals",
+      "current-distribution signals",
+      "boundary-condition signals"
+    ],
+    "invariants": [
+      "gradient-aligned curvature invariants",
+      "non-intersection stability",
+      "energy-minimizing routing"
+    ],
+    "manifolds": [
+      "curvature-minimizing manifold",
+      "gradient-flow manifold",
+      "dipole-alignment manifold"
+    ],
+    "dynamics": [
+      "current drift",
+      "field-collapse",
+      "flux-restoration"
+    ]
+  },
+  "cross_domain_presence": "electric fields, fluid streamlines, gravitational surfaces, vector-field optimization",
+  "source": "DSLO Natural Geometry Registry"
+}
+

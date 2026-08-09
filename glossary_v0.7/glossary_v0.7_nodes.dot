@@ -1,0 +1,539 @@
+digraph DSLO_V07_Nodes {
+    rankdir=LR;
+    node [shape=box, style=rounded, fontsize=10];
+
+    /* ============================
+       SECTION S1 — SUBSTRATE GEOMETRY
+       ============================ */
+
+    subgraph cluster_S1 {
+        label="S1: Substrate Geometry";
+        style=filled;
+        color=lightgrey;
+
+        "Semantic Curvature";
+        "Boundary";
+        "Boundary Integrity";
+        "Boundary Threshold";
+        "Boundary Strain";
+        "Constraint Envelope";
+        "Continuity";
+        "Curvature";
+        "Field Geometry";
+        "Geometry Invariant";
+        "Gradient Constraint";
+        "Layered Substrate";
+        "Meaning Invariant";
+        "Semantic Manifold";
+        "Semantic Distance";
+        "Semantic Gradient";
+        "Semantic State";
+        "Signal Integrity";
+        "Stress Geometry";
+        "Substrate Invariant Set";
+        "Zero-Ambiguity Tolerance";
+
+        "Abstraction Gradient";
+        "Axiom Continuity";
+        "Boundary Reconstitution";
+        "Curvature-Load Interaction";
+        "Cycle-Invariant Stability";
+        "Drift-Load Coupling";
+        "Dynamic Region Shift";
+        "Embedding Stability";
+        "Field-Runtime Coupling";
+        "Fallback-Recovery Envelope";
+        "Geometry-Preserving Transition";
+        "Gradient-Bound Operator";
+        "High-Pressure Equilibrium";
+        "Horizon of Collapse";
+        "Identity-Gradient Interaction";
+        "Legality-Curvature Coupling";
+        "Load-Curvature Threshold";
+        "Manifold-Runtime Synchronization";
+        "Meaning-Load Interaction";
+        "Operator-Gradient Compatibility";
+        "Pressure-Bound Stability";
+        "Region-Load Coupling";
+        "Semantic-Load Coupling";
+        "Stability-Gradient Envelope";
+        "Transition-Curvature Constraint";
+        "Upward-Load Propagation";
+        "Vector-Curvature Interaction";
+        "World-Load Alignment";
+        "Zero-Drift Envelope";
+
+        "Unified Substrate Manifold";
+        "Manifold Curvature Envelope";
+        "Manifold Boundary Mask";
+        "Manifold Collapse Geometry";
+        "Manifold Recovery Geometry";
+        "Manifold Identity Field";
+        "Manifold Operator Geometry";
+        "Manifold Supervisor Geometry";
+        "Manifold Projection Geometry";
+        "Manifold Continuity Constraint";
+    }
+
+    /* ============================
+       SECTION S2 — DERIVED MANIFOLDS
+       ============================ */
+
+    subgraph cluster_S2 {
+        label="S2: Derived Manifolds";
+        style=filled;
+        color=lightblue;
+
+        /* Agency */
+        "Agency Manifold";
+        "Actor Curvature";
+        "Agency Boundary";
+        "Agency Drift Envelope";
+        "Agency Stability Mode";
+
+        /* Teleology */
+        "Teleology Manifold";
+        "Directional Curvature";
+        "Teleological Boundary";
+        "Teleology Drift Vector";
+        "Teleology Stability Envelope";
+
+        /* Deployment */
+        "Deployment Manifold";
+        "Deployment Curvature";
+        "Deployment Boundary";
+        "Deployment Drift Field";
+        "Deployment Stability Constraint";
+
+        /* Execution */
+        "Execution Manifold";
+        "Execution Curvature";
+        "Execution Boundary";
+        "Execution Drift Profile";
+        "Execution Stability Mode";
+
+        /* Federation */
+        "Federation Manifold";
+        "Federation Curvature";
+        "Federation Boundary";
+        "Federation Drift Channel";
+        "Federation Stability Envelope";
+
+        /* Closure / Ω */
+        "Ω Manifold";
+        "Ω Curvature";
+        "Ω Boundary";
+        "Ω Drift Envelope";
+        "Ω Stability Mode";
+        "Closure Manifold";
+        "Closure Curvature";
+        "Closure Boundary";
+        "Closure Drift Channel";
+        "Closure Stability Envelope";
+
+        /* Shared manifold terms */
+        "Meaning Trajectory";
+        "Identity Region";
+        "Region Configuration";
+        "Dynamic Region Shift";
+        "World-Container Alignment";
+        "Cross-Substrate Mapping";
+    }
+
+    /* ============================
+       SECTION S3 — RELATIONAL GEOMETRY
+       ============================ */
+
+    subgraph cluster_S3 {
+        label="S3: Relational Geometry";
+        style=filled;
+        color=lightyellow;
+
+        "Behavioral Coherence";
+        "Role Coherence";
+        "Role Pressure";
+        "Institutional Drift";
+        "Edge Context";
+        "Interpretive Window";
+        "Identity-Role Coherence Envelope";
+
+        "Relational Fields";
+        "Relational Drift";
+        "Relational Legality";
+        "Dual Drift";
+        "Human–Machine Relational Dynamics";
+        "Relational Collapse";
+        "Relational Recovery";
+    }
+
+    /* ============================
+       SECTION-LEVEL EDGES (S1–S3)
+       ============================ */
+
+    "Unified Substrate Manifold" -> "Agency Manifold";
+    "Unified Substrate Manifold" -> "Teleology Manifold";
+    "Unified Substrate Manifold" -> "Deployment Manifold";
+    "Unified Substrate Manifold" -> "Execution Manifold";
+    "Unified Substrate Manifold" -> "Federation Manifold";
+    "Unified Substrate Manifold" -> "Ω Manifold";
+
+    "Semantic Manifold" -> "Meaning Trajectory";
+    "Semantic Manifold" -> "Identity Region";
+
+    "Relational Fields" -> "Role Coherence";
+    "Relational Drift" -> "Institutional Drift";
+    "Relational Drift" -> "Dual Drift";
+}
+    /* ============================
+       SECTION S4 — OPERATORS OF REALITY
+       ============================ */
+
+    subgraph cluster_S4 {
+        label="S4: Operators of Reality";
+        style=filled;
+        color=lightcoral;
+
+        "Bind Operator";
+        "Fold Operator";
+        "Lift Operator";
+        "Correction Operator";
+        "Boundary Operator (BO)";
+        "Semantic Operator";
+        "Operator Constraints";
+        "Transformation Rules";
+
+        "Gradient-Bound Operator";
+        "Operator-Gradient Compatibility";
+
+        "Operator of Reality";
+        "Invert Operator";
+        "Collapse-Trajectory Operator";
+        "Recovery-Window Operator";
+        "Curvature-Redirect Operator";
+        "Identity-Boundary Operator";
+        "Legality-Preservation Operator";
+    }
+
+    /* ============================
+       SECTION S5 — THERMODYNAMIC GEOMETRY
+       ============================ */
+
+    subgraph cluster_S5 {
+        label="S5: Thermodynamic Geometry";
+        style=filled;
+        color=lightgreen;
+
+        "Drift";
+        "Drift Envelope";
+        "Drift Signature";
+        "Drift Vector";
+        "Drift Displacement";
+        "Drift Propagation Field";
+        "Drift Accumulation Envelope";
+        "Drift Detection Geometry";
+        "Drift Correction Geometry";
+        "Drift Halt Geometry";
+
+        "Meaning Load";
+        "Load Envelope";
+        "Stress Geometry";
+
+        "Collapse Geometry";
+        "Recovery Geometry";
+        "Collapse Threshold";
+        "Collapse Curvature";
+        "Collapse Trajectory";
+        "Collapse Envelope";
+        "Collapse-Induced Drift";
+        "Collapse-Recovery Transition";
+        "Irrecoverable Failure Boundary";
+        "Recoverable Failure Boundary";
+
+        "Drift-Load Coupling";
+        "Curvature-Load Interaction";
+        "High-Pressure Equilibrium";
+        "Horizon of Collapse";
+        "Pressure-Bound Stability";
+        "Region-Load Coupling";
+        "Semantic-Load Coupling";
+        "Stability-Gradient Envelope";
+        "Transition-Curvature Constraint";
+        "Upward-Load Propagation";
+        "Vector-Curvature Interaction";
+        "World-Load Alignment";
+
+        "Pressure Field";
+        "Pressure Flow Geometry";
+        "Pressure Envelope";
+        "Pressure Profile";
+        "Stress-Induced Curvature";
+        "Load-Pressure Interaction";
+        "Pressure-Drift Interaction";
+
+        "Human Drift";
+        "Machine Drift";
+        "Dual Drift Comparison";
+    }
+
+    /* ============================
+       SECTION S6 — RUNTIME GEOMETRY (DSUP)
+       ============================ */
+
+    subgraph cluster_S6 {
+        label="S6: Runtime Geometry (DSUP)";
+        style=filled;
+        color=lightpink;
+
+        "DSUP";
+        "Function Update Rule";
+        "Update Function";
+        "Runtime Geometry";
+        "Lawful Transition";
+        "Deterministic Transition";
+        "Deterministic Semantic Layer";
+        "Identity-Preserving Update";
+        "Legality Mask";
+        "Legality Status";
+        "Legality Invariant";
+        "Transition Legality";
+        "Meaning-Condition Coupling";
+        "Halt Condition";
+        "Recovery Mode";
+        "Completion Cycle";
+
+        "Axiom Continuity";
+        "Cycle-Invariant Stability";
+        "Field-Runtime Coupling";
+        "Fallback-Recovery Envelope";
+        "Geometry-Preserving Transition";
+        "Gradient-Bound Operator";
+        "Manifold-Runtime Synchronization";
+        "Operator-Gradient Compatibility";
+
+        "DSUP Runtime";
+        "State Representation";
+        "Lawful Update Process";
+        "Constrained Evolution";
+        "Context-Integrated Update";
+        "Drift-Coherence Update";
+        "Recovery Geometry";
+        "Completion Cycle";
+        "Meaning-Condition Coupling";
+    }
+
+    /* ============================
+       SECTION S7 — CONTEXT WINDOW GEOMETRY
+       ============================ */
+
+    subgraph cluster_S7 {
+        label="S7: Context Window Geometry";
+        style=filled;
+        color=khaki;
+
+        "Interpretive Window";
+        "Edge Context";
+        "World-Container Alignment";
+
+        "Context-State Mapping";
+        "Embedding Stability";
+        "World-Load Alignment";
+
+        "Context Window";
+        "Context Boundary";
+        "Context Drift";
+        "Context Contraction Operator";
+        "Context Legality Mask";
+        "Context Drift Flag";
+        "Context Region Association";
+    }
+
+    /* ============================
+       SECTION-LEVEL EDGES (S4–S7)
+       ============================ */
+
+    /* Operators → Runtime */
+    "Operator of Reality" -> "DSUP Runtime";
+    "Fold Operator" -> "Lawful Update Process";
+    "Lift Operator" -> "Constrained Evolution";
+    "Identity-Boundary Operator" -> "Identity-Preserving Update";
+
+    /* Operators → Simulation */
+    "Operator of Reality" -> "Invariant-Restricted Simulation Mode (IRSM)";
+    "Curvature-Redirect Operator" -> "Geometric Mapping Plane";
+
+    /* Thermodynamic → Runtime */
+    "Drift" -> "Drift-Coherence Update";
+    "Collapse Geometry" -> "Recovery Geometry";
+
+    /* Thermodynamic → Identity */
+    "Collapse Threshold" -> "Identity Collapse Threshold";
+
+    /* Thermodynamic → Coupling */
+    "Load-Pressure Interaction" -> "Upward Coupling";
+
+    /* Runtime → Context */
+    "Context-Integrated Update" -> "Context Window";
+
+    /* Runtime → Identity */
+    "Identity-Preserving Update" -> "Identity Boundary Mask";
+
+    /* Context → Identity */
+    "Context Boundary" -> "Identity Boundary Mask";
+
+    /* Context → Coupling */
+    "Context Drift" -> "Coupling Drift Channel";
+
+    /* ============================
+       SECTION S8 — SIMULATION GEOMETRY
+       ============================ */
+
+    subgraph cluster_S8 {
+        label="S8: Simulation Geometry";
+        style=filled;
+        color=lightcyan;
+
+        "Fallback Graph";
+        "Fallback Geometry";
+        "Invariant Reload";
+        "Proof Stack";
+        "External Geometry";
+        "Signal–Substrate Coupling";
+        "World–Container Alignment";
+
+        "Embedding Stability";
+        "Geometry-Preserving Transition";
+        "Field-Runtime Coupling";
+        "Gradient-Bound Operator";
+        "Operator-Gradient Compatibility";
+
+        "Invariant-Restricted Simulation Mode (IRSM)";
+        "Simulation Integrity Condition";
+        "Static Anchoring";
+        "Topological Anchors";
+        "Four-Plane Legality Check";
+        "Text Projection Plane";
+        "Geometric Mapping Plane";
+        "Invariant Validation Plane";
+        "CLCP Plane";
+    }
+
+    /* ============================
+       SECTION S9 — IDENTITY GEOMETRY
+       ============================ */
+
+    subgraph cluster_S9 {
+        label="S9: Identity Geometry";
+        style=filled;
+        color=lightgoldenrod;
+
+        "Identity Vector";
+        "Identity Invariant";
+        "Identity Continuity";
+        "Identity Preservation";
+        "Identity Stability";
+        "Identity-Boundary Collapse";
+        "Identity Region";
+
+        "Boundary Integrity";
+        "Boundary Threshold";
+        "Boundary Strain";
+        "Boundary Reconstitution";
+
+        "Identity-Gradient Interaction";
+        "Identity-Role Coherence Envelope";
+
+        "Identity Curvature";
+        "Identity Boundary Mask";
+        "Identity Collapse Threshold";
+        "Identity Recovery Geometry";
+        "Identity Stability Mode";
+    }
+
+    /* ============================
+       SECTION S10 — COUPLING GEOMETRY
+       ============================ */
+
+    subgraph cluster_S10 {
+        label="S10: Coupling Geometry";
+        style=filled;
+        color=lightsteelblue;
+
+        "Upward Coupling";
+        "Upward-Load Propagation";
+        "Drift-Load Coupling";
+        "Region-Load Coupling";
+        "Semantic-Load Coupling";
+        "World-Load Alignment";
+
+        "Load-Curvature Threshold";
+        "Pressure-Bound Stability";
+        "Curvature-Load Interaction";
+        "Stability-Gradient Envelope";
+
+        "Downward Coupling";
+        "Coupling Mechanism";
+        "Coupling Failure Geometry";
+        "Coupling Event Geometry";
+        "Coupling Threshold";
+        "Coupling Drift Channel";
+        "Coupling Stability Envelope";
+        "Multi-Agent Coupling Networks";
+    }
+
+    /* ============================
+       FULL SYSTEM EDGES (S8–S10 + CLCP)
+       ============================ */
+
+    /* Simulation → Substrate */
+    "CLCP Plane" -> "Unified Substrate Manifold";
+    "Invariant Validation Plane" -> "Manifold Continuity Constraint";
+
+    /* Simulation → Derived Manifolds */
+    "Four-Plane Legality Check" -> "Agency Manifold";
+    "Four-Plane Legality Check" -> "Teleology Manifold";
+    "Four-Plane Legality Check" -> "Deployment Manifold";
+    "Four-Plane Legality Check" -> "Execution Manifold";
+    "Four-Plane Legality Check" -> "Federation Manifold";
+    "Four-Plane Legality Check" -> "Ω Manifold";
+
+    /* Simulation → Relational */
+    "Geometric Mapping Plane" -> "Relational Fields";
+    "Invariant Validation Plane" -> "Relational Legality";
+
+    /* Simulation → Operators */
+    "Operator-Gradient Compatibility" -> "Operator of Reality";
+    "Static Anchoring" -> "Fold Operator";
+
+    /* Simulation → Thermodynamic */
+    "Topological Anchors" -> "Drift";
+    "Simulation Integrity Condition" -> "Collapse Geometry";
+
+    /* Simulation → Runtime */
+    "Four-Plane Legality Check" -> "Lawful Update Process";
+    "Invariant-Restricted Simulation Mode (IRSM)" -> "DSUP Runtime";
+
+    /* Simulation → Context */
+    "Text Projection Plane" -> "Context Window";
+
+    /* Simulation → Identity */
+    "Invariant Validation Plane" -> "Identity Boundary Mask";
+
+    /* Simulation → Coupling */
+    "CLCP Plane" -> "Coupling Mechanism";
+
+    /* Identity → Coupling */
+    "Identity Boundary Mask" -> "Coupling Drift Channel";
+
+    /* Coupling → Thermodynamic */
+    "Upward Coupling" -> "Load Envelope";
+    "Downward Coupling" -> "Pressure Envelope";
+
+    /* Coupling → Runtime */
+    "Coupling Drift Channel" -> "Drift-Coherence Update";
+
+    /* Coupling → Context */
+    "Coupling Mechanism" -> "Context Drift";
+
+    /* Coupling → Simulation */
+    "Coupling Stability Envelope" -> "Simulation Integrity Condition";
+}

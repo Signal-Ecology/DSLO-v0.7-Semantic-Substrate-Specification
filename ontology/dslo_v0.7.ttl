@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://www.tnopsi.com/dslo-glossary#"
+     xml:base="https://www.tnopsi.com/dslo-glossary"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <!-- Ontology Header -->
+  <owl:Ontology rdf:about="https://www.tnopsi.com/dslo-glossary">
+      <owl:versionIRI rdf:resource="https://www.tnopsi.com/dslo-glossary/v0.6"/>
+      <rdfs:comment>
+        DSLO Ontology — unified glossary surface (v0.5 + v0.6).
+        Canonical glossary: https://www.tnopsi.com/dslo-glossary
+      </rdfs:comment>
+      <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  </owl:Ontology>
+
+  <!-- ========================= -->
+  <!--   CLASS DEFINITIONS       -->
+  <!-- ========================= -->
+
+  <!-- A -->
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#AbstractionDecoupling"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#AbstractionGradient"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#AbstractionLayer"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#AbstractionBand"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#AdjacencyViolation"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#ApexMeaningState"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#ArtificialCognition"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#AxiomContinuity"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#AxiomLayer"/>
+
+  <!-- B -->
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#BehavioralCoherence"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#BootLayerCoupling"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#Boundary"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#BoundaryIntegrity"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#BoundaryOperator"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#BoundaryReconstitution"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#BoundaryStrain"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#BoundaryThreshold"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#BindOperator"/>
+
+  <!-- C -->
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#CanonicalTuple"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#CausalChain"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#CausalOpacity"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#CoherenceBand"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#CollapseGeometry"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#ConstraintEnvelope"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#Continuity"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#CorrectionOperator"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#CrossSubstrateMapping"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#SemanticCurvature"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#CurvatureLoadInteraction"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#CycleInvariantStability"/>
+
+  <!-- D -->
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#Decoupling"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#DeterministicSemanticLayer"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#DeterministicTransition"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#DISCO"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#Drift"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#DriftEnvelope"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#DriftLoadCoupling"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#DriftSignature"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#DriftVector"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#DSUP"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#DynamicRegion Shift"/>
+
+
+
+  <!-- E -->
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#Ecology"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#EdgeContext"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#SafetyEnvelope"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#EmbeddingFunction"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#EmbeddingStability"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#EquivalenceClass"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#ExternalGeometry"/>
+
+  <!-- F -->
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#FallbackGraph"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#FallbackGeometry"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#FallbackReceveryEnvelope"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#FieldGeometry"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#FieldRuntimeCoupling"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#FoldOperator"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#FunctionUpdateRule"/>
+
+  <!-- G -->
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#GovernanceMesh"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#GraphBoundary"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#GeometryInvariant"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#GeometryPreservingTransition"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#GenerativePrimitive"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#GradientBoundOperator"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#GradientConstraint"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#GAxioms"/>
+
+  <!-- H -->
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#HaltCondition"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#HighPressureEquilibrium"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#HorizonofCollapse"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#HumanMeaningDriftReport"/>
+ 
+
+
+  <!-- I -->
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#IdentityBoundaryCollapse"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#IdentityContinuity"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#IdentityGradientInteraction"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#IdentityInvariant"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#IdentityPreservation"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#IdentityPreservingUpdate"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#IdentityRegion"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#IdentityStability"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#IdentityVector"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#InstitutionalDrift"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#Intent"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#InterpretiveWindow"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#InvariantReload"/> 
+
+  <!-- L -->
+
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#LawfulTransition"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#LayeredSubstrate"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#LegalityCurvatureCoupling"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#LegalityInvariant"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#LegalityMask"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#LegalityStatus"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#LiftOperator"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#LoadCurvatureThreshold"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#LoadEnvelope"/>
+
+  <!-- M -->
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#MachineLayer"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#ManifoldBoundary"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#ManifoldRuntimeSynchronization"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#MeaningLoad"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#MeaningState"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#MeaningStatus"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#MeaningTrajectory"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#MediumDrift"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#MeaningInvariant"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#MeaningLoadInteraction"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#MeaningVector"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#MDOAlgebra"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#Moment"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#MomentGeometry"/>
+  
+  <!-- O -->
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#OperatorConstraints"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#OperatorGradientCompatibility"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#OperatorOfReality"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#OperationalSubstrate"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#OrientationFrame"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#OriginLayer"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#OriginSignal"/>
+ 
+  <!-- P -->
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#PhaseBoundary"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#Posture"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#Pressure-Bound Stability"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#PrimitiveLegalityMask"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#ProofStack"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#ProtocolSubstrate"/>
+
+  <!-- Q -->
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#QuarantineRegion"/>
+
+  <!-- R -->
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#RecoveryMode"/>  
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#RegenerationCapacity"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#RegionConfiguration"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#RegionLoadCoupling"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#RoleCoherence"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#RolePressure"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#RuntimeGeometry"/>
+
+  <!-- S -->
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#ScaleHierarchy"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#ScaleInvariantLegality"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#SemanticCurvature"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#SemanticDistance"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#SemanticGradient"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#SemanticManifold"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#SemanticOperator"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#SemanticState"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#SignalEngine"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#SignalIntegrity"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#SignalSubstrateCoupling"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#StabilityGradientEnvelope"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#StabilityMode"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#StressGeometry"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#SubstrateInvariantSet"/>
+
+  <!-- T -->
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#TemporalRhythm"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#TransformationRules"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#TransitionCurvatureConstraint"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#TransitionLegality"/>
+
+  <!-- U -->
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#UpdateFunction"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#UpwardCoupling"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#UpwardLoadPropagation"/>
+
+  <!-- V -->
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#VectorCurvatureInteraction"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#VectorBindingMetadata"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#VersionBlock"/>
+
+  <!-- W -->
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#WorldContainerAlignment"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#WorldLoadAlignment"/>
+
+  <!-- Z -->
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#ZeroAmbiguityTolerance"/>
+  <owl:Class rdf:about="https://www.tnopsi.com/dslo-glossary#ZeroDriftEnvelope"/>
+
+</rdf:RDF>

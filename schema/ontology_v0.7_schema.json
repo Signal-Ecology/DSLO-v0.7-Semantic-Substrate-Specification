@@ -1,0 +1,36 @@
+{
+  "glossary_schema": {
+    "id": "string",
+    "term": "string",
+    "definition": "string",
+    "category": "string"
+  },
+  "ontology_node_schema": {
+    "id": "string",
+    "type": "string",
+    "name": "string",
+    "origin": "string",
+    "metadata": "object"
+  },
+  "ontology_edge_schema": {
+    "source": "string",
+    "target": "string",
+    "relation": "string"
+  },
+  "registry_entry_schema": {
+    "id": "string",
+    "name": "string",
+    "category": "string",
+    "metadata": "object"
+  },
+  "taxonomy_class_schema": {
+    "id": "string",
+    "type": "string",
+    "name": "string",
+    "origin": "string"
+  },
+  "compartment_schema": {
+    "name": "string",
+    "contains": "array[string]"
+  }
+}

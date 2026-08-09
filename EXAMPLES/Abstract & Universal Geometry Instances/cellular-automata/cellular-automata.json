@@ -1,0 +1,45 @@
+{
+  "id": "cellular-automata",
+  "name": "Cellular Automata",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Rule-based grid systems where local update rules generate complex global patterns, including waves, gliders, branching structures, and self-organizing behavior.",
+  "invariant_properties": [
+    "deterministic rule evolution",
+    "emergent geometric coherence",
+    "stable attractor regimes",
+    "collapse/restoration cycles"
+  ],
+  "geometry_type": "discrete recursive geometry with propagating structures",
+  "signal_type": "synthetic adjacency and transition signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-1 local update",
+      "SGO-3 propagation",
+      "MGO-2 recursive growth"
+    ],
+    "signal_classes": [
+      "synthetic adjacency signals",
+      "rule-bounded transition signals"
+    ],
+    "invariants": [
+      "deterministic drift",
+      "stable attractors",
+      "collapse/restoration cycles"
+    ],
+    "manifolds": [
+      "grid manifold",
+      "neighborhood manifold",
+      "transition manifold"
+    ],
+    "dynamics": [
+      "wavefront propagation",
+      "glider motion",
+      "self-repair patterns"
+    ]
+  },
+  "cross_domain_presence": "biological analogs, cultural tiling systems, distributed machine computation",
+  "source": "DSLO Natural Geometry Registry"
+}
+

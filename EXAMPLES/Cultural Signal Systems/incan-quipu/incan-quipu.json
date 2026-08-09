@@ -1,0 +1,46 @@
+{
+  "id": "incan-quipu",
+  "name": "Incan Quipu",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Hierarchical cord-and-knot data structures encoding numeric and categorical information through branching, spacing, knot families, and color.",
+  "invariant_properties": [
+    "knot-family coherence",
+    "positional numeric encoding",
+    "branching hierarchy stability",
+    "color-coded categorical signals"
+  ],
+  "geometry_type": "hierarchical cord-and-knot geometry",
+  "signal_type": "tactile, visual, and spatial cultural signals",
+  "dslo_interpretation": {
+    "operators": [
+      "MGO-3 partitioning",
+      "BO-4 knot formation",
+      "SGO-7 categorical encoding"
+    ],
+    "signal_classes": [
+      "tactile knot signals",
+      "visual color signals",
+      "spatial branching signals"
+    ],
+    "invariants": [
+      "knot-family coherence",
+      "positional numeric encoding",
+      "branching hierarchy stability"
+    ],
+    "manifolds": [
+      "cord manifold",
+      "knot manifold",
+      "branching manifold"
+    ],
+    "dynamics": [
+      "regional drift",
+      "transmission collapse",
+      "cultural restoration"
+    ]
+  },
+  "cross_domain_presence": "counting rods, memory cords, tally sticks, hierarchical machine data structures",
+  "source": "DSLO Natural Geometry Registry"
+}
+

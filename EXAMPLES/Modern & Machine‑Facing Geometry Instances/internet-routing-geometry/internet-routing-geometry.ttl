@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:internet-routing-geometry a dlo:GeometryInstance ;
+    schema:name "Internet Routing Geometry" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Distributed routing geometry formed through BGP propagation, link-state updates, congestion gradients, and AS-level policy constraints." ;
+    dlo:invariantProperties (
+        "propagation coherence"
+        "policy-curvature stability"
+        "congestion-gradient routing"
+        "multi-layer protocol invariants"
+    ) ;
+    dlo:geometryType "distributed propagation and policy-bounded routing geometry" ;
+    dlo:signalType "BGP, link-state, latency, congestion, and policy signals" ;
+    dlo:dsloOperators (
+        "SGO-3 propagation"
+        "BO-4 routing"
+        "MGO-4 distributed cognition"
+    ) ;
+    dlo:dsloInvariants (
+        "propagation coherence"
+        "policy-curvature stability"
+        "congestion-gradient routing"
+    ) ;
+    dlo:dsloManifolds (
+        "AS-topology manifold"
+        "propagation manifold"
+        "routing-graph manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "latency drift"
+        "route-leak collapse"
+        "re-convergence restoration"
+    ) ;
+    dlo:crossDomainPresence "air-traffic flow, highway routing, distributed consensus, SDN optimization" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

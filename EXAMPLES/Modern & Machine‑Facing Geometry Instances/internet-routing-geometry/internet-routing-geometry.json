@@ -1,0 +1,46 @@
+{
+  "id": "internet-routing-geometry",
+  "name": "Internet Routing Geometry",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Distributed routing geometry formed through BGP propagation, link-state updates, congestion gradients, and AS-level policy constraints.",
+  "invariant_properties": [
+    "propagation coherence",
+    "policy-curvature stability",
+    "congestion-gradient routing",
+    "multi-layer protocol invariants"
+  ],
+  "geometry_type": "distributed propagation and policy-bounded routing geometry",
+  "signal_type": "BGP, link-state, latency, congestion, and policy signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-3 propagation",
+      "BO-4 routing",
+      "MGO-4 distributed cognition"
+    ],
+    "signal_classes": [
+      "BGP signals",
+      "link-state signals",
+      "latency/congestion signals"
+    ],
+    "invariants": [
+      "propagation coherence",
+      "policy-curvature stability",
+      "congestion-gradient routing"
+    ],
+    "manifolds": [
+      "AS-topology manifold",
+      "propagation manifold",
+      "routing-graph manifold"
+    ],
+    "dynamics": [
+      "latency drift",
+      "route-leak collapse",
+      "re-convergence restoration"
+    ]
+  },
+  "cross_domain_presence": "air-traffic flow, highway routing, distributed consensus, SDN optimization",
+  "source": "DSLO Natural Geometry Registry"
+}
+

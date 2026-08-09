@@ -1,0 +1,46 @@
+{
+  "id": "power-grid-topology",
+  "name": "Power Grid Topology",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Distributed infrastructure geometry formed through load gradients, frequency stability, impedance constraints, and cascading-failure propagation.",
+  "invariant_properties": [
+    "load-gradient coherence",
+    "frequency-stability invariants",
+    "constraint-bounded routing",
+    "cascading-failure dynamics"
+  ],
+  "geometry_type": "load-gradient and impedance-bounded routing topology",
+  "signal_type": "frequency, load-demand, impedance, and protection signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-1 gradient",
+      "SGO-3 propagation",
+      "BO-4 routing"
+    ],
+    "signal_classes": [
+      "frequency-stability signals",
+      "load-demand signals",
+      "impedance signals"
+    ],
+    "invariants": [
+      "load-gradient coherence",
+      "frequency-stability invariants",
+      "constraint-bounded routing"
+    ],
+    "manifolds": [
+      "transmission manifold",
+      "load-gradient manifold",
+      "stability manifold"
+    ],
+    "dynamics": [
+      "demand drift",
+      "cascading-collapse",
+      "load-shedding restoration"
+    ]
+  },
+  "cross_domain_presence": "water networks, internet routing, transportation networks, flow optimization",
+  "source": "DSLO Natural Geometry Registry"
+}
+

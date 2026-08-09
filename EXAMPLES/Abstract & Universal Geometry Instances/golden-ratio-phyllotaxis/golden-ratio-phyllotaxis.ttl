@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:golden-ratio-phyllotaxis a dlo:GeometryInstance ;
+    schema:name "Golden Ratio Phyllotaxis" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Spiral biological growth pattern using the golden angle (~137.5°) to optimize packing density and exposure through recursive radial geometry." ;
+    dlo:invariantProperties (
+        "golden-angle divergence"
+        "Fibonacci packing coherence"
+        "recursive spiral geometry"
+        "optimal packing density"
+    ) ;
+    dlo:geometryType "logarithmic spiral and Fibonacci packing geometry" ;
+    dlo:signalType "biological growth and optimization signals" ;
+    dlo:dsloOperators (
+        "MGO-2 recursive growth"
+        "SGO-4 optimization"
+        "BO-1 boundary curvature"
+    ) ;
+    dlo:dsloInvariants (
+        "golden-angle divergence"
+        "Fibonacci packing coherence"
+        "recursive spiral geometry"
+    ) ;
+    dlo:dsloManifolds (
+        "radial growth manifold"
+        "spiral packing manifold"
+        "optimization manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "divergence drift"
+        "growth collapse"
+        "spiral restoration"
+    ) ;
+    dlo:crossDomainPresence "sunflowers, pinecones, aloe, cultural geometry, machine optimization" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+

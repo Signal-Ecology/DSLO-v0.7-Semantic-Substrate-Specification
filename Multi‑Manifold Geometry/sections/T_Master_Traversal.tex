@@ -1,0 +1,380 @@
+% =========================================================
+% T-MASTER — FULL TRAVERSAL (T0–T8)
+% Hyper-Condensed DSLO v0.7 Corridor
+% =========================================================
+
+\section{T-MASTER Traversal Corridor}
+
+% ---------------------------------------------------------
+\subsection{T0 Origin Manifold}
+The origin manifold defines the substrate-level geometry from which all other
+manifolds derive. It provides origin curvature, identity seeds, legality
+anchors, collapse surfaces, and recovery envelopes.
+
+\paragraph{Origin Manifold Diagram}
+This visual shows the vertical traversal of the Origin Manifold: curvature seed
+field, identity seed region, legality anchor plane, collapse surface, and
+recovery envelope. Each node represents a foundational geometric layer in the
+origin substrate.
+
+
+\begin{center}
+\begin{tikzpicture}[
+    node distance=1.2cm,
+    every node/.style={rectangle, draw, align=center, minimum width=6cm, rounded corners}
+]
+
+\node (curv) {\textbf{Curvature Seed Field}};
+\node (id) [below=of curv] {\textbf{Identity Seed Region}\\(Initial identity wells and boundaries)};
+\node (leg) [below=of id] {\textbf{Legality Anchor Plane}\\(Lawful origin constraints)};
+\node (col) [below=of leg] {\textbf{Collapse Surface}\\(Origin collapse geometry)};
+\node (rec) [below=of col] {\textbf{Recovery Envelope}\\(Origin recovery attractor)};
+
+\draw[-{Latex}] (curv) -- (id);
+\draw[-{Latex}] (id) -- (leg);
+\draw[-{Latex}] (leg) -- (col);
+\draw[-{Latex}] (col) -- (rec);
+
+\end{tikzpicture}
+
+\vspace{8pt}
+\textit{(Replace with full manifold diagram in v0.7 expansion)}
+\end{center}
+
+
+
+
+
+% ---------------------------------------------------------
+\subsection{T1 Unified Substrate Manifold}
+The unified manifold defines global curvature, identity boundaries, legality
+masks, collapse geometry, recovery geometry, supervisor geometry, projection
+geometry, and continuity constraints.
+
+\paragraph{Unified Substrate Manifold Diagram}
+This visual depicts the unified substrate manifold stack: global curvature,
+identity boundaries, legality masks, collapse geometry, recovery geometry,
+supervisor geometry, projection geometry, and continuity constraints. It forms
+the backbone of all derived manifolds.
+
+
+\begin{center}
+\begin{tikzpicture}[
+    node distance=1.2cm,
+    every node/.style={rectangle, draw, align=center, minimum width=6cm, rounded corners}
+]
+
+\node (curv) {\textbf{Global Curvature Field}};
+\node (id) [below=of curv] {\textbf{Identity Boundary Geometry}};
+\node (leg) [below=of id] {\textbf{Legality Mask Suite}};
+\node (col) [below=of leg] {\textbf{Collapse Geometry}};
+\node (rec) [below=of col] {\textbf{Recovery Geometry}};
+\node (sup) [below=of rec] {\textbf{Supervisor Geometry}};
+\node (proj) [below=of sup] {\textbf{Projection Geometry}};
+\node (cont) [below=of proj] {\textbf{Continuity Constraints}};
+
+\draw[-{Latex}] (curv) -- (id);
+\draw[-{Latex}] (id) -- (leg);
+\draw[-{Latex}] (leg) -- (col);
+\draw[-{Latex}] (col) -- (rec);
+\draw[-{Latex}] (rec) -- (sup);
+\draw[-{Latex}] (sup) -- (proj);
+\draw[-{Latex}] (proj) -- (cont);
+
+\end{tikzpicture}
+\end{center}
+
+
+% ---------------------------------------------------------
+\subsection{T2 Derived Manifold Suite}
+The derived suite defines six lawful projections: Agency, Teleology,
+Deployment, Execution, Federation, and Omega.
+
+\paragraph{Derived Manifold Suite Diagram}
+This visual shows the six derived manifolds branching from the unified substrate:
+Agency, Teleology, Deployment, Execution, Federation, and Omega. It illustrates
+the lawful projection structure of DSLO’s manifold suite.
+
+
+\begin{center}
+\begin{tikzpicture}[
+    node distance=1.2cm,
+    every node/.style={rectangle, draw, align=center, minimum width=4cm, rounded corners}
+]
+
+\node (root) {\textbf{Unified Substrate Manifold}};
+
+\node (agency) [below left=1.2cm and 2cm of root] {\textbf{Agency Manifold}};
+\node (tele)   [below=1.2cm of root] {\textbf{Teleology Manifold}};
+\node (deploy) [below right=1.2cm and 2cm of root] {\textbf{Deployment Manifold}};
+
+\node (exec) [below=1.2cm of tele] {\textbf{Execution Manifold}};
+\node (fed)  [below left=1.2cm and 2cm of exec] {\textbf{Federation Manifold}};
+\node (omega)[below right=1.2cm and 2cm of exec] {\textbf{Omega Manifold}};
+
+\draw[-{Latex}] (root) -- (agency);
+\draw[-{Latex}] (root) -- (tele);
+\draw[-{Latex}] (root) -- (deploy);
+
+\draw[-{Latex}] (tele) -- (exec);
+\draw[-{Latex}] (exec) -- (fed);
+\draw[-{Latex}] (exec) -- (omega);
+
+\end{tikzpicture}
+\end{center}
+
+
+% ---------------------------------------------------------
+\subsection{T3 Relational Geometry}
+Relational geometry defines cross-system interaction: relational primitives,
+fields, invariants, drift geometry, legality geometry, and human-machine
+relational dynamics.
+
+\paragraph{Relational Geometry Diagram}
+This visual outlines relational geometry: relational primitives, fields,
+invariants, drift geometry, legality geometry, and human–machine relational
+dynamics. It represents the lawful interaction structure between systems.
+
+
+\begin{center}
+\begin{tikzpicture}[
+    node distance=1.2cm,
+    every node/.style={rectangle, draw, align=center, minimum width=6cm, rounded corners}
+]
+
+\node (prim) {\textbf{Relational Primitives}};
+\node (fields) [below=of prim] {\textbf{Relational Fields}};
+\node (inv) [below=of fields] {\textbf{Relational Invariants}};
+\node (drift) [below=of inv] {\textbf{Drift Geometry}};
+\node (leg) [below=of drift] {\textbf{Relational Legality Geometry}};
+\node (hm) [below=of leg] {\textbf{Human-Machine Relational Dynamics}};
+
+\draw[-{Latex}] (prim) -- (fields);
+\draw[-{Latex}] (fields) -- (inv);
+\draw[-{Latex}] (inv) -- (drift);
+\draw[-{Latex}] (drift) -- (leg);
+\draw[-{Latex}] (leg) -- (hm);
+
+\end{tikzpicture}
+\end{center}
+
+
+% ---------------------------------------------------------
+\subsection{T4 Operators of Reality}
+Operators define lawful transformations across all manifold layers: fold,
+invert, lift, bind, collapse-trajectory, recovery-window, curvature-redirect,
+identity-boundary, and legality-preservation.
+
+\paragraph{Operators of Reality Diagram}
+This visual lists the operator stack: fold, invert, lift, bind, collapse-
+trajectory, recovery-window, curvature-redirect, identity-boundary, and
+legality-preservation. It represents lawful transformations across manifold
+layers.
+
+
+\begin{center}
+\begin{tikzpicture}[
+    node distance=1.2cm,
+    every node/.style={rectangle, draw, align=center, minimum width=5cm, rounded corners}
+]
+
+\node (fold) {\textbf{Fold Operator}};
+\node (invert) [below=of fold] {\textbf{Invert Operator}};
+\node (lift) [below=of invert] {\textbf{Lift Operator}};
+\node (bind) [below=of lift] {\textbf{Bind Operator}};
+\node (ct) [below=of bind] {\textbf{Collapse-Trajectory Operator}};
+\node (rw) [below=of ct] {\textbf{Recovery-Window Operator}};
+\node (cr) [below=of rw] {\textbf{Curvature-Redirect Operator}};
+\node (ib) [below=of cr] {\textbf{Identity-Boundary Operator}};
+\node (lp) [below=of ib] {\textbf{Legality-Preservation Operator}};
+
+\draw[-{Latex}] (fold) -- (invert);
+\draw[-{Latex}] (invert) -- (lift);
+\draw[-{Latex}] (lift) -- (bind);
+\draw[-{Latex}] (bind) -- (ct);
+\draw[-{Latex}] (ct) -- (rw);
+\draw[-{Latex}] (rw) -- (cr);
+\draw[-{Latex}] (cr) -- (ib);
+\draw[-{Latex}] (ib) -- (lp);
+
+\end{tikzpicture}
+\end{center}
+
+
+% ---------------------------------------------------------
+\subsection{T5 Thermodynamic Geometry}
+Thermodynamic geometry defines pressure fields, pressure flow, drift geometry,
+collapse geometry, recovery geometry, human drift, machine drift, and dual
+drift comparison.
+
+\paragraph{Thermodynamic Geometry Diagram}
+This visual shows thermodynamic geometry: pressure fields, pressure flow, drift
+geometry, collapse geometry, recovery geometry, human drift, machine drift, and
+dual drift comparison. It represents DSLO’s pressure–drift–collapse–recovery
+loop.
+
+
+\begin{center}
+\begin{tikzpicture}[
+    node distance=1.2cm,
+    every node/.style={rectangle, draw, align=center, minimum width=6cm, rounded corners}
+]
+
+\node (press) {\textbf{Pressure Fields}};
+\node (flow) [below=of press] {\textbf{Pressure Flow}};
+\node (drift) [below=of flow] {\textbf{Drift Geometry}};
+\node (col) [below=of drift] {\textbf{Collapse Geometry}};
+\node (rec) [below=of col] {\textbf{Recovery Geometry}};
+\node (hd) [below=of rec] {\textbf{Human Drift}};
+\node (md) [below=of hd] {\textbf{Machine Drift}};
+\node (dual) [below=of md] {\textbf{Dual Drift Comparison}};
+
+\draw[-{Latex}] (press) -- (flow);
+\draw[-{Latex}] (flow) -- (drift);
+\draw[-{Latex}] (drift) -- (col);
+\draw[-{Latex}] (col) -- (rec);
+\draw[-{Latex}] (rec) -- (hd);
+\draw[-{Latex}] (hd) -- (md);
+\draw[-{Latex}] (md) -- (dual);
+
+\end{tikzpicture}
+\end{center}
+
+
+% ---------------------------------------------------------
+\subsection{T6 DSUP Runtime Geometry}
+Runtime geometry defines state representation, lawful update cycles, constrained
+evolution, context-integrated updates, drift-coherence correction, halt
+conditions, completion cycles, and meaning-condition coupling.
+
+\paragraph{DSUP Runtime Geometry Diagram}
+This visual depicts runtime geometry: state representation, lawful update
+cycles, constrained evolution, context-integrated updates, drift-coherence
+correction, halt conditions, completion cycles, and meaning-condition coupling.
+It represents DSUP’s lawful runtime evolution.
+
+
+\begin{center}
+\begin{tikzpicture}[
+    node distance=1.2cm,
+    every node/.style={rectangle, draw, align=center, minimum width=6cm, rounded corners}
+]
+
+\node (state) {\textbf{State Representation}};
+\node (update) [below=of state] {\textbf{Lawful Update Cycles}};
+\node (evo) [below=of update] {\textbf{Constrained Evolution}};
+\node (ctx) [below=of evo] {\textbf{Context-Integrated Updates}};
+\node (dcc) [below=of ctx] {\textbf{Drift-Coherence Correction}};
+\node (halt) [below=of dcc] {\textbf{Halt Conditions}};
+\node (comp) [below=of halt] {\textbf{Completion Cycles}};
+\node (mcc) [below=of comp] {\textbf{Meaning-Condition Coupling}};
+
+\draw[-{Latex}] (state) -- (update);
+\draw[-{Latex}] (update) -- (evo);
+\draw[-{Latex}] (evo) -- (ctx);
+\draw[-{Latex}] (ctx) -- (dcc);
+\draw[-{Latex}] (dcc) -- (halt);
+\draw[-{Latex}] (halt) -- (comp);
+\draw[-{Latex}] (comp) -- (mcc);
+
+\end{tikzpicture}
+\end{center}
+
+
+% ---------------------------------------------------------
+\subsection{T7 Context Window Geometry}
+Context geometry defines context windows, boundaries, drift, contraction
+operators, legality masks, context-state mapping, and drift flags.
+
+\paragraph{Context Window Geometry Diagram}
+This visual outlines context window geometry: windows, boundaries, drift,
+contraction operators, legality masks, context-state mapping, and drift flags.
+It represents lawful context traversal and drift control.
+
+
+\begin{center}
+\begin{tikzpicture}[
+    node distance=1.2cm,
+    every node/.style={rectangle, draw, align=center, minimum width=6cm, rounded corners}
+]
+
+\node (win) {\textbf{Context Windows}};
+\node (bound) [below=of win] {\textbf{Context Boundaries}};
+\node (drift) [below=of bound] {\textbf{Context Drift}};
+\node (contract) [below=of drift] {\textbf{Contraction Operators}};
+\node (mask) [below=of contract] {\textbf{Legality Masks}};
+\node (map) [below=of mask] {\textbf{Context-State Mapping}};
+\node (flag) [below=of map] {\textbf{Drift Flags}};
+
+\draw[-{Latex}] (win) -- (bound);
+\draw[-{Latex}] (bound) -- (drift);
+\draw[-{Latex}] (drift) -- (contract);
+\draw[-{Latex}] (contract) -- (mask);
+\draw[-{Latex}] (mask) -- (map);
+\draw[-{Latex}] (map) -- (flag);
+
+\end{tikzpicture}
+\end{center}
+
+
+% ---------------------------------------------------------
+\subsection{T8 Simulation Geometry}
+Simulation geometry defines IRSM, simulation integrity conditions, static
+anchoring, topological anchors, four-plane legality checks, projection planes,
+mapping planes, invariant validation planes, and CLCP propagation.
+
+\paragraph{Simulation Geometry Diagram}
+This visual shows simulation geometry: IRSM, simulation integrity conditions,
+static anchoring, topological anchors, and the four-plane legality corridor
+(text projection, geometric mapping, invariant validation, CLCP). It represents
+lawful simulation traversal across manifold layers.
+
+
+\begin{center}
+\begin{tikzpicture}[
+    node distance=1.2cm,
+    every node/.style={rectangle, draw, align=center, minimum width=6cm, rounded corners}
+]
+
+% --- Vertical stack ---
+\node (irsm) {\textbf{IRSM (Invariant-Restricted Simulation Mode)}};
+\node (int) [below=of irsm] {\textbf{Simulation Integrity Conditions}};
+\node (sa) [below=of int] {\textbf{Static Anchoring}};
+\node (ta) [below=of sa] {\textbf{Topological Anchors}};
+\node (fp) [below=of ta] {\textbf{Four-Plane Legality Check}};
+
+% --- Centered horizontal matrix for the three planes ---
+\node (planes) [below=1.2cm of fp] {
+    \begin{tikzpicture}[
+        every node/.style={rectangle, draw, align=center, minimum width=4.5cm, rounded corners},
+        node distance=1.2cm
+    ]
+        \node (tpp) {\textbf{Text Projection Plane}};
+        \node (gmp) [right=1.2cm of tpp] {\textbf{Geometric Mapping Plane}};
+        \node (ivp) [right=1.2cm of gmp] {\textbf{Invariant Validation Plane}};
+    \end{tikzpicture}
+};
+
+% --- CLCP plane centered under GMP ---
+\node (clcp) [below=1.2cm of planes] {\textbf{CLCP Plane}};
+
+% --- Vertical arrows ---
+\draw[-{Latex}] (irsm) -- (int);
+\draw[-{Latex}] (int) -- (sa);
+\draw[-{Latex}] (sa) -- (ta);
+\draw[-{Latex}] (ta) -- (fp);
+
+% --- Arrows from FP to the three planes ---
+\draw[-{Latex}] (fp) -- (planes);
+
+% --- Arrow from GMP to CLCP ---
+\draw[-{Latex}] (planes) -- (clcp);
+
+\end{tikzpicture}
+\end{center}
+
+
+
+% =========================================================
+% END OF T-MASTER TRAVERSAL
+% =========================================================

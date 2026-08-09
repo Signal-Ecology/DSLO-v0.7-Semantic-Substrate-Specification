@@ -1,0 +1,46 @@
+{
+  "id": "orchid-mantis",
+  "name": "Orchid Mantis",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Structural floral mimicry geometry formed through petal-like curvature, gradient-driven coloration, and boundary-aligned deception.",
+  "invariant_properties": [
+    "petal-curvature coherence",
+    "gradient-aligned color stability",
+    "boundary-deception invariants",
+    "multi-lobe morphological symmetry"
+  ],
+  "geometry_type": "petal-curvature and gradient-driven morphological geometry",
+  "signal_type": "light-gradient, floral-color, boundary-shape, and environmental signals",
+  "dslo_interpretation": {
+    "operators": [
+      "SGO-1 gradient",
+      "MGO-2 recursive growth",
+      "MGO-5 adaptive morphology"
+    ],
+    "signal_classes": [
+      "light-gradient signals",
+      "floral-color signals",
+      "boundary-shape signals"
+    ],
+    "invariants": [
+      "petal-curvature coherence",
+      "gradient-aligned color stability",
+      "boundary-deception invariants"
+    ],
+    "manifolds": [
+      "petal-curvature manifold",
+      "color-gradient manifold",
+      "boundary-deception manifold"
+    ],
+    "dynamics": [
+      "environmental drift",
+      "outline-collapse",
+      "stillness-based restoration"
+    ]
+  },
+  "cross_domain_presence": "leaf-tailed gecko, stick insects, cephalopod mimicry, deceptive geometry engines",
+  "source": "DSLO Natural Geometry Registry"
+}
+

@@ -1,0 +1,46 @@
+{
+  "id": "fractal-coastlines",
+  "name": "Fractal Coastlines",
+  "version": "0.7",
+  "layer": "geometry",
+  "type": "natural-invariant-example",
+  "description": "Scale-invariant coastline geometry where measured length increases with resolution due to recursive roughness driven by erosion and wave dynamics.",
+  "invariant_properties": [
+    "scale-invariant roughness",
+    "self-similar geometry",
+    "non-convergent length",
+    "stable fractal dimension"
+  ],
+  "geometry_type": "recursive fractal boundary geometry",
+  "signal_type": "geophysical erosion and wave-impact signals",
+  "dslo_interpretation": {
+    "operators": [
+      "MGO-2 recursive growth",
+      "SGO-3 propagation",
+      "BO-1 boundary curvature"
+    ],
+    "signal_classes": [
+      "geophysical erosion signals",
+      "environmental wave-impact signals",
+      "geological drift signals"
+    ],
+    "invariants": [
+      "scale-invariant roughness",
+      "stable fractal dimension",
+      "recursive boundary geometry"
+    ],
+    "manifolds": [
+      "coastal boundary manifold",
+      "indentation manifold",
+      "erosion-drift manifold"
+    ],
+    "dynamics": [
+      "erosion drift",
+      "storm-driven collapse",
+      "sediment restoration"
+    ]
+  },
+  "cross_domain_presence": "river networks, mountain ridges, glacial boundaries, cultural mapping systems",
+  "source": "DSLO Natural Geometry Registry"
+}
+

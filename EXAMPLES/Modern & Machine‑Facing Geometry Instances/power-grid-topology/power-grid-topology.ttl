@@ -1,0 +1,41 @@
+@prefix dlo: <https://www.tnopsi.com/> .
+@prefix ex: <https://www.tnopsi.com/> .
+@prefix schema: <http://schema.org/> .
+
+ex:power-grid-topology a dlo:GeometryInstance ;
+    schema:name "Power Grid Topology" ;
+    dlo:version "0.7" ;
+    dlo:layer "geometry" ;
+    dlo:instanceType "natural-invariant-example" ;
+    dlo:description "Distributed infrastructure geometry formed through load gradients, frequency stability, impedance constraints, and cascading-failure propagation." ;
+    dlo:invariantProperties (
+        "load-gradient coherence"
+        "frequency-stability invariants"
+        "constraint-bounded routing"
+        "cascading-failure dynamics"
+    ) ;
+    dlo:geometryType "load-gradient and impedance-bounded routing topology" ;
+    dlo:signalType "frequency, load-demand, impedance, and protection signals" ;
+    dlo:dsloOperators (
+        "SGO-1 gradient"
+        "SGO-3 propagation"
+        "BO-4 routing"
+    ) ;
+    dlo:dsloInvariants (
+        "load-gradient coherence"
+        "frequency-stability invariants"
+        "constraint-bounded routing"
+    ) ;
+    dlo:dsloManifolds (
+        "transmission manifold"
+        "load-gradient manifold"
+        "stability manifold"
+    ) ;
+    dlo:dsloDynamics (
+        "demand drift"
+        "cascading-collapse"
+        "load-shedding restoration"
+    ) ;
+    dlo:crossDomainPresence "water networks, internet routing, transportation networks, flow optimization" ;
+    dlo:source "DSLO Natural Geometry Registry" .
+
