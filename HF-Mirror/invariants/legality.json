@@ -1,0 +1,39 @@
+{
+  "dslo_version": "0.7",
+  "layer": "invariants.legality",
+  "description": "Legality invariants governing lawful curvature, lawful transitions, lawful collapse, and lawful recovery across DSLO substrates.",
+
+  "legality_invariants": {
+    "curvature_bound": {
+      "definition": "Curvature must remain within lawful bounds defined by DSLO geometry.",
+      "constraints": ["bounded curvature", "no illegal divergence"],
+      "applies_to": ["drift", "load", "synthetic_pressure"]
+    },
+    "continuity_requirement": {
+      "definition": "Curvature transitions must maintain lawful continuity except at defined collapse thresholds.",
+      "constraints": ["continuous mapping", "no illegal discontinuity"],
+      "applies_to": ["manifold_transition", "adaptive_transition"]
+    },
+    "threshold_legality": {
+      "definition": "Collapse thresholds must be lawful, stable, and substrate-consistent.",
+      "constraints": ["stable threshold", "lawful collapse trigger"],
+      "applies_to": ["collapse_threshold", "collapse_transition"]
+    },
+    "post_collapse_legality": {
+      "definition": "Recovery behavior must obey lawful curvature and return trajectories.",
+      "constraints": ["bounded return", "lawful attractor basin"],
+      "applies_to": ["recovery_attractor", "recovery_transition"]
+    },
+    "cross_surface_consistency": {
+      "definition": "Legality invariants must hold uniformly across biological, cultural, abstract, physical, and machine-facing surfaces.",
+      "constraints": ["uniform legality", "surface-consistent behavior"],
+      "applies_to": ["all surfaces"]
+    }
+  },
+
+  "notes": {
+    "lawfulness": "Legality invariants form the substrate-level rules that govern all DSLO geometry and transitions.",
+    "integration": "Legality invariants bind directly to geometry primitives, transitions, surfaces, and examples within the v0.7 release cluster.",
+    "cross_domain": "Legality invariants apply uniformly across biological, cultural, abstract, physical, and machine-facing substrates."
+  }
+}

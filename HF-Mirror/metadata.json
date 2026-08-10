@@ -1,0 +1,71 @@
+{
+  "dslo_version": "0.7",
+  "release_date": "2026-08-09",
+  "canonical_doi": "10.5281/zenodo.21865818",
+  "release_cluster": {
+    "geometry_layer": {
+      "title": "DSLO v0.7 — Geometry Layer (Thermodynamic Drift)",
+      "doi": "10.5281/zenodo.21864007"
+    },
+    "operational_manual": {
+      "title": "DSLO v0.7 — Operational Manual (Substrate Architecture)",
+      "doi": "10.5281/zenodo.21864226"
+    },
+    "geometry_examples": {
+      "title": "DSLO v0.7 — Geometry Examples (Drift, Collapse, Recovery)",
+      "doi": "10.5281/zenodo.21864440"
+    },
+    "metadata_record": {
+      "title": "DSLO v0.7 — Semantic Substrate Metadata Record",
+      "doi": "10.5281/zenodo.21865818"
+    }
+  },
+  "mirror": {
+    "platform": "Hugging Face",
+    "url": "https://huggingface.co/datasets/DSLO/DSLO-v0.7-Semantic-Substrate-Specification",
+    "purpose": "Machine-facing ingestion mirror; canonical artifacts remain DOI-minted Zenodo records."
+  },
+  "source_repository": "https://github.com/DSLO/DSLO-v0.7-Semantic-Substrate-Specification",
+  "license": "MIT",
+  "keywords": [
+    "dslo",
+    "semantic substrate",
+    "multi-manifold geometry",
+    "legality invariants",
+    "thermodynamic drift",
+    "collapse-safety",
+    "machine-facing substrate",
+    "scientific metadata",
+    "v0.7 release cluster",
+    "structured ingestion",
+    "tnopsi"
+  ],
+  "structure": {
+    "spec": {
+      "description": "substrate-level geometry primitives",
+      "files": ["geometry.json", "transitions.json"]
+    },
+    "surfaces": {
+      "description": "cross-surface bindings",
+      "files": ["bindings.json"]
+    },
+    "invariants": {
+      "description": "legality-plane and collapse-safety invariants",
+      "files": ["legality.json", "collapse_safety.json"]
+    },
+    "examples": {
+      "description": "machine-facing examples aligned with v0.7",
+      "files": ["examples.json"]
+    },
+    "metadata": {
+      "description": "structured metadata for ingestion engines",
+      "files": ["substrate.json"]
+    },
+    "tnopsi": {
+      "description": "public-facing DSLO surface hosted at tnopsi.com",
+      "url": "https://www.tnopsi.com",
+      "role": "public substrate surface and release cluster anchor"
+    }
+  }
+}
+

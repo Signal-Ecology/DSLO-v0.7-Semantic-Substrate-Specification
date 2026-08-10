@@ -1,0 +1,49 @@
+{
+  "dslo_version": "0.7",
+  "layer": "examples",
+  "description": "Machine-facing examples demonstrating DSLO v0.7 geometry, transitions, surfaces, and invariants across biological, cultural, abstract, physical, and machine substrates.",
+
+  "examples": {
+    "biological_example": {
+      "title": "Adaptive Drift Under Load",
+      "description": "A biological substrate exhibits lawful drift as curvature adapts to increasing load, maintaining pre-collapse stability.",
+      "geometry_primitives": ["drift", "load", "adaptive_transition"],
+      "invariants": ["pre_collapse_stability", "curvature_bound"],
+      "surface": "biological_surface"
+    },
+    "cultural_example": {
+      "title": "Distributed Signal Curvature",
+      "description": "A cultural substrate propagates curvature through distributed signals, maintaining continuity and avoiding illegal collapse.",
+      "geometry_primitives": ["drift", "synthetic_pressure"],
+      "invariants": ["continuity_requirement", "cross_surface_consistency"],
+      "surface": "cultural_surface"
+    },
+    "abstract_example": {
+      "title": "Symbolic Manifold Transition",
+      "description": "An abstract substrate undergoes a lawful manifold transition between symbolic curvature states.",
+      "geometry_primitives": ["manifold_transition", "collapse_threshold"],
+      "invariants": ["threshold_legality", "curvature_bound"],
+      "surface": "abstract_surface"
+    },
+    "physical_example": {
+      "title": "Thermodynamic Collapse and Recovery",
+      "description": "A physical substrate exceeds lawful curvature thresholds, enters collapse, and returns through a recovery attractor basin.",
+      "geometry_primitives": ["collapse_threshold", "collapse_transition", "recovery_attractor"],
+      "invariants": ["lawful_collapse_entry", "recovery_basin_requirement"],
+      "surface": "physical_surface"
+    },
+    "machine_example": {
+      "title": "Computational State Transition",
+      "description": "A machine-facing substrate performs a lawful state transition governed by curvature-preserving mappings.",
+      "geometry_primitives": ["manifold_transition", "drift", "recovery_attractor"],
+      "invariants": ["continuity_requirement", "post_collapse_legality"],
+      "surface": "machine_surface"
+    }
+  },
+
+  "notes": {
+    "integration": "Examples demonstrate lawful behavior across geometry primitives, transitions, surfaces, and invariants.",
+    "cross_domain": "Examples apply uniformly across biological, cultural, abstract, physical, and machine-facing substrates.",
+    "machine_facing": "Examples are structured for ingestion engines and computational workflows."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "dslo_version": "0.7",
+  "description": "Cross-surface manifest for DSLO v0.7, indexing all geometry, transitions, surfaces, invariants, examples, metadata, schema, and DOI cluster elements.",
+
+  "files": {
+    "readme": "README.md",
+    "license": "LICENSE",
+    "dataset_info": "dataset_info.json",
+    "metadata": "metadata.json",
+
+    "spec": {
+      "geometry": "spec/geometry.json",
+      "transitions": "spec/transitions.json"
+    },
+
+    "surfaces": {
+      "bindings": "surfaces/bindings.json"
+    },
+
+    "invariants": {
+      "legality": "invariants/legality.json",
+      "collapse_safety": "invariants/collapse_safety.json"
+    },
+
+    "examples": {
+      "examples": "examples/examples.json"
+    },
+
+    "substrate_metadata": {
+      "substrate": "metadata/substrate.json"
+    },
+
+    "schema": {
+      "dslo_v0_7_schema": "schema/dslo_v0.7_schema.json"
+    },
+
+    "cluster": {
+      "dois": "cluster/dois.json"
+    }
+  },
+
+  "structure": {
+    "layers": [
+      "spec",
+      "surfaces",
+      "invariants",
+      "examples",
+      "metadata",
+      "schema",
+      "cluster"
+    ],
+    "surfaces": [
+      "biological",
+      "cultural",
+      "abstract",
+      "physical",
+      "machine",
+      "tnopsi"
+    ],
+    "invariants": [
+      "legality",
+      "collapse_safety"
+    ]
+  },
+
+  "release_cluster": {
+    "canonical_doi": "10.5281/zenodo.21865818",
+    "geometry_layer": "10.5281/zenodo.21864007",
+    "operational_manual": "10.5281/zenodo.21864226",
+    "geometry_examples": "10.5281/zenodo.21864440",
+    "metadata_record": "10.5281/zenodo.21865818"
+  },
+
+  "notes": {
+    "purpose": "Provides a unified index for ingestion engines to traverse DSLO v0.7 surfaces.",
+    "integration": "Manifest binds all DSLO v0.7 machine-facing artifacts into a single structured topology.",
+    "machine_facing": "Designed for deterministic ingestion, validation, and traversal."
+  }
+}

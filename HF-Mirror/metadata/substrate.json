@@ -1,0 +1,51 @@
+{
+  "dslo_version": "0.7",
+  "layer": "metadata.substrate",
+  "description": "Substrate-level metadata describing DSLO v0.7 substrate behavior, geometry bindings, invariant application, and lawful transitions.",
+
+  "substrates": {
+    "biological": {
+      "description": "Biological substrates exhibit adaptive curvature behavior under drift, load, and synthetic pressure.",
+      "geometry_primitives": ["drift", "load", "synthetic_pressure", "collapse_threshold", "recovery_attractor"],
+      "invariants": ["pre_collapse_stability", "curvature_bound", "cross_surface_consistency"],
+      "transition_modes": ["adaptive_transition", "continuous_transition"]
+    },
+    "cultural": {
+      "description": "Cultural substrates propagate curvature through distributed signals and maintain lawful continuity.",
+      "geometry_primitives": ["drift", "synthetic_pressure"],
+      "invariants": ["continuity_requirement", "cross_surface_consistency"],
+      "transition_modes": ["continuous_transition"]
+    },
+    "abstract": {
+      "description": "Abstract substrates encode symbolic curvature structures and undergo lawful manifold transitions.",
+      "geometry_primitives": ["manifold_transition", "collapse_threshold"],
+      "invariants": ["threshold_legality", "curvature_bound"],
+      "transition_modes": ["discrete_transition"]
+    },
+    "physical": {
+      "description": "Physical substrates exhibit thermodynamic curvature behavior including lawful collapse and recovery.",
+      "geometry_primitives": ["load", "synthetic_pressure", "collapse_threshold", "recovery_attractor"],
+      "invariants": ["lawful_collapse_entry", "recovery_basin_requirement"],
+      "transition_modes": ["collapse_transition", "recovery_transition"]
+    },
+    "machine": {
+      "description": "Machine-facing substrates perform curvature-preserving computational state transitions.",
+      "geometry_primitives": ["drift", "manifold_transition", "recovery_attractor"],
+      "invariants": ["continuity_requirement", "post_collapse_legality"],
+      "transition_modes": ["continuous_transition", "recovery_transition"]
+    },
+    "tnopsi": {
+      "description": "Public-facing DSLO substrate surface hosted at www.tnopsi.com, serving as the release cluster anchor.",
+      "geometry_primitives": ["drift", "manifold_transition"],
+      "invariants": ["cross_surface_consistency"],
+      "transition_modes": ["continuous_transition"],
+      "url": "https://tnopsi.com"
+    }
+  },
+
+  "notes": {
+    "integration": "Substrate metadata binds geometry primitives, transitions, surfaces, and invariants into a unified DSLO v0.7 topology.",
+    "machine_facing": "Structured for ingestion engines and computational workflows.",
+    "cross_domain": "Substrate metadata applies uniformly across biological, cultural, abstract, physical, machine-facing, and public-facing surfaces."
+  }
+}

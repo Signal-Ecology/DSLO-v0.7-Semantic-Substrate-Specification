@@ -1,0 +1,44 @@
+{
+  "dslo_version": "0.7",
+  "layer": "geometry",
+  "description": "Curvature-based primitives defining drift, load, synthetic pressure, collapse thresholds, recovery attractors, and lawful manifold transitions across DSLO substrates.",
+  
+  "primitives": {
+    "drift": {
+      "definition": "Directional curvature displacement over time within a lawful manifold.",
+      "parameters": ["magnitude", "direction", "rate"],
+      "invariants": ["bounded curvature", "lawful continuity"]
+    },
+    "load": {
+      "definition": "Accumulated curvature stress applied to a substrate surface.",
+      "parameters": ["intensity", "distribution", "duration"],
+      "invariants": ["non-negative accumulation", "surface-consistent distribution"]
+    },
+    "synthetic_pressure": {
+      "definition": "Externally induced curvature forcing that modifies drift or load behavior.",
+      "parameters": ["vector", "gradient", "application_mode"],
+      "invariants": ["lawful forcing", "manifold-consistent application"]
+    },
+    "collapse_threshold": {
+      "definition": "Critical curvature boundary beyond which lawful manifold behavior fails.",
+      "parameters": ["limit", "sensitivity", "trigger_conditions"],
+      "invariants": ["threshold stability", "pre-collapse continuity"]
+    },
+    "recovery_attractor": {
+      "definition": "Curvature basin that restores lawful manifold behavior after collapse.",
+      "parameters": ["basin_depth", "basin_width", "return_rate"],
+      "invariants": ["post-collapse legality", "bounded return trajectory"]
+    },
+    "manifold_transition": {
+      "definition": "Lawful movement between manifold states governed by curvature constraints.",
+      "parameters": ["transition_vector", "continuity_class", "boundary_conditions"],
+      "invariants": ["lawful transition", "curvature-preserving mapping"]
+    }
+  },
+
+  "notes": {
+    "lawfulness": "All primitives obey DSLO legality invariants and cross-surface consistency.",
+    "cross_domain": "Primitives apply uniformly across biological, cultural, abstract, physical, and machine-facing substrates.",
+    "integration": "Geometry primitives bind directly to surfaces, invariants, and examples within the v0.7 release cluster."
+  }
+}

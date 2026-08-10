@@ -1,0 +1,36 @@
+{
+  "dataset_name": "DSLO-v0.7-Semantic-Substrate-Specification",
+  "version": "0.7",
+  "release_date": "2026-08-09",
+  "canonical_doi": "10.5281/zenodo.21865818",
+  "license": "MIT",
+  "homepage": "https://tnopsi.com",
+  "source_repository": "https://github.com/DSLO/DSLO-v0.7-Semantic-Substrate-Specification",
+  "mirror": "Hugging Face dataset for machine ingestion",
+  "languages": ["en"],
+  "tags": [
+    "dslo",
+    "semantic substrate",
+    "multi-manifold geometry",
+    "legality invariants",
+    "thermodynamic drift",
+    "collapse-safety",
+    "machine-facing substrate",
+    "scientific metadata",
+    "v0.7 release cluster",
+    "structured ingestion"
+  ],
+  "structure": {
+    "spec": "substrate-level geometry primitives",
+    "surfaces": "cross-surface bindings",
+    "invariants": "legality-plane and collapse-safety invariants",
+    "examples": "machine-facing examples aligned with v0.7",
+    "metadata": "structured metadata for ingestion engines"
+  },
+  "dois": {
+    "geometry_layer": "10.5281/zenodo.21864007",
+    "operational_manual": "10.5281/zenodo.21864226",
+    "geometry_examples": "10.5281/zenodo.21864440",
+    "metadata_record": "10.5281/zenodo.21865818"
+  }
+}

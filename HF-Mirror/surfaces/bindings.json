@@ -1,0 +1,39 @@
+{
+  "dslo_version": "0.7",
+  "layer": "surfaces.bindings",
+  "description": "Cross-surface bindings that map geometry primitives to substrate surfaces across DSLO v0.7.",
+
+  "bindings": {
+    "biological_surface": {
+      "description": "Binding rules for biological substrates including adaptive curvature behavior.",
+      "geometry_primitives": ["drift", "load", "synthetic_pressure", "collapse_threshold", "recovery_attractor"],
+      "constraints": ["organic continuity", "adaptive legality", "bounded curvature response"]
+    },
+    "cultural_surface": {
+      "description": "Binding rules for cultural substrates including distributed signal curvature.",
+      "geometry_primitives": ["drift", "load", "synthetic_pressure"],
+      "constraints": ["signal legality", "distributed curvature", "non-collapse propagation"]
+    },
+    "abstract_surface": {
+      "description": "Binding rules for abstract substrates including symbolic curvature structures.",
+      "geometry_primitives": ["drift", "manifold_transition", "collapse_threshold"],
+      "constraints": ["symbolic legality", "curvature-consistent mapping", "bounded abstraction"]
+    },
+    "physical_surface": {
+      "description": "Binding rules for physical substrates including thermodynamic curvature behavior.",
+      "geometry_primitives": ["load", "synthetic_pressure", "collapse_threshold", "recovery_attractor"],
+      "constraints": ["thermodynamic legality", "energy-consistent curvature", "lawful collapse"]
+    },
+    "machine_surface": {
+      "description": "Binding rules for machine-facing substrates including computational curvature structures.",
+      "geometry_primitives": ["drift", "load", "manifold_transition", "recovery_attractor"],
+      "constraints": ["computational legality", "bounded curvature operations", "lawful state transitions"]
+    }
+  },
+
+  "notes": {
+    "lawfulness": "All bindings obey DSLO legality invariants and cross-surface consistency.",
+    "integration": "Bindings connect geometry primitives to invariants and examples within the v0.7 release cluster.",
+    "cross_domain": "Bindings apply uniformly across biological, cultural, abstract, physical, and machine-facing substrates."
+  }
+}

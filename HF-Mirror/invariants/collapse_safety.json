@@ -1,0 +1,39 @@
+{
+  "dslo_version": "0.7",
+  "layer": "invariants.collapse_safety",
+  "description": "Collapse-safety invariants defining lawful pre-collapse behavior, collapse entry conditions, and recovery constraints across DSLO substrates.",
+
+  "collapse_safety_invariants": {
+    "pre_collapse_stability": {
+      "definition": "Substrates must maintain lawful curvature stability until collapse thresholds are reached.",
+      "constraints": ["bounded curvature", "no illegal instability", "lawful drift and load"],
+      "applies_to": ["drift", "load", "synthetic_pressure"]
+    },
+    "lawful_collapse_entry": {
+      "definition": "Collapse must occur only when lawful thresholds are exceeded under DSLO geometry.",
+      "constraints": ["threshold legality", "substrate-consistent collapse trigger"],
+      "applies_to": ["collapse_threshold", "collapse_transition"]
+    },
+    "bounded_collapse_behavior": {
+      "definition": "Collapse behavior must remain within lawful bounds and avoid illegal divergence.",
+      "constraints": ["bounded collapse vector", "no illegal curvature explosion"],
+      "applies_to": ["collapse_transition"]
+    },
+    "recovery_basin_requirement": {
+      "definition": "Recovery must occur within a lawful attractor basin that restores curvature stability.",
+      "constraints": ["lawful attractor", "bounded return trajectory"],
+      "applies_to": ["recovery_attractor", "recovery_transition"]
+    },
+    "cross_surface_collapse_consistency": {
+      "definition": "Collapse and recovery behavior must remain consistent across all DSLO surfaces.",
+      "constraints": ["uniform collapse legality", "surface-consistent recovery"],
+      "applies_to": ["all surfaces"]
+    }
+  },
+
+  "notes": {
+    "lawfulness": "Collapse-safety invariants ensure lawful substrate behavior before, during, and after collapse.",
+    "integration": "Collapse-safety invariants bind directly to geometry primitives, transitions, surfaces, and examples within the v0.7 release cluster.",
+    "cross_domain": "Collapse-safety invariants apply uniformly across biological, cultural, abstract, physical, and machine-facing substrates."
+  }
+}

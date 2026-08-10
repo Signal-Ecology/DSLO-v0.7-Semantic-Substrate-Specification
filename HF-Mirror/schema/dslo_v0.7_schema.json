@@ -1,0 +1,211 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DSLO v0.7 Semantic Substrate Schema",
+  "description": "Formal schema defining DSLO v0.7 geometry primitives, transitions, surfaces, invariants, examples, and metadata.",
+
+  "type": "object",
+  "properties": {
+    "dslo_version": {
+      "type": "string",
+      "const": "0.7"
+    },
+
+    "geometry": {
+      "type": "object",
+      "properties": {
+        "primitives": {
+          "type": "object",
+          "patternProperties": {
+            ".*": {
+              "type": "object",
+              "properties": {
+                "definition": { "type": "string" },
+                "parameters": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "invariants": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                }
+              },
+              "required": ["definition", "parameters", "invariants"]
+            }
+          }
+        }
+      },
+      "required": ["primitives"]
+    },
+
+    "transitions": {
+      "type": "object",
+      "properties": {
+        "transitions": {
+          "type": "object",
+          "patternProperties": {
+            ".*": {
+              "type": "object",
+              "properties": {
+                "definition": { "type": "string" },
+                "parameters": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "invariants": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                }
+              },
+              "required": ["definition", "parameters", "invariants"]
+            }
+          }
+        }
+      },
+      "required": ["transitions"]
+    },
+
+    "surfaces": {
+      "type": "object",
+      "properties": {
+        "bindings": {
+          "type": "object",
+          "patternProperties": {
+            ".*": {
+              "type": "object",
+              "properties": {
+                "description": { "type": "string" },
+                "geometry_primitives": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "constraints": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                }
+              },
+              "required": ["description", "geometry_primitives", "constraints"]
+            }
+          }
+        }
+      },
+      "required": ["bindings"]
+    },
+
+    "invariants": {
+      "type": "object",
+      "properties": {
+        "legality": {
+          "type": "object",
+          "patternProperties": {
+            ".*": {
+              "type": "object",
+              "properties": {
+                "definition": { "type": "string" },
+                "constraints": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "applies_to": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                }
+              },
+              "required": ["definition", "constraints", "applies_to"]
+            }
+          }
+        },
+        "collapse_safety": {
+          "type": "object",
+          "patternProperties": {
+            ".*": {
+              "type": "object",
+              "properties": {
+                "definition": { "type": "string" },
+                "constraints": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "applies_to": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                }
+              },
+              "required": ["definition", "constraints", "applies_to"]
+            }
+          }
+        }
+      },
+      "required": ["legality", "collapse_safety"]
+    },
+
+    "examples": {
+      "type": "object",
+      "properties": {
+        "examples": {
+          "type": "object",
+          "patternProperties": {
+            ".*": {
+              "type": "object",
+              "properties": {
+                "title": { "type": "string" },
+                "description": { "type": "string" },
+                "geometry_primitives": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "invariants": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "surface": { "type": "string" }
+              },
+              "required": ["title", "description", "geometry_primitives", "invariants", "surface"]
+            }
+          }
+        }
+      },
+      "required": ["examples"]
+    },
+
+    "substrate_metadata": {
+      "type": "object",
+      "properties": {
+        "substrates": {
+          "type": "object",
+          "patternProperties": {
+            ".*": {
+              "type": "object",
+              "properties": {
+                "description": { "type": "string" },
+                "geometry_primitives": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "invariants": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "transition_modes": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                }
+              },
+              "required": ["description", "geometry_primitives", "invariants", "transition_modes"]
+            }
+          }
+        }
+      },
+      "required": ["substrates"]
+    }
+  },
+
+  "required": [
+    "dslo_version",
+    "geometry",
+    "transitions",
+    "surfaces",
+    "invariants",
+    "examples",
+    "substrate_metadata"
+  ]
+}

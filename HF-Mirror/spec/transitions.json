@@ -1,0 +1,39 @@
+{
+  "dslo_version": "0.7",
+  "layer": "geometry.transitions",
+  "description": "Lawful manifold transitions defined by curvature-preserving mappings across DSLO substrates.",
+
+  "transitions": {
+    "continuous_transition": {
+      "definition": "A lawful manifold shift where curvature remains continuous across the transition boundary.",
+      "parameters": ["continuity_class", "boundary_behavior", "curvature_profile"],
+      "invariants": ["no curvature discontinuity", "lawful mapping"]
+    },
+    "discrete_transition": {
+      "definition": "A lawful manifold shift between discrete curvature states governed by DSLO invariants.",
+      "parameters": ["state_set", "transition_vector", "trigger_conditions"],
+      "invariants": ["state legality", "bounded curvature change"]
+    },
+    "adaptive_transition": {
+      "definition": "A transition where manifold behavior adapts to load, drift, or synthetic pressure.",
+      "parameters": ["adaptation_rate", "pressure_response", "load_sensitivity"],
+      "invariants": ["lawful adaptation", "curvature-consistent response"]
+    },
+    "collapse_transition": {
+      "definition": "A transition into a collapse state when curvature exceeds lawful thresholds.",
+      "parameters": ["threshold", "collapse_vector", "instability_profile"],
+      "invariants": ["pre-collapse continuity", "threshold legality"]
+    },
+    "recovery_transition": {
+      "definition": "A transition from collapse into a recovery attractor basin restoring lawful curvature.",
+      "parameters": ["return_rate", "basin_depth", "basin_width"],
+      "invariants": ["post-collapse legality", "bounded return trajectory"]
+    }
+  },
+
+  "notes": {
+    "lawfulness": "All transitions obey DSLO legality invariants and curvature-preserving constraints.",
+    "cross_domain": "Transitions apply uniformly across biological, cultural, abstract, physical, and machine-facing substrates.",
+    "integration": "Transitions bind directly to geometry primitives, invariants, and examples within the v0.7 release cluster."
+  }
+}

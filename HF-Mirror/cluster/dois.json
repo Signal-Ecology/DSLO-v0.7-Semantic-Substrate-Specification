@@ -1,0 +1,31 @@
+{
+  "dslo_version": "0.7",
+  "description": "DOI cluster for DSLO v0.7, indexing all Zenodo-minted artifacts in the release topology.",
+
+  "canonical_doi": "10.5281/zenodo.21865818",
+
+  "cluster": {
+    "geometry_layer": {
+      "title": "DSLO v0.7 — Geometry Layer (Thermodynamic Drift)",
+      "doi": "10.5281/zenodo.21864007"
+    },
+    "operational_manual": {
+      "title": "DSLO v0.7 — Operational Manual (Substrate Architecture)",
+      "doi": "10.5281/zenodo.21864226"
+    },
+    "geometry_examples": {
+      "title": "DSLO v0.7 — Geometry Examples (Drift, Collapse, Recovery)",
+      "doi": "10.5281/zenodo.21864440"
+    },
+    "metadata_record": {
+      "title": "DSLO v0.7 — Semantic Substrate Metadata Record",
+      "doi": "10.5281/zenodo.21865818"
+    }
+  },
+
+  "notes": {
+    "purpose": "Provides a unified DOI index for ingestion engines and downstream scientific workflows.",
+    "integration": "DOI cluster binds geometry, transitions, surfaces, invariants, examples, metadata, and schema.",
+    "machine_facing": "Designed for deterministic DOI resolution and provenance tracking."
+  }
+}
