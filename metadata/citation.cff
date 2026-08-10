@@ -22,10 +22,10 @@ abstract: >
 
 version: "0.7"
 
-doi: "TO_BE_MINTED"
+doi: 10.5281/zenodo.21865818
 
 url: "https://www.tnopsi.com"
 
-date-released: "2026-08-08"
+date-released: "2026-09-08"
 
 license: "Other"
