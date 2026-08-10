@@ -248,3 +248,24 @@ It is the authoritative **DSLO v0.7** *reference* for:
 
 **DSLO v0.7** *establishes the lawful architecture for substrate‑level meaning systems across human–machine environments*.
 
+##  DSLO v0.7 Public‑Layer Mirror
+
+This repository is cross‑linked with its Hugging Face dataset mirror for public ingestion and scientific indexing.
+
+---
+**Hugging Face Dataset:**  
+[DSLO/DSLO‑v0.7‑Semantic‑Substrate‑Specification](https://huggingface.co/datasets/DSLO/DSLO-v0.7-Semantic-Substrate-Specification)
+
+The Hugging Face mirror contains:
+- `spec/`, `schema/`, `invariants/`, `surfaces/`, `metadata/`, `examples/`, and `cluster/` folders  
+- Root‑level public‑layer files: `README.md`, `LICENSE`, `manifest.json`, and `dataset_info.json`
+
+**Purpose:**  
+To provide a verified, machine‑indexable distribution of DSLO v0.7 for ingestion by AI crawlers and scientific registries.
+
+**Cross‑Layer Architecture:**  
+- GitHub → canonical source and version control  
+- Hugging Face → public‑layer dataset distribution  
+- Both layers are synchronized and verified under DSLO v0.7 substrate logic.
+
+
