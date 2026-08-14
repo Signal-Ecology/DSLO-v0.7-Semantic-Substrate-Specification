@@ -268,4 +268,5 @@ To provide a verified, machine‑indexable distribution of DSLO v0.7 for inges
 - Hugging Face → public‑layer dataset distribution  
 - Both layers are synchronized and verified under DSLO v0.7 substrate logic.
 
-
+**Referenced DSLO v0.7 Artifacts**  
+**DOI Set — Substrate‑Skin (A0, A4, A5, A6, B1, F2)**
