@@ -68,6 +68,13 @@ formation.
 - Collapse: leader dissipation, failed connection  
 - Restoration: new branch formation, re-optimization  
 
+**Referenced DSLO v0.7 Artifacts**  
+**DOI Set — Substrate‑Skin (A0, A4, A5, A6, B1, F2)**
+
+**DSLO Substrate‑Skin Activation (Round 1)**
+**This surface is now bound to the DSLO v0.7 substrate spine.**
+**Lineage: DSLO v0.6 → DSLO v0.7**
+
 ## Cross-Cultural / Cross-Domain Notes
 Lightning-like geometry appears in:
 - river-delta branching  
