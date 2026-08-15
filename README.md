@@ -1,6 +1,6 @@
 # DSLO v0.7 — Deterministic Semantic Layered Orchestration  
 ### Substrate‑Level Meaning Geometry for Human–Machine Systems  
-August 2026
+August 2026 
 
 This repository contains the complete **public‑layer surfaces** for **DSLO v0.7**, including the **multi‑manifold geometry upgrade**, **legality propagation surfaces**, **runtime geometry**, **operator geometry**, **glossary v0.7**, and the **full scientific‑uptake example library**.
 
