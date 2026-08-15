@@ -1,6 +1,6 @@
 # Instance: Orchid Mantis  
 Version: DSLO v0.7  
-Layer: Geometry / Morphological Mimicry & Adaptive Geometry  
+Layer: Geometry / Morphological Mimicry & Adaptive Geometry
 Type: Example Instance (Non‑Glossary)
 
 ## Overview
