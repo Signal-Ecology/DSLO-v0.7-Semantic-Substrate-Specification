@@ -79,3 +79,10 @@ Talking‑drum‑like geometry appears in:
 ## References
 - Waterman, C. *Jùjú: A Social History and Ethnography of an African Popular Music* (summaries only)  
 - Studies in Yoruba acoustic geometry and tone‑language mapping
+
+**Referenced DSLO v0.7 Artifacts**  
+**DOI Set — Substrate‑Skin (A0, A4, A5, A6, B1, F2)**
+
+**DSLO Substrate‑Skin Activation (Round 1)**
+**This surface is now bound to the DSLO v0.7 substrate spine.**
+**Lineage: DSLO v0.6 → DSLO v0.7**
