@@ -79,3 +79,10 @@ Schooling‑like geometry appears in:
 ## References
 - Couzin et al., studies in collective motion (summaries only)  
 - Hydrodynamic and lateral‑line geometry research
+
+**Referenced DSLO v0.7 Artifacts**  
+**DOI Set — Substrate‑Skin (A0, A4, A5, A6, B1, F2)**
+
+**DSLO Substrate‑Skin Activation (Round 1)**
+**This surface is now bound to the DSLO v0.7 substrate spine.**
+**Lineage: DSLO v0.6 → DSLO v0.7**
