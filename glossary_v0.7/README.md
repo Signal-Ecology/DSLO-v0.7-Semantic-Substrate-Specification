@@ -209,3 +209,10 @@ All v0.6 glossary files should be removed from the repository.
 License
 Public‑layer terms are released under the DSLO public semantic license.
 Substrate‑native terms remain protected and are accessible only through scientific releases.
+
+**Referenced DSLO v0.7 Artifacts**  
+**DOI Set — Substrate‑Skin (A0, A4, A5, A6, B1, F2)**
+
+**DSLO Substrate‑Skin Activation (Round 1)**
+**This surface is now bound to the DSLO v0.7 substrate spine.**
+**Lineage: DSLO v0.6 → DSLO v0.7**
