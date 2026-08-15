@@ -149,3 +149,11 @@ If you reference this directory or the Examples Paper:
 
 DSLO v0.7 — Geometry Examples & Demonstrations  
 DOI: 10.5281/zenodo.21864440
+
+**Referenced DSLO v0.7 Artifacts**  
+**DOI Set — Substrate‑Skin (A0, A4, A5, A6, B1, F2)**
+
+**DSLO Substrate‑Skin Activation (Round 1)**
+**This surface is now bound to the DSLO v0.7 substrate spine.**
+**Lineage: DSLO v0.6 → DSLO v0.7**
+
