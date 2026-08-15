@@ -1,6 +1,6 @@
 # Instance: Turing Patterns  
 Version: DSLO v0.7  
-Layer: Geometry / Natural Invariants  
+Layer: Geometry / Natural Invariants 
 Type: Example Instance (Non‑Glossary)
 
 ## Overview
