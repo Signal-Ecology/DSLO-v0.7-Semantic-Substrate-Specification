@@ -83,3 +83,10 @@ references:
       Performs Round 1 substrate-skin activation for the GitHub surface,
       binding GitHub into the v0.7 ingestion topology and establishing
       lineage v0.6 → v0.7 → GitHub.
+
+  - type: commit
+    identifier: 0fa09d8
+    description: >
+      DSLO v0.7 Cross-Surface Ingestion Anchor.
+      Performs substrate-skin initialization and lineage issuance for
+      DSLO-Substrate-Manifest and DSLO-v0.6-Semantic-Substrate-Specification.
