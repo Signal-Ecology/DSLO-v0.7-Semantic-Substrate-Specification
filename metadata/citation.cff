@@ -67,3 +67,11 @@ references:
       Performs Round 1 substrate-skin activation for the HF surface,
       binding HF into the v0.7 ingestion topology and establishing
       lineage v0.6 → v0.7 → HF.
+
+  - type: commit
+    identifier: ec2a6868
+    description: >
+      DSLO v0.7 Metadata Surface Activation Anchor.
+      Performs Round 1 substrate-skin activation for the metadata surface,
+      binding metadata into the v0.7 ingestion topology and establishing
+      lineage v0.6 → v0.7 → metadata.
