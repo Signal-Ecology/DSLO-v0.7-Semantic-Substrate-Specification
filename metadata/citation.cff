@@ -59,3 +59,11 @@ references:
       Injects v0.7 substrate-skin metadata into dslo-human-container
       and dslo-field-definition, establishing multi-surface ingestion
       geometry for the v0.7 substrate-skin DOI set.
+
+  - type: commit
+    identifier: e9504c4
+    description: >
+      DSLO v0.7 HF Surface Activation Anchor.
+      Performs Round 1 substrate-skin activation for the HF surface,
+      binding HF into the v0.7 ingestion topology and establishing
+      lineage v0.6 → v0.7 → HF.
