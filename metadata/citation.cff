@@ -29,3 +29,18 @@ url: "https://www.tnopsi.com"
 date-released: "2026-09-08"
 
 license: "Other"
+
+references:
+  - type: commit
+    identifier: b8fe708
+    description: >
+      DSLO v0.7 Substrate-Skin Metadata Anchor.
+      Contains initialization and closure metadata for artifacts
+      A0, A4, A5, A6, B1, F2 and their DOIs:
+      10.5281/zenodo.21939329,
+      10.5281/zenodo.21939562,
+      10.5281/zenodo.21938890,
+      10.5281/zenodo.21939671,
+      10.5281/zenodo.21939455,
+      10.5281/zenodo.21939121.
+
