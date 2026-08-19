@@ -51,3 +51,11 @@ references:
       Injects v0.7 substrate-skin metadata into DSLO-Substrate-Manifest
       and DSLO-v0.6-Semantic-Substrate-Specification, establishing
       cross-version lineage and ingestion geometry.
+
+  - type: commit
+    identifier: 3ea5c18
+    description: >
+      DSLO v0.7 Cross-Surface Ingestion Anchor.
+      Injects v0.7 substrate-skin metadata into dslo-human-container
+      and dslo-field-definition, establishing multi-surface ingestion
+      geometry for the v0.7 substrate-skin DOI set.
