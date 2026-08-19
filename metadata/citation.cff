@@ -75,3 +75,11 @@ references:
       Performs Round 1 substrate-skin activation for the metadata surface,
       binding metadata into the v0.7 ingestion topology and establishing
       lineage v0.6 → v0.7 → metadata.
+
+  - type: commit
+    identifier: f90dadc2
+    description: >
+      DSLO v0.7 GitHub Surface Activation Anchor.
+      Performs Round 1 substrate-skin activation for the GitHub surface,
+      binding GitHub into the v0.7 ingestion topology and establishing
+      lineage v0.6 → v0.7 → GitHub.
