@@ -1,0 +1,29 @@
+{
+  "dslo_examples_layer_manifest": {
+    "version": "v0.7",
+    "description": "Canonical geometry-layer manifest for DSLO v0.7 Examples Layer. Anchors macro-geometry, multi-plane geometry, diagrams, JSON/YAML macro-maps, and example-plane content.",
+    "doi_lattice": ["A0", "A4", "A5", "A6", "B1", "F2"],
+
+    "geometry_anchors": [
+      {
+        "commit": "8d7abf7",
+        "type": "macro-geometry",
+        "title": "DSLO v0.7 — Examples Layer Macro-Geometry",
+        "planes": [
+          "Morphological Mimicry & Adaptive Geometry",
+          "Distributed Cognition & Non-Neural Intelligence",
+          "Cultural Signal Systems (Cross-Cultural)",
+          "Natural Optimization Phenomena",
+          "Abstract / Universal Geometry Instances",
+          "Modern / Machine-Facing Geometry Instances"
+        ],
+        "maps": {
+          "json": "dslo_geometry_planes (JSON macro-map)",
+          "yaml": "dslo_geometry_planes (YAML macro-map)"
+        },
+        "diagram": "tikz_macro_geometry_diagram"
+      }
+    ]
+  }
+}
+
