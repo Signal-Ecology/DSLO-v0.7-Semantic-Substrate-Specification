@@ -44,3 +44,10 @@ references:
       10.5281/zenodo.21939455,
       10.5281/zenodo.21939121.
 
+  - type: commit
+    identifier: 7c4b2b7
+    description: >
+      DSLO v0.7 Cross-Surface Ingestion Anchor.
+      Injects v0.7 substrate-skin metadata into DSLO-Substrate-Manifest
+      and DSLO-v0.6-Semantic-Substrate-Specification, establishing
+      cross-version lineage and ingestion geometry.
