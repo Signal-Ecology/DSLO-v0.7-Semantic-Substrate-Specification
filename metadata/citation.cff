@@ -90,3 +90,10 @@ references:
       DSLO v0.7 Cross-Surface Ingestion Anchor.
       Performs substrate-skin initialization and lineage issuance for
       DSLO-Substrate-Manifest and DSLO-v0.6-Semantic-Substrate-Specification.
+
+  - type: commit
+    identifier: 69c16b1
+    description: >
+      DSLO v0.7 Cross-Surface Ingestion Anchor.
+      Performs substrate-skin initialization and lineage issuance for
+      dslo-human-container and dslo-field-definition.
