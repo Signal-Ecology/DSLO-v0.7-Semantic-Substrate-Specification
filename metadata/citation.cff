@@ -106,4 +106,10 @@ references:
       binding HF into the v0.7 ingestion topology and establishing
       lineage v0.6 → v0.7 → HF.
 
+  - type: commit
+    identifier: ec3a9622
+    description: >
+      DSLO v0.7 Substrate‑Skin Initialization and Lineage Issuance.
+      Performs single‑commit‑bracket ingestion for dslo‑substrate‑manifest,
+      establishing v0.7 substrate‑skin anchors and DOI‑set lineage.
 
