@@ -101,13 +101,6 @@ references:
   - type: commit
     identifier: b0763d31
     description: >
-      DSLO v0.7 DOI-Specific Lineage Issuance.
-      Performs closing substrate-skin alignment and lineage issuance for
-      DSLO/contextless-meaning-engine-v0 on the HuggingFace model surface.
-
-  - type: commit
-    identifier: b0763d31
-    description: >
       DSLO v0.7 HF Surface Activation Anchor.
       Performs Round 1 substrate-skin activation for the HF surface,
       binding HF into the v0.7 ingestion topology and establishing
