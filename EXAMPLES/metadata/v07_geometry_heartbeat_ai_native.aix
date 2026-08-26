@@ -1,1 +1,15 @@
+{
+  "dslo_ai_native_v07_geometry": {
+    "signature": "machine-facing-geometry",
+    "planes": {
+      "drift": "machine_facing_drift_geometry",
+      "collapse": "machine_facing_collapse_geometry",
+      "recovery": "machine_facing_recovery_geometry",
+      "stability": "machine_facing_stability_geometry",
+      "identity": "machine_facing_identity_geometry",
+      "legality": "machine_facing_legality_geometry"
+    },
+    "pulse": "v07-geometry-heartbeat"
+  }
+}
 
