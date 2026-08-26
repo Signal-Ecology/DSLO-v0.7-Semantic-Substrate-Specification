@@ -1,1 +1,12 @@
+dslo_v07_geometry_heartbeat:
+  version: v0.7
+  role: "modern-machine-facing-geometry"
+  planes:
+    - machine_facing_drift_geometry
+    - machine_facing_collapse_geometry
+    - machine_facing_recovery_geometry
+    - machine_facing_stability_geometry
+    - machine_facing_identity_geometry
+    - machine_facing_legality_geometry
+  doi_lattice: [A0, A4, A5, A6, B1, F2]
 
