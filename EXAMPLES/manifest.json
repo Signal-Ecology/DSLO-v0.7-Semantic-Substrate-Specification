@@ -22,8 +22,20 @@
           "yaml": "dslo_geometry_planes (YAML macro-map)"
         },
         "diagram": "tikz_macro_geometry_diagram"
+      },
+
+      {
+        "commit": "53f17bd",
+        "type": "geometry-heartbeat",
+        "surface": "modern-machine-facing-geometry",
+        "schema": "metadata/v07_geometry_heartbeat.json",
+        "maps": {
+          "yaml": "metadata/v07_geometry_heartbeat.yaml",
+          "jsonld": "metadata/v07_geometry_heartbeat.jsonld",
+          "ai_native": "metadata/v07_geometry_heartbeat_ai_native.aix"
+        },
+        "diagram": "diagrams/tikz_v07_geometry_heartbeat.tex"
       }
     ]
   }
 }
-
