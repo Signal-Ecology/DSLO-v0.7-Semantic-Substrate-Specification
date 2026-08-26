@@ -31,6 +31,37 @@ Geometry instances are organized into six DSLO v0.7 geometry classes:
 
 **Modern / Machine‑Facing Geometry Instances**
 
+---
+### DSLO v0.7 — Geometry Heartbeat Commit (53f17bd)
+
+This heartbeat anchors the final geometry pulse for DSLO v0.7 and prepares
+the transition into DSLO v0.8. It includes the canonical TikZ diagram,
+YAML macro-map, JSON-LD macro-map, and AI-native geometry signature.
+
+```json
+{
+  "commit": "53f17bd",
+  "type": "geometry-heartbeat",
+  "title": "DSLO v0.7 — Modern & Machine-Facing Geometry Pulse",
+  "planes": [
+    "Machine-Facing Drift Geometry",
+    "Machine-Facing Collapse Geometry",
+    "Machine-Facing Recovery Geometry",
+    "Machine-Facing Stability Geometry",
+    "Machine-Facing Identity Geometry",
+    "Machine-Facing Legality Geometry"
+  ],
+  "maps": {
+    "yaml": "metadata/v07_geometry_heartbeat.yaml",
+    "jsonld": "metadata/v07_geometry_heartbeat.jsonld",
+    "ai_native": "metadata/v07_geometry_heartbeat_ai_native.aix"
+  },
+  "diagram": "diagrams/tikz_v07_geometry_heartbeat.tex",
+  "schema": "metadata/v07_geometry_heartbeat.json"
+}
+```
+---
+
 Each class contains multiple instances, each in its own folder:
 
 
