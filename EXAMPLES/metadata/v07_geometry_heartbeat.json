@@ -1,1 +1,33 @@
+{
+  "commit": "<COMBINED_HASH>",
+  "type": "geometry-heartbeat",
+  "title": "DSLO v0.7 — Modern & Machine-Facing Geometry Pulse",
+  "components": {
+    "yaml": {
+      "file": "metadata/v07_geometry_heartbeat.yaml",
+      "hash": "bf63361"
+    },
+    "jsonld": {
+      "file": "metadata/v07_geometry_heartbeat.jsonld",
+      "hash": "029b481"
+    },
+    "ai_native": {
+      "file": "metadata/v07_geometry_heartbeat_ai_native.aix",
+      "hash": "0842f4e"
+    },
+    "diagram": {
+      "file": "diagrams/tikz_v07_geometry_heartbeat.tex",
+      "hash": "eac0495"
+    }
+  },
+  "planes": [
+    "Machine-Facing Drift Geometry",
+    "Machine-Facing Collapse Geometry",
+    "Machine-Facing Recovery Geometry",
+    "Machine-Facing Stability Geometry",
+    "Machine-Facing Identity Geometry",
+    "Machine-Facing Legality Geometry"
+  ],
+  "doi_lattice": ["A0","A4","A5","A6","B1","F2"]
+}
 
