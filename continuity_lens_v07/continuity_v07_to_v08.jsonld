@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "dslo": "https://www.tnopsi.com/dslo-glossary#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/"
+  },
+
+  "@id": "https://github.com/Signal-Ecology/DSLO-v0.7/continuity_lens_v07",
+  "@type": "dslo:ContinuityLens",
+
+  "dct:title": "DSLO v0.7 → v0.8 Continuity Lens",
+  "dct:description": "Public-safe continuity surface enabling lawful reinterpretation of v0.7 through the v0.8 orientation point.",
+
+  "dslo:orientationPoint": {
+    "@id": "https://doi.org/10.5281/zenodo.22181245",
+    "@type": "dslo:OrientationPoint",
+    "dct:title": "DSLO v0.8 Scientific Overview"
+  },
+
+  "dslo:registryAlignment": {
+    "@id": "https://doi.org/10.5281/zenodo.22181076",
+    "@type": "dslo:Registry",
+    "dslo:registryAnchor": "REGISTRY_ROOT_V08",
+    "dslo:prefixFamilies": "Defined in Registry v0.8"
+  },
+
+  "dslo:schemaAlignment": {
+    "@type": "dslo:SchemaClass",
+    "dslo:schemaClassName": "DSLO_Schema_v0.8",
+    "dslo:definedIn": "https://doi.org/10.5281/zenodo.22181076"
+  },
+
+  "dslo:continuityRule": "v0.7 → v0.8 (Registry DOI)",
+
+  "dslo:inheritsAnchors": [
+    "A0 Grammar",
+    "A4 Meaning",
+    "A5 Drift",
+    "F2 Emotional Load",
+    "B1 Honest Systems",
+    "A6 Restoration",
+    "v0.7 Substrate Manifest"
+  ],
+
+  "dslo:exposureLevel": "MODE_A_PUBLIC_SAFE",
+  "dslo:substrateDepth": "SURFACE_ONLY",
+
+  "dslo:ecosystemTag": "DSLO_ECOSYSTEM_TAG_V07"
+}
