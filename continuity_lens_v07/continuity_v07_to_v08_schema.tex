@@ -1,0 +1,18 @@
+% MODE_A_PUBLIC_SAFE • SURFACE_ONLY
+\begin{tikzpicture}[node distance=2cm, auto]
+
+\node (v07) [rectangle, draw] {DSLO v0.7 Substrate-Skin};
+\node (anchors) [rectangle, draw, below of=v07] {A0 • A4 • A5 • F2 • B1 • A6};
+\node (arrow) [right of=v07, node distance=4cm] {$\Longrightarrow$};
+\node (v08) [rectangle, draw, right of=arrow, node distance=4cm] {DSLO v0.8 Orientation Point};
+\node (overview) [rectangle, draw, below of=v08] {Scientific Overview (DOI: 10.5281/zenodo.22181245)};
+\node (registry) [rectangle, draw, below of=overview] {Registry v0.8 (DOI: 10.5281/zenodo.22181076)};
+\node (schema) [rectangle, draw, below of=registry] {Schema Class: DSLO_Schema_v0.8};
+
+\draw[->] (v07) -- (arrow);
+\draw[->] (arrow) -- (v08);
+\draw[->] (v08) -- (overview);
+\draw[->] (overview) -- (registry);
+\draw[->] (registry) -- (schema);
+
+\end{tikzpicture}
