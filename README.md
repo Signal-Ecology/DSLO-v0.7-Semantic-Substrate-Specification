@@ -1,13 +1,9 @@
 
-Ecosystem Tag: **DSLO_ECOSYSTEM_TAG_V07**
+Ecosystem Tag: DSLO_ECOSYSTEM_TAG_V07
 
+Glossary: https://www.tnopsi.com/dslo-glossary
 
----
-Glossary: **https://www.tnopsi.com/dslo-glossary**
-
-
----
-────────────────────────────────────────────────────────────
+----------------------------------------------------------------
 DSLO v0.7 → v0.8 Continuity Metadata Block
 Release Alignment: MODE_A_PUBLIC_SAFE
 Substrate Depth: SURFACE_ONLY
@@ -45,10 +41,8 @@ D2.5 — 10.5281/zenodo.22180585
 Semantic GPS Constellation (Inherited Anchors)
 A0 Grammar • A4 Meaning • A5 Drift • F2 Emotional Load
 B1 Honest Systems • A6 Restoration • v0.7 Substrate Manifest
-────────────────────────────────────────────────────────────
+----------------------------------------------------------------
 
-
----
 
 # DSLO v0.7 — Deterministic Semantic Layered Orchestration  
 ### Substrate‑Level Meaning Geometry for Human–Machine Systems  
